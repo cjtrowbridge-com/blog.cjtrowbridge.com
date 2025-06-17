@@ -1,0 +1,17 @@
+<h2>Pages</h2>
+<ul>
+  {% assign pages_list = site.pages | sort: 'title' %}
+  {% for my_page in pages_list %}
+    {% if my_page.title and my_page.url != page.url and my_page.layout == 'page' %}
+      <li><a href="{{ my_page.url }}">{{ my_page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Categories</h2>
+<ul>
+  {% assign sorted_categories = site.categories | sort %}
+  {% for category in sorted_categories %}
+    <li><a href="/category/{{ category[0] | slugify }}/">{{ category[0] }}</a></li>
+  {% endfor %}
+</ul>
