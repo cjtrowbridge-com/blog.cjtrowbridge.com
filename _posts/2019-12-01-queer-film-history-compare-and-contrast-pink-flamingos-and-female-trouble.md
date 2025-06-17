@@ -1,0 +1,18 @@
+---
+id: 12125
+title: 'Queer Film History: Compare and contrast Pink Flamingos and Female Trouble'
+date: '2019-12-01T22:57:09-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=12125'
+permalink: /2019/12/01/queer-film-history-compare-and-contrast-pink-flamingos-and-female-trouble/
+categories:
+    - Blog
+    - Essays
+    - LGBT
+    - School
+---
+
+Compare and contrast Pink Flamingos and Female Trouble
+
+Pink Flamingos is an excellent example of John Waters’ early work. It is historically Queer in all four ways. Many of the characters are queer. The lead for example describes herself as a lesbian who has, “done everything,” and wants to, “kill everyone, now.” The film’s author and director is a gay man. The film is widely appreciated by a queer audience, and the film presents – albeit absurd – depictions of people contradicting societal norms in ways which appeal to queer people in the audience. Female trouble is an excellent example of John Waters’ later work. This film is also historically queer in all four ways. It features an almost identical cast of mostly queer people. Its author and director is the same gay man. It is widely adored by queer audiences, and it appeals to queer audiences in a different way from how it appeals to straight audiences. Both films are deliberately political, especially with regard to the media. I am reminded in both cases of the words of William Gibson, “terrorism is innately media-related.” This trope is touched on in both films. In Pink Flamingos, the antihero expresses laughter and dismissal of the idea that the media may potentially not carry the story of her murder of the marbles, going so far as to threaten the lives of the children of the reporters who are present, in order to obtain her desired coverage. In Female Trouble, the antihero artist proclaims that she will be on the cover of every paper in the country before asking who in the audience wants to be famous and to die for art, before shooting them dead. I see the main difference in the two films as the character of the antihero. In Pink Flamingos, the main character is a drag queen who has a “son” and a “mother” in her retinue as well as a traveling companion. In the case of Female Trouble, the main character is a woman played by a drag queen. Though the characters are similar, they have this subtle difference. Also, Divine plays herself in Pink Flamingos, or perhaps an idealized version of herself. In Female Trouble, she plays a character, Dawn Davenport. I think this subtle difference allows the character to expand a bit further than in Pink Flamingos. In Female Trouble, the members of the antihero’s retinue are less a gang and more a set of believable friends and neighbors. In a way, the second film is more believable, while the first film feels far enough away from reality to be allegorical without being topical. Female Trouble could almost happen, while Pink Flamingos feels like fantasy. After the nightclub scene, I found myself wondering whether Female trouble was based on a true story. I never for a moment thought that about Pink Flamingos. I loved both of these movies. I see the queer I am in Female Trouble, and I see the queer I would like to be in Pink Flamingos. I think both of these films are queer and historically significant, but I think they offer very different value and purpose to their respective queer audiences.

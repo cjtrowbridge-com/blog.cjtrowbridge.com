@@ -1,0 +1,177 @@
+---
+id: 13613
+title: 'USP 514 Session 15 Notes'
+date: '2020-11-17T23:18:53-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=13613'
+permalink: /2020/11/17/usp-514-session-15-notes/
+categories:
+    - 'USP514 Sustainable Development'
+---
+
+**<span class="">November 18th</span><span class="">Session Fifteen: The </span><span class="">Covid 19 Pandemic </span>****<span class="">REQUIRED READING FOR SESSION FIFTEEN (click on Session 14 on left side to access reading) </span>**1. <span class="">[The Fullest Look Yet at Racial Inequalty of Covid 19](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html) -</span>[<span class="">https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html</span>](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html)
+    - ![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/11/Covid-Cases-By-Race-1-1.png)
+    - ![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/11/Case-incidence-white-correlation-1-1.png)
+    - ![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/11/Case-incidence-by-race-and-age-1-1.png)
+2. <span class="">[How Covid 19 is laying bare inequality in Europe](https://www.bruegel.org/2020/03/how-covid-19-is-laying-bare-inequality/)</span>
+    - ![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/11/Percent-of-workers-able-to-work-from-home-by-income-percentile-1-1.png)
+    - ![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/11/Employees-with-limited-duration-contracts-by-European-socio-economic-group-1-1.png)
+    - ![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/11/Different-risks-for-workers-during-the-COVID-19-crisis-1-1.png)
+    - ![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/11/Average-square-metres-per-capita-for-households-in-the-first-fifth-and-10th-income-deciles-1-1.png)
+3. [<span class="">Black New Deal </span>](https://www.antipoliceterrorproject.org/blog-entire/2020/4/22/black-oakland-demands-in-light-of-covid-19-and-rates-of-black-death)
+    - Community Ready Corps and The Anti Police-Terror Project convened a wide range of Black leaders in Oakland gathered virtually to develop a set of demands in terms of what we expect of our City's response to this crisis
+    - WE, as the Descendants of Slaves, Black, African American organized in order to force acknowledgement of the impact of this crisis on the Black community to forge a path forward to health, demand equitable treatment from all public, local and state government and to establish a space for Black voices at all tables that plan around, impact and shape our lives.
+    - Black people are not suffering at higher rates of COVID-19 because we are “lazy” or “unhealthy”. We are suffering at higher rates as a direct result of 500 years of discriminatory treatment. East and West Oakland have the worst air quality in the City of Oakland, we have the least access to healthy food, the least access to quality education and jobs and face the most discrimination by city policy and policymakers.
+    - The disproportionate impact on Black people demands a disproportionate response - most of the resources must be given/directed to the greatest need. 
+        - Publish desegregated data by race and zip code to properly track spread and to inform allocation of resources.
+        - No person, company or entity should be allowed to profit off of a pandemic. Nor should the city of Oakland direct COVID disaster funding towards ongoing development plans without being informed by relevant data to support those decisions as being a science based response to the pandemic.
+        - No government can place a demand on a people without incurring responsibility for the costs those demands will exact – free masks for all, testing, retesting, contact tracing and healthcare, internet access, etc.
+        - Reparations for Black people, who as a demographic are disproportionately affected in this moment as a result of historic structural, institutional, and systemic racism
+    - TESTING, PUBLIC HEALTH, AND PATIENT RIGHTS: 
+        - To have free, full, accessible testing and retesting sites, both walk-up and drive-through, in East and West Oakland and at encampments throughout Oakland.
+        - Supply 500,000 reusable face masks and 500,000 bottles of hand sanitizer to the African American community.
+        - Give anyone of African or African American ancestry priority status for testing, the same as medical personnel, first responders, and essential workers.
+        - Black maternal health and birth workers’ rights are prioritized to offer greater safety and better outcomes for Black mothers and babies.
+        - Better resource the already culturally competent and accessible clinics in East and West Oakland, with funds to enable them to buy tests and offer unlimited testing.
+        - Data is collected and that the race of all people impacted and the outcomes of their interaction with COVID 19 such as hospitalization, ventilation, or death, are recorded and desegregated by zip code.
+        - Ventilation and other care for COVID 19 not be denied due to anti-Blackness.
+        - Systemic racism be addressed, through both short and long term solutions, as a root cause of the disproportionate impact of COVID 19 on Black people.
+        - Alameda County to scale up their overall testing capacity, as more testing sites are needed countywide, including in many hospitals such as Highland Hospital.
+        - All people are entitled to free masks, testing, contact tracing, and care - especially people who are currently incarcerated, living in congregate living situations, and newly released and entering into a living situation with family and/or other people.
+        - Consistent best practices put in place, monitored, and enforced in all congregant living spaces that house vulnerable minority populations in danger of being infected by staff or one another, mass death due to lack of intentional care should be considered as a threat to life.
+        - An end to all permits regarding potential pollutants in opportunity zones, closures for non-essential businesses that impact the environment, and concrete action on factors contributing to a toxic environment in Oakland.
+        - Free healthcare and access to testing, including antibody testing, for all people.
+        - Testing and a policy concerning containment at transitional homes.
+        - Specific, relevant and community-led mental health resources for Black people to be made free, accessible and available to all, including grief support for people who have endured loss due to COVID 19 and beyond.
+    - EDUCATION AND FAMILIES: 
+        - A moratorium on school closures and co-locations in Oakland.
+        - Universal passage of all students during this time due to lack of technology equity and redistribution of resources to ensure that all students have access to what they need.
+        - Measures to increase access to the internet including buses with wifi in neighborhoods to provide internet access and making internet a public utility to ensure access for all.
+        - Shelter, housing protections, and healthcare for all students and their families.
+        - No criminalization of youth in Oakland related to COVID 19 precautions such as wearing a mask, etc.
+        - Investment in community schools once students return, with wraparound services such as health clinics, nurses, mental health services, food for students and families.
+        - Divest in school police departments altogether and invest instead in health services, arts and culture programming, and student supports.
+        - Recognize the difficulty of distance learning for many students and create accessible resources. All students should have equal access.
+        - Hold a fair vote for the school board that is open to youth.
+        - Have a community oversight body that is chosen by community members to oversee a holistic transition back to school.
+        - Create meaningful programs to offer mental health support for youth in their respective community.
+        - Retention of and protections for Black Educators, including a right to return to jobs.
+    - SUPPORT FOR BLACK WORKERS AND SMALL BUSINESS OWNERS: 
+        - Protection, security of employment rights and immediate paid sick days for all essential service workers, the majority of whom are Black people.
+        - Personal protective equipment for all frontline workers and financial compensation for the risk that essential frontline workers are taking.
+        - Mandatory free testing and retesting for all frontline workers and protection and paid time off for people who are self-isolating, parenting children or caring for others.
+        - Overall support for the livelihood of Black people during this time.
+        - Additional protection and support for rebuilding for Black businesses to ensure their survival, including a dedicated fund that is low-barrier and without application process.
+        - Deferral of current payments and taxes for Black businesses and forgiveness of debts.
+        - Requirement of the city to contract specifically with Black businesses in order to provide much-needed income.
+        - Small businesses with fewer than 500 employees to receive no interest loans, reimbursements, and debt forgiveness.
+        - Right to return requirement to combat systemic racism for all employees.
+        - Community oversight body to ensure that “return to normal” does not usher in a new era of even more violent capitalism and greater dispossession for Black people and businesses.
+        - Transparency around the cruise ship that docked in Oakland and the impacts on the workers, as well as free healthcare and testing for all workers who were exposed and their families. And any other major events that jeopardize the health and safety of workers, and communities—the right to know.
+        - The ability to declare and receive compensation for a standby for health and safety.
+        - Right to return for workers who are laid off and right to stay for workers who do not want to leave their jobs. And right to return to those who elect to protect their health in a pandemic.
+        - Protection for Black union leaders.
+        - Congress should create a supplementary direct assistance program for the self-employed and microbusinesses to help cover the cost of lost business, paid sick leave, individual health care costs, and fixed expenses.
+        - Self-employed Americans depend on critical e-commerce infrastructure, including financial services, shipping, and Internet connectivity. The federal government should ensure that these essential services remain fully operational, even as the public and private sectors take greater measures to contain the spread of the virus.
+        - PPES mandatory for all Frontline and essential workers. State/County/City should make them available to employers at cost. Currently they have to get them at retail this is an additional cost they can’t afford.
+        - Employers should receive subsidies as an incentive to protect their workers.
+        - Unemployment Insurance rates should not increase because of COVID layoffs – rates should stay flat.
+        - Workers compensation insurance should be covered for employers so that they do not take a hit when workers are out sick with COVID 19.
+        - Congress should expand Earned Income Tax Credit (EITC) by increasing the income threshold (which is dependent on a number of factors), including younger and childless workers, and eliminating the marriage penalty. Lawmakers should also allow it to be calculated and administered on a quarterly basis instead of annually, which would better support individuals struggling to manage short-term income volatility.
+        - The City of Oakland and the County of Alameda should help facilitate a local Small Business Relief fund. The fund will be Hosted by The California Endowment, the Small Business Relief Fund to provide immediate support to struggling self-employed and small business owners. TCE will partner with Opportunity Fund, California’s largest nonprofit microlender, to ensure critical capital remains available to these entities throughout this crisis.
+        - Six-month income replacement program conditioned upon full and continued employment of all restaurant staff, payment of rents to landlords, and ongoing payables to suppliers.
+        - Provide rent abatement for the duration of the administrative closure followed by percentage rent through 2020 for tenants. This must be coupled with mortgage forgiveness for landlords.
+        - Suspend state sales and payroll tax through end of year. Permit deferral of utility payments until reopening. Mandate that fees charged by third-party delivery platforms to our local restaurants be capped at a maximum 10% of the order.
+        - Require business loss insurance to cover COVID-19 closures for hospitality businesses. The Governor must declare that the pandemic has caused physical loss and damage.
+        - Suspend the payment of all insurance premiums (and, protect against a spike in premium related to COVID-19), utility payments, fines and provide cure periods to businesses for violations that do not pose an immediate hazard to the public and workers. All taxes, fees, premiums and fines must be suspended indefinitely until a thorough and thoughtful strategy can be implemented to address these payments.
+        - Add flexibility to the definition of small business to allow small to mid-size restaurants to apply for aid.
+        - Establish an on-call pool of African American restaurants to provide food and beverages throughout all city departments for all events, functions, meetings, etc. This list is not exhaustive.
+        - City/County should contract with Oakland based businesses for office supplies, cleaning supplies, paper, vehicles, etc. This list is not exhaustive.
+        - Corporate accountability- no more subsidies, no more tax breaks! Corporations, real estate investors, developers must pay their fair share to fund public resources we rely on like public health, affordable housing, etc.
+        - Create a pool of funding to support the programming of CBOs, cultural institutions, direct service nonprofits, and artists whose services are essential to the cultural preservation and artistic health of marginalized communities
+    - PUBLIC SAFETY/CRIMINAL JUSTICE REFORM: 
+        - Decarceration for the safety of all people, including those inside prisons who are incarcerated and also for the workers inside jails.
+        - Mandatory testing for all people inside jails to prevent community spread.
+        - Re-entry resources for people who are released, including financial support, identification, food, housing, MediCal and funds for family members who house and care for newly released people.
+        - The removal of barriers resulting from a criminal record in accessing key essential human necessities.
+        - End the militarization of police.
+        - No national guard or military enforcement.
+        - No further criminalization, fines or arrest of Black people based on the COVID 19 mandates, including orders on masks, travel, etc. especially for unhoused people who are disproportionately targeted and impacted.
+        - All law enforcement must immediately cease profiling Black people, including health authority, housing authority, Oakland Police Department, sheriffs, BART and other transit police.
+        - End all requirements that people meet with parole officers, attend court, and other appointments. End all penalties related to this.
+        - Stop criminal enforcement and divert funds to invest in public health workers, education and distribution of resources.
+        - Cease police use of pandemic to conduct raids.
+        - No expansion of the surveillance state.
+        - No increased surveillance in connection to slow streets project.
+        - No use of disaster funds by City to implement non COVID19 data to implement non essential programming connected to non essential development/gentrification.
+    - HOUSING: 
+        - Access to hotel rooms and vacant units for all unhoused residents who want them now.
+        - A humane, dignified, harm reduction approach to non-infected residents in housing or hotels, to allow for the same shelter-in-place guidance and guidelines as the general public.
+        - Provide safe and secure off or onsite storage for all belongings of unhoused residents while sheltering in hotels or spaces.
+        - Access to jobs for hotel workers on a voluntary basis, to work in hotels providing housing and a right to return for all of the hotel’s usual workers once business returns to normal.
+        - No over-policing of people who are unhoused and sheltering in hotels.
+        - Resources for new mothers and babies in sheltering spaces, including diapers, wipes, and other essentials.
+        - Debt forgiveness of back rent for renters who cannot pay rent or utilities during this time.
+        - Personal protective equipment, training, testing, and paid sick leave for all people working in transitional housing and shelters. Protections for residents and workers.
+        - The return of buildings to the people once developers default, abandon it or leave it vacant.
+        - The use of private hotels, closed schools, the Henry J. Kaiser Convention Center and the Coliseum to provide housing for those who need it.
+        - Rent and mortgage moratorium and forgiveness across the board for the length of time necessary not to experience massive evictions.
+        - No evictions citywide.
+        - Stop all sweeps of houseless settlements and provide bathrooms, showers, hand washing stations, soap, drinking water, laundry vouchers, dumpsters, vermin abatement, and cleaning supplies.
+    - TRANSPORTATION: 
+        - Protections for transit drivers including partitions between driver and passengers, space for physical distancing, paid sick leave, and personal protective equipment.
+        - Disclosure of COVID 19 positive status for emergency services drivers who are transporting someone who has COVID 19.
+        - AC Transit must implement safety guidelines for drivers and passengers.
+        - Guaranteed free public transportation for frontline workers, including BART.
+        - Protection and funds for families of transportation workers and mandatory free testing and retesting for all transportation workers.
+    - Other Resources: 
+        - Stop all nonessential construction in marginalized high-risk communities.
+        - Transparency on the use of COVID disaster funding in Oakland.
+        - The City of Oakland’s Department of Race and Equity must activate itself around the disparity of this moment and be given additional resources and staff to do so.
+        - City of Oakland shall Fully implement the ordinance establishing the Department of Race &amp; Equity and increase staffing with an additional 7 FTE and requisite funding for the Department of Race and Equity.
+        - Prioritizing community projects- City and County staff time and resources should go to community projects first (affordable housing, small business support, etc) and private profit-driven projects and proposals last.
+        - Food access- ensure all Black people have access to healthy and fresh food even when the market drives up food prices in the crisis.
+        - Diversify the boards and commissions that inform and govern city decisions to ensure Black folks are part of decision making.
+        - Ensure pedestrian safety and traffic calming measures in East and West Oakland neighborhoods so that Black children and youth can walk, play and bike outside without fear of injury or fatality. Without the isolation or criminalization through enforcement of communities, with impacted communities at the table to be part of any plans.
+    - Long Term Demands: 
+        - Reparations, which include: debt forgiveness, free education, free healthcare, enforcement of CA Slavery Era Insurance Registry &amp; similar local slavery era disclosure ordinances including mandatory reporting, imposition of maximum fines &amp; penalties, mandatory fund contribution from companies that have disclosed already, and distribution of funds to Black-led organizations serving Black populations. Possibly even expand law to include profiteers from the housing/financial crisis and carceral systems.
+        - HEALTHCARE: Access to long term mental health care, funding of culturally competent free clinics, cooperatives, community programming centered around healing and facilitation of individual and group agency.
+        - Environment - cessation of environmentally compromising projects placed in black and brown communities, united and systematic planning, and immediate remediation of toxic neighborhoods.
+        - FOOD SECURITY: 
+            - Create neighborhood food banks.
+            - Fund urban farms.
+            - Fund urban gardening.
+            - Utilize public land to grow food for distribution.
+            - Plant edible plants in marginalized neighborhoods.
+            - Tax property owners for boarded “unavailable” housing discouraging vacancies to raise prices or to divest neighborhoods for speculators.
+        - EDUCATION: 
+            - No more privatization of public schools serving Black communities.
+            - Fully functioning state of the art facilities with the appropriate technology.
+            - Culturally relevant curriculum.
+            - No sale of school land to private developers.
+            - Community oversight.
+            - Staff should reflect student body recruitment and incentivize to become educators.
+            - Find out of school community based enrichment.
+            - College fund.
+            - Professional/craft/trade training.
+            - No police in schools.
+        - HOUSING 
+            - Land trust for Black people in East and West Oakland. Utilizing eminent domain over vacant or underutilized properties to create a land trust for housing and economic development for Black people. This would be a form of reparations for many things but specifically for the use of eminent domain to displace Black residents from Oakland and ongoing gentrification etc.
+            - Toxic-free communities, immediate repudiation, right to be housed elsewhere during remediation with funds to relocate with right to return/right of first refusal at the previous rate.
+            - Equitable neighborhood services including cleaning and access to parks.
+        - CRIMINAL JUSTICE REFORM 
+            - Alameda County must increase diversion programs that keep people out of cages and allow them to successfully thrive.
+            - End cash money bail.
+            - No late night releases out of Santa Rita jail.
+            - An audit of the Santa Rita jail by an impartial party.
+            - Redistribute recidivism funds to culturally competent programming invested in education, job training, and service to those incarcerated.
+            - Remove all police from schools and redistribute those funds to student materials and needs.
+        - PUBLIC SAFETY 
+            - The Oakland Police Commission should have the autonomy to function without interference from city leadership.The citizens of Oakland have agreed with the establishment of the concept of the Police Commission in order to create proper and impartial oversight for OPD.
+            - The city of Oakland must create and implement a response to mental health crisis, interpersonal violence and substance abuse that does not lead with law enforcement.
+            - The city of Oakland must redefine public safety to include jobs, housing, education, clean streets, mental health and access to food, water and clean air.
+            - The Oakland Police Department must be transparent and honest about incidents of Use of Force which still disproportionately impact Black Oaklanders.
+        - TRANSPORTATION 
+            - Provide free transportation to unhoused/displaced persons with a means to access health care and other human needs.
+            - Provide free transportation to all low-income community members.

@@ -1,0 +1,16 @@
+---
+id: 9925
+title: 'Oslo, Norway'
+date: '2018-03-28T11:00:24-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=9925'
+permalink: /2018/03/28/oslo-norway/
+image: /wp-content/uploads/2018/03/Oslo-1-scaled.jpg
+categories:
+    - Adventures
+tags:
+    - '2018 Spring Break Europtrip'
+---
+
+[Oslo, Norway](https://en.wikipedia.org/wiki/Oslo) reminds me a lot of [Portland, Oregon](https://en.wikipedia.org/wiki/Portland,_Oregon). I'm sure I have offended about half the world by saying that. But the thing that really ties them together for me is the vibrant [new-urbanism](https://en.wikipedia.org/wiki/New_Urbanism) feel of the city. Public spaces are defined by the skillful application of architecture and civic design. There are lots of open spaces which serve as transit intersections and meeting places. There are lots of cafes, bars, and restaurants adjacent to these spaces. The public spaces here are alive, and people use them. This is in stark contrast to California. I got here late at night, and checked into [Anker Hostel](https://ankerhostel.no/?lang=en). [![](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522185834-1-1.jpg)](https://www.instagram.com/p/Bg13Tx4ltim/)First thing in the morning, I headed to the [Tjuvholmen](https://en.wikipedia.org/wiki/Tjuvholmen) neighborhood or "Thief's Home." I found a very fancy-looking Starbucks which had interesting local options like the ten-billion dollar Salmon and Egg panini I paired with several super-sized cold brews. This was situated across from [Askershus Fortress](https://en.wikipedia.org/wiki/Akershus_Fortress). I couldn't find a good place to take a picture of it because of all the ferries and other buildings in the way. Someone saw me struggling to take a good picture of it and remarked in a suspiciously UK-sounding accent, "Sorry, our castle is rather shit." [![](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522220129-1-1.jpg)](https://www.instagram.com/p/Bg24uKallxL/)Next, I jumped on the bus and headed to [Bygdøy](https://en.wikipedia.org/wiki/Bygd%C3%B8y) to see the [Viking Ship Museum](https://en.wikipedia.org/wiki/Viking_Ship_Museum_(Oslo))! There were three ships and lots of other interesting artifacts. This was one of the coolest experiences I've had. It's crazy to think my ancestors sailed in this exact same ship over a thousand years ago. [![](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522225521-1-1.jpg)](https://www.instagram.com/p/Bg3DATJFq3e/)Then I was off to [Frognersparken](https://en.wikipedia.org/wiki/Frogner_Park) to see the bizarre sculptures of [Gustav Vigeland](https://en.wikipedia.org/wiki/Gustav_Vigeland). I was especially looking forward to seeing "[Man Attacked By Babies](https://www.atlasobscura.com/places/vigeland-sculpture-park)," and I couldn't help but imitate. ;P [![](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522227578-1-1.jpg)](https://www.instagram.com/p/Bg3G7ZzFPK2/)After all this walking on less than six hours sleep in two days, it was back to the hostel for a nap before potential shenanigans... Farvel Oslo. Jeg regnet ikke med a bli forelsket!

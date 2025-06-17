@@ -1,0 +1,17 @@
+---
+id: 8089
+title: '&#x2764;&#xfe0f; Sam Harris and Jason Calicanis on Mindfulness, Truth, and which Trump is the Real Trump'
+date: '2017-02-07T10:07:25-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=8089'
+permalink: /2017/02/07/sam-harris-and-jason-calicanis-on-mindfulness-truth-and-which-trump-is-the-real-trump/
+enclosure:
+    - "http://feedproxy.google.com/~r/twist-audio/~5/4fcwtH_221M/TWiST-E705.mp3\n217\naudio/mpeg\n"
+    - "http://feedproxy.google.com/~r/twist-audio/~5/CRY27qw4hXY/TWiST-E706.mp3\n217\naudio/mpeg\n"
+categories:
+    - Featured
+    - Revisit
+---
+
+![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/02/harris-calicanis-1-1.png)Having closely followed both of these guys for years and listened to their podcasts on a weekly basis, I was very surprised to see them billed together on Jason's podcast last week. I was also very surprised when during the introduction, they tell the story of how their circle of close friends has gotten together very regularly for dinner for over a decade, and that this circle includes Elon Musk. I had always taken Jason's anecdotes about early social engagements with Elon as exaggerated. The idea of the three of them having regular dinners sounds like a dream. I would love to be a fly on the wall in that room for the last decade and hear the kinds of things they talk privately about. Harris and Calicanis elaborate on how many of their shared views evolved together over this last decade, especially the potential danger of artificial super-intelligence. They get into a lot of really interesting topics, not least of which is the many faces of Trump today. I feel like the fundamental question on the mind of the world today is whether Trump is indeed a genius puppetmaster, expertly manipulating media and appointing well-thought-out leaders to head the branches of government, or whether instead he is truly the purely chaotic sociopath which he often appears to be. Calicanis and Harris discuss this divergence between the two Trumps, and the evidence for each. They seem to land firmly on the side of him as the chaotic and insane, unplanned child stumbling from blunder to blunder and lie to lie. Let's just say, after listening to this podcast and looking at the markets today, I moved more of my portfolio to gold. Sam also talked about his upcoming app focused on meditation, which I am looking forward to. I have been a practitioner of transcendental mediation almost every day for the last two decades. Needless to say, I could not agree more with the way he describes the power of mindfulness in overcoming emotional reactions and being aware of which of your thoughts you give power to. Both of them have really great weekly podcasts. Check out Sam Harris' [Waking Up](https://www.samharris.org/podcast) and Jason Calicanis' [This Week in Startups](http://thisweekinstartups.com/). Video of this conversation is available over at [TWiSt](http://thisweekinstartups.com/sam-harris-pt1/). Part 1 \[embed\]http://feedproxy.google.com/~r/twist-audio/~5/4fcwtH\_221M/TWiST-E705.mp3\[/embed\] Part 2 \[embed\]http://feedproxy.google.com/~r/twist-audio/~5/CRY27qw4hXY/TWiST-E706.mp3\[/embed\] 

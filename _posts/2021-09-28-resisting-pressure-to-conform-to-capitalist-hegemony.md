@@ -1,0 +1,22 @@
+---
+id: 14309
+title: 'Resisting Pressure to Conform To Capitalist Hegemony'
+date: '2021-09-28T15:40:51-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=14309'
+permalink: /2021/09/28/resisting-pressure-to-conform-to-capitalist-hegemony/
+categories:
+    - 'AIS 440 Native Sexuality and Queer Discourse'
+    - Essays
+---
+
+CJ Trowbridge
+
+AIS 440 Week 6: Two-Spirit People
+
+2021-09-28
+
+**Prompt:** Describe an action, idea, or ideology that continues to impose colonial heteropatriarchal principles onto Black, Indigenous, and People of Color (BIPOC) and what steps you believe are necessary to rewrite this area of colonial and settler analysis. This response needs to be a minimum of two paragraphs in length and requires two sources. Sources can include anything from the QIS book or any of the videos or articles assigned in class. You may also include sources not assigned in class. Be sure to include your citation at the end. Tanya Tagak is an Inuk indigenous musician and activist. She often talks about the way indigenous people have been pressured to assimilate into capitalism, and the way white feminists have participated in that pressure. The most famous example from her work is the #sealfie campaign. The Inuk people have been **sustainably** hunting seals for thousands of years as their main food source. (Canadian Sealers Association) And yet when news stories started coming out that white-colonist-commercial-hunters were **unsustainably** hunting seals, many white feminists (Particularly PETA fans and white vegans) began attacking indigenous people for **sustainably** hunting seals. In response to these attacks, Tagak encouraged Inuk people to post what she called sealfies with seals they had sustainably hunted. This led to conversations about sustainable indigenous practices and eventually a documentary called Angry Inuk which exposed the hypocrisy of attacking sustainable indigenous hunting practices while ignoring the global corporations that are actually responsible for the negative impacts on the seal populations. (CBC) One of the key things to take away from that documentary is the fact that sustainable seal hunting is one of the few things indigenous people can do to survive outside of the capitalist settler colonial system. There is a great deal of pressure on them to get jobs and move to the cities and buy gasoline and snowmobiles instead of maintaining their sustainable hunting traditions. Tagak, like many other Inuk activists is still banned from speaking this truth on social media platforms like Facebook which sided with white settler colonists in attacking indigenous people for their sustainable hunting practices. (Patar) This is a great example of white settler colonists attacking and silencing indigenous people and pressuring them to conform to capitalism and patriarchal hegemony. We need to develop a discourse around resisting pressure to conform to capitalism which lets us talk about the ways indigenous people should be able to live outside the norms of settler colonialism. We need to develop a discourse that helps white vegans understand how wrong they are to attack indigenous people for sustainable practices they have been doing for thousands of years in perfect harmony with the very environment which settler colonialism has single-handedly destroyed in just a few hundred years. **Works Cited**
+
+CBC. (n.d.). How one documentary is changing people's minds about The INUIT seal hunt. CBC News. Retrieved September 28, 2021, from https://www.cbc.ca/cbcdocspov/features/how-one-documentary-is-changing-peoples-minds-about-the-inuit-seal-hunt. Early inuit hunt. Canadian Sealers Association. (n.d.). Retrieved September 28, 2021, from https://www.sealharvest.ca/history/. Dean, D. (n.d.). Tanya tagaq's Cute SEALFIE pissed off a lot of idiots. VICE. Retrieved September 28, 2021, from https://www.vice.com/en/article/4w7awj/tanya-taqaqs-cute-sealfie-pissed-off-a-lot-of-idiots. Patar, D. (2019, December 20). Inuit crafters continue to be blocked on Facebook for selling sealskin. Nunatsiaq News. Retrieved September 28, 2021, from https://nunatsiaq.com/stories/article/inuit-crafters-continue-to-be-blocked-on-facebook-for-selling-sealskin/.

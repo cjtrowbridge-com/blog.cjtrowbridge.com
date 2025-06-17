@@ -1,0 +1,23 @@
+---
+id: 12065
+title: 'Topic Paper: Power Dynamics'
+date: '2018-09-04T22:31:10-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=12065'
+permalink: /2018/09/04/topic-paper-power-dynamics/
+categories:
+    - Blog
+    - Featured
+    - School
+---
+
+CJ Trowbridge
+
+2018-09-04
+
+Soc 110: Intro to Social Justice
+
+## Topic Paper: Power Dynamics
+
+Selection #3: Johnson’s “The Social Construction of Difference” Johnson quotes James Baldwin’s statement that “No one is white before he/she came to America. It took generations, and a vast amount of coercion, before this became a white country.” He uses this statement to illustrate the “social construction of reality” by which racism, sexism, ableism have no significance outside systems of privilege or disadvantage. Can you provide examples of how systems of privilege and disadvantage–concerning race, or gender, or any other system of advantage and disadvantage—may have changed over time, as the “social construction of reality” itself changed? At the end of the civil war, many flawed attempts were made to integrate the freedmen into society. There were many problems with these attempts, and nearly all of them led to lasting systemic oppression of black people in America. One excellent example is the convict-lease system. Politically appointed sheriffs all over the country began arresting black people on made-up charges, often en masse. These people were then rented out by these sheriffs to do physical labor for the sheriff's’ personal financial gain. This system largely persists today where a relatively small number of black people are targeted by politically appointed police forces to fill a disproportionate segment of the incarcerated population; a population which is leveraged by the police industrial complex and commodified as a source of revenue for private prison companies. In the words of Jesse Jackson, “There is nothing more painful to me at this stage in my life than to walk down the street and hear footsteps... then turn around and see somebody white and feel relieved.” Stereotype threat is a term which describes the phenomena whereby groups of people will perform worse as tasks if they think they are being tested on the basis of race, and that their race is not the one with power. This is a widespread factor in reinforcing stereotypes and biases throughout American culture. Black people who are taking standardized tests perform significantly worse on average if they are asked their ethnicity at the beginning of the test. If a group hears all the time that they are bad or less than others, they will unconsciously act that way because of factors like stereotype threat. Both of these issues I have mentioned are examples of the social construct of reality defining black people as a lower class and forcing them into that position through widespread cultural oppression over time. Johnson distinguishes between “diversity”/“difference” (“difference” need not imply inequality) and “privilege”/“oppression” (in which inequality is rationalized or justified by differences). Provide at least four examples of “differences” that do not convey inequality, and three examples of situations in which “differences” have been used to justify privilege and oppression? One example of differences which do not necessarily confer inequality is height. A wide range of heights are considered “normal.” Another example could be wavy versus straight hair. Both are considered normal and do not confer inequality. Third is freckles which may or may not be present while still being considered normal. Fourth is body type. Typically in America, endomorphs versus ectomorphs are both considered normal. In contrast, Rwandan culture considers people of different body types to be separate races thanks to Belgian colonial influences. This contributed to a genocide in Rwanda against people of certain body types. In America however, these differences are considered normal. One example of a difference in American culture which does convey privilege or oppression is body weight. People who have genetic or other factors contributing to a higher than “normal” body weight are often targeted with oppression regardless of their efforts or capability to solve the “problem.” Another example is housing status. People suffering the tragedy of homelessness are usually treated not as a neighbor and community member in need, but as some kind of villain or criminal. Third is addiction. Many people have genetic, epigenetic, psychological or other factors which cause them to be highly susceptible to addiction. This tragedy is generally treated as a crime and punished with jail time rather than with the support and treatment that could actually improve outcomes.

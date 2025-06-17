@@ -1,0 +1,13 @@
+---
+id: 14044
+title: 'Rogue Planet Dream'
+date: '2021-03-10T09:11:16-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=14044'
+permalink: /2021/03/10/rogue-planet-dream/
+categories:
+    - Ideas
+---
+
+I had a dream and wanted to write it down. Maybe eventually I will work this into a short story. an asteroid is discovered on a long elliptical orbit that passes several potentially habitable worlds. The gravity on the asteroid is close to Earth normal. Humans decide to colonize it in order to drop colonies on those habitable worlds as it passes them before it circles back around the earth. Everyone seems to think good things will be different there but in reality all the same problems follow us. Some people think it must be sent by God. Others think this is absurd and it should be a reason for us to leave those kinds of ideas behind. Crime and capitalism and neo-fascism and everything else show up in short order. The same old tensions and violence quickly emerge. We come to realize that the reason our problems follow us is because we haven't really addressed them. We keep thinking new situations will finally help us move past them, but until we really address the fundamental issues, we can't move past the problems they cause. One of the more interesting examples While I was camped out, another group showed up really close to me. I felt unsafe because better than were taking the normal pandemic precautions. Also it seems like they intended to rob me or something. I was able to rouse some neighbors to come to my aid. This drove off the sketchy people but created new rifts and political alignments in the local population. We found solidarity and at the same time we found division. It would probably be better to describe it as a rogue planet. It could even be something very earth like. Some cataclysm happened which knocked it out of its orbit. We could find traces of life. It has oxygen so we can breathe. It has natural heat from tidal forces and radioactive decay. All it's missing is light from a star. It should also be a commentary on sustainability. The rogue planet passes by maybe 20 or earth like planets over the course of 30 years before it comes back to Earth. We send two dozen reusable rockets full of colonists to land on the rogue planet. Everyone has to figure out how to survive for 30 years while we wait for a planet to be dropped on. Permaculture and radical sustainability become an ideological assumption. Inequality emerges as different groups have different degrees of success with subsistence. The rockets are privately owned by a small group of super rich people who are doing really well compared to the colonists who are mostly left to fend for themselves during the wait.

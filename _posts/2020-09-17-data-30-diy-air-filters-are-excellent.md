@@ -1,0 +1,23 @@
+---
+id: 13119
+title: 'Data: $30 DIY Air Filters Are Excellent'
+date: '2020-09-17T15:33:06-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=13119'
+permalink: /2020/09/17/data-30-diy-air-filters-are-excellent/
+image: /wp-content/uploads/2020/09/PM-2.5-1.png
+categories:
+    - Featured
+    - Projects
+---
+
+I recently did a post about an [experimental filter design](https://blog.cjtrowbridge.com/2020/05/23/preparing-for-the-worst-fire-season-ever/) which should provide excellent protection for just $30, probably exceeding the effectiveness of even the most expensive filters on the market. Well the data is in, and I was right.
+
+## A Very Smokey Week
+
+Due to the most extreme wildfire conditions in history, California was exposed to a week of unbelievably bad air quality. I had set up sensors ahead of time to test a filtration method I had come up with through collaboration with a friend over several years. You can get the full details [here](https://blog.cjtrowbridge.com/2020/05/23/preparing-for-the-worst-fire-season-ever/), but basically there is [a certain kind of very cheap filter](https://amzn.to/2FM8cSV) which is extremely effective at removing smoke from the air. It's possible to get one which fits perfectly over a [20x20 box fan](https://amzn.to/3bQnQas). Several of these working together can effectively clean a large indoor area. [![DIY Filter](https://blog.cjtrowbridge.com/wp-content/uploads/2020/05/DIY-Filter-1-1.jpg)](https://amzn.to/2FM8cSV)Here are the results. These three charts show the data collected for each day. I checked the values once a minute, all week long. Here you can see the daily averages compared to the daily maximums. Air quality index is an international standard method of calculating an average value for the level of pollution in the air. Typically during wildfires, PM 2.5 or PM 10 is going to be what is reported as the AQI. PM stands for particulate matter. The numbers stand for the micron size of the particulate matter. So in this experiment I am measuring PM 1.0, 2.5, and 10. The values in these graphs are the same units as the AQI numbers you see reported in the news. It's a measure of micrograms per cubic meter or per liter of air. So for example if the PM 2.5 is 100, then that means there are 100 micrograms of particulate matter with a size of 2.5 microns per liter of air. The AQI number is a daily average of the measurements taken that day. **Controversial Methodology:** I have chosen to also include the maximum values recorded each day because as you can see, it's often more than double the average. I personally feel reporting only the averages is not helpful in making informed health decisions. As you can see for example on September 13, the average outdoor PM2.5 value was 300, and yet there were moments where it was over 800. ![PM 2.5](https://blog.cjtrowbridge.com/wp-content/uploads/2020/09/PM-2.5-1-1.png)![PM 1.0](https://blog.cjtrowbridge.com/wp-content/uploads/2020/09/PM-1.0-1-1.png)![PM 10](https://blog.cjtrowbridge.com/wp-content/uploads/2020/09/PM-10-1-1.png)As you can see, there is a major outlier for indoor air quality on the 13th. This was a control group. On the thirteenth, I decided to turn off the filters to see what would happen. As you can see, the air quality in the house that day was even worse than the extreme conditions outside. This is a normal and expected result. Indoor air quality is typically much worse than outdoor air quality. This is a big part of why it's so dangerous when these conditions exist. ## A Closer Look At The Control Group
+
+To confirm the effectiveness of the filter, I turned it off for several hours on the thirteenth to see what would happen. See for yourself; ![Control Group](https://blog.cjtrowbridge.com/wp-content/uploads/2020/09/Control-Group-1-1.png)Within about an hour of turning off the filter, the indoor pollution levels jumped by over eight-hundred percent, reaching about double the outdoor levels from the same moment. This is perhaps the most compelling evidence I've seen for the urgent need to filter indoor air, especially during wildfires. I don't recall it ever seeming particularly smokey or difficult to breathe during this period. I did not expect such a huge jump in such a short time. I was just sitting there for several hours breathing double the "hazardous" level of air pollution and being none the wiser until I checked the sensors. ## In Conclusion
+
+Buy a [fan](https://amzn.to/3bQnQas) and [filter](https://amzn.to/2FM8cSV).

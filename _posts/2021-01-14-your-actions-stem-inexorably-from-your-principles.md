@@ -1,0 +1,17 @@
+---
+id: 13903
+title: 'Your Actions Stem Inexorably From Your Principles'
+date: '2021-01-14T10:25:20-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=13903'
+permalink: /2021/01/14/your-actions-stem-inexorably-from-your-principles/
+categories:
+    - Essays
+---
+
+Your actions stem inexorably from your principles.
+
+> “Even if you don't believe, you cannot travel in any other way than the road your senses show you. And you must walk that road to the end.” -American Gods
+
+I see a common theme in popular discourse where people look at a given situation and think, "Oh well if only they had done this or that differently, then everything would be fine." I recently heard this argument made about Hitler. I heard someone literally argue, "If not for the thing with the Jews then Hitler would have been great for the world." The problem I see with the idea of equivocating by trivializing significant details is that it misses the fact that these things were the only possible natural culmination of the ideas and values and principles that led people up to that point. The 2021 capitol insurrection came as a shock to no one who has spent any amount of time trying to understand the people who committed the act. The ideas and values and principles they had been reciting and living out for years could only have led to the exact kind of violent insurrection we saw. In fact there were already examples. The same people had recently tried to kidnap and assassinate the governor of Michigan. And now we are told that they have further insurrections planned for all 50 State Capitols in the coming days. There is a thread of contrition running through our culture. People like Biden think it's possible to return to the status quo (which for most people was nearly as bad as things are today) by "healing" and "unifying" the country. These moderate centrists fail to see two things. First that these violent events in furtherance of the cause of a fascist ethnostate have always been the only possible conclusion of the movement that has been building towards that point for decades or centuries depending on how you define it. Second that trying to shush these things and sweep them back under the rug makes it worse. Working to delay an inevitable conflict is an admission of guilt, and acts only in furtherance of the cause of injustice. This is the fundamental failure of generations of Americans who give us figures like Biden; the failure to confront the real and fundamental challenges of the day. They hide behind platitudes rather than actually making any attempt to understand or resolve the problems that face them. Their goal is not progress, it's regress. They want to go back to feeling comfortable ignoring the white nationalists that prowl other people's streets. They want any discussion of the serious issues plaguing our society to be turned down to a comfortable volume where it can be easily ignored. Because of this fundamental failure of generations of Americans to address both universal existential threats and centuries of specific harms visited unjustly on minority communities, these problems are worse today than they ever have been. We must resist the calls to turn down the volume. We must turn up the volume.

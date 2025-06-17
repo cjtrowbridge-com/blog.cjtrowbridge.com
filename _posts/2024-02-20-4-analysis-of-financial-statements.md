@@ -1,0 +1,97 @@
+---
+id: 14923
+title: '4: Analysis of Financial Statements'
+date: '2024-02-20T22:30:25-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=14923'
+permalink: /2024/02/20/4-analysis-of-financial-statements/
+categories:
+    - 'FIN 785 Financial Management'
+---
+
+- Ratio analysis 
+    - Liquidity ratios 
+        - Current Ratio: the primary liquidity ratio. 
+            - Measures a company's ability to pay short-term obligations with its short-term assets
+            - Current Ratio = Current assets / current liabilities
+        - Quick or Acid test ratio 
+            - More stringent liquidity ratio that excludes inventories from current assets to assess a company's ability to cover short-term liabilities without relying on inventory sales
+            - Quick or acid test ratio = ( current assets - inventories ) / current liabilities
+    - Asset management ratios 
+        - Inventory turnover ratio 
+            - How efficiently a company manages its inventory by comparing sales to average inventory levels
+            - Inventory turnover ratio = sales / inventories
+        - Days sales outstanding 
+            - The average number of days it takes for a company to collect payment after a sale has been made
+            - Days sales outstanding (DSO)
+            - = Receivables / Average sales per day
+            - = Receivables / (Annual sales / 365)
+        - Fixed assets turnover ratio 
+            - How efficiently a company is using its fixed assets to generate sales
+            - Fixed assets turnover ratio = Sales / Net fixed assets
+        - Total assets turnover ratio 
+            - How efficiently a company is using its total assets to generate sales
+            - Total assets turnover ratio = Sales / Total assets
+    - Debt management ratios 
+        - Total debt to total capital 
+            - Measure of a company's financial leverage, indicating the proportion of debt financing relative to its total capital
+            - Total debt / total capital = total debt / (total debt + equity)
+        - Times-interest-earned ratio 
+            - Measure of a company's ability to meet its interest payments, indicating its financial stability and risk level
+            - Times-interest earned (TIE) ratio = EBIT / Interest charges
+    - Profitability ratios 
+        - Operating margin 
+            - Percentage of revenue remaining after deducting operating expenses 
+                - efficiency with which the company operates
+            - Operating margin = EBIT / Sales
+        - Profit margin 
+            - Percentage of revenue that a company retains as profit after accounting for expenses 
+                - efficiency with which the company converts sales into net income
+            - Profit Margin = net income / sales
+        - Return on total assets 
+            - Measures a company's ability to generate profit from its assets
+            - Return on total assets (ROA) = Net income / Total assets
+        - Return on common equity 
+            - Indicates how well the company is using its capital to generate earnings
+            - Return on common equity (ROE) = net income / common equity
+        - Return on invested capital 
+            - Total return that the company has provided for its investors
+            - Return on invested capital (ROIC) = EBIT( 1-T ) / Total invested capital
+            - Return on invested capital (ROIC) = EBIT( 1-T ) / ( Debit + equity )
+        - Basic earning power (BEP) ratio 
+            - Raw earning power of the firm’s assets before the influence of taxes and debt
+            - Basic earning power (BEP) ratio = EBIT / total assets
+    - Market value ratios 
+        - Price/earning ratio 
+            - Shows how much investors are willing to pay per share per dollar of reported profits
+            - Price/earning ratio (P/E)(PE) = price per share / earnings per share
+        - Market/book ratio 
+            - Shows how investors value the company
+            - Market/book ratio = common equity / shares outstanding
+            - = market price per share / book price per share
+        - Enterprise value/ ebitda ratio 
+            - Looks at the relative market value of all the company’s key financial claims
+            - Enterprise value = market value of equity + market value of total debt + market value of other financial claims - cash and equivalents
+    - Dupont equation 
+        - Return on equity (ROE) = Return on assets (ROA) \* Equity multiplier
+        - ROA = Profit margin \* Total assets turnover
+        - Equity multiplier = Total assets / Total common equity
+        - Profit margin= Net income / sales
+    - Like all other ratios, ROE is not the whole picture and maximizing it isn't necessarily the best thing for stakeholders. 
+        - Economic value added 
+            - A measure of how much management has added to shareholders’ wealth during the year
+            - Economic value added (EVA) = EBIT(1-T) - (Total invested capital \* After-tax cost of capital)
+    - Using these financial ratios to assess performance 
+        - Comparison to industry averages 
+            - Compare these ratios to industry averages to rate the firm (ie poor, ok, risky, etc)
+        - Benchmarking 
+            - Compare each metric in a list alongside competitors to show performance of the firm
+        - Trend analysis 
+            - Compare the metrics over time to competitors to show whether the numbers are getting better or worse for each
+    - Uses and limitations of ratios 
+        - Managers use these ratios to analyze and control performance
+        - Creditors use these ratios to determine availability of credit and debt
+        - Stock analysts use these ratios to determine whether to buy or sell a firm's shares
+    - Looking beyond the numbers 
+        - Financial analysis metrics are not the whole picture of the company

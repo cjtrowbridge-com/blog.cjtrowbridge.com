@@ -1,0 +1,17 @@
+---
+id: 11431
+title: 'Takeaways From My First Burn'
+date: '2016-09-22T09:33:50-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://admin.blog.cjtrowbridge.com/?p=11431'
+permalink: /2016/09/22/takeaways-from-my-first-burn/
+categories:
+    - 'Burning Man'
+---
+
+What an amazing experience! I was obsessed for years with all things Burning Man before taking the plunge and finally heading to the playa. Despite that, the art, the music, the community, the struggle, and the rewards were nothing at all like I had imagined. ![Altitude Lounge](/wp-content/uploads/2019/01/Altitude-Lounge.jpg)Burning Man is not a fun getaway. It's hard. You could die. People do. It's dangerous. It's caustic. The very ground you walk on will happily melt the skin from your feet if you don't follow the wisdom of those who have gone before. The air you breathe will choke and suffocate you if you aren't prepared and attentive to the advice of your leaders. People who go into the burn expecting something like EDC or Outside Lands are bound for disappointment and harm. That said, if you heed the advice of the leaders and dramatically over prepare and join a strong, experienced community, the burn is an amazing experience which will change you and implore you not just to come back every year, but to think about it almost every day. <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/ksLFIa4IINQ" width="560"></iframe>One of the most interesting things I saw was the very dangerous Warthog which will happily cut all your fingers off if you climb it incorrectly. <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/30NkP-Wyy_I" width="560"></iframe>The night of the burn I made a 360 video walkthrough of the entire ring of all the art cars! Check it out. <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/IrDqRBh8Ja0" width="560"></iframe>Here is the rest of the footage I took during the week.
+
+## Takeaways
+
+I brought a small four-man tent with an inflatable mattress. For power, I brought a car battery which I jerry-rigged to a cigarette lighter socket. This powered the mattress' external pump as well as my cell phone and camera chargers. This was a terrible idea. The mattress never really stayed inflated and it was a hassle to hook up the pump. Also the pump didn't have enough charge left by the end of the week to really work. The inside of the small tent was constantly dirty because there wasn't really any space to sit or stand while dressing, cleaning up, or changing. For food, I picked up a [Mountain House Classic Bucket](https://amzn.to/2Mf3RqD) and a [Mountain House Breakfast Bucket](https://amzn.to/2MdYSGK) as well as a case of Soylent and several 36 packs of beer. These were fine but I didn't like many of the meals like beef stroganoff and lasagna. These were very hard to clean off of silverware at the burn. In the future, I think I will piece together my own MRE buckets by picking out individual meals ready to eat, instead of buying them in bulk like this. I need a better solution for power and a mattress. At this point, I'm not sure what that is. Edit: I came up with a [great solutions](https://admin.blog.cjtrowbridge.com/2018/08/04/gear-list-burning-man-2018/) to these and other problems!

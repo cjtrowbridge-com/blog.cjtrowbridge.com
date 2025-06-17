@@ -1,0 +1,24 @@
+---
+id: 9723
+title: 'Quit Your Mediocre Job And Get An MBA'
+date: '2018-02-20T14:38:15-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=9723'
+permalink: /2018/02/20/quit-mediocre-job-get-mba/
+categories:
+    - Blog
+    - Featured
+    - Goals
+    - Investment
+---
+
+Going to college is an investment, but many people assume that just any college is a good investment. I know a lot of people who have gotten liberal arts bachelor's degrees and ended up stuck working in restaurants for years, unable to find a real job. This example is a waste of an education. All that money and time spent and they are no better off than someone who didn't go to college at all. And they probably have debt to pay back. I decided to wait over a decade to go to school until I decided what I wanted to do and came up with a coherent plan to actually get a return on this huge investment. If you find yourself working a mediocre job which you hate, then maybe it's time to do more. So what would happen if you just quit your job today, take out student loans, and go to school for an MBA? According to [research](https://www.usnews.com/education/best-graduate-schools/top-business-schools/articles/2017-03-23/us-news-data-salary-prospects-job-rates-for-mba-grads) done by US News in 2016, 88% of students who get an MBA find a job within three months making an average of $126,919. That's the average. Consider the average person for a moment and ask yourself whether you'll be ahead of that curve. According to Bloomberg, the average person triples their previous salary when getting an MBA from ~$50k to ~$145k.
+
+# Cold Turkey
+
+Imagine quitting your job today and starting the path to your MBA tomorrow. To save money and improve your chances of getting into a good school, you decide to start by finishing the IGETC and Assist.org at a community college. If you're not working at all, then tuition is free, and you will get about $3k/semester in financial aid. Let's assume you take out about $20k in student loans along with that financial aid to cover living expenses while getting through Assist.org and IGETC. This number is deliberately high; my own amount was much lower. And I went full-time at two different community colleges to speed up the process. Now it's time for a four year school, BUT since we did IGETC and Assist, we're already halfway done. Let's assume we decide on a mid-range state school like San Diego State University and a bachelor's that actually has job potential like engineering, marketing, or computer science rather than something pointless like psychology or art. There are cheaper options and more expensive options out there, but the important thing is to get a degree that is actually going to mean something to an employer, otherwise what's the point? According to [CollegeData.com](https://www.collegedata.com/cs/data/college/college_pg03_tmpl.jhtml?schoolId=956), average cost (Includes tuition, room and board, supplies and other expenses) for in state students at San Diego State University is $28,224 minus an average financial aid award of $11,400. So that's $16,824 per year. Since we did the IGETC and Assist at community college, we're only spending two years here which comes out to a total of $33,648 which goes onto a student loan. Alright so now our total loan principal is $50,648 and we have a valuable bachelor's degree. Time for that MBA. Bloomberg has really [comprehensive research](https://www.bloomberg.com/news/articles/2016-11-16/real-cost-of-an-mba) on this, and they put the average cost of an MBA in the US at just $53k plus living expenses. There is no financial aid for Masters students so let's add another $20k in debt to cover living expenses while we are doing the Master's program. Now we have our MBA and debt of around $123,648. # Less Debt Than Income
+
+Remember from above that within three months on average, MBA grads will be making an average of $126,919/year. We could pay all of this debt off the first year if we are as frugal as we have been while in college, or more likely we will spread it out over the next few years and enjoy some of the fruits of our labor. The point is that this amount of debt is trivial for an MBA grad. On average, the total amount of debt is LESS than the starting annual salary. Having student loans and paying them off is a great way to demonstrate you are creditworthy. Once you get past the educational hurdle and triple your income, you will be able to do things you never could have before. # Just Do It
+
+It's scary to leave the comfortable routine and reinvest in one's future, but it makes sense for anyone smart and capable to make a choice like this, especially if they are tired of wasting time doing mediocre work for mediocre rewards. Life is too short!

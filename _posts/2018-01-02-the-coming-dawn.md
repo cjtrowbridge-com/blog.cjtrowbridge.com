@@ -1,0 +1,14 @@
+---
+id: 9507
+title: 'The Coming Dawn'
+date: '2018-01-02T21:26:18-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=9507'
+permalink: /2018/01/02/the-coming-dawn/
+categories:
+    - Blog
+    - Featured
+---
+
+When I left a previous job a few years ago, it was because I felt like there had been a dramatic decay in the quality of the people around me. Typically, that company has a very values-driven culture where people are strongly bought into the ideas and principles of service and commitment to quality. In downtown Portland, I met unbelievably incredible people who I will always look up to, who happened to be coworkers at this company. In Sacramento, the story was different. I found that the same quality people were less common or not present. I was surrounded instead by people who did not care at all about the values and principles underlying the organization. I quickly became exhausted trying to lead in that kind of environment. I get the same feeling today with politics and our national leadership. It's hard to think of anyone in the executive branch who seems to care about what they are doing, or to make any attempt to do it well or to do it based on facts and principles. This theme and idea have spread across a great many parts of my perception of the world around me. I feel the same exhaustion when I read the headlines on the newspapers in the morning. It is like all the smart people have disappeared, and the show is being run by unopposed morons. Advocating for criminal behavior has become a commonplace practice for politicians; from sexual assault to pedophilia, etc. That alone is incredible. Today, I randomly crossed paths with an old friend who rose to power in the area since I left, at this company I had worked at. This person is one of the most values-driven, principles-driven, and competent people I have ever met. We spoke at some length, and they talked about purging those people I mentioned before. This old friend was very enthusiastic about the satisfaction they felt at removing incompetent people and replacing them with competent people, restoring the commitment to values and principles. They could not have known how satisfying and looked-for those comments were. I have not stopped thinking about this conversation all day. Rather than feel fatalistic about the disgustingly incompetent national leadership we endure today, and the emboldened and resurgent cult of ignorance and bigotry, I will try to look forward to the coming purge and do everything I can to encourage values-driven and principles-driven people. Corruption, incompetence, moral cowardice, and anti-intellectualism will destroy themselves in the light of day. We need only wait until sunrise, and continue to reinforce the motifs of truth that will become the spark of first-light.

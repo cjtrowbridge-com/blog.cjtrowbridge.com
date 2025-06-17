@@ -1,0 +1,30 @@
+---
+id: 14316
+title: 'On Indigenous Epistemology and Ethics'
+date: '2021-10-18T17:05:43-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=14316'
+permalink: /2021/10/18/on-indigenous-epistemology-and-ethics/
+categories:
+    - 'AIS 440 Native Sexuality and Queer Discourse'
+    - Essays
+---
+
+CJ Trowbridge
+
+2021-10-18
+
+AIS 440
+
+Week 8 Literature Review: On Indigenous Epistemology and Ethics
+
+Choose 2 of the lectures from the first 7 weeks of class and write a minimum 2 page response by answering the following questions:
+
+1\. What was the main topic of the lectures?
+
+2\. What did you learn from the lectures?
+
+3\. What questions did the lectures bring up for you?
+
+I chose the first two weeks of class. These were necessarily broad and therefore among the most salient and wide-reaching topics. I was particularly interested in these because of the focus on epistemology and ethics. I think these are two of the topics from which the world can learn the most from the indigenous peoples of occupied Turtle Island. Epistemology is the study of truth, and how to decide what is true or false in the world. Ethics is the study of morals, and how to decide what is morally right and wrong in the world. A somewhat more challenging but also valuable topic is ontology or the study of what is real and how to decide what is real in the world. We didn’t have a unit on the topic of ontology, but together these three fields essentially encompass the worldview of a particular individual, culture, or ethnic group. I have personally spent a great deal of time working with and supporting spiritual elders and two-spirit educators from indigenous tribes, particularly from the Paiutes. I have always been surprised that there is so little focus on epistemic, ontologic, and ethical differences between the many views held by indigenous people and comparisons between those views and the views of colonizers. One indigenous elder who I spoke to about this topic described the fundamental difference as being a difference between seeing the world through the lens of your own rights and power versus your own responsibilities. As he put it, colonizer culture sees individuals in terms of their right to the land and their power over other people. Meanwhile, indigenous perspectives – as he put it -- focus on the responsibility of individuals to the land and to the people. These colonizer perspectives taken together create an environment of consumption and destruction and exploitation and place moral value on economic productivity and the marketability of an individual’s job skills. In contrast, the indigenous perspective he outlined creates an environment of resident stewardship and mutual aid where the people see themselves as one with the land and its plants and creatures and as responsible for the wellbeing of their fellow creatures and the land they live on. I have been shocked as I progress through my degree in Queer Ethnic Studies to see so little focus on indigenous philosophy. When I did my degree in Women’s Studies, there were many classes focused on feminist epistemology and feminist ethics. In particular, these classes focused on the broader worldview of different generations of feminist thought in different parts of the world and how they evolved together and apart over time. The same was true in my LGBT Studies degree. This is why I found the first two weeks of this class so interesting, because as I take this last class for my Queer Ethnic Studies degree, these two units have been the first formal introduction to indigenous epistemology and ethics I have yet seen in my academic career. Every time I read about issues of indigenous sovereignty, I see them through the lens of epistemology and ethics, and I see this as one of the main knowledge gaps in many academic discussions around these events and issues. For example, Tanya Tagaq has been banned from most social media platforms following her sealfie campaign. Many white feminists like Ellen Degeneres and vegan organizations like Peta began loudly protesting online against the right of Inuk people to sustainably hunt seals – as they have done for countless millennia – on the grounds that the unrelated industry of commercial seal hunting has led to the species becoming endangered. Tagaq urged Inuk people to post selfies with seals they had sustainably hunted in order to highlight the fact that Inuk people have been serving as stewards of the land for millennia, and sustainably harvesting enough seal to survive on the land. Tagaq wanted to underscore the fact that the issue of endangered seals was not caused by Inuk hunting traditions which focus on sustainable coexistence, but rather it was caused by colonizer industrial seal hunting which focuses on the right of corporations to exploit and destroy the natural world in order to make as much money as possible. Framed this way, it’s impossible to fall into what the reading from the first week calls “settler moves towards innocence.” It’s impossible from this lens to see any part of this example as illustrating settler innocence; rather it bolds and highlights settler guilt and responsibility. The biggest question I have coming out of this essay is why the department does not place more emphasis on indigenous epistemology and ethics. I see these as among the most fundamental and critical parts of studying any ethnic group or community. I see so many indigenous academics, activists, and other leaders being ignored and marginalized by the fact that they are speaking to an audience which is fundamentally unprepared to understand many of the points they may be making. I think this is one of the main missing components of cultural competency for people on the outside who are trying to listen and learn from indigenous leaders, but lack the tools and perspective to internalize some of the ideas without a strong grasp on the fundamentals of indigenous epistemology and ethics.

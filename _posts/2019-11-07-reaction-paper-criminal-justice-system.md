@@ -1,0 +1,15 @@
+---
+id: 12041
+title: '&#8220;Criminal Justice System&#8221;'
+date: '2019-11-07T21:59:43-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=12041'
+permalink: /2019/11/07/reaction-paper-criminal-justice-system/
+categories:
+    - Blog
+    - Essays
+    - School
+---
+
+The modern American “criminal justice system” has for centuries been an institution of deliberate systemic oppression. This purpose was greatly expanded in recent decades through the drug wars and through the ignorant actions of armchair broken windows theorists like Joe Biden. This system is designed based on profit incentives. These incentives lead to no consideration of whether it is a good or effective system for reducing crime or reforming inmates, only how it can make more money for its greedy masters. There may be a way to reform this broken and toxic system, but not apparently from the inside; radical change is needed. From school-to-prison pipelines, to mass incarceration of minorities through laws restricting personal liberties, to convict lease and sharecropping, the American “criminal justice system” has for centuries been a deliberate tool of oppression intended to leverage minority groups as commodities for the profit of evil private corporations. During the 2016 election cycle, the biggest bet analysts gave for investors who thought Trump would win is to invest in private prison companies like The Geo Group, which he was predicted to greatly expand if elected. This turned out to be an accurate and timely prediction. In the weeks following his election, the stock price of Geo Group more than doubled. According to the Kingdon Three-Stream Policy Window Model, there are three necessary streams that must be satisfied in society in order for policy change to occur as an incremental solution for a social problem. The first stream is the problem stream. A troubling social condition must be outlined and clearly identified and articulated. This view must also be shared by expert claims makers as well as by enough members of the public that it reaches a critical mass and receives media attention. Second, clear policy changes need to be outlined and supported by the expert claims makers. In contrast to the evil corporate conservative think tanks who are churning out model legislation to hurt minorities, social justice advocates must work with lawmakers to craft legislation which creates positive change. These policy changes may then be discussed by policy makers in view of the press and under the lens of the media-awareness and social-pressure related to the first stream as outlined above. Third, attitudes of politicians must be changed. This can happen through lobbying directly or indirectly. It can happen as a result of effectively leveraging the first two streams to create a large critical mass of both support and pressure to create change. Only at this point can the policy changes become law, and solutions can be removed from the whim of future bad-actor policy-makers like Trump.

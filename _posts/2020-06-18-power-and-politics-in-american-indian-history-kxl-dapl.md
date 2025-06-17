@@ -1,0 +1,23 @@
+---
+id: 12490
+title: 'Nick Estes: Siege'
+date: '2020-06-18T15:46:18-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=12490'
+permalink: /2020/06/18/power-and-politics-in-american-indian-history-kxl-dapl/
+categories:
+    - 'AIS460 Power and Politics in American Indian History'
+---
+
+CJ Trowbridge
+
+2020-06-18
+
+Power and Politics in American Indian History
+
+Response 1: Siege
+
+  The story begins with a declaration of war on the KXL pipeline by the president of the Oglala Sioux Tribe in March of 2014. (Estes 33) The tribe is concerned with the potential dangers to their water supply if the planned route of the pipeline should suffer the same leaks and spills as many others have. A broad coalition rapidly formed, with over a dozen other tribes coming together in solidarity with the Oglala Sioux to protect their water from oil pipelines. (Estes 33) The planned route of the KXL pipeline would push 800,000 barrels of oil a day cross the Oglala aquifer, North America’s largest aquifer which the tribe and many others depend on for drinking water and irrigation. (Estes 34) Perhaps this is why downstream white farmers also joined the protests against oil pipelines; it was an issue that had the potential to affect everyone, not just the tribes who lived at Standing Rock. Racial Capitalism forms the basis for a deeply unjust structure at the root of the KXL issue. (Estes 35) Numerous treaties and laws were openly violated in order to steal enough land to plan oil pipelines like KXL and DAPL. This is the tip of the iceberg of systems which have worked for centuries to steal power and resources from native people. Capitalism takes its profits at the cost of the marginalization of groups like indigenous people. According to Estes, 84.5% of the income from agriculture on Lakota and Dakota goes to white people because of numerous racist laws which have been passed to facilitate this mass theft of power and resources. This is not just an American issue, it’s also present in Canada and around the world as Estes points out, and it’s getting worse as time goes on. (Estes 38) President Obama initially took a strong stand on the side of racial capitalism against native people. (Estes 40) Not just by pushing forward with the pipeline and ignoring the concerns of the broad coalition of native tribes and local white farmers who opposed it, but also by telling the lie that he was working on the behalf of racially marginalized people to protect their interests and safety. He went on to send in the military against the native protestors who continued to oppose KXL despite his demands that they acquiesce. Internal politics on the reservation got complicated when tribal leaders sided with KXL against their own people. (Estes 41) It took organizing and grassroots protests to replace tribal council members with anti-KXL candidates who finally shifted the tribe’s policy to be in line with the people of the tribe rather than Obama’s imperialist government (Estes 43) The new tribal government moved quickly to support the protests and oppose KXL. (Estes 45) By December of 2016, several key things had changed. Large camps of protesters were set up blocking KXL’s progress. The tribe had invoked treaty clauses which allowed them to remove “bad men” from the reservation and directed that action at KXL workers. Obama had done an about-face and decided to support the people and oppose KXL. (Estes 44-45) Things seemed to finally be changing for the better after years of work. Standing Rock developed their relationship with the United Nations after the 2007 UN Declaration of the rights of Indigenous Peoples. (Estes 49) This led to increased international pressure and attention on behalf of Standing Rock against the oil pipelines projects. This led to a series of legal challenges against the pipelines including challenges to the KXL environmental analysis the Army Corps of Engineers had conducted on the basis of important cultural sites. (Estes 51) Despite all this, state violence against the people opposed to the pipelines continued to escalate. (Estes 52) In the end, nearly a thousand protesters were arrested and the DAPL went ahead against the wishes of the people. (Estes 64) One benefit the tribes saw from these clashes was the strong sense of solidarity among many tribes which had been hard won, despite the loss of the war against the pipelines. **Works Cited**
+
+Estes, Nick. *Our History Is the Future.* Verso Books, 2019.

@@ -1,0 +1,32 @@
+---
+id: 14216
+title: 'Why and How to Build a Fiber Foamie'
+date: '2021-07-13T22:51:40-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=14216'
+permalink: /2021/07/13/why-and-how-to-build-a-fiber-foamie/
+categories:
+    - 'Fiber Foamie'
+    - Projects
+---
+
+During covid, I built a fully solar-powered off-grid micro-camper called a squaredrop. I designed it to tow behind my Honda Civic. I traveled over 22,000 miles to 35 national parks in 28 states. You can see the whole adventure at [movingcabin.com](https://movingcabin.com).
+
+## What's a Squaredrop?
+
+A squaredrop is sort of like a teardrop trailer but more square. This means more room inside as well as more room outside for solar panels. The impact on towing efficiency is very small as long as the camper is not wider or taller than the tow vehicle. I did design my camper to charge an electric vehicle, the [Sondors Metacycle](https://sondorsx.com/pages/metacycle) which I originally intended to buy. But a lot happened at home and I decided to postpone the rest of the national parks until after grad school and spend some time with my family. ## Moving On Up
+
+Since then, I traded in my Honda Civic and bought an electric car (The Chevy Bolt) which can tow and has great range! > <section>[@cjtrowbridge](https://www.tiktok.com/@cjtrowbridge "@cjtrowbridge")I got a solar powered electric vehicle! ⚡[♬ original sound - CJ Trowbridge](https://www.tiktok.com/music/original-sound-6984493108067109637 "♬ original sound - CJ Trowbridge")</section>
+
+<script async="" src="https://www.tiktok.com/embed.js"></script>## What's Wrong With The First One?
+
+My first-gen squaredrop camper is great but not perfect. It's very overengineered. I built it to be extremely durable. It is made of 3/4 inch pressure treated plywood over a 2x6 deckboard frame and insulated with one inch polyisocyanurate foam, and then it's painted with white flex seal. On top of that, every joint is steel bracketed. So it's fire proof, water proof, and it would probably survive a highway-speed rollover. But it's also very heavy and too maximalistic. So I decided to build something extremely light and extremely minimal that can still charge an electric vehicle. Another thing I wanted to improve on was the hubs and tires. The first-gen squaredrop has a top speed of 60mph which is super not ideal for transcontinental jaunts. ## What's A Foamie?
+
+A foamie is a camper that's built from foam instead of wood, and then it's wrapped in something like fiberglass or more often "poor man's fiberglass." The construction technique is called composite core construction. Here's a really good and comprehensive explanation of the composite core construction technique... <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/tiS8ArzEA58" title="YouTube video player" width="560"></iframe>Basically if you take a foam structure and wrap it in something stronger like fiberglass, then the whole structure acts like a solid piece of fiberglass. It's a super cheap and very strong construction technique. A foamie is just a camper that is made from this technique. Here's an example timelapse of the construction process for a foamie... ## <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/IOTRwcs6oT4" title="YouTube video player" width="560"></iframe>
+
+## What To Wrap It With?
+
+The most popular way to wrap a foamie is with what's called "poor man's fiberglass." This is what's demonstrated in the video just above. Basically you wrap the foamie in canvas that's been saturated in wood glue. Once it dries, it's extremely strong. And then you can simply paint over it and you have a good looking and highly durable foamie camper. I want to use carbon fiber instead. This is much lighter, much stronger, and much sexier. The technique is very similar, and the composite core construction video above explains the technique and best practices for doing something like carbon fiber or even fiberglass instead of the "poor man's fiberglass." ## Design Inspirations
+
+![](https://blog.cjtrowbridge.com/wp-content/uploads/2021/07/201958782_3059714647684959_514356066287986298_n-1-1.jpg)I almost feel like this motorcycle camper trailer is too big. ![](https://blog.cjtrowbridge.com/wp-content/uploads/2021/07/IMG_6232-1-1.jpg)This is actually a carbon fiber teardrop, and it's cute but the pure teardrop shape is boring because you can't really put solar on it. Also the dark color means it will be extremely hot inside all the time. ![](https://blog.cjtrowbridge.com/wp-content/uploads/2021/07/214044803_10160519337267195_7781117202106678366_n-1-1.jpg)I really like the angles on this one, and the styling on the side with the panels. I think this would be a good general aesthetic, but again the dark color means it will always be hot inside. And instead of a roof rack, I would put as much solar as I can fit. ![](https://blog.cjtrowbridge.com/wp-content/uploads/2021/07/t792ckx92lw41-scaled-1-1.jpg)This is basically perfect except it needs solar, and I'd definitely paint the ugly red trailer. Also, it looks a little tall. I happen to know that this trailer frame is the 4x8 harbor freight frame. It looks like the trailer is five feet tall or more. I would want it to be a little shorter so that it is more efficient to tow. <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/6BeFili-U7o" title="YouTube video player" width="560"></iframe>This is a project I volunteered on earlier this year. I really like the way the structure is not tall enough to stand up in; the design forces you to spend at least some time outside, but provides shelter when it's necessary. ![](https://blog.cjtrowbridge.com/wp-content/uploads/2021/07/9h_Namba_Station_13-1-1.jpg)On that note, I am interested in designing something similar to a single cell from a capsule hotel. It should have a bed, some basic lights, HVAC, and that's basically it. I don't need the full kitchen which I included in the first generation but almost never really used. The car has lots of space in the back for my bear-proof cooler if I feel the need to bring cold things.

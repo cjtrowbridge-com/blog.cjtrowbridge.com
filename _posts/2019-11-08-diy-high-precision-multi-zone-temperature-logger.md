@@ -1,0 +1,25 @@
+---
+id: 11937
+title: 'DIY High-Precision Multi-Zone Temperature Logger'
+date: '2019-11-08T00:42:00-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=11937'
+permalink: /2019/11/08/diy-high-precision-multi-zone-temperature-logger/
+categories:
+    - '2020 Burn'
+    - Blog
+    - 'Burning Man'
+    - Featured
+    - Projects
+---
+
+I was in need of high-precision multi-zone temperature logging gear for a chemistry honors project, and I found nothing online that would work well for my purpose, so I decided to put my [CSCI46](http://catalog.sierracollege.edu/search/?P=CSCI%200046) skills to use and build my own.
+
+## The Hardware
+
+I started with a<span style="font-size: 16px; font-weight: 400;"> </span>[NodeMCU](https://amzn.to/33tQ4V6)<span style="font-size: 16px; font-weight: 400;"> </span><span style="font-size: 16px; font-weight: 400;">which is basically a fancier but somehow also cheaper Arduino alternative which has wifi built-in. It works just like Arduino and you use the same Arduino IDE to program it.</span>I decided to use [DS18b20 temperature probes](https://amzn.to/2K0FTj7) which come in [a waterproof five-pack with long cords](https://amzn.to/2K0FTj7). These also need a [4.7k ohm pull-up resistor](https://amzn.to/2CnM0K3) which I will explain in a moment. So one really cool thing about these temperature probes is that they work with the [OneWire library](https://github.com/PaulStoffregen/OneWire). This means you could use hundreds of these probes and they would share only a single I/O pin on the Arduino. My implementation uses five, but you could easily use many more if you wanted to. ![Expose about 1 cm of wire](https://blog.cjtrowbridge.com/wp-content/uploads/2019/11/1-1-1.jpg)Each temperature probe has three wires coming out; red, yellow, and black. Start by trimming the colored portions a bit so that there is around a centimeter of wire exposed. Then zip tie the probes together as shown, so that they won't pull apart when in use. Next, twist each color together as shown. I used like-colored jumper wires to create clean and simple pins to plug into the Arduino, but however you want to accomplish that is fine; ![Twist similar colored wires together](https://blog.cjtrowbridge.com/wp-content/uploads/2019/11/2-1-1.jpg)The next step is to incorporate the pull-up resistor. This needs to go between the red and yellow wires. I added extra zip ties just to be safe. ![Pull-up bridges yellow and red wires.](https://blog.cjtrowbridge.com/wp-content/uploads/2019/11/pull-up-1-1.jpg)Lastly, simply tape all of that up so it doesn't come apart. My final product looked like this; ![Final Product](https://blog.cjtrowbridge.com/wp-content/uploads/2019/11/3-1-1.jpg)## The Code
+
+You will need to download and install the [Arduino IDE](https://www.arduino.cc/en/main/software), the [Temperature Sensor Library](https://github.com/milesburton/Arduino-Temperature-Control-Library), the [OneWire Library](https://github.com/PaulStoffregen/OneWire), and the [CH341SER USB Driver](http://www.wch.cn/download/CH341SER_EXE.html) for the NodeMCU Arduino. Then go into the IDE and add the following URL in the preferences section as an "Additional Boards Manager URL..." [http://arduino.esp8266.com/stable/package\_esp8266com\_index.json](http://arduino.esp8266.com/stable/package_esp8266com_index.json)Next, take a look at my final code, here; <https://github.com/cjtrowbridge/Sensor-Server>Simply add your wifi ssid and password, and the code should work as-is. It will output the IP address it has gotten from the router to the Arduino console. A best practice is to simply set this as a static IP on your router. Then, it will not change, and you will always be able to find the device. ## The Data
+
+Navigating to the URL of the device's IP will present a comma-delimited, quotation encapsulated set of values for each sensor. There is no way to tell which sensor is which based on the hardware. The sensors have a built-in serial number, and the OneWire library knows which sensor is which. The list served at the URL will always show the values in the same order on that basis. So we simply need to determine which sensor corresponds to which value. You will need to observe the sensor data and then place a warm hand on each sensor, noting which value changes temperature. I used tape and a sharpie to label each cord (1,2,3,4,5) so I would know which sensor corresponded to each value in the list the device serves at its URL. Lastly, I wrote a [cron script](https://github.com/cjtrowbridge/Sensor-Server/blob/master/FetchData.sh) which runs on my [Synology NAS](https://amzn.to/2qArraw) and fetches the values from the device every minute, and writes them to a CSV file. This means that I can later look back and simply import the values into an excel spreadsheet.

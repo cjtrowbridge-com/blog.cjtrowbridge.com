@@ -1,0 +1,14 @@
+---
+id: 12427
+title: 'Heir to the Empire by Timothy Zahn (Thrawn 1)'
+date: '2020-05-30T14:00:28-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=12427'
+permalink: /2020/05/30/heir-to-the-empire-by-timothy-zahn-thrawn-1/
+categories:
+    - Blog
+    - 'Reading List'
+---
+
+I've been very excited for a long time to start this series. [Heir to the Empire](https://amzn.to/2ZQfNIb) is the first [Thrawn](https://starwars.fandom.com/wiki/Mitth%27raw%27nuruodo) book. [![Heir to the Empire by Timothy Zahn](https://blog.cjtrowbridge.com/wp-content/uploads/2020/05/Heir-to-the-Empire-by-Timothy-Zahn-1-1.jpg)](https://amzn.to/2ZQfNIb)Part of the reason I enjoyed [Tarkin](https://blog.cjtrowbridge.com/2015/02/25/tarkin/) and Plagueis so much is that they both focused on the philosophy of power and high-strategy. This topic is essentially the core principle of my life, education, and career. Understanding power is one of my deepest pursuits, but stories like these offer more than concepts. They offer creative situations to consider. This is very helpful for thinking outside the box and developing creative problem solving skills. All of these books are anti-hero books. They feature flawed characters doing bad things. So the idea with reading them is sort of considering the mindset of people in leadership who are on the other side of the ethical divide, or focused on different missions. Plagueis was about building the initial Empire while dismantling the democracy of the Republic. There were lots of interesting ideas and concepts to consider related to instigating controlled chaos and subtly shifting the foundations upon which other players are moving, in order to manipulate events from the shadows. ![Plagueis](https://blog.cjtrowbridge.com/wp-content/uploads/2020/05/Plagueis-1-1.jpg)Tarkin led at the peak of Imperial power, and the events of his childhood made him the perfect person to lead the organization at that point, leveraging power to resist change. ![Tarkin](https://blog.cjtrowbridge.com/wp-content/uploads/2020/05/Tarkin-1-1.jpg)Thrawn is a much later strategic genius in the Star Wars universe. He finds himself taking command in a scattered and chaotic immediately-post-imperial landscape. He is working to consolidate power and build an organization from the rubble. Perhaps the most interesting thing about this character is that he is forced to confront limited resources and options, and think creatively to overcome impossible odds. ![Thrawn](https://blog.cjtrowbridge.com/wp-content/uploads/2020/05/Thrawn-1-1.png)I loved this first book, and I'm very excited to read the rest!

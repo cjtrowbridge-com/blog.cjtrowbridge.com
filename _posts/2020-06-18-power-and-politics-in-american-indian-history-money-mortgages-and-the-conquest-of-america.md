@@ -1,0 +1,23 @@
+---
+id: 12536
+title: 'Power and Politics in American Indian History: Money, Mortgages, and the Conquest of America'
+date: '2020-06-18T23:00:11-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=12536'
+permalink: /2020/06/18/power-and-politics-in-american-indian-history-money-mortgages-and-the-conquest-of-america/
+categories:
+    - 'AIS460 Power and Politics in American Indian History'
+---
+
+CJ Trowbridge
+
+2020-06-22
+
+Power and Politics in American Indian History
+
+Response 2
+
+**K-Sue Park, “Money, Mortgages, and the Conquest of America” (2016, 1006-1035) 29 pages**The article starts out by describing a change that happened in the jurisprudence of early America; land became liable for debts. (Park 1) This change had wide-reaching side-effects and set the stage for many changes that would come. The author also introduces the idea that English colonists had very different ideas about land ownership than the indigenous peoples of what would come to be called America. (Park 1) The author discusses the contemporary situation where many people are able to take mortgages and buy homes under the condition that the home will be taken from them if they don’t make the payments. (Park 2) In England like America, the idea of using land as collateral for debt first became popular during the colonization of America. (Park 2) The old British social order had previously depended on the inalienability of real estate and the guarantee that children would inherit their parents’ real estate in order to maintain family wealth over time. (Park 6) These changes led to a widespread surge in real estate liquidity. (Park 1) The author notes that American real estate histories often tend to exclude the origin of the land and the unethical practices which led to its theft by white colonists, before the story of ascendant American real estate wealth began. (Park 3) The colonists and natives came together with radically different perspectives on money, economics, and private property. (Park 3-4) The colonists used manipulative and dishonest practices to deliberately steal the land of native people and then resell it to one another for profit. (Park 4) Expanding capital and showing returns on investment was a critical goal of the colonists who wanted to earn the attention and support of British Imperialists. (Park 7) This would quickly lead – in part -- to unethical, exploitative, and genocidal behavior against native peoples. With the rise in mortgages and the real estate market came the drive to steal as much land as possible in order to put it through the engine of the colonial economy. (Park 7) Native people who were being exploited and displaced by the colonists found conditions worsening as colonists introduced many epidemics into the native population, leading to 90% death rates in many areas; some communities were completely wiped out, leaving an empty village full of dead bodies with no one to bury them. (Park 10) This would become prime real estate for the colonists who took advantage of the biological genocide to grow their real estate businesses and expand even further. (Park 10) Over the next century, land became equivalent to money, wealth, and power. The new colonial system transformed all that stolen land into an evil machine to produce wealth and power for the white colonists. (Park 18) The white colonists used this wealth and power to steal ever more land, spreading across the continent until nothing was left for the people who had lived here for tens of thousands of years. Eventually, open conflict started to take place. (Park 24) Native people rejected predatory lending and demanded their land and human dignity, but the wealth and power the white colonists had built meant they could command overwhelming force to meet the native people. Racism in real estate has only grown and evolved to be more insidious in the time since the colonists arrived. From the reservations to redlining and urban renewal, public policy in the United States has always been crafted for the benefit of white people at the expense of BIPOC. I hope we are soon able to undo this process and build a better future together, where native people and others are given back the power that was stolen from them for the benefit of white colonists. **Works Cited**
+
+Estes, Nick. *Our History Is the Future.* Verso Books, 2019. Park, K‐Sue. *“Money, Mortgages, and the Conquest of America.”* Wiley Online Library, John Wiley &amp;amp; Sons, Ltd, 24 Aug. 2016, onlinelibrary.wiley.com/doi/abs/10.1111/lsi.12222.

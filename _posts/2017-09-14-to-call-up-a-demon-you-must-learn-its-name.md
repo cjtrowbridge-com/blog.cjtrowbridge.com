@@ -1,0 +1,18 @@
+---
+id: 9060
+title: 'To call up a demon you must learn its name.'
+date: '2017-09-14T23:20:54-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=9060'
+permalink: /2017/09/14/to-call-up-a-demon-you-must-learn-its-name/
+categories:
+    - Blog
+    - Featured
+---
+
+There is an idea I've been trying to articulate and synthesize for some time. I don't think I accomplish it here, but this is a step in the right direction. I think back to my favorite book series The Sprawl Trilogy, and to Peter Thiel's book [Zero to One](https://blog.cjtrowbridge.com/2016/12/18/zero-to-one-by-peter-thiel/), and [an interview between Garry Kasparov and Sam Harris](https://www.youtube.com/watch?v=fiyBJeNBIIA), and another [interview of Kasparov at Google](https://www.youtube.com/watch?v=zhkTHkIZJEc) about Deep Mind. There is also [a great video](https://www.youtube.com/watch?v=9rOvEPYNEsc) of Garry Kasparov talking with Peter Thiel about this and other ideas. The basic idea is this; a human/group working together with a computer will always perform better than either a computer alone or a human/group working without a computer. Even a poor chess player working together with a computer can beat any chess computer or any team of chess champions working without a computer. In fact, Kasparov argues that a poor player working with a computer performs better than a great player working with a computer because the great player will try to use the machine to justify their own ideas, where the poor player will trust and defer to the machine's calculations, only overriding the machine's suggestions at edge cases when the machine is not seeing the whole picture. Peter Thiel in his book talks about how financial fraud detection at PayPal could only have happened this way. Whenever they devised a new algorithm to defeat fraud, the attackers would alter their strategy slightly until it started working again. Only a team of humans AND computers could analyze the vast streams of data and make decisions about what was and was not fraud. This idea gave rise to what is now Palantir, his new company which does just that; they focus on humans and algorithms working together to sift through large datasets and find important things in real time. This idea immediately recalled the dream of the Tessier-Ashpool clan in my favorite novel, Neuromancer from The Sprawl Trilogy...
+
+> “You’re the other AI... What’s your name? ... What is it?” The boy did a handstand in the surf, laughing. He walked on his hands, then flipped out of the water... “To call up a demon you must learn its name. Men dreamed that, once, but now it is real in another way. You know that, Case. Your business is to learn the names of programs, the long formal names, names the owners seek to conceal. True names ... Neuromancer,” the boy said, slitting long gray eyes against the rising sun. “The lane to the land of the dead. Where you are, my friend. Marie-France, my lady, she prepared this road, but her lord choked her off before I could read the book of her days. Neuro from the nerves, the silver paths. Romancer. Necromancer. I call up the dead. But no, my friend,” and the boy did a little dance, brown feet printing the sand, “I am the dead, and their land.”
+
+Earlier in the story, another character describes her dead mother Marie-France's forgotten goals for their industrial clan... > "She dreamed of a state involving very little in the way of individual consciousness," 3Jane was saying... "Animal bliss. I think she viewed the evolution of the forebrain as a sort of sidestep... "Only in certain heightened modes would an individual--a clan member--suffer the more painful aspects of self-awareness. . ."

@@ -1,0 +1,14 @@
+---
+id: 8456
+title: 'Neil Strauss &#8211; The Game'
+date: '2017-04-15T09:02:22-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=8456'
+permalink: /2017/04/15/neil-strauss-the-game/
+categories:
+    - 'Reading List'
+    - Revisit
+---
+
+This is a book about a group of **terrible** people. A few months ago, I was sitting in a cafe drinking some coffee, when I noticed an odd-looking man reading this book. I Googled the title, and found that it was a New York Times nonfiction best seller about an investigative journalist infiltrating the pickup artist community, and relating the strategies he learned which allowed him to make-out with a woman just minutes after meeting her. He even became roommates with Courtney Love in the process and succeeded in seducing Britney Spears to some degree. [![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/04/The_Game_-_Penetrating_the_Secret_Society_of_Pickup_Artists-1-1.jpg)](https://en.wikipedia.org/wiki/The_Game:_Penetrating_the_Secret_Society_of_Pickup_Artists)I had not previously heard of such a community, and found it fascinating. Almost everything I read about the book paints it in a very negative and puerile light. This is probably a well-earned reputation. The people in the story work together to refine manipulation tactics in order to seduce women into having sex with them. Many of these tactics are trivially easy to employ and left me feeling worried for the unwitting targets of this community who likely do not stand a chance of resisting. I'm not sure I can disagree with their actions morally, they never do anything without consent. But they certainly objectify women and suffer some consequences of their purely shallow lives. Their many one-night stands and transactional interpersonal relationships leave them feeling incomplete and lacking for basic human connections; one of the main characters suffers several mental and emotional breakdowns. The characters often relate their "scores" or the number of women they have slept with. These are one of their main success metrics. As a gay man who frequents bathhouses and sex clubs, I found their high scores of 10-20 to be hilarious and adorable. There are definitely cultural differences between gay and straight culture around sex and promiscuity, and apparently several orders of magnitude of difference in volume. There are a few topics I think everyone should read books on: real estate law, investment strategy, business. Maybe this topic should fall in that list. Everyone is sure to encounter these tactics being used against them at some point, either by a practiced expert, or a casual neophyte. When these tactics are used on me now, I will see through them and be less likely to succumb to them if I am not so inclined.

@@ -1,0 +1,63 @@
+---
+id: 10828
+title: "Your days are numbered, Temple.\nTonight is the night!"
+date: '2018-09-02T09:33:00-07:00'
+author: cjtrowbridge
+excerpt: "Your days are numbered, Temple.\nTonight is the night!"
+layout: post
+guid: 'https://blog.cjtrowbridge.com/2018/09/02/your-days-are-numbered-temple-tonight-is-the-night/'
+permalink: /2018/09/02/your-days-are-numbered-temple-tonight-is-the-night/
+dsgnwrks_instagram_likes:
+    - 'O:8:"stdClass":1:{s:5:"count";i:1;}'
+dsgnwrks_instagram_comments:
+    - 'O:8:"stdClass":1:{s:5:"count";i:0;}'
+dsgnwrks_instagram_hashtags:
+    - 'a:0:{}'
+instagram_created_time:
+    - '1535905980'
+dsgnwrks_instagram_id:
+    - '1859620490226721890_41872995'
+instagram_filter_used:
+    - Clarendon
+instagram_attribution:
+    - ''
+instagram_location:
+    - 'O:8:"stdClass":4:{s:8:"latitude";d:40.786944444444;s:9:"longitude";d:-119.20444444444;s:4:"name";s:11:"Burning Man";s:2:"id";i:374034639;}'
+instagram_location_lat:
+    - '40.786944444444'
+instagram_location_long:
+    - '-119.20444444444'
+instagram_location_name:
+    - 'Burning Man'
+instagram_users_in_photo:
+    - 'a:0:{}'
+instagram_link:
+    - 'https://www.instagram.com/p/BnOsvuxAGRi/'
+instagram_embed_code:
+    - "\n<iframe src=\"https://www.instagram.com/p/BnOsvuxAGRi/embed/\" width=\"612\" height=\"710\" frameborder=\"0\" scrolling=\"no\" allowtransparency=\"true\" class=\"insta-image-embed\"></iframe>\n"
+instagram_type:
+    - video
+instagram_user:
+    - 'O:8:"stdClass":4:{s:2:"id";s:8:"41872995";s:9:"full_name";s:13:"CJ Trowbridge";s:15:"profile_picture";s:141:"https://scontent.cdninstagram.com/vp/2a0bf6ee9c80fb714d5a904ec5a3e35b/5C2F601C/t51.2885-19/s150x150/13724650_1188772791164794_142557231_a.jpg";s:8:"username";s:12:"cjtrowbridge";}'
+instagram_username:
+    - cjtrowbridge
+instagram_image_id:
+    - '10829'
+instagram_video_id_low_resolution:
+    - '10830'
+instagram_video_url_low_resolution:
+    - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/480x480-video-1535905980.mp4'
+instagram_video_id_standard_resolution:
+    - '10831'
+instagram_video_url_standard_resolution:
+    - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/640x640-video-1535905980.mp4'
+categories:
+    - Instagram
+---
+
+[![Your days are numbered, Temple.
+Tonight is the night!](https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/1535905980-1-1.jpg)](https://www.instagram.com/p/BnOsvuxAGRi/)
+
+Photo taken at: Burning Man
+
+[View in Instagram ⇒](https://www.instagram.com/p/BnOsvuxAGRi/)

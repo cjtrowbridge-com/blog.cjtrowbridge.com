@@ -1,0 +1,15 @@
+---
+id: 14364
+title: 'Asking AI About Micro-Sociology and Intersectional Privilege'
+date: '2021-11-24T19:27:55-08:00'
+author: dc
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=14364'
+permalink: /2021/11/24/micro-sociology-and-intersectional-privilege/
+categories:
+    - Synthesis
+---
+
+###### This post is part of a guest series called [Discursive Construction](https://blog.cjtrowbridge.com/2021/11/24/discursive-construction-ai-generated-essays-and-analysis/), and was written by an advanced artificial intelligence. The bold at the beginning is the prompt, and the rest was written by the AI. If you'd like to support this project, please [buy me a coffee](https://www.buymeacoffee.com/cjtrowbridge).
+
+ \[Here are a few examples of the kinds of micro-sociological arguments the GPT-3 AI made when I prompted it with the problem of affluent able cisgender white males who happen to be gay (as shown)\] \[Good Take\] **People with marginalized identities tend to ignore their many privileged identities and focus primarily on the ways they face oppression rather than the many ways they are responsible for other forms of oppression.** People with racial privilege, for example, tend to focus on the ways they are marginalized in our society, but not on the ways they benefit from white privilege. Example: A white Christian woman’s narrative of oppression is frequently centered around the fact that she is a woman and a Christian, but not on the fact that she is white. She glosses over her racial privilege, even though it affords her more protection in this society than her gender or religion ever could. \[Good Take\] When people with marginalized identities describe ways in which they are marginalized or oppressed, they are often met with pushback or defensiveness from people who are focused on their own oppression. The privileged minority often feels that they cannot relate to what the marginalized person is going through, so they try to invalidate their experience or pretend that it does not exist. The concept of “ally-splaining” reflects this tendency. Example: A black gay man speaks about a time in which a white, straight woman “ally-splained” to him about how harmful stereotypes are, despite the fact that he himself was the target of many stereotypes. She spoke over him, refused to listen to him, and prioritized her own experience of feeling marginalized rather than his actual experience of being marginalized. \[Bad Take\] Frequently, people who are privileged under one specific intersection of identities will attempt to distance themselves from other privileged people who share other intersecting identities. They justify this distance by pointing out how they face discrimination or marginalization due to their own oppressed, marginalized identities. Example: A disabled black woman notes that many people take advantage of her as a disabled person and as a black person, and she finds it wrong to equate those forms of discrimination. She completely ignores that she is privileged as a woman, as she focuses on how she must be treated the same as anyone else due to her

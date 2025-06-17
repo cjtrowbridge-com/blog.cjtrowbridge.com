@@ -1,0 +1,15 @@
+---
+id: 7838
+title: 'Getting Ready for Lyft and Uber'
+date: '2016-11-24T20:38:05-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=7838'
+permalink: /2016/11/24/getting-ready/
+categories:
+    - 'Gig Work'
+---
+
+The first gig apps I want to try out are the obvious ones; Lyft and Uber. I [recently bought a three-year old Honda Civic](https://blog.cjtrowbridge.com/2016/01/20/look-what-i-got-%F0%9F%98%81%F0%9F%98%81%F0%9F%98%81/). I did it partially with this in mind. This was the best equilibrium-point I could find between low long-term operating cost and low depreciation based on age while staying within budget. The Prius was significantly better in both categories, but at about triple the total price. Despite my buying this car because I know it will be reliable, I also added the dealer's comprehensive end-to-end coverage of any mechanical problems which was an extra $3/mo. Next I went shopping for insurance. This was tricky. I had Progressive before, but they do not offer ridesharing coverage. I ended up switching to AAA. They offer competitive ridesharing coverage with the added bonus of having all their perks like roadside assistance, partner discounts, etc. **Accessorizing**This usb charger supports quick charge as well as non-quick charge. This means I can use QC on my Nexus while letting iPhone users charge up the old-fashioned way.
+
+<center>[![](//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B01B8Y3YYA&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cjtrowbridge-20)](https://www.amazon.com/gp/product/B01B8Y3YYA/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01B8Y3YYA&linkCode={{linkCode}}&tag=cjtrowbridge-20&linkId={{link_id}})![](//ir-na.amazon-adsystem.com/e/ir?t=cjtrowbridge-20&l=am2&o=1&a=B01B8Y3YYA)</center>This charger cable is the best one I could find to support a lot of different kinds of phones while still being able to reach the back seat. Also the price is right. <center>[![](//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B01CJ8T9FM&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cjtrowbridge-20)](https://www.amazon.com/gp/product/B01CJ8T9FM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01CJ8T9FM&linkCode={{linkCode}}&tag=cjtrowbridge-20&linkId={{link_id}})![](//ir-na.amazon-adsystem.com/e/ir?t=cjtrowbridge-20&l=am2&o=1&a=B01CJ8T9FM)</center>This is a basic aux cable that lets the riders play their music. It reaches the back seat and its only a few dollars. <center>[![](//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B00NO73MUQ&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cjtrowbridge-20)](https://www.amazon.com/gp/product/B00NO73MUQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00NO73MUQ&linkCode={{linkCode}}&tag=cjtrowbridge-20&linkId={{link_id}})![](//ir-na.amazon-adsystem.com/e/ir?t=cjtrowbridge-20&l=am2&o=1&a=B00NO73MUQ)</center>I wasn't able to find seat protectors online that I liked, so I went to O'Reilly and found a set there that fit. Now I was ready for the road!

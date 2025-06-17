@@ -1,0 +1,13 @@
+---
+id: 14916
+title: 'Categorical vs Hypothetical Imperatives'
+date: '2024-01-29T13:53:57-08:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=14916'
+permalink: /2024/01/29/categorical-vs-hypothetical-imperatives/
+categories:
+    - 'BUS 884: Ethics, Society, and Sustainability'
+---
+
+<div class="text"><div class="question_text user_content enhanced" id="question_2363681_question_text">Prompt: What is a hypothetical imperative that is currently gripping you? No matter how trivial or weighty. What would have to change for the imperative to vanish? <span style="background-color: var(--global--color-background); color: var(--global--color-primary); font-family: var(--global--font-secondary); font-size: var(--global--font-size-base);">My Answer:</span></div><div class="answers"><div><div class="user_content quiz_response_text enhanced">Is it ok to vote for Biden -- even though the international court of justice just found him guilty as an accessory to genocide -- because Trump would probably be worse? The imperative would change if we had a democratic candidate who had not been found guilty as an accessory to genocide, or if Trump was disqualified and somehow the republicans chose someone who isn't horrible as their candidate. </div></div><div class="answers_wrapper"></div></div><div class="after_answers"></div></div><div>Prompt:</div><div>Do you feel gripped by any categorical imperatives? Explain them if you do, and explain why you do not if you do not. My Answer: <div class="text"><div class="answers"><div><div class="user_content quiz_response_text enhanced">No. While I fully understand it and its application, I personally reject Kantian ethics in favor of a more Sartrian view of deontology focused on individual agency rather than the idea of absolutist edicts about an allegedly objective view of the universal morality of specific types of behaviors. Kantian ethics has always felt to me like a convenient post-hoc justification of rigid corporate and legal policy perspectives, but Sartre has always felt like a more realistic explanation of what actually happens and how people actually behave. This perspective emerged for me early on in my undergraduate degree in philosophy, but it was solidified through exploration of the case studies in sociology of law and the way Kantian ethics is so often used to justify state violence and marginalization of minority groups with no attempt to understand why social problems like crime exist, and rather just a reactionary demonization of those aspects of reality which we our society doesn't try to understand. </div></div></div></div></div>

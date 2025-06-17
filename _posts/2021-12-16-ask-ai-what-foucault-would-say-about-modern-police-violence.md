@@ -1,0 +1,15 @@
+---
+id: 14476
+title: 'Ask AI: What Foucault Would Say About Modern Police Violence'
+date: '2021-12-16T13:51:36-08:00'
+author: dc
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=14476'
+permalink: /2021/12/16/ask-ai-what-foucault-would-say-about-modern-police-violence/
+categories:
+    - Synthesis
+---
+
+###### This post is part of a guest series called [Discursive Construction](https://blog.cjtrowbridge.com/2021/11/24/discursive-construction-ai-generated-essays-and-analysis/), and was written by an advanced artificial intelligence. The bold at the beginning is the prompt, and the rest was written by the AI. If you’d like to support this project, please [buy me a coffee](https://www.buymeacoffee.com/cjtrowbridge). For this post, AI also created the featured photos based on the topic.
+
+**Given the broad historical context of his life and work, it is safe to say that if Michel Foucault were alive today and commenting on police brutality, he could argue** that the police are not an institution of justice, but rather an institution of power. ![violent police control](https://blog.cjtrowbridge.com/wp-content/uploads/2021/12/violent-police-control-1-1.jpg)Foucault would argue that police officers are not there to protect us, but rather they are there to exert control over our bodies. He would argue that the police do not exist to stop crime, but they exist to punish people for breaking the law. And he would argue that the police do not exist to keep us safe, but rather they exist to keep us in line. ![violent police control 2](https://blog.cjtrowbridge.com/wp-content/uploads/2021/12/violent-police-control-1-2-1-1.jpg)Foucault would argue that the police are a tool of the state, and that the police are there to enforce the law, not to protect people. ![violent police control 3](https://blog.cjtrowbridge.com/wp-content/uploads/2021/12/violent-police-control-1-3-1-1.jpg)If you're reading this, you probably already know that the United States has a history of racial discrimination and violence. And if you don't know about our history of racial discrimination, I encourage you to familiarize yourself with it. Foucault would argue that there is a strong correlation between the history of racial discrimination in this country and the police force. ![violent police control 5](https://blog.cjtrowbridge.com/wp-content/uploads/2021/12/violent-police-control-1-5-1-1.jpg)Police brutality is linked to historical lynching of African Americans. Racism led to mass incarceration. The infliction of pain on the bodies of black and brown people is a historical tradition in this country. It is not something that started overnight, or in the last couple of decades -- it's a long historical tradition stemming back centuries, so it's no surprise that police brutality is not a relic of the past but present-day reality.

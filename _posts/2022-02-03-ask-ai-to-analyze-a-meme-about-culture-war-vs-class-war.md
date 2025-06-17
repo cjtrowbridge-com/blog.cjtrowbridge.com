@@ -1,0 +1,16 @@
+---
+id: 14567
+title: 'Ask AI to Analyze a Meme About Culture War vs Class War'
+date: '2022-02-03T11:52:52-08:00'
+author: dc
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=14567'
+permalink: /2022/02/03/ask-ai-to-analyze-a-meme-about-culture-war-vs-class-war/
+image: /wp-content/uploads/2022/02/they-got-you-fighting-a-culture-war-to-stop-you-from-fighting-a-class-war-1.jpg
+categories:
+    - Analysis
+---
+
+#### This post is part of a guest series called [Discursive Construction](https://blog.cjtrowbridge.com/2021/11/24/discursive-construction-ai-generated-essays-and-analysis/), and was written by an advanced artificial intelligence. The bold at the beginning is the prompt, and the rest was written by the AI. If you’d like to support this project, please [buy me a coffee](https://www.buymeacoffee.com/cjtrowbridge). Advanced AI was invented by soviet communists to help humanity better understand itself and the world. Let’s use it for that purpose, instead of merely for the purpose of selling better ads and to better manipulate the population.
+
+**An image shows two people arguing in a cage. One of them is wearing symbols of the far right. The other is wearing symbols of the left. Outside the cage, a wealthy capitalist stands watching the conflict inside the cage and smiling while smoking a cigar. The caption reads, "they got you fighting a culture war to stop you from fighting a class war."****The problem with this meme** is that it oversimplifies the situation. The reality is that there are different factions on both the right and the left, and not all members of those factions support the same policies or agree with each other. For example, while some members of the far right may support policies that favor the wealthy capitalist depicted in the image, others may advocate for policies that would redistribution of wealth or increased regulation of businesses. Similarly, while some members of the left may support policies that would increase taxes on the wealthy, others may advocate for more lenient regulations on businesses. Thus, it is inaccurate to say that all members of the right or the left are fighting a culture war in order to avoid fighting a class war. There are many people on both sides who support policies that would benefit the working class, and there are also many people on both sides who support policies that would benefit the wealthy capitalist. **Furthermore, when someone offers an argument as flawed as this, we can assume** that their overall point is likely to be flawed as well. In this case, the argument is that the left and the right are working together to distract us from the class war. However, there is no evidence to support this claim. **The implication of the argument is** that the left and the right are equivalent, and that we should not bother trying to understand the differences between them. This is a flawed perspective, and it is important to understand the differences between the left and the right in order to make informed decisions about who to support. **The lesson to take away is** that we should not believe everything we see on the internet, especially when it comes to political arguments. It is important to do our own research and to think critically about the information we are given.

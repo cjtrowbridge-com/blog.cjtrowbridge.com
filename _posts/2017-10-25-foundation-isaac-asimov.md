@@ -1,0 +1,14 @@
+---
+id: 9236
+title: 'Foundation by Isaac Asimov'
+date: '2017-10-25T13:16:24-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=9236'
+permalink: /2017/10/25/foundation-isaac-asimov/
+categories:
+    - Blog
+    - 'Reading List'
+---
+
+Isaac Asmiov's Foundation series and especially this first book are perhaps his greatest achievement. It's no wonder this series won the Hugo for "Best Series of All Time." The core question seems to be, "What if history is not on your side?" or perhaps, "What role does an individual play in history?" ![Asimov Foundation](https://blog.cjtrowbridge.com/wp-content/uploads/2017/10/181410-004-30D9DF15-1-1.jpg)The story starts out with a man called Hari Seldon explaining that he has developed a new field of math intersecting history and psychology which has the ability to predict the future. It has shown the imminent collapse of civilization. He proposes not to try stop it which is impossible, but to try to minimize the chaos afterwards and remove thousands of years of unnecessary suffering from the future of human history. He dies after setting things in motion. For the rest of the book, people try to interpret what he did and what it means for them. Everyone assumes he is on their side. We see the rise of religion to fill the void left by the collapse, then commerce in its place. It's interesting to note that many scifi series have done episodes or arcs based on this book. My favorite is probably the Star Trek Deep Space Nine episode "[Statistical Probabilities](http://memory-alpha.wikia.com/wiki/Statistical_Probabilities_(episode))." The theme many people seem to take from this story is that sometimes surrender is a better option than fighting. This really isn't what I got from it, but I can understand that interpretation. Many of the characters start with the idea that they are some kind of messiah, and end up accepting what Seldon calls the "inertia" of history. The implication seems to be that an individual is not capable of affecting change on a grand scale. I find this to be obviously incorrect and a poor interpretation, as individuals lead each major change in civilization throughout the story. In the real world as well as in fiction, any theoretical argument which talks about people only in aggregate and ignores individuals will necessarily fail to be accurate and precise. Everything done is done by individuals. Obvious real-world examples include Washington, Bonaparte, Machiavelli, Tzu, Alexander. Many people throughout history have become larger than life and accomplished incredible feats in direct opposition to any "inertia" of history. I haven't read the rest of the series yet, but I do know that in the end, this is sort of the point Asimov finally makes. I can only imagine the impact this series would have if made into movies in the modern world!

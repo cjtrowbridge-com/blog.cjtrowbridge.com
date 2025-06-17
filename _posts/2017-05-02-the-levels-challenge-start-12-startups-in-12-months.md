@@ -1,0 +1,14 @@
+---
+id: 8527
+title: 'The Levels Challenge'
+date: '2017-05-02T12:07:49-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=8527'
+permalink: /2017/05/02/the-levels-challenge-start-12-startups-in-12-months/
+categories:
+    - Featured
+    - 'The Levels Challenge: Build 12 Startups in 12 Months'
+---
+
+[Pieter Levels](https://levels.io/) has been a very inspirational figure for me. I have been thinking a lot about his series of blog posts, "[Building 12 Startups in 12 Months](https://www.techinasia.com/12-startups-in-12-months-how-this-digital-nomad-doing-it)." ![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/05/pieter-levels-2-1-1-1.jpg)I really enjoyed reading these, and I really liked his definition of what a startup is. In this context, a minimum-viable-product which is publicly available for people to use online. **That definition is a huge accomplishment.** Creating something is the most important and valuable thing we can do. In fact, there are whole [ideological identities](https://en.wikipedia.org/wiki/Extropianism) based on this idea. Another Peter, Peter Thiel, calls this [Zero To One](https://blog.cjtrowbridge.com/2016/12/18/zero-to-one-by-peter-thiel/), the title of his book; the act of creating something that has never existed before. He calls it the miracle that we will need to accomplish over and over in order if we want the future to be better than today. Like many of us, I am often overcome by choice-paralysis over all the options I have, and end up doing nothing because I am overwhelmed by all the ideas I come up with. Obviously there is a lot more to building a company then the MVP, but this wasn't about building some global zaibatsu like Facebook or Google in his spare time, it was about *starting something*. Pieter's 12 startups may turn into successful and self-sustaining businesses, but that wasn't necessarily his goal. It was about shipping multiple products quickly. Like most engineers I know, I have a long list of "someday" projects and ideas. I decided to take a long look at that list and distill it down to a few of the best, easiest to start projects in order to challenge myself to stop adding things to the list and start checking things off the list. Looking at the startup products Pieter built during his 12 month challenge, a lot of them do not seem very complicated or likely to become revenue-producing, but the point is that he built them. AND that at least some of them have some chance of making money, and one or two of them stand a good chance of making a lot of money. He often comments that he makes over $10k/month from some of these projects and that that is so simple and easy an accomplishment that literally anyone ought to be able to do it. Here is my final list; \[rpfc\_recent\_posts\_from\_category category="601" posts="20"\]

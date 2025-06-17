@@ -1,0 +1,21 @@
+---
+id: 12603
+title: 'Razer Stealth 13 2020 Review'
+date: '2020-07-29T12:38:22-07:00'
+author: cjtrowbridge
+layout: post
+guid: 'https://blog.cjtrowbridge.com/?p=12603'
+permalink: /2020/07/29/razer-stealth-13-2020-review/
+image: /wp-content/uploads/2020/07/laptop-rotated-1.jpg
+categories:
+    - Featured
+    - Projects
+---
+
+My old laptop lasted me four years to the day, according to a Facebook memory on the day this one arrived. I like to go for the highest quality in the most convenient package and then stretch it as long as I can. The [Razer Stealth 13 2020](https://amzn.to/2CZcMMN) was the obvious choice for something new in 2020. *(Credit to the Unicorner Burning Man Camp for the "Don't tell me how to burn" sticker and REI for the California sticker.)*My favorite laptop in the past was definitely my [Asus C302CA](https://blog.cjtrowbridge.com/2017/09/16/asus-c302ca-chromebook-review-910/). I liked that it had touch screen, 1080p, USB-C charging, a long battery life, and it was very thin. The downside was that it is a Chromebook so no graphics card, and no pc games. [![Thin with full ports](https://blog.cjtrowbridge.com/wp-content/uploads/2020/07/Thin-1-1.jpg)](https://amzn.to/2CZcMMN)This laptop is exactly the same size as that Chromebook. It's 12 inches, same thickness, same touch screen, same USB-C charging, same long battery life, but it also has 4k, a real graphics card, and it runs Windows. This is a high-end gaming desktop in the form-factor of a Chromebook. Because it's the same size and uses the same charger, I get to keep using all the same accessories and even the same heavy duty protective case in my backpack. It also comes with two full-size USB-A ports in addition to two USB-C ports so you can still use all your legacy devices. This is another advantage over the Chromebook which only had the two USB-C ports so you would need a dongle to use USB-A on the Chromebook. [![Ridges and Cooling](https://blog.cjtrowbridge.com/wp-content/uploads/2020/07/Ridges-1-1.jpg)](https://amzn.to/2CZcMMN)I especially like the cooling system which has these ridges on the bottom to separate the airflow from the intake and exhaust. There is also a nice filter grill covering the fans and the exhaust so it's very easy to keep them clean without taking the laptop apart. [![Razer 13 2020](https://blog.cjtrowbridge.com/wp-content/uploads/2020/07/laptop-rotated-1-1.jpg)](https://amzn.to/2CZcMMN)Overall I really am impressed with how great this laptop is. I've been using it for a couple months now, and I would give it 10/10.
+
+## My Choice Of Accessories
+
+[![Gallium Charger](https://blog.cjtrowbridge.com/wp-content/uploads/2020/07/Gallium-Charger-1-1.jpg)](https://amzn.to/2CZf26J)I upgraded my charger to the brand-new next-generation [Gallium charger](https://amzn.to/2CZf26J) from RAVPower. This is a really cool new technology that is much smaller than the older brick chargers but still gives you 90 watts of power via USB-C. It also comes with a second port which I will use to charge my phone. Both ports are smart and decide the correct voltage and amperage for each device. Very cool, very smart new charger. I think we will see this Gallium tech taking over the charger market. [![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/07/Anker-Dock-1-1.jpg)](https://amzn.to/30X4ZqN)I also picked up [this Anker hub](https://amzn.to/30X4ZqN). There are a couple of things to keep in mind here. In order to charge with USB-C, you need to make sure your hub supports Power Delivery (PD) or it won't give you enough power to the laptop to actually charge it. This hub has PD plus HDMI out and two USB-A ports as well as a memory card reader. Basically this hub enables me to use a full desktop workstation with all the accessories and just plug it all into the laptop with a single connection. You can [see more about that here](https://blog.cjtrowbridge.com/2020/07/29/yaddlestation/). ## Really 4k 12"?
+
+In the future I will definitely not get 4k on a 12" laptop. It's just too small. It's very hard to see the fine details on the screen when they are that small. And your fingers are too big to use the touch function on such tiny objects. I've resorted to using it in 1080p instead of 4k. I paid something like $300 extra to get it in 4k so there's an easy way to save $300 off the price.
