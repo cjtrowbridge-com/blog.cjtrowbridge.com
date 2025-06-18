@@ -1,6 +1,6 @@
 ---
 layout: category
-title:     LGBT
-category:     LGBT
+title: LGBT
+category: LGBT
 permalink: /category/lgbt/
 ---
