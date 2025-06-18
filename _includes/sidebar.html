@@ -10,6 +10,7 @@
 
 <h2>Categories</h2>
 <ul>
+  <li><a href="/all-posts/">All Posts</a></li>
   {% assign sorted_categories = site.categories | sort %}
   {% for category in sorted_categories %}
     <li><a href="/category/{{ category[0] | slugify }}/">{{ category[0] }}</a></li>
