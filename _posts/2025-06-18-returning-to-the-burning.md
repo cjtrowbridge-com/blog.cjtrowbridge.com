@@ -11,6 +11,7 @@ categories:
     - Blog
     - 'Burning Man'
     - Projects
+    - Featured
 tags:
     - '2025 Burning Man'
     - 'Burning Man'
