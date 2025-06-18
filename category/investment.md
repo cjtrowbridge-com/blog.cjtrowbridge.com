@@ -1,6 +1,6 @@
 ---
 layout: category
-title:     Investment
-category:     Investment
+title: Investment
+category: Investment
 permalink: /category/investment/
 ---

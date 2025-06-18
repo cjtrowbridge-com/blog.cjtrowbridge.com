@@ -1,6 +1,6 @@
 ---
 layout: category
-title:     School
-category:     School
+title: School
+category: School
 permalink: /category/school/
 ---

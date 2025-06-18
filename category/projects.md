@@ -1,6 +1,6 @@
 ---
 layout: category
-title:     Projects
-category:     Projects
+title: Projects
+category: Projects
 permalink: /category/projects/
 ---

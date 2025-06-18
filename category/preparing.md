@@ -1,6 +1,6 @@
 ---
 layout: category
-title:     Preparing
-category:     Preparing
+title: Preparing
+category: Preparing
 permalink: /category/preparing/
 ---

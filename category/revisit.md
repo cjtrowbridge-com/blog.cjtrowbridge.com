@@ -1,6 +1,6 @@
 ---
 layout: category
-title:     Revisit
-category:     Revisit
+title: Revisit
+category: Revisit
 permalink: /category/revisit/
 ---
