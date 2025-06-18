@@ -2,6 +2,12 @@ h1, h2, h3{
     margin-top: 1em;
     margin-bottom: .5em;
 }
+h1{
+    font-size: 2em;
+    color: #ffffff;
+    text-align: left;
+    padding: .25rem
+}
 h4{
     margin-top: 1em;
     margin-bottom: 0.5em;
