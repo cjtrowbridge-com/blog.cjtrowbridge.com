@@ -7,7 +7,17 @@ layout: page
 guid: 'https://blog.cjtrowbridge.com/?page_id=14122'
 ---
 
-<div>## [Burning Man!](/category/blog/projects/burning-man/)
+## Burning Man!
 
-<div>**2020 Burn: The Multiverse**![Burning Man 2020](https://blog.cjtrowbridge.com/wp-content/uploads/2019/10/Burning-Man-2020-1-1.jpg)[rpfc_recent_posts_from_category category="776" posts="10"]</div><div>**2019 Burn: Metamorphoses**![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/12/2019-Temple-Burn-1-1.jpg)[rpfc_recent_posts_from_category category="773" posts="10"]</div><div>**2018 Burn: I, Robot**![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/12/2018-Temple-1-1.jpg)</div><div>[rpfc_recent_posts_from_category category="745" posts="10"]</div><div>**2016 Burn: DaVinci's Workshop**</div><div>![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/12/2016-Temple-Burn-1-1.jpg)</div><div>[rpfc_recent_posts_from_category category="774" posts="10"]</div><style>
-.rpfc-container ul{<br />  list-style-position: inside;<br />}<br /></style></div>
+{% assign burn_category_names = '2025 Burn|2020 Burn|2019 Burn|2018 Burn|2019 Burning Man|2018 Burning Man' | split: '|' %}
+{% for cat_name in burn_category_names %}
+  {% if site.categories[cat_name] %}
+### {{ cat_name }}
+  <ul>
+    {% assign posts = site.categories[cat_name] | sort: 'date' | reverse %}
+    {% for post in posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+{% endfor %}
