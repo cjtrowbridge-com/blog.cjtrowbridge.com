@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{% assign categories = "Featured,Adventures,Reading List,Essays" | split: "," %}
+{% for cat in categories %}
+<div class="card mb-4">
+  <div class="card-body">
+    <h3 class="card-title"><a href="/category/{{ cat | slugify }}/">{{ cat }}</a></h3>
+    <ul>
+      {% assign posts = site.categories[cat] | sort: 'date' | reverse | slice: 0, 10 %}
+      {% for post in posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+    <a href="/category/{{ cat | slugify }}/" class="card-link">View More</a>
+  </div>
+</div>
+{% endfor %}
+
