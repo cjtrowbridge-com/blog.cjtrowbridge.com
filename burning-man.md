@@ -9,7 +9,7 @@ guid: 'https://blog.cjtrowbridge.com/?page_id=14122'
 
 ## Burning Man!
 
-{% assign burn_category_names = '2025 Burn|2020 Burn|2019 Burn|2018 Burn|2019 Burning Man|2018 Burning Man' | split: '|' %}
+{% assign burn_category_names = '2026 Burn|2025 Burn|2020 Burn|2019 Burn|2018 Burn|2019 Burning Man|2018 Burning Man' | split: '|' %}
 {% for cat_name in burn_category_names %}
   {% if site.categories[cat_name] %}
 ### {{ cat_name }}
