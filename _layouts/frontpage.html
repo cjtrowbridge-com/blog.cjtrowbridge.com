@@ -9,6 +9,10 @@ layout: default
 <div class="card mb-4">
   <div class="card-body">
     <h3 class="card-title"><a href="/category/{{ cat | slugify }}/">{{ cat }}</a></h3>
+    {% assign cat_page = site.pages | where: "category", cat | first %}
+    {% if cat_page.photo %}
+    <img class="photo" src="{{ cat_page.photo }}" alt="{{ cat }}">
+    {% endif %}
     <ul>
       {% assign posts = site.categories[cat] | sort: 'date' | reverse | slice: 0, 10 %}
       {% for post in posts %}
