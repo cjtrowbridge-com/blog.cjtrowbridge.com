@@ -1,6 +1,6 @@
 ---
 layout: category
-title: tags:
-category: tags:
+title: tags
+category: tags
 permalink: /category/tags/
 ---
