@@ -1,6 +1,6 @@
 ---
 layout: category
-title:     EDC
-category:     EDC
+title: EDC
+category: EDC
 permalink: /category/edc/
 ---

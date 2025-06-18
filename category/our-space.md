@@ -1,6 +1,6 @@
 ---
 layout: category
-title:     Our-Space
-category:     Our-Space
+title: Our-Space
+category: Our-Space
 permalink: /category/our-space/
 ---

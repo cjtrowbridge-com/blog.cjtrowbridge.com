@@ -1,6 +1,6 @@
 ---
 layout: category
-title:     Goals
-category:     Goals
+title: Goals
+category: Goals
 permalink: /category/goals/
 ---

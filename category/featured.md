@@ -1,6 +1,6 @@
 ---
 layout: category
-title:     Featured
-category:     Featured
+title: Featured
+category: Featured
 permalink: /category/featured/
 ---
