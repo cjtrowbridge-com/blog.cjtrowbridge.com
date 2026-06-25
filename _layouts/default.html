@@ -34,29 +34,16 @@
     
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-			<h1><a href="https://blog.cjtrowbridge.com/">blog.cjtrowbridge.com</a></h1>
-		</div>
-		<div class="row">
+    <div class="container py-4">
+        <header class="mb-4">
+			<h1 class="display-6 mb-0"><a class="link-light text-decoration-none" href="https://blog.cjtrowbridge.com/">blog.cjtrowbridge.com</a></h1>
+		</header>
 
-            <div class="col-md-8">
-                {{ content }}
-            </div><!--/col-->
-
-            <div class="col-md-4">
-                {% include sidebar.html %}
-            </div><!--/col-->
-
-        </div><!--/row-->
+        <main>
+            {{ content }}
+        </main>
 
         {% include footer.html %}
-                
-
-    </div><!--/container-->
-
-
-
-
+    </div>
 </body>
 </html>

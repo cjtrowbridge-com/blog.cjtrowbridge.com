@@ -21,3 +21,8 @@ Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` clo
 - [x] Regenerate and validate host plan indexes.
 - [x] Review git status and summarize checkpoint.
 - [x] Move agent-facing README bootstrap notes into `AGENTS.md`.
+- [x] Replace placeholder `README.md` with human-facing site and framework structure documentation.
+- [x] Document WordPress-to-Markdown export cleanup as ongoing maintenance work.
+- [x] Refactor the default layout to remove the global sidebar column.
+- [x] Move page and category navigation below homepage essay sections.
+- [x] Restyle frontpage navigation with Bootstrap dark-mode components.

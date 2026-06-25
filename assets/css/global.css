@@ -1,17 +1,21 @@
-h1, h2, h3{
+main h1,
+main h2,
+main h3 {
     margin-top: 1em;
     margin-bottom: .5em;
 }
-h1{
-    font-size: 2em;
-    color: #ffffff;
-    text-align: left;
-    padding: .25rem
-}
-h4{
+main h4 {
     margin-top: 1em;
     margin-bottom: 0.5em;
     color: #c6c6c6;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: var(--bs-light);
 }
 .btn-youtube {
     background-color: #FF0000;
