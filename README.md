@@ -65,3 +65,5 @@ Agent-facing operating instructions live in `AGENTS.md`; this README is for huma
 The site is moving toward Bootstrap-first dark-mode styling. Prefer Bootstrap layout and component classes in templates, and keep `assets/css/global.css` limited to site-specific exceptions such as legacy image handling, social button colors, and ensuring linked headings remain white.
 
 Agentic framework directories are excluded from the generated public site in `_config.yml`; they are repo operations material, not blog content.
+
+Homepage category images stack above post lists on mobile and shift left of the lists on desktop, with desktop image width capped at `500px`.

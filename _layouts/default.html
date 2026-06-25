@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="CJ Trowbridge">
     <meta name="author" content="CJ Trowbridge">
-    <title>{{ page.title }}</title>
+    <title>{% if page.url == "/" %}blog.cjtrowbridge.com{% else %}blog.cjtrowbridge.com - {{ page.title }}{% endif %}</title>
     <link rel="icon" type="image/x-icon" href="/assets/images/cj.jpg">
 
     <!-- Bootstrap core CSS -->

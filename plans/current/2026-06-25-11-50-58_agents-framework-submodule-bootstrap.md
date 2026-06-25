@@ -27,3 +27,6 @@ Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` clo
 - [x] Move page and category navigation below homepage essay sections.
 - [x] Restyle frontpage navigation with Bootstrap dark-mode components.
 - [x] Exclude agentic framework directories from Jekyll page generation.
+- [x] Cap homepage category image width on desktop and move footer navigation into the third footer column.
+- [x] Set browser titles to the site name on the homepage and site-name-plus-page-title elsewhere.
+- [x] Remove the visible `Home` heading from the homepage.

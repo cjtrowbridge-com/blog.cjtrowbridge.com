@@ -1,35 +1,27 @@
-<section class="row g-4 my-4">
-  <div class="col-md-6">
-    <div class="card h-100">
-      <div class="card-body">
-        <h2 class="card-title h4">Pages</h2>
-        <div class="list-group list-group-flush">
-          {% assign pages_list = site.pages | sort: 'title' %}
-          {% for my_page in pages_list %}
-            {% assign top_level_path = my_page.path | split: "/" | first %}
-            {% unless top_level_path == "agents" or top_level_path == "downtime" or top_level_path == "journal" or top_level_path == "kanban" or top_level_path == "plans" or top_level_path == "playbooks" or top_level_path == "references" or top_level_path == "scripts" or top_level_path == "templates" %}
-            {% if my_page.title and my_page.url != page.url and my_page.layout == 'page' and my_page.path != "AGENTS.md" %}
-              <a class="list-group-item list-group-item-action" href="{{ my_page.url }}">{{ my_page.title }}</a>
-            {% endif %}
-            {% endunless %}
-          {% endfor %}
-        </div>
-      </div>
-    </div>
+<div class="row g-3">
+  <div class="col-sm-6 col-md-12">
+    <h5>Pages</h5>
+    <ul class="list-unstyled">
+      {% assign pages_list = site.pages | sort: 'title' %}
+      {% for my_page in pages_list %}
+        {% assign top_level_path = my_page.path | split: "/" | first %}
+        {% unless top_level_path == "agents" or top_level_path == "downtime" or top_level_path == "journal" or top_level_path == "kanban" or top_level_path == "plans" or top_level_path == "playbooks" or top_level_path == "references" or top_level_path == "scripts" or top_level_path == "templates" %}
+        {% if my_page.title and my_page.url != page.url and my_page.layout == 'page' and my_page.path != "AGENTS.md" %}
+          <li><a href="{{ my_page.url }}">{{ my_page.title }}</a></li>
+        {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </ul>
   </div>
 
-  <div class="col-md-6">
-    <div class="card h-100">
-      <div class="card-body">
-        <h2 class="card-title h4">Categories</h2>
-        <div class="list-group list-group-flush">
-          <a class="list-group-item list-group-item-action" href="/all-posts/">All Posts</a>
-          {% assign sorted_categories = site.categories | sort %}
-          {% for category in sorted_categories %}
-            <a class="list-group-item list-group-item-action" href="/category/{{ category[0] | slugify }}/">{{ category[0] }}</a>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
+  <div class="col-sm-6 col-md-12">
+    <h5>Categories</h5>
+    <ul class="list-unstyled">
+      <li><a href="/all-posts/">All Posts</a></li>
+      {% assign sorted_categories = site.categories | sort %}
+      {% for category in sorted_categories %}
+        <li><a href="/category/{{ category[0] | slugify }}/">{{ category[0] }}</a></li>
+      {% endfor %}
+    </ul>
   </div>
-</section>
+</div>

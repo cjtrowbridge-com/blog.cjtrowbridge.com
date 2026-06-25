@@ -2,26 +2,28 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-
 {% assign categories = "Featured,Adventures,Reading List,Essays" | split: "," %}
 {% for cat in categories %}
-<section class="card mb-4">
+<section class="card homepage-category-card mb-4">
   {% assign cat_page = site.pages | where: "category", cat | first %}
+  <div class="{% if cat_page.photo %}row g-0{% endif %}">
   {% if cat_page.photo %}
-  <img class="card-img-top" src="{{ cat_page.photo }}" alt="" aria-hidden="true">
+  <div class="col-lg-auto">
+    <img class="homepage-category-image" src="{{ cat_page.photo }}" alt="" aria-hidden="true">
+  </div>
   {% endif %}
-  <div class="card-body">
-    <h2 class="card-title h3"><a class="link-light text-decoration-none" href="/category/{{ cat | slugify }}/">{{ cat }}</a></h2>
-    <div class="list-group list-group-flush mb-3">
-      {% assign posts = site.categories[cat] | sort: 'date' | reverse | slice: 0, 10 %}
-      {% for post in posts %}
-      <a class="list-group-item list-group-item-action" href="{{ post.url }}">{{ post.title }}</a>
-      {% endfor %}
+    <div class="{% if cat_page.photo %}col{% endif %}">
+      <div class="card-body">
+        <h2 class="card-title h3"><a class="link-light text-decoration-none" href="/category/{{ cat | slugify }}/">{{ cat }}</a></h2>
+        <div class="list-group list-group-flush mb-3">
+          {% assign posts = site.categories[cat] | sort: 'date' | reverse | slice: 0, 10 %}
+          {% for post in posts %}
+          <a class="list-group-item list-group-item-action" href="{{ post.url }}">{{ post.title }}</a>
+          {% endfor %}
+        </div>
+        <a href="/category/{{ cat | slugify }}/" class="btn btn-outline-light">View More</a>
+      </div>
     </div>
-    <a href="/category/{{ cat | slugify }}/" class="btn btn-outline-light">View More</a>
   </div>
 </section>
 {% endfor %}
-
-{% include sidebar.html %}
