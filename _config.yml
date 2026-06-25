@@ -1,3 +1,14 @@
 url: 'https://blog.cjtrowbridge.com'
 name: 'CJ Trowbridge'
 description: ''
+exclude:
+  - AGENTS.md
+  - agents/
+  - downtime/
+  - journal/
+  - kanban/
+  - plans/
+  - playbooks/
+  - references/
+  - scripts/
+  - templates/

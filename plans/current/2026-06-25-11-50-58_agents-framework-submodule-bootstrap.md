@@ -26,3 +26,4 @@ Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` clo
 - [x] Refactor the default layout to remove the global sidebar column.
 - [x] Move page and category navigation below homepage essay sections.
 - [x] Restyle frontpage navigation with Bootstrap dark-mode components.
+- [x] Exclude agentic framework directories from Jekyll page generation.

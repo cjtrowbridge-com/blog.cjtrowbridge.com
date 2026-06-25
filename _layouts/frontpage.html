@@ -9,7 +9,7 @@ layout: default
 <section class="card mb-4">
   {% assign cat_page = site.pages | where: "category", cat | first %}
   {% if cat_page.photo %}
-  <img class="card-img-top" src="{{ cat_page.photo }}" alt="{{ cat }}">
+  <img class="card-img-top" src="{{ cat_page.photo }}" alt="" aria-hidden="true">
   {% endif %}
   <div class="card-body">
     <h2 class="card-title h3"><a class="link-light text-decoration-none" href="/category/{{ cat | slugify }}/">{{ cat }}</a></h2>

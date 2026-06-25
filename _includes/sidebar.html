@@ -6,9 +6,12 @@
         <div class="list-group list-group-flush">
           {% assign pages_list = site.pages | sort: 'title' %}
           {% for my_page in pages_list %}
-            {% if my_page.title and my_page.url != page.url and my_page.layout == 'page' %}
+            {% assign top_level_path = my_page.path | split: "/" | first %}
+            {% unless top_level_path == "agents" or top_level_path == "downtime" or top_level_path == "journal" or top_level_path == "kanban" or top_level_path == "plans" or top_level_path == "playbooks" or top_level_path == "references" or top_level_path == "scripts" or top_level_path == "templates" %}
+            {% if my_page.title and my_page.url != page.url and my_page.layout == 'page' and my_page.path != "AGENTS.md" %}
               <a class="list-group-item list-group-item-action" href="{{ my_page.url }}">{{ my_page.title }}</a>
             {% endif %}
+            {% endunless %}
           {% endfor %}
         </div>
       </div>
