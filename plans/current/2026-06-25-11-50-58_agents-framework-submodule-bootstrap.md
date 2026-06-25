@@ -30,3 +30,4 @@ Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` clo
 - [x] Cap homepage category image width on desktop and move footer navigation into the third footer column.
 - [x] Set browser titles to the site name on the homepage and site-name-plus-page-title elsewhere.
 - [x] Remove the visible `Home` heading from the homepage.
+- [x] Rename the homepage `Featured` section heading to `Latest Posts`.

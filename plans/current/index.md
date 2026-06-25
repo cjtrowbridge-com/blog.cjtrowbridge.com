@@ -2,4 +2,4 @@
 
 Format: `last_modified | path | title | summary`
 
-2026-06-25-12-27-06 | plans/current/2026-06-25-11-50-58_agents-framework-submodule-bootstrap.md | Agents Framework Submodule Bootstrap | Integrate the agents framework as a host submodule and bootstrap host-managed operational artifacts.
+2026-06-25-14-06-08 | plans/current/2026-06-25-11-50-58_agents-framework-submodule-bootstrap.md | Agents Framework Submodule Bootstrap | Integrate the agents framework as a host submodule and bootstrap host-managed operational artifacts.

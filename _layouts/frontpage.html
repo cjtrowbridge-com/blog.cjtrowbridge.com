@@ -4,6 +4,11 @@ layout: default
 
 {% assign categories = "Featured,Adventures,Reading List,Essays" | split: "," %}
 {% for cat in categories %}
+{% if cat == "Featured" %}
+  {% assign cat_label = "Latest Posts" %}
+{% else %}
+  {% assign cat_label = cat %}
+{% endif %}
 <section class="card homepage-category-card mb-4">
   {% assign cat_page = site.pages | where: "category", cat | first %}
   <div class="{% if cat_page.photo %}row g-0{% endif %}">
@@ -14,7 +19,7 @@ layout: default
   {% endif %}
     <div class="{% if cat_page.photo %}col{% endif %}">
       <div class="card-body">
-        <h2 class="card-title h3"><a class="link-light text-decoration-none" href="/category/{{ cat | slugify }}/">{{ cat }}</a></h2>
+        <h2 class="card-title h3"><a class="link-light text-decoration-none" href="/category/{{ cat | slugify }}/">{{ cat_label }}</a></h2>
         <div class="list-group list-group-flush mb-3">
           {% assign posts = site.categories[cat] | sort: 'date' | reverse | slice: 0, 10 %}
           {% for post in posts %}
