@@ -11,7 +11,7 @@ categories:
 conversion_state: markdown
 ---
 
-CJ CJ Trowbridge
+CJ Trowbridge
 
 2021-06-28
 
@@ -73,7 +73,7 @@ What defines consent? Legally, the age of consent has changed radically and is n
 
 Consider two examples within the context of the arbitrary and capricious legal definition of consent based on age. Imagine an otherwise consensual relationship between two unmarried people who are a day apart in age, where one happens to be over eighteen; this is statutory rape regardless of their willingness and enthusiasm to be together. Now consider another example. A 12-year-old -- with parental permission -- marries 87-year-old pedophilia-activist Harry Hay. This is perfectly legal and morally just, according to the American legal system, as well as in many other places around the world. (Reiss)
 
-I hope these examples illustrate the fundamental problem with using our deeply problematic legal system as an authority for moral truth. Instead consider whether a 12-year-old can really exercise agency and give consent to an 87-year-old. And then consider whether a 17-year-old can exercise agency and give consent to an 18-year -old. In the first case, it seems clear to me that a child of twelve can likely not exercise the agency to give consent to an elderly pedophile. In the second case it seems clear that someone who is a day away from being a legal adult is not lacking any critical faculty that they will develop in the next 24 hours which precludes them from exercising the agency to give consent.
+I hope these examples illustrate the fundamental problem with using our deeply problematic legal system as an authority for moral truth. Instead consider whether a 12-year-old can really exercise agency and give consent to an 87-year-old. And then consider whether a 17-year-old can exercise agency and give consent to an 18-year-old. In the first case, it seems clear to me that a child of twelve can likely not exercise the agency to give consent to an elderly pedophile. In the second case it seems clear that someone who is a day away from being a legal adult is not lacking any critical faculty that they will develop in the next 24 hours which precludes them from exercising the agency to give consent.
 
 The arbitrary lines we draw at certain ages don’t make any sense and they change radically from place to place and over time. A better approach is to take the advice of Kate Manne and Del Martin and treat people as subjects rather than objects; to restrain ourselves and others from robbing them of agency over their own lives and actions.
 
