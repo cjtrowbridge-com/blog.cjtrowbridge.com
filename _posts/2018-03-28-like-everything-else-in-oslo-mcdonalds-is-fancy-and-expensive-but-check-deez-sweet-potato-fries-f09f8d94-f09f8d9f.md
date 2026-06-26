@@ -43,6 +43,7 @@ instagram_image_id:
     - '9936'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Like everything else in Oslo, McDonald’s is fancy and expensive. But check deez sweet potato fries. #🍔 #🍟](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522271420-1-1.jpg)](https://www.instagram.com/p/Bg4ajRcFTp4/)

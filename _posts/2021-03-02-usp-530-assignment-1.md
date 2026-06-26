@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14030'
 permalink: /2021/03/02/usp-530-assignment-1/
 categories:
     - 'USP 530 Alternate Urban Futures'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

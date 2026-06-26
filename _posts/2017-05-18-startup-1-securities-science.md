@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=8534'
 permalink: /2017/05/18/startup-1-securities-science/
 categories:
     - 'The Levels Challenge: Build 12 Startups in 12 Months'
+conversion_state: wordpress
 ---
 
 ***This is part of a series on [Building 12 Startups in 12 Months](https://blog.cjtrowbridge.com/category/the-levels-challenge-build-12-startups-in-12-months/).***

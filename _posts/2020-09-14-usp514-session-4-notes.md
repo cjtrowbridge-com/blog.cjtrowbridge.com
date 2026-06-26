@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13065'
 permalink: /2020/09/14/usp514-session-4-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 <span class="">September 14th and 16th</span>**<span class="">Session Four: Sustainable Development in Historical Context</span>**<span class="">This session will focus on the origins of the concept of sustainable development and how it is connected to the concept of development. Our discussion will be guided by the following questions:</span>1. <span class="">What is meant by the term "development"?</span>

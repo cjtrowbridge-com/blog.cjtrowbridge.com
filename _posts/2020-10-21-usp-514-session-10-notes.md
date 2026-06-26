@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13317'
 permalink: /2020/10/21/usp-514-session-10-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 **<span class="">October 19th and 21st</span><span class="">Session Ten: Sustainable Urban Waste Management</span>**<span class="">This session will focus on the approaches, policies, and practices that can promote sustainable waste management and resource recovery. We will be guided by the following questions.</span>**Waste is unwanted material intentionally thrown away for disposal.**1. <span class="">What are the basic characteristics of waste as it relates to urban waste management issues?</span>

@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/640x640-video-1538020499.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Taught my new house some tricks.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/1538020499-1-1.jpg)](https://www.instagram.com/p/BoNxaaUFczO/)

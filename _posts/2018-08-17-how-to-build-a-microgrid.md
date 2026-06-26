@@ -11,6 +11,7 @@ categories:
     - 'Burning Man'
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 A microgrid is a relatively small power grid which takes electricity from a source, stores it for use, and distributes it to devices. This can range from the size of a town to a neighborhood to a single home. The principles are the same. Based on this definition, chances are you already have one or more microgrids in your life. In a way, your car is like a microgrid. It generates power, stores it, and then distributes it to devices like cell phones which plug into it. RVs and tiny homes area also good examples of microgrids.

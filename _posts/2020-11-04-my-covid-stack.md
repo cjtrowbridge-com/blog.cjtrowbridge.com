@@ -9,6 +9,7 @@ permalink: /2020/11/04/my-covid-stack/
 categories:
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 I have for years taken several supplements daily. I recently made some changes based on evidence that these tweaks could support a robust covid response and even reduce the risk of infection.

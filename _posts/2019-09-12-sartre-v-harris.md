@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12881'
 permalink: /2019/09/12/sartre-v-harris/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 Write an essay comparing and contrasting Sartre with annaka harris

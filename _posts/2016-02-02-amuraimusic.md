@@ -45,6 +45,7 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:2;s:4:"data";a:2:{i:0;O:8:"stdClass":4:{s:8:"username";s:12:"pdxwonderboy";s:15:"profile_picture";s:85:"https://scontent.cdninstagram.com/t51.2885-19/924735_489782997869897_1995342228_a.jpg";s:2:"id";s:8:"32060586";s:9:"full_name";s:12:"Ilan Gerould";}i:1;O:8:"stdClass":4:{s:8:"username";s:13:"thomas_kieran";s:15:"profile_picture";s:95:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12224540_914783068596628_960828425_a.jpg";s:2:"id";s:9:"145439406";s:9:"full_name";s:12:"Kieran Jones";}}}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![@amuraimusic](https://blog.cjtrowbridge.com/wp-content/uploads/2016/02/1454401672-1-1.jpg)](https://www.instagram.com/p/BBRvR-ErtPf/)

@@ -45,6 +45,7 @@ instagram_filter_used:
     - Clarendon
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![New fidget toy which I 3D printed.

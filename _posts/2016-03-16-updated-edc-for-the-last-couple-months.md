@@ -48,6 +48,7 @@ categories:
     - EDC
     - Featured
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Updated #edc for the last couple months](https://blog.cjtrowbridge.com/wp-content/uploads/2016/03/1458113326-1-1.jpg)](https://www.instagram.com/p/BDAWssVLtG0/)[View in Instagram ⇒](https://www.instagram.com/p/BDAWssVLtG0/)

@@ -10,6 +10,7 @@ categories:
     - Blog
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 For the last year, I have been a student who consistently takes at least a double to triple full-time workload. I am not superman, but I do have a 4.0 GPA. I also spend a great deal of my time traveling and having vacations and adventures. All of this has been an intensely complex effort, but several simple tools have made all the difference. Three tools in particular have dramatically improved my ability to accomplish this enormous undertaking.

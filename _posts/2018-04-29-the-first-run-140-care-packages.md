@@ -10,6 +10,7 @@ categories:
     - Blog
     - Featured
     - School
+conversion_state: wordpress
 ---
 
 We liked the idea of having something other than cash to hand out to people who are homeless in order to be more helpful with less money. We also wanted to start conversations around the project which helped to humanize people who are homeless. This comes in the face of intense prejudice in our communities and stigmatization of people who are homeless as though they are the source of our problems rather than a symptom of our community abandoning its most vulnerable members. So we decided to make care packages. This is what we came up with... ![Care Packages For People Who Are Homeless](https://blog.cjtrowbridge.com/wp-content/uploads/2018/06/bags-1-1.jpg)In this first run, each care package contains;

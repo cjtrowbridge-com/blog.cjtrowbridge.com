@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/11/640x640-video-1541270460.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Canvassing to flip a red district with @dspiciarich and @electrobizarre](https://blog.cjtrowbridge.com/wp-content/uploads/2018/11/canvassing-to-flip-a-red-1-1.jpg)](https://www.instagram.com/p/BpuoO5bBbC5/)

@@ -9,6 +9,7 @@ permalink: /2017/08/10/startup-7-top-story-review/
 categories:
     - Blog
     - 'The Levels Challenge: Build 12 Startups in 12 Months'
+conversion_state: wordpress
 ---
 
 ***This is part of a series on [Building 12 Startups in 12 Months](https://blog.cjtrowbridge.com/category/the-levels-challenge-build-12-startups-in-12-months/).***

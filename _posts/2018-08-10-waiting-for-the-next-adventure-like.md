@@ -45,6 +45,7 @@ instagram_image_id:
     - '10697'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Waiting for the next adventure like…](https://blog.cjtrowbridge.com/wp-content/uploads/2018/08/1533928711-1-1.jpg)](https://www.instagram.com/p/BmT1EZuATDg/)

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13777'
 permalink: /2020/12/16/usp-514-term-paper/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 USP 514 - Sustainable Development

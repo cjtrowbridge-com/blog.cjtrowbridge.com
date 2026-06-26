@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/640x640-video-1524967716.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Dinner time! Also I’m test driving a new haircut. What do you think?](https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/1524967716-1-1.jpg)](https://www.instagram.com/p/BiIxG3OAscL/)

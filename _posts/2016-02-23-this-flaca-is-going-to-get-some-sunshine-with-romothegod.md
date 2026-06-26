@@ -45,6 +45,7 @@ dsgnwrks_instagram_comments:
     - 'O:8:"stdClass":2:{s:5:"count";i:0;s:4:"data";a:0:{}}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![This #flaca is going to get some sunshine with @romothegod](https://blog.cjtrowbridge.com/wp-content/uploads/2016/02/1456262217-1-1.jpg)](https://www.instagram.com/p/BCJL_NSLtNv/)

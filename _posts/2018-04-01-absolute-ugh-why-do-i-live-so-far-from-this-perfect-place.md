@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/640x640-video-1522631871.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Absolute ugh. Why do I live so far from this perfect place?](https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/1522631871-1-1.jpg)](https://www.instagram.com/p/BhDKAcRFMIS/)

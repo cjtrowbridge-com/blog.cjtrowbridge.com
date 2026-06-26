@@ -16,6 +16,7 @@ blogger_internal:
     - /feeds/4006483499567219562/posts/default/6610595962238274958
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 I walked through the forest with another boy from my tribe. We were looking for food and drink but mostly we hoped for adventure. We never expected to find a new friend among the trees. He was smiling when he greeted us and we talked for a while about the things we'd seen and done, we compared scars as all boys do.  

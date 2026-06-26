@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2018 Spring Break Europtrip'
+conversion_state: wordpress
 ---
 
 I brought just [one single small Jansport backpack](https://blog.cjtrowbridge.com/2018/02/16/spring-break-2018-europe-gear/) for this trip. I am very happy that I made this choice. There were numerous times where it made everything so much easier. Doing laundry once during the trip was no hassle and cost just a few euro. Two out of the three hostels I stayed at offered laundry services on-site. The exception in Berlin had plenty of laundromats nearby. Someone I greatly admire once [made the point](https://levels.io/carry-on-world-travel/) that if you can pack for a week, there is no reason that same bag shouldn't last a year or more. I feel very strongly that this is the right way to travel. There is just no reason to waste all the money and energy on bringing lots of luggage with you. That said I still feel like I brought too much stuff...

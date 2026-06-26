@@ -45,6 +45,7 @@ instagram_image_id:
     - '10219'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![When old fashioned institutions are trying to adapt and survive, but not trying very hard.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/05/1526170693-1-1.jpg)](https://www.instagram.com/p/Bisn0tlAkZK/)

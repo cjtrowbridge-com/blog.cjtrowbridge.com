@@ -51,6 +51,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/05/640x640-video-1525221194.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Azula is a @starbucks fan #☕ #🐕](https://blog.cjtrowbridge.com/wp-content/uploads/2018/05/1525221194-1-1.jpg)](https://www.instagram.com/p/BiQUvQVAt3H/)

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12688'
 permalink: /2020/04/16/capsules-in-tiny-homes/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 Look into putting capsules into a tiny home as a test case

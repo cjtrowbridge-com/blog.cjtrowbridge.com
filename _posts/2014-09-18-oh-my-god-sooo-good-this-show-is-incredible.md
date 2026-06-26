@@ -39,6 +39,7 @@ instagram_user:
     - 'O:8:"stdClass":6:{s:8:"username";s:12:"cjtrowbridge";s:7:"website";s:0:"";s:15:"profile_picture";s:103:"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/925559_452430704897917_67836701_a.jpg";s:9:"full_name";s:13:"CJ Trowbridge";s:3:"bio";s:0:"";s:2:"id";s:8:"41872995";}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/09/10661236_718647934837720_1090303243_n2.jpg)](http://instagram.com/p/tHf9wzLtJE/)

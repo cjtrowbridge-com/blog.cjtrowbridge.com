@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14149'
 permalink: /2021/05/12/closed-loop-water-system-with-integrated-biogas-capture/
 categories:
     - 'Current Projects'
+conversion_state: wordpress
 ---
 
 I propose to build a simple proof of concept system which simultaneously solves many problems associated with water use sustainability.

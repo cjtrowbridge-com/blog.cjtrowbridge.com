@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/10/640x360-video-1540929781.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Mama Dora’s Friday performance was great.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/10/mama-doras-friday-performance-was-1-1.jpg)](https://www.instagram.com/p/BpkedV_lHZn/)

@@ -45,6 +45,7 @@ instagram_image_id:
     - '10152'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Yesterday I met a shib…

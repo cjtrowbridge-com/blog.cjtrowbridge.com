@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14274'
 permalink: /2021/09/09/eths-100-week-3-settler-colonialism-and-indian-removal/
 categories:
     - 'ETHS 100 Intro to Ethnic Studies'
+conversion_state: wordpress
 ---
 
 ## Read/Write

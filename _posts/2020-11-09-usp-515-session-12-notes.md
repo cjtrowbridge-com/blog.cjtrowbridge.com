@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13519'
 permalink: /2020/11/09/usp-515-session-12-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 **<span class="">November 9th Session Twelve: Civil Rights</span>**<span class="">Part One of this session will focus on how voting rights restoration schemes deny the right to vote to those who cannot afford to pay legal debt. Part Two will focus on Prison Abolition.</span> **<span class="">ASSIGNED READING FOR SESSION TWELVE Part One: Voting Rights/Disenfranchisement </span>**1. [<span class="">Can't Pay/Can't Vote</span>](https://campaignlegal.org/document/cant-pay-cant-vote-national-survey-modern-poll-tax)<span class=""> </span>

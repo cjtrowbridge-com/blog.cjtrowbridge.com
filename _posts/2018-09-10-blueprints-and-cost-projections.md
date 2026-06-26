@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=10905'
 permalink: /2018/09/10/blueprints-and-cost-projections/
 categories:
     - 'Vehicle Design'
+conversion_state: wordpress
 ---
 
 ## Blueprints

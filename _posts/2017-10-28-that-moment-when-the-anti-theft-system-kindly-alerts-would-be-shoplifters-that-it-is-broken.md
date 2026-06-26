@@ -45,6 +45,7 @@ instagram_image_id:
     - '9255'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![That moment when the anti-theft system kindly alerts would-be shoplifters that it is broken.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/10/1509239616-1-1.jpg)](https://www.instagram.com/p/Ba0CW22l98Y/)

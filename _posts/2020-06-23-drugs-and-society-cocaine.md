@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12504'
 permalink: /2020/06/23/drugs-and-society-cocaine/
 categories:
     - 'HED315 Drugs and Society'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

@@ -9,6 +9,7 @@ permalink: /2022/01/04/advanced-ai-the-only-thing-that-i-can-think-of-that-is-no
 image: /wp-content/uploads/2022/01/9-5-1.jpg
 categories:
     - Synthesis
+conversion_state: wordpress
 ---
 
 ###### This post is part of a guest series called [Discursive Construction](https://blog.cjtrowbridge.com/2021/11/24/discursive-construction-ai-generated-essays-and-analysis/), and was written by an advanced artificial intelligence. The bold at the beginning is the prompt, and the rest was written by the AI. If you’d like to support this project, please [buy me a coffee](https://www.buymeacoffee.com/cjtrowbridge). For this post, AI also created the featured photos based on the topic.

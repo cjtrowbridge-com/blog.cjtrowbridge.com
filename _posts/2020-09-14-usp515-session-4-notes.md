@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13076'
 permalink: /2020/09/14/usp515-session-4-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 **<span class="">September 14th and 16th</span><span class="">Session Four: Environmental Justice</span>**<span class="">This session will focus on the concept and root causes of environmental injustice. We will be guided by the following questions:</span><span class=""> </span>1. <span class="">How would you define the concept of “environmental injustice”?</span>

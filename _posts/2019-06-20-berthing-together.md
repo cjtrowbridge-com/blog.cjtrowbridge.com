@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12876'
 permalink: /2019/06/20/berthing-together/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 Write a short story about people berthing together on a voyage. At the end reveal the ship is an RV or minivan

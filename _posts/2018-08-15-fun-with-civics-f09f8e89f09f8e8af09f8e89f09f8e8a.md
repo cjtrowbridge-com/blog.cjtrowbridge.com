@@ -45,6 +45,7 @@ instagram_image_id:
     - '10722'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Fun with civics! 🎉🎊🎉🎊](https://blog.cjtrowbridge.com/wp-content/uploads/2018/08/1534383570-1-1.jpg)](https://www.instagram.com/p/BmhYpMShAPw/)

@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2018 Spring Break Europtrip'
+conversion_state: wordpress
 ---
 
 What an incredible experience this city has been!

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=8454'
 permalink: /2017/04/12/introducing-my-11-year-old-norwegian-forest-cat-to-3d-printed-fidget-toys/
 categories:
     - YouTube
+conversion_state: wordpress
 ---
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5I4IdCPILa4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;

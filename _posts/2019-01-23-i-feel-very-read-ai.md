@@ -45,6 +45,7 @@ instagram_image_id:
     - '11475'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I feel very read, AI.](https://blog.cjtrowbridge.com/wp-content/uploads/2019/01/i-feel-very-read-ai-1-1.jpg)](https://www.instagram.com/p/Bs_xsNznk5J/)

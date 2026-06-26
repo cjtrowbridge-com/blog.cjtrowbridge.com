@@ -16,6 +16,7 @@ blogger_internal:
     - /feeds/4006483499567219562/posts/default/2082792142517938943
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 <span style="background-color: white; color: #222222; font-family: Consolas, 'Lucida Console', monospace; font-size: 12px; white-space: pre-wrap;">"The Alaska Highway -- is the world's longest franchise ghetto, a one-dimensional city two thousand miles long and a hundred feet wide, and growing at the rate of a hundred miles a year, or as quickly as people can drive up to the edge of the wilderness and park their bagos in the next available slot. It is the only way out for people who want to leave America but don't have access to an airplane or a ship.</span>  

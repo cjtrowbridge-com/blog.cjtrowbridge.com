@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=8860'
 permalink: /2017/08/05/perfect-server-version-18/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 This is the latest iteration of my perfect server. I am building this in order to consolidate and deprecate previous server inventory. Also, it includes many new best-practices which should further secure this new server. The first step is to provision a new server. I use digital ocean. I will be logged in as root for all of this since this is all stuff that needs to be done as root. If you don't want to log in as root, you can instead use sudo at the beginning of each command. Now, add some sources to the package manager. Get there with;

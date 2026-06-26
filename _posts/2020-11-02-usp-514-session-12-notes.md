@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13404'
 permalink: /2020/11/02/usp-514-session-12-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 **<span class="">November 2nd and 4th </span><span class="">Session Twelve: Sustainable Urban Energy Management</span>** <span class="">This session will focus on the approaches, policies, and practices we can promote sustainable energy management and use. The discussion will be guided by the following questions:</span>1. <span class="">What are the major characteristics of energy?</span>

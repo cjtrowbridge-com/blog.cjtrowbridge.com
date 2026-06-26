@@ -45,6 +45,7 @@ instagram_image_id:
     - '9518'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![My #CPR baby is terrifying](https://blog.cjtrowbridge.com/wp-content/uploads/2018/01/1515008967-1-1.jpg)](https://www.instagram.com/p/Bdf-hVhl56v/)

@@ -45,6 +45,7 @@ instagram_image_id:
     - '11153'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Ready for the weekend](https://blog.cjtrowbridge.com/wp-content/uploads/2018/10/ready-for-the-weekend-1-1.jpg)](https://www.instagram.com/p/BpXVptJng3r/)

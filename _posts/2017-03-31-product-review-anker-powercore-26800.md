@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=8396'
 permalink: /2017/03/31/product-review-anker-powercore-26800/
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 I recently bought an [Anker PowerCore+ 26800](https://www.amazon.com/gp/product/B01K6TA748/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01K6TA748&linkCode=as2&tag=cjtrowbridge-20&linkId=e072710f1cdbc7c05fe2d5381e8ce92a) to add to my [EDC](https://blog.cjtrowbridge.com/category/personal/blog/every-day-carry/).[![Anker PowerCore+ 26800, Premium Portable Charger, High Capacity 26800mAh External Battery with Qualcomm Quick Charge 3.0 (in- and output), Includes PowerPort+ 1 Wall Charger](https://images-na.ssl-images-amazon.com/images/I/41MAfblNuJL.jpg)](https://www.amazon.com/gp/product/B01K6TA748/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01K6TA748&linkCode=as2&tag=cjtrowbridge-20&linkId=e072710f1cdbc7c05fe2d5381e8ce92a)It has several big Pros and one big Con.

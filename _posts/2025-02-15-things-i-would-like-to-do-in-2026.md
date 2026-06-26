@@ -8,11 +8,11 @@ guid: 'https://blog.cjtrowbridge.com/?p=14990'
 permalink: /2025/02/15/things-i-would-like-to-do-in-2026/
 categories:
     - Featured
+conversion_state: markdown
 ---
-
 ## Date Still Unclear:
 
-- Regional Burns ([List](https://regionals.burningman.org/official-events/)) 
+- Regional Burns ([List](https://regionals.burningman.org/official-events/))
     - Ignite Burn (Arizona) ([website](https://ignite-burn.com/))
     - Apogaea (Valdez, Colorado) ([wiki](https://en.wikipedia.org/wiki/Apogaea))
     - Youtopia (De Anza) (wiki)
@@ -29,52 +29,51 @@ categories:
     - Burning Flipside (Texas) ([website](https://www.burningflipside.com/))
     - CriticalNW (Granite Falls, WA) ([website](https://criticalnw.org/))
     - Firefly (Delaware) ([website](https://www.fireflyartscollective.org/))
- 
+
 ## January
 
 - Quartzsite
- 
+
 ## February
 
 - [King of the Hammers](https://www.youtube.com/watch?v=NDC1rVo_gsI) (Johnson Valley, CA) ([Wiki](https://en.wikipedia.org/wiki/King_of_the_Hammers))
- 
+
 ## March
 
-- 
- 
+-
+
 ## April
 
-- 
- 
+-
+
 ## May
 
-- 
- 
+-
+
 ## June
 
-- 
- 
+-
+
 ## July
 
 - Fourth of Juplaya
- 
+
 ## August
 
-- 
- 
+-
+
 ## September
 
-- 
- 
+-
+
 ## October
 
-- 
- 
+-
+
 ## November
 
-- 
- 
+-
+
 ## December
 
-- 
- 
+-

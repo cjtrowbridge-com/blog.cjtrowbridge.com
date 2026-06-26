@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/640x640-video-1535949592.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I don’t think I’ve ever cried or vomited so much. A hundred thousand people stood in silence and watched as everything they wanted to let go of went up in flames inside the temple. After many minutes of silence, all the tens of thousands of people howled together. The sounds of wolves chased through the throng as a vast and wordless chorus echoing the timeless tragedy of the human experience.

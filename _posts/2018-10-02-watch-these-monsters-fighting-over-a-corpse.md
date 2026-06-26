@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/10/640x640-video-1538500148.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Watch these monsters fighting over a corpse.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/10/1538500148-1-1.jpg)](https://www.instagram.com/p/BocEVfIBgrV/)

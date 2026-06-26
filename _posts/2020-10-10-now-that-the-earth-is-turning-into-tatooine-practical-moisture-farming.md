@@ -10,6 +10,7 @@ image: /wp-content/uploads/2020/10/Moisture-farming-1.jpg
 categories:
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 I wanted to work out a simple proof of concept and cost analysis for how to actually extract a meaningful amount of moisture from the air. This estimate includes the best prices I could find for each component of a reliable system which will continue to work for a period of ten years without maintenance or upgrades. It is sized for one-person. If you need to make enough water for more people, it would be more expensive and technically complex. Let's start with the actual moisture removal process and then talk about powering it... [![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/10/Dehumidifier-1-1.jpg)](https://amzn.to/34I503D)Ok so this is a [$43 dehumidifier](https://amzn.to/34I503D) which extracts 400ml per day of water from the air. This is the best price I could find. An average person needs about a gallon of water per day minimum to survive. A gallon is 3784ml which means one person needs ten of these running nonstop to provide a constant supply of enough water for them to survive. The total cost of ten of them comes out to **$430** for the dehumidifiers.

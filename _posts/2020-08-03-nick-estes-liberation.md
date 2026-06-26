@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12630'
 permalink: /2020/08/03/nick-estes-liberation/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

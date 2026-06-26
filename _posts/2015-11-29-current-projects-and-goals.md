@@ -8,6 +8,7 @@ guid: 'http://blog.cjtrowbridge.com/?p=4598'
 permalink: /2015/11/29/current-projects-and-goals/
 categories:
     - Goals
+conversion_state: wordpress
 ---
 
 - Build a New Business Selling Food

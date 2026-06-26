@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2016/11/480x480-video-1479609625-1.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![These chips tho. Wheres michelada](https://blog.cjtrowbridge.com/wp-content/uploads/2016/11/1479609625-1-1.jpg)](https://www.instagram.com/p/BNA_oq0jqC8/)

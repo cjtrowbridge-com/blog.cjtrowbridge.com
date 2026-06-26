@@ -45,6 +45,7 @@ instagram_image_id:
     - '7868'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![There was an ant queen and her colony on my shower door today! #newpets #ants #formicarium #monomoriumminimum](https://blog.cjtrowbridge.com/wp-content/uploads/2016/12/1481264298-1-1.jpg)](https://www.instagram.com/p/BNyTrD1jzkQ/)

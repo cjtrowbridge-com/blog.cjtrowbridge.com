@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14308'
 permalink: /2021/09/28/ais-440-week-6-two-spirit-people/
 categories:
     - 'AIS 440 Native Sexuality and Queer Discourse'
+conversion_state: wordpress
 ---
 
 ## **Watch**

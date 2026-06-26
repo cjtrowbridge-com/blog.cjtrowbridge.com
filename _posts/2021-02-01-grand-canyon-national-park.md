@@ -12,6 +12,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 ([View the full photo album](https://photos.app.goo.gl/pnDMcFhkax2jEdkM6)) We set up camp at Long Jim Loop which is a huge, free, two-week BLM camping area in Tusayan just a few minutes from the park. We only had an hour or two until dark so we decided to finally play with the new [Oculus Quest 2](https://amzn.to/3jjrr6p). This is a really amazing gadget. I am planning to start writing a lot of code for vr for fun and profit. [![](https://i0.wp.com/movingcabin.com/wp-content/uploads/2021/01/1612670307-4179-Oculus.jpg?resize=780%2C585&ssl=1)](https://i0.wp.com/movingcabin.com/wp-content/uploads/2021/01/1612670307-4179-Oculus.jpg?ssl=1)The next morning we headed out to the park! Mather Point was really amazing. This was my first time seeing the Grand Canyon in person. There really aren’t any words to describe the scope of it.

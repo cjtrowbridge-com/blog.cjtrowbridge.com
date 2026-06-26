@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13599'
 permalink: /2020/11/16/usp-514-session-14-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 **<span class="">November 16th</span><span class="">Session Fourteen: </span><span class="">Green New Deal </span>**#### **<span class="" id="yui_3_17_2_1_1605557418053_114">******<span class="" id="yui_3_17_2_1_1605557418053_123">REQUIRED READING </span>**<span class="">FOR SESSION FOURTEEN</span>********</span>**

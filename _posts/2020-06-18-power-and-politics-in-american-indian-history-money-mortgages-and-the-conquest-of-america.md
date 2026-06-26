@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12536'
 permalink: /2020/06/18/power-and-politics-in-american-indian-history-money-mortgages-and-the-conquest-of-america/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

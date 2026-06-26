@@ -45,6 +45,7 @@ instagram_image_id:
     - '9485'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![A year ago this weekend, this man who was everyone’s friend died of exposure from sleeping out in the cold. Please be kind to those without homes. And love everyone a little extra. You never know how much time is left. I am so proud of my friends here for pitching in together to commemorate the loss of this great person who everyone loved.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/12/1514495760-1-1.jpg)](https://www.instagram.com/p/BdQrp_FlWhv/)

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13034'
 permalink: /2020/09/09/usp515-session-3-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 <div>**<span class="">September 9th </span><span class="">Session Three: Central Theories</span>**<span class="">This session will focus on the concept and root causes of environmental injustice. We will be guided by the following questions:</span>1. <span class="">What are the main issues discussed in Feagin and Eckberg article? (These are all quotes)</span>

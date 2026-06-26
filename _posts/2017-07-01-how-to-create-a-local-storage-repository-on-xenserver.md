@@ -9,6 +9,7 @@ permalink: /2017/07/01/how-to-create-a-local-storage-repository-on-xenserver/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 I was working with a XenServer in a complex corporate network environment, and it was not possible for this server to access any samba shares, such as my laptop. I needed to put some ISOs on it, so I decided to create a local storage repository. This way, I would be able to simply -wget an ISO from the web, and then use it locally. First, SSH into the XenServer and create a directory for the repository;

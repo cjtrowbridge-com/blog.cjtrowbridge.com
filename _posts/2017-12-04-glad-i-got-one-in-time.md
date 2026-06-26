@@ -45,6 +45,7 @@ instagram_image_id:
     - '9370'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Glad I got one in time!](https://blog.cjtrowbridge.com/wp-content/uploads/2017/12/1512412985-1-1.jpg)](https://www.instagram.com/p/BcSnFEoFaPc/)

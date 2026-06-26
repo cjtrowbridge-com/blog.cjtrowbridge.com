@@ -45,6 +45,7 @@ instagram_image_id:
     - '8839'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![“You don’t know a good thing till it’s gone.” – Jesse Naval](https://blog.cjtrowbridge.com/wp-content/uploads/2017/07/1500682031-1-1.jpg)](https://www.instagram.com/p/BW1ADyBF91i/)

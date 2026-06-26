@@ -16,6 +16,7 @@ blogger_internal:
     - /feeds/4006483499567219562/posts/default/3185808499913960082
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 In highschol, when bullied, everyone said "I don't care what you say or do, you'll be washing my windshield someday." Well here I am working in the busiest cafe in the state, helping homeless people who I went to middleschool and highschool with, and I find myself emotionally moved to tears when a random person makes a rude offhand comment about some homeless drug addict who they know nothing about that really is doing the best they can. It's so hard to be either of the people in that conflict. I watch and cry and cant get over how much it sucks to see the conflict between people who really don't need to have a conflict, over things neither of them planned. What's the point of it? Who's right? The homeless druggy who's my favorite person I see and talk to, all day; or the asshole who just got off work and judged them on their appearance and decided to be rude for no reason and ruin my day by insulting a perfectly pleasant homeless drug addict who's probably doing the best they can.

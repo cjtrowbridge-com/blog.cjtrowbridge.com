@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13224'
 permalink: /2020/09/29/usp493-session-5-notes/
 categories:
     - 'USP493 Data Analysis'
+conversion_state: wordpress
 ---
 
 # Intro to Statistical Inference

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13370'
 permalink: /2020/10/26/usp-515-session-10-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 **<span class="">October 26th and 28th</span><span class="">**Session Ten: Climate Justice** </span><span class="">We will focus on the questions below: </span>**<span class=""> </span>**1. What do we mean by the term “climate gap”? 

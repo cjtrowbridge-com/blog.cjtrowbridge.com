@@ -45,6 +45,7 @@ instagram_image_id:
     - '8627'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![All time favorite bottle of wine. Try it!](https://blog.cjtrowbridge.com/wp-content/uploads/2017/05/1495858131-1-1.jpg)](https://www.instagram.com/p/BUlPM0sAtf0/)

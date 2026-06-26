@@ -45,6 +45,7 @@ instagram_image_id:
     - '7764'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![$jnug up 20% after hours. I'm all in.

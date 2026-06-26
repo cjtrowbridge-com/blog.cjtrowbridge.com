@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12494'
 permalink: /2020/06/19/drugs-and-society-unit-7-opiates/
 categories:
     - 'HED315 Drugs and Society'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

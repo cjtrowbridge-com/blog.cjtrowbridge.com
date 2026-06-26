@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12854'
 permalink: /2019/08/11/field-projectors/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 a company that researches and develops field projectors

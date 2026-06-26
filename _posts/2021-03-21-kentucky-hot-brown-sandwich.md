@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 <main class="site-main" id="main"><article class="post-13927 post type-post status-publish format-standard has-post-thumbnail hentry category-2021-winter" id="post-13927"><div class="entry-content">The Hot Brown is a very special sandwich. All the guides agreed it was the best single dish to get in Kentucky. It even has [its own wikipedia page](https://en.wikipedia.org/wiki/Hot_Brown)… > A Hot Brown sandwich (sometimes known as a Louisville Hot Brown or Kentucky Hot Brown) is an American hot sandwich originally created at the Brown Hotel in Louisville, Kentucky, by Fred K. Schmidt in 1926. It is a variation of traditional Welsh rarebit and was one of two signature sandwiches created by chefs at the Brown Hotel shortly after its founding in 1923. It was created to serve as an alternative to ham and egg late-night suppers.

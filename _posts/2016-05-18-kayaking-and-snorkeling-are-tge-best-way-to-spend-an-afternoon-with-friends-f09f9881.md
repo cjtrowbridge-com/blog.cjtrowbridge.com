@@ -45,6 +45,7 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:0;s:4:"data";a:0:{}}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Kayaking and snorkeling are tge best way to spend an afternoon with friends 😁](https://blog.cjtrowbridge.com/wp-content/uploads/2016/05/1463627033-1-1.jpg)](https://www.instagram.com/p/BFkrQpUrtF-/)

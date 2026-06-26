@@ -10,6 +10,7 @@ categories:
     - Blog
     - Essays
     - School
+conversion_state: wordpress
 ---
 
 Prompt: Compare and contrast the basic premises of any two sociological theories. How do these theories view the construction of gender? According to each of these theories, why does gender inequality exist and why is it maintained?

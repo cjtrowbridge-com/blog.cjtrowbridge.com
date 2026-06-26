@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2019/03/640x640-video-1552171853.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I made a transparent light-up RGB/LED hoodie! )'( 😎](https://blog.cjtrowbridge.com/wp-content/uploads/2019/03/i-made-a-transparent-light-up-1-1.jpg)](https://www.instagram.com/p/BuzhAZQnofF/)

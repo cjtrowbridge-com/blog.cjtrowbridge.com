@@ -45,6 +45,7 @@ instagram_image_id:
     - '9914'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Finally in Oslo! BRR](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522185834-1-1.jpg)](https://www.instagram.com/p/Bg13Tx4ltim/)

@@ -45,6 +45,7 @@ instagram_image_id:
     - '11345'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![This lil dude is really great. It is basically a Google home with a screen. You can talk to it. It can play movies and videos, music, etc. You can cast to it like a TV, and it works as a clock. Very handy and pretty cheap.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/12/this-lil-dude-is-really-1-1.jpg)](https://www.instagram.com/p/BrjoWPTn6Xk/)

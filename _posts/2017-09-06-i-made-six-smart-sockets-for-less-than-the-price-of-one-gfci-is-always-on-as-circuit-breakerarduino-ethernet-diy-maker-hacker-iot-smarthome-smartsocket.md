@@ -45,6 +45,7 @@ instagram_image_id:
     - '8968'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I made six smart sockets for less than the price of one! (GFCI is always on as circuit breaker)

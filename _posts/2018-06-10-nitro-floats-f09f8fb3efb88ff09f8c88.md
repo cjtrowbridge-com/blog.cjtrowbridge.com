@@ -43,6 +43,7 @@ instagram_image_id:
     - '10336'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Nitro floats! #🏳️‍🌈](https://blog.cjtrowbridge.com/wp-content/uploads/2018/06/1528672287-1-1.jpg)](https://www.instagram.com/p/Bj3LPFiggHN/)

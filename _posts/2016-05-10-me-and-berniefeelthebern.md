@@ -43,6 +43,7 @@ dsgnwrks_instagram_comments:
     - 'O:8:"stdClass":2:{s:5:"count";i:0;s:4:"data";a:0:{}}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Me and bernie

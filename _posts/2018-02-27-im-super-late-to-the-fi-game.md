@@ -45,6 +45,7 @@ instagram_image_id:
     - '9781'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I’m super late to the #fi game.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/02/1519779309-1-1.jpg)](https://www.instagram.com/p/BfuJOiGFVSa/)

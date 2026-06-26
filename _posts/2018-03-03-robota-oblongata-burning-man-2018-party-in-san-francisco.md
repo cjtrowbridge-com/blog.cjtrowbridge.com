@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=9792'
 permalink: /2018/03/03/robota-oblongata-burning-man-2018-party-in-san-francisco/
 categories:
     - YouTube
+conversion_state: wordpress
 ---
 
 <div style="width: 480px; height: 270px; overflow: hidden; position: relative;"><iframe allowfullscreen="allowfullscreen" frameborder="0" height="270" id="okplayer" mozallowfullscreen="mozallowfullscreen" scrolling="no" seamless="seamless" src="http://youtube.com/embed/xZc2vvCZFnA" style="position: absolute; top: 0px; left: 0px; width: 480px; height: 270px;" webkitallowfullscreen="webkitAllowFullScreen" width="480"></iframe></div>

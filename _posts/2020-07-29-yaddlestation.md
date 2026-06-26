@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12609'
 permalink: /2020/07/29/yaddlestation/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 ![Yaddlestation](https://blog.cjtrowbridge.com/wp-content/uploads/2020/07/Yaddlestation-1-1.jpg)I put this battlestation or "yaddlestation" together for several reasons related to a number of projects but I had some questions about this setup so I wanted to do a sort-of roll-up post about all of it. Notice baby yoda watching from among the plans and inspiring the name. First there is the computer which is actually a laptop connected to a [USB-C dock](https://amzn.to/3gexu9G). Basically anything with a USB-C port can drive all of this; a phone, a laptop, a chromebook, etc. Once a device is plugged into the [dock](https://amzn.to/3gexu9G), it puts out HDMI to [the TV](https://amzn.to/2P6Jbn4) as well as USB to a [hub](https://amzn.to/2BEyLb5). [The hub](https://amzn.to/2BEyLb5) drives several accessories; - [Razer Synosa Keyboard](https://amzn.to/312StGp)

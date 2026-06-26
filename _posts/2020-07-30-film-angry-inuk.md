@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12617'
 permalink: /2020/07/30/film-angry-inuk/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

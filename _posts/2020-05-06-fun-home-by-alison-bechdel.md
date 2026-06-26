@@ -9,6 +9,7 @@ permalink: /2020/05/06/fun-home-by-alison-bechdel/
 categories:
     - Blog
     - 'Reading List'
+conversion_state: wordpress
 ---
 
 Alison Bechdel is a lesbian cartoonist who famously gave us the eponymous Bechdel Test.

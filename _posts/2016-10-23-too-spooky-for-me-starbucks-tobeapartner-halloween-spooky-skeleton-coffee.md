@@ -45,6 +45,7 @@ instagram_image_id:
     - '7711'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Too spooky for me.

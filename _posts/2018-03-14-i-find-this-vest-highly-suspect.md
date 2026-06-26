@@ -45,6 +45,7 @@ instagram_image_id:
     - '9852'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I find this vest highly suspect.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1521062501-1-1.jpg)](https://www.instagram.com/p/BgUYuJPngB9/)

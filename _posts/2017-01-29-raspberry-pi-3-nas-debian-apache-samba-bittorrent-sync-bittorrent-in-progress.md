@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=7932'
 permalink: /2017/01/29/raspberry-pi-3-nas-debian-apache-samba-bittorrent-sync-bittorrent-in-progress/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 NAS stands for Network Accessible Storage, but in this post we are taking it to the next level! ![](https://blog.cjtrowbridge.com/wp-content/uploads/2016/12/raspberry-pi-3-1-1.jpg)I will show you how to build a Raspberry Pi 3 NAS with a few extra features:

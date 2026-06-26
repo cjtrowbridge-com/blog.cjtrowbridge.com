@@ -14,6 +14,7 @@ categories:
 tags:
     - '2019 Burning Man'
     - 'Burning Man'
+conversion_state: wordpress
 ---
 
 ## Phase-One

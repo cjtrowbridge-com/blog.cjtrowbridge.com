@@ -10,6 +10,7 @@ enclosure:
     - "https://rss.art19.com/episodes/68f17387-c3a7-48c4-8d2e-7326283fa300.mp3\n0\naudio/mpeg\n"
 categories:
     - 'Reading List'
+conversion_state: wordpress
 ---
 
 I follow both of these people obsessively. Hearing them together is magical. They are the perfect two people to talk about this important issue. Anyone who is interested in meditation or the mind should check out this great interview! <audio controls="controls" preload=""><source src="https://rss.art19.com/episodes/68f17387-c3a7-48c4-8d2e-7326283fa300.mp3"></source></audio>

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12293'
 permalink: /2020/04/18/web-application-server-setup-2020/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 After apportioning the server, and creating a DNS entry with your registrar for the FQDN, connect via SSH. Now update the server

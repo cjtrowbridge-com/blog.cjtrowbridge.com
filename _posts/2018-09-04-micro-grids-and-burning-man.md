@@ -12,6 +12,7 @@ categories:
 tags:
     - '2018 Burning Man'
     - 'Burning Man'
+conversion_state: wordpress
 ---
 
 Elon Musk famously came up with the idea for Solar City while at burning man, observing the ubiquitous microgrids which power the temporary city. Every home should work this way, he reasoned. At Burning Man, each city block has many microgrids. They range from very small to very large, and they take many forms. There are also several online communities devoted to discussing issues related to these microgrids at Burning Man. Incidentally, nearly a hundred billion dollars of venture and philanthropic funds are slated to be poured into the development of microgrids to electrify the developing world in the coming decades. Throughout human civilization, we are seeing a rise of microgrids taking over the work traditionally done (or not done) by larger civic grids. Building civic grids which power large areas is enormously expensive and very technically complex. Many governments in the developing world are not able to do this. Maybe people simply choose to manage their own resources and live off grid, more sustainably. There are any number of reasons why a microgrid is the best solution to power needs in many situations. Burning Man offers a unique and valuable testing ground for this technology which fosters innovative solutions for this important problem facing humans everywhere. I have an interesting perspective on each of the three types of microgrids I will explain in this post.

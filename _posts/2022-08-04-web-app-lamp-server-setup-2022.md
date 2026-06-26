@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14618'
 permalink: /2022/08/04/web-app-lamp-server-setup-2022/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 #### Install LAMP Software

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12999'
 permalink: /2020/09/03/for-all-x-chapter-1-reading-response/
 categories:
     - 'Symbolic Logic'
+conversion_state: wordpress
 ---
 
 #### Readings

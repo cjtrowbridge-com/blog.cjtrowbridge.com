@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13562'
 permalink: /2020/11/12/thrawns-generator/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 Thrawn's capture of the generator is a primer for tactical logistics development

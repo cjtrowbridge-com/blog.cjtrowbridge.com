@@ -10,6 +10,7 @@ categories:
     - Blog
     - Featured
     - School
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

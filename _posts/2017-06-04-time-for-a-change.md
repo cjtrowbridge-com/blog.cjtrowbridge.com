@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=8669'
 permalink: /2017/06/04/time-for-a-change/
 categories:
     - Goals
+conversion_state: wordpress
 ---
 
 <div class="row"><div class="col-xs-12 col-sm-4">#### I Haven't Been Able To Write

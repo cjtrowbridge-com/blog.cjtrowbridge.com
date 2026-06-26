@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 ([View the full album here](https://photos.app.goo.gl/yNBrUg7iJHNQVowk9)) This is a really cool place. I first learned about this in my early astronomy classes. Naturally I had to stop by since it was on the way to the next destination.

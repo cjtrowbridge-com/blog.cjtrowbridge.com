@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12954'
 permalink: /2020/08/26/usp-515-session-2-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 #### Central Concepts

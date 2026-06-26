@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13780'
 permalink: /2020/12/16/usp-515-term-paper/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 USP 515 – Environmental Justice

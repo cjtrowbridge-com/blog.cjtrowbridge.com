@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13405'
 permalink: /2020/11/02/usp-515-section-11-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 **<span class="">November 2nd and 4th Session Eleven: </span><span class="">Transportation Justice: Case Study of Curitiba, Brazil </span>**<span class="">This session will focus on inequities and injustices in the transportation sector. We will be guided by the following questions:</span>1. <span class="">What are the adverse social consequences of transportation injustice?</span>

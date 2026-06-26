@@ -9,6 +9,7 @@ permalink: /2017/09/16/asus-c302ca-chromebook-review-910/
 image: /wp-content/uploads/2017/09/1505619633-1.jpg
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 I have spent a couple weeks now getting to know this machine before posting this Asus C302CA Chromebook Review. Overall, it is a great machine and a perfect for for a student and software engineer like me. There are a couple imperfections, but this is a really great laptop which I look forward to using on a daily basis. First, a little about what I am using this for. I am a full time student at two different colleges taking close to a dozen classes simultaneously. I am also working on completing [The Levels Challenge](https://blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/), or building twelve startup products in twelve months. I do LOTS of coding and command-line server administration as well as taking notes in class and completing homework assignments. I searched for months before deciding on this exact laptop. The close runner-up was the [Samsung Chromebook Pro](https://www.amazon.com/gp/product/B071LB1GG4/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B071LB1GG4&linkCode=as2&tag=cjtrowbridg02-20&linkId=e3f07cfbb3f0d2696d77128de0a6270b). The specs were very similar, but this one has a much better processor.

@@ -8,6 +8,7 @@ guid: 'http://blog.cjtrowbridge.com/?p=4602'
 permalink: /2015/11/29/past-accomplishments/
 categories:
     - Goals
+conversion_state: wordpress
 ---
 
 - [Moving Everything to a Cloud VPS](https://blog.cjtrowbridge.com/2015/12/02/migrating-everything-to-a-cloud-vps/)

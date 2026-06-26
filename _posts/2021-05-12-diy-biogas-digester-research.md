@@ -9,6 +9,7 @@ permalink: /2021/05/12/diy-biogas-digester-research/
 categories:
     - 'Current Projects'
     - Permaculture
+conversion_state: wordpress
 ---
 
 #### Small biodigester build video

@@ -45,6 +45,7 @@ instagram_image_id:
     - '11377'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Funk night with the Dwyers 😍😍😍](https://blog.cjtrowbridge.com/wp-content/uploads/2019/01/funk-night-with-the-dwyers-1-1.jpg)](https://www.instagram.com/p/BseYfqBhZ0Z/)

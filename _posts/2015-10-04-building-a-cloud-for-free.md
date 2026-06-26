@@ -9,6 +9,7 @@ permalink: /2015/10/04/building-a-cloud-for-free/
 image: /wp-content/uploads/2015/10/9465333342_7dfc53074d_b_fullwidth-1.jpg
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 This post explains how I am building my own cloud at home. One of my biggest goals is to do this for free, or for as close to free as possible.

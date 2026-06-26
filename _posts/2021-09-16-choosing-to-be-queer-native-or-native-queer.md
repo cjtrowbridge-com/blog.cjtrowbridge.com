@@ -9,8 +9,8 @@ permalink: /2021/09/16/choosing-to-be-queer-native-or-native-queer/
 categories:
     - 'AIS 440 Native Sexuality and Queer Discourse'
     - Essays
+conversion_state: markdown
 ---
-
 CJ Trowbridge
 
 AIS 440

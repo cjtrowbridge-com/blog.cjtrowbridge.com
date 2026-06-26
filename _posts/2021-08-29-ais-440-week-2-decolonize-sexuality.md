@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14251'
 permalink: /2021/08/29/ais-440-week-2-decolonize-sexuality/
 categories:
     - 'AIS 440 Native Sexuality and Queer Discourse'
+conversion_state: wordpress
 ---
 
 ## Read

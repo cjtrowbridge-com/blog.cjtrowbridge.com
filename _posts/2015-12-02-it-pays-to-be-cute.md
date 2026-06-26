@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'http://blog.cjtrowbridge.com/wp-content/uploads/2015/12/640x640-video-1449121612.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![It pays to be cute](https://blog.cjtrowbridge.com/wp-content/uploads/2015/12/1449121612-1-1.jpg)](https://www.instagram.com/p/-0YXXbrtGb/)

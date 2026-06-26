@@ -45,6 +45,7 @@ instagram_image_id:
     - '9460'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Star wars was good!](https://blog.cjtrowbridge.com/wp-content/uploads/2017/12/1514233590-1-1.jpg)](https://www.instagram.com/p/BdI3m1alQnC/)

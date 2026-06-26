@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12631'
 permalink: /2020/08/03/for-our-nations-to-live-capitalism-must-die/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 **Glen Coulthard, “For Our Nations to Live, Capitalism Must Die” (2013)**

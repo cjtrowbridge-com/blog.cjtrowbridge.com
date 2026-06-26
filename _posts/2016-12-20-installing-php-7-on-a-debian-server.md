@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=7908'
 permalink: /2016/12/20/installing-php-7-on-a-debian-server/
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 PHP 7 has reached the level of maturity where I want to start moving my development and production environments over to it. Setup is a little more complicated than with previous versions, so the purpose of this post is to journal for myself on how I did it, as well as to help others who may need help doing this. I am using Digital Ocean ([Referral Link](https://m.do.co/c/ecb56e953504)) to host this VPS. First, I create a new Debian server and update their default apt sources...

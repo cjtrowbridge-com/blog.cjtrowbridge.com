@@ -9,6 +9,7 @@ permalink: /2018/04/09/2018-04-09-post-eurotrip-reflections-and-goals/
 categories:
     - Blog
     - Goals
+conversion_state: wordpress
 ---
 
 It has been some time since my last update. Not a lot has changed. If anything, my goals have condensed and become more focused. It bears repeating as many of them have fallen to the "someday" list.

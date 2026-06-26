@@ -39,6 +39,7 @@ instagram_attribution:
     - ''
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/06/10388017_809159722437101_655791664_n.jpg)](http://instagram.com/p/ppWDxaLtG6/)

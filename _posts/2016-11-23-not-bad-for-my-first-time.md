@@ -45,6 +45,7 @@ instagram_image_id:
     - '7816'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Not bad for my first time](https://blog.cjtrowbridge.com/wp-content/uploads/2016/11/1479947639-1-1.jpg)](https://www.instagram.com/p/BNLEWDVAf2O/)

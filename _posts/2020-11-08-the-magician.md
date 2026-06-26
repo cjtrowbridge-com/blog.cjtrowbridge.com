@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13516'
 permalink: /2020/11/08/the-magician/
 categories:
     - 'RRS280 Race, Gender, and Science Fiction'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

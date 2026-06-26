@@ -9,6 +9,7 @@ permalink: /2018/05/16/group-meditation-othering-is-the-root-of-most-evil/
 categories:
     - Blog
     - Featured
+conversion_state: wordpress
 ---
 
 This week's topic is based on an interview which you can listen to, [here](https://youtu.be/TBMBNC0xzOI?t=467). I recommend listening to it, it's a great interview! I have condensed the main points for discussion here; **Philip Zimbardo** is the former president of the American Psychological Association. From [the interview](https://youtu.be/TBMBNC0xzOI?t=467), "\[Zimbardo\] is one of the most distinguished psychologists in the world and a professor emeritus at Stanford University. He is arguably best known for his 1971 [Stanford Prison Experiment](http://www.prisonexp.org/ "Link will open in a new window"), in which students were turned into mock prisoners and guards for a continuous 24-hour-a-day study. The experiment was planned for two weeks but terminated after just six days."

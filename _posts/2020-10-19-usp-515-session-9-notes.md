@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13315'
 permalink: /2020/10/19/usp-515-session-9-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 <div id="yui_3_17_2_1_1602358134688_119">**<span class="">October 19th and 21st</span>****<span class="">Session Nine: Research and Measurement Issues</span>**<span class="">In this session we examine the role of research and research methods in helping us understand environmental justice issues and impacts. We will address the following questions:</span> **<span class="">General Research Questions </span>**1. <span class="">What is research?</span>

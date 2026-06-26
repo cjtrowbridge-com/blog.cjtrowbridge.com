@@ -45,6 +45,7 @@ instagram_image_id:
     - '9039'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Weird is what I aim for.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/09/1505195463-1-1.jpg)](https://www.instagram.com/p/BY7gvzDDPAQ/)

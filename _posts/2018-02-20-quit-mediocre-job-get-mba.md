@@ -11,6 +11,7 @@ categories:
     - Featured
     - Goals
     - Investment
+conversion_state: wordpress
 ---
 
 Going to college is an investment, but many people assume that just any college is a good investment. I know a lot of people who have gotten liberal arts bachelor's degrees and ended up stuck working in restaurants for years, unable to find a real job. This example is a waste of an education. All that money and time spent and they are no better off than someone who didn't go to college at all. And they probably have debt to pay back. I decided to wait over a decade to go to school until I decided what I wanted to do and came up with a coherent plan to actually get a return on this huge investment. If you find yourself working a mediocre job which you hate, then maybe it's time to do more. So what would happen if you just quit your job today, take out student loans, and go to school for an MBA? According to [research](https://www.usnews.com/education/best-graduate-schools/top-business-schools/articles/2017-03-23/us-news-data-salary-prospects-job-rates-for-mba-grads) done by US News in 2016, 88% of students who get an MBA find a job within three months making an average of $126,919. That's the average. Consider the average person for a moment and ask yourself whether you'll be ahead of that curve. According to Bloomberg, the average person triples their previous salary when getting an MBA from ~$50k to ~$145k.

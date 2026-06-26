@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/11/640x360-video-1543115954.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![This place is insane ♥️](https://blog.cjtrowbridge.com/wp-content/uploads/2018/11/this-1-place-is-insane-e299a5efb88f-1-1.jpg)](https://www.instagram.com/p/BqloLpzBjzb/)

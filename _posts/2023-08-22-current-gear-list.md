@@ -9,14 +9,14 @@ permalink: /2023/08/22/current-gear-list/
 categories:
     - Featured
     - Projects
+conversion_state: markdown
 ---
-
 Note: I'm working on getting pictures of everything.
 
 ## Self-Hosted Services
 
  Self-hosting your services means you aren't paying monthly fees to rent your services from some provider who doesn't even care about what you want and only thinks of you as something to be exploited. This way you have the power to change or improve features you don't like, and you can avoid the circus of renting these services from cloud providers. - [Awesome self-hosted list of free open-source software you can run at home instead of renting from evil corporations](https://github.com/awesome-selfhosted/awesome-selfhosted)
- 
+
 ## Current PC
 
 - I got this [Case](https://amzn.to/3G9XFgv) because it fits in an Ikea Kallax shelf
@@ -26,15 +26,13 @@ Note: I'm working on getting pictures of everything.
 - [SSD](https://amzn.to/3sHFOKG)
 - [Power Supply](https://amzn.to/40NeMOy)
 - [Video Card](https://amzn.to/40KEYcP)
- 
 
 ## New NAS (x2)
 
-- 2x R310 
+- 2x R310
     - [RAID Card](https://amzn.to/3MNReTR)
     - [SSD](https://amzn.to/40R4Pjo)
     - 3x [16TB WD Red Drives](https://amzn.to/3MRPWqZ)
- 
 
 ## Working At Home
 
@@ -51,21 +49,19 @@ Note: I'm working on getting pictures of everything.
 - [Keyboard](https://amzn.to/3E5yZoa)
 - [Desk](https://amzn.to/3OIYcKd)
 - [UPS](https://amzn.to/3P7hUR6) **HIGHLY RECOMMEND**
- 
+
  Previous Stuff: - [Old NAS](https://amzn.to/3PaC4tO)
     - [Max RAM Upgrade](https://amzn.to/45F7fCQ)
     - [16tb Drive For Data Storage](https://amzn.to/44g12MB)
     - [SSD For Applications](https://amzn.to/3P7A59v)
 - [Old Laptop](https://amzn.to/44kepLE)
     - [Upgraded SSD](https://amzn.to/3OKULmm)
- 
 
 ## Mobile Gaming
 
 - [Steam Deck](https://amzn.to/3soTlq7)
 - [VR/AR/XR Glasses](https://amzn.to/3FeyCZn)
 - Handheld ROM Emulator
- 
 
 ## Working On The Go
 
@@ -75,7 +71,6 @@ Note: I'm working on getting pictures of everything.
 - [USB Cords](https://amzn.to/3qIZ7lU)
 - Pen
 - [Pencil](https://amzn.to/3YLnRq6) **HIGHLY RECOMMEND**
- 
 
 ## Tent Camping
 
@@ -90,7 +85,6 @@ Note: I'm working on getting pictures of everything.
 - [USB Lights - Globes](https://amzn.to/3srgbgU)
 - [USB Bug Zapper](https://amzn.to/3YJ4EWc) **HIGHLY RECOMMEND!**
 - [USB Extension Cords](https://amzn.to/45fdzRA)
- 
 
 ## My RV
 
@@ -104,8 +98,8 @@ Note: I'm working on getting pictures of everything.
 - [360 Degree Cameras](https://amzn.to/44kEXw7)
 - [Raspberry Pi](https://amzn.to/3E77haJ) For Camera Motion Capture
 - [Lasers](https://amzn.to/45n6LBE)
- 
-## ![lora](https://blog.cjtrowbridge.com/wp-content/uploads/2023/08/lora.jpg)
+
+![lora](https://blog.cjtrowbridge.com/wp-content/uploads/2023/08/lora.jpg)
 
 ## LoRa Radio
 
@@ -113,14 +107,13 @@ Note: I'm working on getting pictures of everything.
     - [A Newer Model](https://amzn.to/3ZviL1J)
 - [Lora Phone](https://amzn.to/3S2cU2f)
 - [Just the radio module](https://amzn.to/3PZOq8x)
- 
 
 ## DIY Artificial Intelligence
 
  No connection to the internet. No sending your data to anyone. Runs only on your machine with no graphics card required. - [GPT4All: Easy](https://gpt4all.io/index.html)
 - [GGML: Harder](https://github.com/ggerganov/ggml)
- 
-## ![](https://blog.cjtrowbridge.com/wp-content/uploads/2023/08/yl1rpkwu1w661.jpg)
+
+![](https://blog.cjtrowbridge.com/wp-content/uploads/2023/08/yl1rpkwu1w661.jpg)
 
 ## Apocalypse Libraries
 
@@ -136,16 +129,16 @@ Note: I'm working on getting pictures of everything.
 - **(117 gb) [Variorum](https://old.reddit.com/r/DataHoarder/comments/zuniqw/bibliotheca_alexandrina_a_600_gb_hoard_of_history/):** an academic book series in the humanities published by [Ashgate](https://en.wikipedia.org/wiki/Ashgate "Ashgate"). The aim of each volume is to bring together, for the first time, a selection of articles by a leading scholar on their particular area of expertise. This allows easy access to material that may be hard to find separately because it is out of print or available only in specialist libraries. It also allows the reader to see the development of a scholar's thinking on a topic over time. There are over 1000 volumes in the series.
 - **(51gb) [Wikipedia](https://www.inverse.com/input/guides/how-to-download-wikipedia-offline):** download the entire site to use offline. You will need to use the special viewer program. The linked article explains how to do it. Also download the apk to install the viewer on android.
 - [Pham library](https://drive.google.com/drive/folders/1Z30-9EO6B0oEuFHYMKUzzzEO6p82-dYU) of tens of thousands of academic texts.
- 
+
 ## Amateur Radio
 
 1. [Gordon West Technician Book](https://amzn.to/3Us90Qu): This is the definitive book. You really need to read this book and memorize all the facts in order to use radio safely and correctly and to pass your test and get your license.
 2. [Ham Radio Prep](https://hamradioprep.com/): Do not pay for any online quiz sites. Just do this free one over and over until you can reliably get all the questions right every time. These are the same questions that are on the actual test.
-3. Get a starter radio: 
+3. Get a starter radio:
     - [Baofeng UV-5R](https://amzn.to/3UvzCA5): The classic handheld amateur radio that has both of the tech bands.
     - [Baofeng K5PLUS](https://amzn.to/48tZiml): Better screen shows more information. Has USB charging. Comes with knockoff Nagoya antenna but smaller and less powerful.
     - [Baofeng UV-5RH](https://amzn.to/40jVJxe): Comes with larger battery. Has USB charging. Same improved screen and knockoff Nagoya antenna.
     - [Honorable Mention: getting a really good handheld CB is 100% worth it](https://amzn.to/3NP7MLi). Everyone knows about them and understands them. No one needs any kind of license to use them. All truckers have them. Many older pickups have them. You're going to be able to talk to a lot more normal people on a regular basis. Hams are so snobby about using CB but more people use them so why would we not want one in case of emergency or boredom.
-4. Optional Upgrades That I Use: 
+4. Optional Upgrades That I Use:
     - [Real Nagoya Triband Antenna](https://amzn.to/3AjXhN1): This is the most popular and reputable high-quality antenna that works on these radios.
     - [Clip on speaker/mic](https://amzn.to/3Ce11A9): these are cool. I don't care what people say. They're just jealous.

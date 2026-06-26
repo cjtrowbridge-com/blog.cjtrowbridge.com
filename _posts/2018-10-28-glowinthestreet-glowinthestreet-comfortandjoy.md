@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/10/640x360-video-1540726479.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![#glowinthestreet # glowinthestreet #comfortandjoy](https://blog.cjtrowbridge.com/wp-content/uploads/2018/10/glowinthestreet-glowinthestreet-comfortandjoy-1-1.jpg)](https://www.instagram.com/p/BpeaqtplFPf/)

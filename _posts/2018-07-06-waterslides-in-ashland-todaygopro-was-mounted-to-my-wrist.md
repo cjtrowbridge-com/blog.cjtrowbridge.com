@@ -53,6 +53,7 @@ instagram_image_id:
     - '10522'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Waterslides in Ashland today!

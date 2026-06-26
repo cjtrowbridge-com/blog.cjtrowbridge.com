@@ -8,6 +8,7 @@ guid: 'http://cjtrowbridge.com/?p=3713'
 permalink: /2015/10/04/installing-virtualbox-and-debian-on-windows-10/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 This post is part of a larger series about [Building a Cloud at Home For Free](http://blog.cjtrowbridge.com/2015/10/04/building-a-cloud-at-home-for-free/) as part of building scalable web applications from the ground up. This post starts at the very beginning of setting up the servers. It assumes you are familiar with the game plan from the previous post mentioned above. Once we are done with this post, we will be ready to move on to [Setting up a Debian LAMP Server](http://blog.cjtrowbridge.com/2015/10/04/setting-up-debian-as-a-lamp-server/)! We will start by setting up our hypervisor. I have chosen to use the free hypervisor Virtualbox which will host the virtual servers we setup. The first step is to download the installer from Oracle's Virtualbox website. <https://www.virtualbox.org/wiki/Downloads>Next we install Virtualbox. I am using a Windows 10 host. This machine has an i7 processor with lots of RAM and an SSD so it should be more than capable of handling the workload we will be giving it today and in the foreseeable future. In my case, I said yes to every prompt during installation and used all the default settings while setting up Virtualbox.

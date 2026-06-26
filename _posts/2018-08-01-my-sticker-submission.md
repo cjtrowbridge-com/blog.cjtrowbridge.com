@@ -12,6 +12,7 @@ categories:
 tags:
     - '2018 Burning Man'
     - 'Burning Man'
+conversion_state: wordpress
 ---
 
 Every year, Burning Man holds a contest for the many official stickers they will print and distribute related to the theme. This year's theme is [I, Robot](https://journal.burningman.org/i-robot/) after [the book](https://en.wikipedia.org/wiki/I,_Robot) by Isaac Asimov. I took my inspiration from the cover art for [Asimov's sequel](https://en.wikipedia.org/wiki/The_Naked_Sun) to I, Robot. This is the design I created and submitted. I have not heard back yet but I am hopeful! ![Humanity Stickers](https://blog.cjtrowbridge.com/wp-content/uploads/2018/08/Humanity-3x5-1-1.png)

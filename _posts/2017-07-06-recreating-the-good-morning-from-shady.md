@@ -45,6 +45,7 @@ instagram_image_id:
     - '8764'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Recreating the Good Morning from Shady.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/07/1499369520-1-1.jpg)](https://www.instagram.com/p/BWN4pMBlGVg/)

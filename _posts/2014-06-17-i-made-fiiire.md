@@ -39,6 +39,7 @@ instagram_image_id:
     - '1280'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/06/10467741_1488135051423235_1819478672_n.jpg)](http://instagram.com/p/pXsZ1dLtKa/)

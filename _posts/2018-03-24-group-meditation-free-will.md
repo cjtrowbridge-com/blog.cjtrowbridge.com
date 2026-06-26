@@ -9,6 +9,7 @@ permalink: /2018/03/24/group-meditation-free-will/
 categories:
     - Blog
     - Featured
+conversion_state: wordpress
 ---
 
 I attend a biweekly meditation and discussion group. The following is a prompt provided by another member for the discussion this week. It is followed by the member's own analysis and then by my response. I include my response in order to help me focus my initial thoughts before the group discussion.

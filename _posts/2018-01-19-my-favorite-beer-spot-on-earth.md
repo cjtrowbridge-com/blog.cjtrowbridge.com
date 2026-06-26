@@ -45,6 +45,7 @@ instagram_image_id:
     - '9562'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![My favorite beer spot on earth](https://blog.cjtrowbridge.com/wp-content/uploads/2018/01/1516350561-1-1.jpg)](https://www.instagram.com/p/BeH9aHBlOfM/)

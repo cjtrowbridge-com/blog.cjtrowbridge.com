@@ -45,6 +45,7 @@ instagram_image_id:
     - '10400'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Happy to be able to add my voice to this important issue. This is a crime against every human, not just these children. Everyone responsible should be in jail. Everyone not speaking out should. Everyone ok with it should examine their sense of morality.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/06/1529384371-1-1.jpg)](https://www.instagram.com/p/BkMZbeHAHyN/)

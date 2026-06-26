@@ -8,6 +8,7 @@ guid: 'http://cjtrowbridge.com/?p=3715'
 permalink: /2015/10/04/setting-up-debian-as-a-lamp-server/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 This post is part of a larger series about [Building a Cloud at Home For Free](http://blog.cjtrowbridge.com/2015/10/04/building-a-cloud-at-home-for-free/) as part of building scalable web applications from the ground up. This post starts at the point of setting up our LAMP stack on the a new Debian server. If you still need to setup your hypervisor, virtual server and install Debian, then check out my post [Installing Virtualbox and Debian on Windows 10](http://blog.cjtrowbridge.com/2015/10/04/installing-virtualbox-and-debian-on-windows-10/).

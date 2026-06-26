@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13204'
 permalink: /2020/09/28/usp-514-session-6-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 # **Session 6: <span class="">Sustainable Development for Whom?</span>**

@@ -45,6 +45,7 @@ instagram_image_id:
     - '7539'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![This upgrade gave me two new bluetooths and a second silent-mode! And let me tell you about my five alarm clocks!

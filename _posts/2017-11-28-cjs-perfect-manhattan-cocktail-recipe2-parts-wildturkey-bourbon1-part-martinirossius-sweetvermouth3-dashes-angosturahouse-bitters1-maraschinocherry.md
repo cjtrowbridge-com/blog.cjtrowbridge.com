@@ -45,6 +45,7 @@ instagram_image_id:
     - '9356'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![CJ’s Perfect Manhattan Cocktail Recipe

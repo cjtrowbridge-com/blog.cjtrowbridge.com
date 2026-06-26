@@ -10,6 +10,7 @@ categories:
     - Blog
     - 'Open Revenue'
     - Projects
+conversion_state: wordpress
 ---
 
 Following as I often do, [the example](https://levels.io/open) of Pieter Levels, I have decided to create an open and public page to show progress towards my revenue goals with several of my projects. This allows me to hold myself accountable and to show hard numbers related to the writing I'm doing. Dashboards are a valuable tool which helps us to define clear and measurable metrics for concisely tracking and communicating progress towards goals. This is an excellent tool for business as well as for our personal lives.

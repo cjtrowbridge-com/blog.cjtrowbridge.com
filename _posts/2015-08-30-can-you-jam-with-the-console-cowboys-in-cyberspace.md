@@ -8,6 +8,7 @@ guid: 'http://cjtrowbridge.com/?p=3505'
 permalink: /2015/08/30/can-you-jam-with-the-console-cowboys-in-cyberspace/
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/bLlj_GeKniA" width="420"></iframe>

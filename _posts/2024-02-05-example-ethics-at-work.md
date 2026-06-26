@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14914'
 permalink: /2024/02/05/example-ethics-at-work/
 categories:
     - 'BUS 884: Ethics, Society, and Sustainability'
+conversion_state: wordpress
 ---
 
 Note: In the [previous assignment](https://blog.cjtrowbridge.com/2024/01/29/categorical-vs-hypothetical-imperatives/), I explain why I reject Kantian ethics in favor of Sartre's critique of Kant. Prompt: "Write a story about something that you saw in business that you thought was ethical. Make the story about someone you personally know (a friend, relative, or yourself). Why was it ethical?

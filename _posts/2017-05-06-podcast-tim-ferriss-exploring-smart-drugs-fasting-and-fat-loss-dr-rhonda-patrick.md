@@ -11,6 +11,7 @@ enclosure:
 categories:
     - Featured
     - Revisit
+conversion_state: wordpress
 ---
 
 [![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/05/rhonda-patrick-1-1.png)](http://tim.blog/2017/05/04/smart-drugs-fasting-and-fat-loss/)This episode has an unbelievable amount of information. The Guest is Dr. Rhonda Patrick, who Tim describes as, "an American biochemist and scientist." She has done extensive research and work in the fields of the cellular biology, genetics, nutrition, and nootropics. She views aging as a disease to be treated, and elaborates in depth on all of these topics. There were a few big takeaways right off the bat; - Regular sauna use is really really good for you, for a huge number of well researched reasons.

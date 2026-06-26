@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 I decided to visit the now infamous “Treeisalive” commune and see what The Garden was like for myself. I met a lot of amazing people and learned a lot. It all started a few weeks ago. I have a close internet friend of about fifteen years who until recently I had never met. A few weeks ago I was passing through her town and we decided to finally meet. It was a magical internet experience that led to another magical internet experience. During our conversation it came up that I’m in college studying radically sustainable infrastructure in experimental communities. She said I have to check out the TikTok cult commune. This was the first I had heard about it.

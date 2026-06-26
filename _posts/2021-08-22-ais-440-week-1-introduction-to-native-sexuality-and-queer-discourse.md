@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14249'
 permalink: /2021/08/22/ais-440-week-1-introduction-to-native-sexuality-and-queer-discourse/
 categories:
     - 'AIS 440 Native Sexuality and Queer Discourse'
+conversion_state: wordpress
 ---
 
 ## Read

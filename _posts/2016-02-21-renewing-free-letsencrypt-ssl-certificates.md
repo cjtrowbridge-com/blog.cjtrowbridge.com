@@ -8,6 +8,7 @@ guid: 'http://blog.cjtrowbridge.com/?p=6911'
 permalink: /2016/02/21/renewing-free-letsencrypt-ssl-certificates/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 A few days ago, I received an email from LetsEncrypt letting me know that it was time to renew my free SSL certificates. I tried re-running the tool in order to renew the certificates which seemed to work, but then I received this email;

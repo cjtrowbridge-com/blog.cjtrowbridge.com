@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12490'
 permalink: /2020/06/18/power-and-politics-in-american-indian-history-kxl-dapl/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

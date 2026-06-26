@@ -45,6 +45,7 @@ instagram_image_id:
     - '7744'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Spicy mocha. Love the new cups!

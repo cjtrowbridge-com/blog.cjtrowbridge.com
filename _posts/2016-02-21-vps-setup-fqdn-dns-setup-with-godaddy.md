@@ -9,6 +9,7 @@ permalink: /2016/02/21/vps-setup-fqdn-dns-setup-with-godaddy/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 This is a subpost of the larger post [Updated Comprehensive VPS Setup Documentation](https://blog.cjtrowbridge.com/2016/02/21/updated-comprehensive-vps-setup-documentation/). Once you have a VPS deployed and know its static IP, you can forward a FQDN to it by creating a new A Record. I use GoDaddy for my DNS registration because they are simple, reliable, and quick.

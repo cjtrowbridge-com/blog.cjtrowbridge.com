@@ -45,6 +45,7 @@ instagram_image_id:
     - '9827'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![“Watcha thinkin bout?”](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1520908269-1-1.jpg)](https://www.instagram.com/p/BgPyi8sn1bZ/)

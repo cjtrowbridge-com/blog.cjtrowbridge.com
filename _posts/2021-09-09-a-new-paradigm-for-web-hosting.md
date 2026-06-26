@@ -9,6 +9,7 @@ permalink: /2021/09/09/a-new-paradigm-for-web-hosting/
 categories:
     - Our-Space
     - Projects
+conversion_state: wordpress
 ---
 
 I host dozens of wordpress sites for lots of different projects I am either actively working on or worked on in the past, or where I'm just helping others have a website for projects they're working on.

@@ -9,6 +9,7 @@ permalink: /2018/05/17/startup-12-smart-mailer/
 categories:
     - Blog
     - 'The Levels Challenge: Build 12 Startups in 12 Months'
+conversion_state: wordpress
 ---
 
 # [SmartMailer.io](https://smartmailer.io)

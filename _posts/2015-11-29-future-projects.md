@@ -8,6 +8,7 @@ guid: 'http://blog.cjtrowbridge.com/?p=4604'
 permalink: /2015/11/29/future-projects/
 categories:
     - Goals
+conversion_state: wordpress
 ---
 
 - Tiny Home

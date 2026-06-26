@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13816'
 permalink: /2020/12/25/simple-solar-setup/
 categories:
     - Featured
+conversion_state: wordpress
 ---
 
 I built a [moving cabin](https://blog.cjtrowbridge.com/2020/09/24/building-a-travel-trailer/) to [travel to all the national parks](https://blog.cjtrowbridge.com/2020/07/16/on-the-road/) in 2021. One of the advantages I brought to this project is years of volunteer work building and maintaining the power grid at Comfort &amp; Joy at Burning Man. Since I started the moving cabin project, many of my close friends and family members have started similar projects. As a result, many of them have asked me how to do their power systems. My own power system is very large and very expensive. If you want HVAC and refrigeration, big expensive power systems are the only option. If you just want to charge your phone, laptop, and other small devices, then you can get by with a much smaller and cheaper system. This is particularly helpful as a starting place that you can later expand on if you decide to do a bigger system in the future. In the past, I did a post with a list of suggestions for how people can build what I called a [tent-scale microgrid](https://blog.cjtrowbridge.com/2018/08/17/how-to-build-a-microgrid/) (with 120v) I added another post earlier this year with a [slightly larger system that's usb only](https://blog.cjtrowbridge.com/2020/08/22/simple-solar-lighting-and-charging/).

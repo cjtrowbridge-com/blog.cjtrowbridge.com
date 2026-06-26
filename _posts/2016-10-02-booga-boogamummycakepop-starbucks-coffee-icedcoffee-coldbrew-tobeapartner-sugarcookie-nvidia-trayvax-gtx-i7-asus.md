@@ -45,6 +45,7 @@ instagram_image_id:
     - '7659'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Booga booga

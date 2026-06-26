@@ -2,7 +2,7 @@
 plan_id: 2026-06-25-11-50-58_agents-framework-submodule-bootstrap
 title: Agents Framework Submodule Bootstrap
 summary: Integrate the agents framework as a host submodule and bootstrap host-managed operational artifacts.
-status: current
+status: past
 created_at: 2026-06-25-11-50-58
 ---
 

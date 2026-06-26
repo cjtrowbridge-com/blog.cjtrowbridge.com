@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12584'
 permalink: /2020/07/13/power-and-politics-in-american-indian-history-colonial-dispositions-of-land-race-and-hunger/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

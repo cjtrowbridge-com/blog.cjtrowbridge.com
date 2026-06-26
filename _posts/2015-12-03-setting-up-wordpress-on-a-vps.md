@@ -8,6 +8,7 @@ guid: 'http://blog.cjtrowbridge.com/?p=5273'
 permalink: /2015/12/03/setting-up-wordpress-on-a-vps/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 This post goes over how to setup Wordpress on a VPS. This is sort-of a cumulative post which incorporates lots of little tutorials I've done and lots of new best-practices I have learned through trial and error. If you're following my posts in general, you may have noticed that I already did this. I made a mistake while using a beta tool which caused me to need to start over, and my many posts documenting the processes had become fragmented so I figured it was time to do a sort of roll-up mega-post.

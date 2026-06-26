@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14748'
 permalink: /2022/08/24/econ-783-week-1-chapter-1-2/
 categories:
     - 'ECON 783 Managerial Economics'
+conversion_state: wordpress
 ---
 
 Note: Anyone who is suffering under the delusion that neoclassical economics or marginal analysis is in any way a valid reflection of reality should [watch this great interview ](https://www.youtube.com/watch?v=1XGiTDWfdpM)explaining why everything we learn in classes like this is basically superstitious ideological nonsense. And yet, here we are.

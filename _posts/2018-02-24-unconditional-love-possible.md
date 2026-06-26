@@ -9,6 +9,7 @@ permalink: /2018/02/24/unconditional-love-possible/
 categories:
     - Blog
     - Featured
+conversion_state: wordpress
 ---
 
 I attend a bi-weekly meditation group and this was the prompt for the discussion this week. I decided to type out my thoughts and include an example from my life before I head to the meeting this week.

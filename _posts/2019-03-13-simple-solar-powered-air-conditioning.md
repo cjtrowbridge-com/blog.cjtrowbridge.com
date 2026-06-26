@@ -16,6 +16,7 @@ categories:
 tags:
     - '2019 Burning Man'
     - 'Burning Man'
+conversion_state: wordpress
 ---
 
 Evaporative cooling is an old technology which was used by ancient civilizations long before the advent of electricity. You may have heard the term swamp cooler. This nickname comes from the evaporated water that is used to achieve the temperature change. If you implement it wrong, you will get a hot, humid tent instead of a cool tent; a swamp. There are two main concepts that will be important. The dryer the outside air, the better. And there absolute MUST be constant airflow through the cooler into the tent and then out of the tent. If you set this up inside a closed tent with no exhaust vent coming out, it will not work. Many people make this mistake and wrongly conclude that these coolers don't work. You must have at least as much air going out of your tent as there is coming in through the evaporative cooler. I mentioned above that the temperature difference can be up to 40 degrees below the outside temperature. This depends on the dew point. If you are somewhere very dry like the black rock desert with its 0% humidity, then the maximum potential temperature difference is 40 degrees. With higher humidity, the potential temperature difference is less. The science behind this calculation is complex, but in most areas, you will see at least some benefit. I have also added a **major technical innovation** which dramatically improves performance! ![](https://blog.cjtrowbridge.com/wp-content/uploads/2019/03/Complete-1-with-solar-1-1.jpg)

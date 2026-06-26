@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14761'
 permalink: /2022/08/24/econ-783-week-2-chapter-3/
 categories:
     - 'ECON 783 Managerial Economics'
+conversion_state: wordpress
 ---
 
 - Watch Video

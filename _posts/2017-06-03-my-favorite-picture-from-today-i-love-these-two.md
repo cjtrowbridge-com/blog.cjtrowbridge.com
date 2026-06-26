@@ -45,6 +45,7 @@ instagram_image_id:
     - '8667'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![My favorite picture from today. I love these two.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/06/1496552542-1-1.jpg)](https://www.instagram.com/p/BU57ry0Agyy/)

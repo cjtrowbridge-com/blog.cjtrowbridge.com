@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14055'
 permalink: /2021/03/26/a-gpt-3-site-that-will-write-essays-for-you/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 Just submit your bibliography and thesis and it will do the rest.

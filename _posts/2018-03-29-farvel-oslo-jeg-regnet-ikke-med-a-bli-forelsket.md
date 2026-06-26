@@ -45,6 +45,7 @@ instagram_image_id:
     - '9947'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Farvel Oslo. Jeg regnet ikke med a bli forelsket!](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522313927-1-1.jpg)](https://www.instagram.com/p/Bg5roKvlmN2/)

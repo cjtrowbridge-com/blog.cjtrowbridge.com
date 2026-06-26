@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=10860'
 permalink: /2018/09/07/stealth-trailer-goals-and-concepts/
 categories:
     - 'Vehicle Design'
+conversion_state: wordpress
 ---
 
 I would love to build something like this for Burning Man and other adventures. Here are some of my initial ideas...

@@ -45,6 +45,7 @@ instagram_image_id:
     - '10038'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I can’t wait until these jobs are automated in the US! It’s so weird that they haven’t already been.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/1522689715-1-1.jpg)](https://www.instagram.com/p/BhE4Yo6Frsz/)

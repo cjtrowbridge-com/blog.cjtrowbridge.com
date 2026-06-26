@@ -9,6 +9,7 @@ permalink: /2016/02/21/vps-setup-create-a-virtual-host/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 This is a subpost of the larger post [Updated Comprehensive VPS Setup Documentation](https://blog.cjtrowbridge.com/2016/02/21/updated-comprehensive-vps-setup-documentation/). Once you have your FQDN forwarded to the VPS, create a directory for it with; `mkdir /var/www/[fqdn]/`Now we make a new virtualhost conf file with this command. Again, substitute your fqdn; `cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/[fqdn].conf`Then edit the file with `nano /etc/apache2/sites-available/[fqdn].conf`It needs to contain the following;

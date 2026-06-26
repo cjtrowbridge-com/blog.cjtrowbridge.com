@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/640x640-video-1537595805.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Moving day](https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/1537595805-1-1.jpg)](https://www.instagram.com/p/BoBHYx4nBt1/)

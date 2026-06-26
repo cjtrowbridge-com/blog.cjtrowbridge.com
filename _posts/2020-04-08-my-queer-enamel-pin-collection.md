@@ -10,6 +10,7 @@ image: /wp-content/uploads/2020/04/Queer-Enamel-Pins-1.jpg
 categories:
     - Blog
     - School
+conversion_state: wordpress
 ---
 
 [![Prospero The Magician](https://blog.cjtrowbridge.com/wp-content/uploads/2020/04/prospero-1-1.jpg)](https://www.etsy.com/listing/731176949/prospero-tarot-card-enamel-pin-the)My favorite queer enamel pin so far is probably this one. It reflects my childhood in several ways. I was born at one of the greatest centers at the intersection of the New Age and Shakespeare, as a queer growing up in a far-right family and subculture there. The idea of Prospero as The Magician touches deep on many of the issues that affected my formative years. [![Chaotic Good Enamel Pin](https://blog.cjtrowbridge.com/wp-content/uploads/2020/04/chaotic-good-1-1.jpg)](https://amzn.to/2XksXvS)> A [**chaotic good** ](https://amzn.to/2XksXvS)character does what is necessary to bring about change for the better, disdains bureaucratic organizations that get in the way of social improvement, and places a high value on personal freedom, not only for oneself, but for others as well.

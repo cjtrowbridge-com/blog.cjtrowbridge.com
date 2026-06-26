@@ -45,6 +45,7 @@ instagram_image_id:
     - '7668'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Yea, probably sticking with my Nexus 6. I am thoroughly unimpressed just like I was last year.

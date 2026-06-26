@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/10/640x640-video-1540011867.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Daniel and the ping pong ball.

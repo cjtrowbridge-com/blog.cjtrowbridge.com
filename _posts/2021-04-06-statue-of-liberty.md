@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 The Statue of Liberty! Unfortunately the ferry was not running but I was able to get pretty close on the land. Very cool to finally see it in person!

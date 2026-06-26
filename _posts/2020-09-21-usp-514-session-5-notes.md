@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13153'
 permalink: /2020/09/21/usp-514-session-5-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 # **<span class="" id="yui_3_17_2_1_1600729987807_110">Session 5: Equitable Sustainable Development</span>**

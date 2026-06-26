@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12302'
 permalink: /2020/04/25/set-up-a-raspberry-pi-home-web-development-server/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 # Initial Setup

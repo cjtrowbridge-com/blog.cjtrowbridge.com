@@ -11,6 +11,7 @@ categories:
     - 'USP493 Data Analysis'
 tags:
     - 'Spicy Data'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

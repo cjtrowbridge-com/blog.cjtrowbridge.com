@@ -11,6 +11,7 @@ categories:
     - Blog
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 Given the many weeks of isolation in quarantine, I decided to move home rather than continue to pay bay area prices to be in quarantine indefinitely. It was nice to spend time with family, and we decided to remodel the house to keep ourselves busy. My project was the new garden. I decided to build three 4x8 raised beds. Pretty simple design. Each bed takes three 2x4s with one cut in half. Then screw the ends together. Staple barrier fabric across the bottom, and fill with dirt. Next, I bought 125ft of soaker hose and wound it through the gardens, held in place with garden staples. For the finishing touch, I added a small fence in front to keep the dog out, and solar garden lights in the beds. Here's what it looks like; ![raised bed gardens complete](https://blog.cjtrowbridge.com/wp-content/uploads/2020/05/raised-bed-gardens-complete-1-1.jpg)

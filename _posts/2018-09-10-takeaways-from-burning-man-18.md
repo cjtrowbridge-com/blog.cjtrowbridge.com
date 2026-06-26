@@ -12,6 +12,7 @@ categories:
 tags:
     - '2018 Burning Man'
     - 'Burning Man'
+conversion_state: wordpress
 ---
 
 Another amazing year at Burning Man! The man burn was amazing as you can see in this video...

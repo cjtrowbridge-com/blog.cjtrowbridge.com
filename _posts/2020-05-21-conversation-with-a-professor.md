@@ -10,6 +10,7 @@ categories:
     - Blog
     - Essays
     - School
+conversion_state: wordpress
 ---
 
 This was in a lower division LGBT Studies class. We were discussing "Redefining Realness" by Janet Mock.

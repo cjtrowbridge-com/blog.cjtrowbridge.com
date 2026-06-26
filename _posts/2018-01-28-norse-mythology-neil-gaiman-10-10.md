@@ -9,6 +9,7 @@ permalink: /2018/01/28/norse-mythology-neil-gaiman-10-10/
 categories:
     - Blog
     - 'Reading List'
+conversion_state: wordpress
 ---
 
 This was another amazing book by Neil Gaiman! 10/10. I only wish it was longer. There are so many other Norse myths which I would have loved to have heard him retell. ![](https://blog.cjtrowbridge.com/wp-content/uploads/2018/01/Norse-Mythology-by-Neil-Gaiman-1-1.jpg)The audiobook in particular was great. It is read by the author and unabridged. He has the voice of an angel. I have already gone back several times and listened to stories as I fall asleep. This is one book I will revisit over and over again.

@@ -45,6 +45,7 @@ instagram_image_id:
     - '10188'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Look who I of course ran into today](https://blog.cjtrowbridge.com/wp-content/uploads/2018/05/1525675271-1-1.jpg)](https://www.instagram.com/p/Bid24ZfgxeL/)

@@ -12,6 +12,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 ([View the full album here](https://photos.app.goo.gl/t6nB4TwG5K1xKYYh7)) Key West looked like it would be a lot of fun normally. It was kind of terrifying at the moment because basically not a single person was wearing a mask anywhere in the town, and everything was very close together so there wasn’t really any way of avoiding the unmasked hordes. I got to see the southernmost point in the continental United States! ![Southernmost Point](https://i0.wp.com/movingcabin.com/wp-content/uploads/2021/03/Southernmost-Point-rotated.jpg?resize=780%2C585&ssl=1)Walking around town was cute but again very crowded and very unmasked. There were lots of wild chickens and iguanas running around town.

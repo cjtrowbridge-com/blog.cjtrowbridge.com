@@ -45,6 +45,7 @@ instagram_image_id:
     - '9959'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Das Reichstag. This building has been blown up and rebuilt numerous times throughout history and served as the capitol of numerous governments and even countries from the Holy Roman Empire to the Weimar Republic to modern Germany.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522400155-1-1.jpg)](https://www.instagram.com/p/Bg8QF-wFulv/)

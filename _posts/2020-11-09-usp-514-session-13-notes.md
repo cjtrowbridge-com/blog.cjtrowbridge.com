@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13518'
 permalink: /2020/11/09/usp-514-session-13-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 **<span class="">November 9th </span>****<span class="">Session Thirteen: </span><span class="">Cost Benefit Analysis and Precautionary Principle </span>****<span class="">REQUIRED READING FOR SESSION THIRTEEN (click on Session 13 on left side to access reading)</span>**1. <span class="">Pricing the Priceless (this is a legal article so you may have to review it several times </span>

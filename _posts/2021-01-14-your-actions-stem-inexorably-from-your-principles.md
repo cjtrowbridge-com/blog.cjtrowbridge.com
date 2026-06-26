@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13903'
 permalink: /2021/01/14/your-actions-stem-inexorably-from-your-principles/
 categories:
     - Essays
+conversion_state: wordpress
 ---
 
 Your actions stem inexorably from your principles.

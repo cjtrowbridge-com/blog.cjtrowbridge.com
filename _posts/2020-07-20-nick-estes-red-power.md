@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12640'
 permalink: /2020/07/20/nick-estes-red-power/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

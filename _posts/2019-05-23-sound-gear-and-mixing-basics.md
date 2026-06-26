@@ -9,6 +9,7 @@ permalink: /2019/05/23/sound-gear-and-mixing-basics/
 categories:
     - Blog
     - 'Learn To DJ'
+conversion_state: wordpress
 ---
 
 2019-06-15: 5:30-7:30 [Presentation Link](https://docs.google.com/presentation/d/13XDh4QpzI9uvX0Oypnav9Rfy2FbiZ6ZpShvweczf3SI/edit?usp=sharing)[Facebook Event](https://www.facebook.com/events/2210201975977140/)Are you DJ-Curious? Comfort &amp; Joy is hosting free DJ workshops for anyone interested in learning this magical art. The workshops will be led by seasoned disc jockeys from very different parts of the DJ industry. You will learn how to set up sound and lighting gear, how to mix music, and how to pick tracks. At this first workshop, we will learn how to set up DJ controllers and mix tracks using Serato.

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14059'
 permalink: /2021/03/21/predictive-arbitrage/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 Use automated analysis of pending blocks and cryptocurrency to front-run arbitrage across exchanges

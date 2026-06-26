@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13672'
 permalink: /2020/11/26/covid-colonists/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 Write an essay about settler colonists traveling to places like pv at the height of covid. Connect it to contemporary discourses like Auslander, Estes, etc.

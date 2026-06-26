@@ -11,6 +11,7 @@ categories:
     - Featured
 tags:
     - 'Spicy Data'
+conversion_state: wordpress
 ---
 
 This was an interesting project. I compiled the monthly job creation data from the Fed for every month on record and broken it out by who was president at the time and what party they were in.

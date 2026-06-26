@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=8547'
 permalink: /2017/09/02/smarter-sockets/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 This is something I looked long and hard for, before deciding to build it myself. Also, a school project pulled this off the shelf and added some urgency. Last year I completed a similar but very early proof-of-concept prototype just for the web-controlled relay board. It didn't have the parallel shift registers, the relay board, or the actual sockets. I never finished it or came close to building an actual final product. ![](https://blog.cjtrowbridge.com/wp-content/uploads/2016/05/1462255878-1-465x465.jpg)\[Take a better picture\] This prototype built on an Arduino controlled relay board which in turn drove a series of electrical sockets controlled by a web page over an Ethernet connection. \[Feature link to commits where I shared this with the Arduino community.\] But it also let's you monitor consumption and prevents outages with a battery backup.

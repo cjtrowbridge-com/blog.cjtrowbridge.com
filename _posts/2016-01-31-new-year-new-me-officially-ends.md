@@ -45,6 +45,7 @@ instagram_image_id:
     - '6825'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [!["New year new me" officially ends](https://blog.cjtrowbridge.com/wp-content/uploads/2016/01/1454268472-1-1.jpg)](https://www.instagram.com/p/BBNxOI9LtCQ/)

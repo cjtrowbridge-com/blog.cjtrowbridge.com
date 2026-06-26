@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14429'
 permalink: /2021/12/07/mutual-aid-abolition-and-transformative-justice/
 categories:
     - 'ETHS 100 Intro to Ethnic Studies'
+conversion_state: wordpress
 ---
 
 <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/C32KGX6qP5s" title="YouTube video player" width="560"></iframe>CJ Trowbridge

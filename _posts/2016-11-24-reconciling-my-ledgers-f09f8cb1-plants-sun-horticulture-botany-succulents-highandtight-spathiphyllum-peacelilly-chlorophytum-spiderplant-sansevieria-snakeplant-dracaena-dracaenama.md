@@ -43,6 +43,7 @@ instagram_image_id:
     - '7822'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Reconciling my ledgers.

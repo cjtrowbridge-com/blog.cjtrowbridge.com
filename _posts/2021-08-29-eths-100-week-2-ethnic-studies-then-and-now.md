@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14258'
 permalink: /2021/08/29/eths-100-week-2-ethnic-studies-then-and-now/
 categories:
     - 'ETHS 100 Intro to Ethnic Studies'
+conversion_state: wordpress
 ---
 
 ## Listen

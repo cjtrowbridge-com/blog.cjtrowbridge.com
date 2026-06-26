@@ -9,6 +9,7 @@ permalink: /2021/07/13/why-and-how-to-build-a-fiber-foamie/
 categories:
     - 'Fiber Foamie'
     - Projects
+conversion_state: wordpress
 ---
 
 During covid, I built a fully solar-powered off-grid micro-camper called a squaredrop. I designed it to tow behind my Honda Civic. I traveled over 22,000 miles to 35 national parks in 28 states. You can see the whole adventure at [movingcabin.com](https://movingcabin.com).

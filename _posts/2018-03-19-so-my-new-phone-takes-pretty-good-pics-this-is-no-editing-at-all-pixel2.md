@@ -45,6 +45,7 @@ instagram_image_id:
     - '9881'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![So my new phone takes pretty good pics… This is no editing at all. #pixel2](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1521526474-1-1.jpg)](https://www.instagram.com/p/BgiNreAH_PL/)

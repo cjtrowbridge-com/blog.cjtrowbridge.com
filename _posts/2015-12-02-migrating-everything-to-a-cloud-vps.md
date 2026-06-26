@@ -8,6 +8,7 @@ guid: 'http://blog.cjtrowbridge.com/?p=5238'
 permalink: /2015/12/02/migrating-everything-to-a-cloud-vps/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 Over the last six months, I undertook the project of migrating all of my web apps, sites, and other projects to a new XenHypervisor which I hosted at home for free. I always thought of this as a transitional step. It doesn't make sense to try to host these kinds of things at home. After all, I don't want to be a datacenter provider, but I wanted to understand how they work before I outsourced my infrastructure to a good provider. [![digital-ocean-logo](https://blog.cjtrowbridge.com/wp-content/uploads/2015/12/digital-ocean-logo-11-1-1.png)](https://blog.cjtrowbridge.com/wp-content/uploads/2015/12/digital-ocean-logo-11-1-1.png)After lots of research, I decided on DigitalOcean ([Referral Link](https://www.digitalocean.com/?refcode=ecb56e953504)) as the best option. It's only $5/month and I don't have to worry about infrastructure or connectivity issues.

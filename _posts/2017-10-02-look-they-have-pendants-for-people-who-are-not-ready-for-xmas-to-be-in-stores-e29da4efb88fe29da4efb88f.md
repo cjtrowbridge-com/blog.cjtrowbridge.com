@@ -45,6 +45,7 @@ instagram_image_id:
     - '9159'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Look! They have pendants for people who are not ready for Xmas to be in stores! ❤️❤️](https://blog.cjtrowbridge.com/wp-content/uploads/2017/10/1506996892-1-1.jpg)](https://www.instagram.com/p/BZxMs0clbD4/)

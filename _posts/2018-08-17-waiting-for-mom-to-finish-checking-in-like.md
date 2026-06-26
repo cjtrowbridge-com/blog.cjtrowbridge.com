@@ -45,6 +45,7 @@ instagram_image_id:
     - '10744'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Waiting for Mom to finish checking in like](https://blog.cjtrowbridge.com/wp-content/uploads/2018/08/1534553139-1-1.jpg)](https://www.instagram.com/p/BmmcEmUAQUL/)

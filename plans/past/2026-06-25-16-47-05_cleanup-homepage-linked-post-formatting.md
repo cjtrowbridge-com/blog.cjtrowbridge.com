@@ -2,7 +2,7 @@
 plan_id: 2026-06-25-16-47-05_cleanup-homepage-linked-post-formatting
 title: Cleanup Homepage-Linked Post Formatting
 summary: Repair WordPress-to-Markdown formatting issues in posts currently linked from the homepage.
-status: future
+status: past
 created_at: 2026-06-25-16-47-05
 ---
 
@@ -35,15 +35,25 @@ Known artifact families:
 
 ## Checklist
 
-- [ ] Rebuild the exact homepage-linked post list from the current generated homepage or `_layouts/frontpage.html` category queries.
-- [ ] Create a no-write cleanup report for the linked posts that groups each file by artifact type and cleanup risk.
-- [ ] Add or adjust post-level CSS for safe global presentation fixes such as image sizing, figure spacing, and responsive iframes.
-- [ ] Apply low-risk mechanical cleanup to homepage-linked posts only: remove WordPress wrapper shells, unwrap simple figure wrappers, and add missing blank lines around images, embeds, lists, and headings.
-- [ ] Review high-risk long-form posts manually before paragraph reconstruction, preserving meaning and citations.
-- [ ] Re-run homepage and post checks after each cleanup batch.
-- [ ] Update `README.md` if the cleanup workflow or archive-maintenance guidance changes.
-- [ ] Update the journal with each completed cleanup checkpoint.
-- [ ] Review git status and summarize completed batches before commit/push.
+- [x] Rebuild the exact homepage-linked post list from the current generated homepage or `_layouts/frontpage.html` category queries.
+- [x] Create a no-write cleanup report for the linked posts that groups each file by artifact type and cleanup risk.
+- [x] Add or adjust post-level CSS for safe global presentation fixes such as image sizing, figure spacing, and responsive iframes.
+- [x] Apply low-risk mechanical cleanup to homepage-linked posts only: remove WordPress wrapper shells, unwrap simple figure wrappers, and add missing blank lines around images, embeds, lists, and headings.
+- [x] Review high-risk long-form posts manually before paragraph reconstruction, preserving meaning and citations.
+- [x] Re-run homepage and post checks after each cleanup batch.
+- [x] Update `README.md` if the cleanup workflow or archive-maintenance guidance changes.
+- [x] Update the journal with each completed cleanup checkpoint.
+- [x] Review git status and summarize completed batches before commit/push.
+
+## Execution Notes
+
+- Added `conversion_state` front matter to all 2,056 posts.
+- Marked 2,018 posts as `conversion_state: wordpress`.
+- Cleaned and marked 38 homepage-linked posts as `conversion_state: markdown`.
+- Added post-level media styles for images, figures, and normalized iframe embeds.
+- Created `playbooks/how_to_clean_wordpress_markdown_posts.md` as the reusable AGX cleanup prompt/playbook.
+- Validation found no missing or duplicate `conversion_state` fields.
+- Validation found no remaining wrapper HTML, raw HTML image tags, link-fragment artifacts, or over-threshold long lines in the 38 cleaned homepage-linked posts.
 
 ## Suggested Batch Order
 

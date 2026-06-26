@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13275'
 permalink: /2020/10/12/usp-515-session-8-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 <div id="yui_3_17_2_1_1602358134688_119">**<span class="">October 12th and 14th </span><span class="">Session Eight: The Environmental Justice Movement</span>**<span class="">In this session we will examine the origins and development of the EJ movement.</span>#### Class Discussion

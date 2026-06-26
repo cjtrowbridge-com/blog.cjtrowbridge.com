@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13237'
 permalink: /2020/10/05/usp-514-assignment-1/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 **<span class="">ASSIGNMENT #1 INDIVIDUAL ASSIGNMENT - DUE OCTOBER 5TH </span>**- <span class="">Read and complete the assignment below.</span>

@@ -45,6 +45,7 @@ instagram_image_id:
     - '10202'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Proud of Howard for this decision which will certainly be interesting to see implemented. Even in my own town, I have seen Starbucks turn people away for being “the wrong kind of person.” Makes me so angry. Now they can’t! 😍](https://blog.cjtrowbridge.com/wp-content/uploads/2018/05/1526065459-1-1.jpg)](https://www.instagram.com/p/BipfG1igzoC/)

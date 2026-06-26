@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=8103'
 permalink: /2017/02/09/reflecting-on-2016-planning-2017/
 categories:
     - Goals
+conversion_state: wordpress
 ---
 
 Note: this post is very flow-of-thought and was composed over several days. The goals derived from it are more structured and can be found at [accomplish.cjtrowbridge.com](https://accomplish.cjtrowbridge.com/). Looking back, most of my goals for 2016 were learning goals, and went unaccomplished. All but one of my non-learning goals was accomplished. I successfully doubled my income, I learned to sail, I bought a new car, I revisited hobbies like Amateur Radio. Sadly, I did not find time for starting a new business selling food. I did want to put more emphasis on my learning goals, but I think I struggled this year with defining myself on the spectrum between polymathism and specializing in mastering a smaller skill set as advocated by Peter Thiel in [Zero to One](https://blog.cjtrowbridge.com/2016/12/18/zero-to-one-by-peter-thiel/). After reading lots of books on the topic and attending Burning Man, I think I can confidently say that I lean polymath on that spectrum. I would rather dabble in many things than specialize in a few. I might have guessed as much based on the example of my forebearers. With this aspect of myself finally defined, I feel freer to expand my focus on more skills as I had planned to in 2016. My main priority for 2017 will be finding independence and security in the many areas I am currently dependent and over-committed, such as:

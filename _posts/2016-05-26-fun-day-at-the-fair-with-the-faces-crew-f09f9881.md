@@ -45,6 +45,7 @@ instagram_image_id:
     - '7354'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Fun day at the fair with the faces crew 😁](https://blog.cjtrowbridge.com/wp-content/uploads/2016/05/1464314637-1-1.jpg)](https://www.instagram.com/p/BF5KwqsrtGq/)

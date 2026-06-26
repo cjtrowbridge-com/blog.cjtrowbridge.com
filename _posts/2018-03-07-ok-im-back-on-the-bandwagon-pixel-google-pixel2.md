@@ -45,6 +45,7 @@ instagram_image_id:
     - '9810'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Ok I’m back on the bandwagon

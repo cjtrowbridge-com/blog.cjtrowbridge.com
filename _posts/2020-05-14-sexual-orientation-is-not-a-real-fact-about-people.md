@@ -10,6 +10,7 @@ categories:
     - Blog
     - Essays
     - School
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

@@ -9,6 +9,7 @@ permalink: /2015/12/13/moving-my-app-to-the-cloud/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 I have spent the better part of the last three years building a scalable logistics platform which has grown to manage nearly all the daily operations of my workplace, a mobile tech support company. Some Major Features;

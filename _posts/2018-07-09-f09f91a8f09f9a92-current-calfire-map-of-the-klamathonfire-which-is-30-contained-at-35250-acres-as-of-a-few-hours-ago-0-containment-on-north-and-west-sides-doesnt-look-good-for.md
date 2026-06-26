@@ -45,6 +45,7 @@ dsgnwrks_instagram_comments:
     - 'O:8:"stdClass":1:{s:5:"count";i:0;}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![👨‍🚒 Current #CalFire map of the #klamathonfire which is 30% contained at 35,250 acres as of a few hours ago. 0% containment on North and West sides. Doesn’t look good for Hilt.

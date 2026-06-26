@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/640x640-video-1523143477.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Azula wants to go for a walk](https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/1523143477-1-1.jpg)](https://www.instagram.com/p/BhSZ10chNmW/)

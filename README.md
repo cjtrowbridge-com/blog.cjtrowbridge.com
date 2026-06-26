@@ -67,3 +67,5 @@ The site is moving toward Bootstrap-first dark-mode styling. Prefer Bootstrap la
 Agentic framework directories are excluded from the generated public site in `_config.yml`; they are repo operations material, not blog content.
 
 Homepage category images stack above post lists on mobile and shift left of the lists on desktop, with desktop image width capped at `500px`.
+
+Imported posts use `conversion_state` front matter to track cleanup status. `wordpress` means the post still needs WordPress-to-Markdown cleanup; `markdown` means the post has been cleaned for the current static-site presentation.

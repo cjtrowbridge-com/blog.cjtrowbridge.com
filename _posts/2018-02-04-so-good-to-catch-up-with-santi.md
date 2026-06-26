@@ -45,6 +45,7 @@ instagram_image_id:
     - '9632'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![So good to catch up with Santi.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/02/1517734265-1-1.jpg)](https://www.instagram.com/p/BexMnWwlosX/)

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12517'
 permalink: /2020/06/26/drugs-and-society-meth/
 categories:
     - 'HED315 Drugs and Society'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

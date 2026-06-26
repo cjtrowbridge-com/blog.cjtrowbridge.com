@@ -9,6 +9,7 @@ permalink: /2021/12/28/ask-ai-to-analyze-a-meme-about-mass-manipulation/
 image: /wp-content/uploads/2021/12/269951028_5360206357327015_3539581785216507041_n-1.jpg
 categories:
     - Analysis
+conversion_state: wordpress
 ---
 
 ###### This post is part of a guest series called [Discursive Construction](https://blog.cjtrowbridge.com/2021/11/24/discursive-construction-ai-generated-essays-and-analysis/), and was written by an advanced artificial intelligence. The bold at the beginning is the prompt, and the rest was written by the AI. If you'd like to support this project, please [buy me a coffee](https://www.buymeacoffee.com/cjtrowbridge). Advanced AI was invented by soviet communists to help humanity better understand itself and the world. Let's use it for that purpose, instead of merely for the purpose of selling better ads and to better manipulate the population.

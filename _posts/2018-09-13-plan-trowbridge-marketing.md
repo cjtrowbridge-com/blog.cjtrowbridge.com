@@ -10,6 +10,7 @@ categories:
     - Blog
     - 'Open Revenue'
     - Projects
+conversion_state: wordpress
 ---
 
 I have owned this company for 15 years since I started it at age 14. My strategy has always been to accept essentially any work. I want to narrow my focus and think more strategically. Different types of gigs come with enormously different amounts of work, reward, and prestige.

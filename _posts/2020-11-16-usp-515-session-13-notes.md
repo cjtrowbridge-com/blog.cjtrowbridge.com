@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13601'
 permalink: /2020/11/16/usp-515-session-13-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 **<span class="">November 16th and 18th</span>**[**<span class="">Session Thirteen: </span>**](https://www.youtube.com/watch?v=r0XG-ETx5fk)**<span class=""> Addressing Environmental Injustices/Cost Benefit Analysis/Precautionary Principle</span>****<span class="">ASSIGNED READING FOR SESSION THIRTEEN </span><span class="">(click on session 13 on left to access reading) </span>**1. <span class="">Pricing the Priceless (this is a legal article so you may have to review it several times </span>

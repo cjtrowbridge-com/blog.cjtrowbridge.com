@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13613'
 permalink: /2020/11/17/usp-514-session-15-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 **<span class="">November 18th</span><span class="">Session Fifteen: The </span><span class="">Covid 19 Pandemic </span>****<span class="">REQUIRED READING FOR SESSION FIFTEEN (click on Session 14 on left side to access reading) </span>**1. <span class="">[The Fullest Look Yet at Racial Inequalty of Covid 19](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html) -</span>[<span class="">https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html</span>](https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html)

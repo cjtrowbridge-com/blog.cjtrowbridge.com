@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2018 Spring Break Europtrip'
+conversion_state: wordpress
 ---
 
 This is my first big overseas trip! I will be spending about a week backpacking across western Europe at the end of March. [You can look at my goals for this trip and itinerary here](https://blog.cjtrowbridge.com/2018/02/15/spring-break-2018-europe/). For this trip, I am trying to be as frugal and minimal as possible but I still want to bring a pretty full featured set of gear. I will be spending lots of time on trains and planes and visiting lots of touristy spots for sweet selfies. This trip is also a sort of test run for the digital nomad lifestyle. I am planning to try to write some code and work on things like that to see if I like the feel of the lifestyle before really committing to it. This will be a solo trip. I am going alone and bringing just one small bag.

@@ -12,6 +12,7 @@ categories:
     - 'Burning Man'
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 I was in need of high-precision multi-zone temperature logging gear for a chemistry honors project, and I found nothing online that would work well for my purpose, so I decided to put my [CSCI46](http://catalog.sierracollege.edu/search/?P=CSCI%200046) skills to use and build my own.

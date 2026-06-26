@@ -10,6 +10,7 @@ categories:
     - Blog
     - 'Reading List'
     - Revisit
+conversion_state: wordpress
 ---
 
 "The united front of the \[American\] left broke down over identity issues... There was a retreat to the universities... People on the left really abandoned electoral politics and instead develop this idea that all social change happens through social movements that are tied to identity. And we ended up with gender theory and race theory and we end up with maybe three generations of young people who've been brought up to think about politics in terms of group and their own indi<span class="text_exposed_show">vidual identities rather than of the common good and a message that might bind us together as a nation... Blacks complained that most leaders were white, which was true. Feminists complained that most all were men, which was also true. Soon black women were complaining about both the sexism of radical black men and the implicit racism of white feminists—who themselves were being criticized by lesbians for presuming the naturalness of the heterosexual family. What all these groups wanted from politics was more than social justice and an end to the war... they wanted to feel at one with the social movements that mirrored the way they felt as individuals."</span>

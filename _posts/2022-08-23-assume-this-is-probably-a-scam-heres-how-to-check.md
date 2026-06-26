@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14735'
 permalink: /2022/08/23/assume-this-is-probably-a-scam-heres-how-to-check/
 categories:
     - 'Burning Man'
+conversion_state: wordpress
 ---
 
 Every August, an army of scammers emerge to prey on those looking for Burning Man tickets. As a regional chair of Burners Without Borders who has navigated this process many times, I decided to write this short piece about how to identify scammers and how to avoid being ripped off.

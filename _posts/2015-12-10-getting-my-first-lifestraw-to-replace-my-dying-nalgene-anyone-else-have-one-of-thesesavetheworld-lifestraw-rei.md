@@ -45,6 +45,7 @@ instagram_image_id:
     - '5318'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Getting my first lifestraw to replace my dying nalgene. Anyone else have one of these?

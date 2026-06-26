@@ -45,6 +45,7 @@ instagram_image_id:
     - '9327'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I did a soft launch of this a couple months ago, but I am proud to announce my DJ company is celebrating it’s 15th anniversary by making all services free for non profits. If you are part of a worthy cause which needs some speakers and wireless mics for an event, or a laser light show plus sound for a dance, let me know!](https://blog.cjtrowbridge.com/wp-content/uploads/2017/11/1511397631-1-1.jpg)](https://www.instagram.com/p/Bb0WcYmFXsv/)

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=8897'
 permalink: /2017/08/21/rebutting-the-fallacious-paradox-of-tolerance/
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 So first, let's define the Paradox itself. I will defer to this excerpt from Wikipedia; Philosopher [Karl Popper](https://en.m.wikipedia.org/wiki/Karl_Popper "Karl Popper") defined the paradox in 1945 in *[The Open Society and Its Enemies](https://en.m.wikipedia.org/wiki/The_Open_Society_and_Its_Enemies "The Open Society and Its Enemies")*Vol. 1.

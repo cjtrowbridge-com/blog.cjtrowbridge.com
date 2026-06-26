@@ -9,6 +9,7 @@ permalink: /2020/02/15/bwb-sf-informational-meeting/
 categories:
     - Blog
     - 'Burners Without Borders SF'
+conversion_state: wordpress
 ---
 
 ![BWB/SF Informational Meeting Flyer](https://blog.cjtrowbridge.com/wp-content/uploads/2020/02/Informational-meeting-flyer-1-1.jpg)

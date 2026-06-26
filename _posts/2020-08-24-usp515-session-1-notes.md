@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12918'
 permalink: /2020/08/24/usp515-session-1-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 ## Day One

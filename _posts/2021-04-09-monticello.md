@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 There is so much to say about this place. It was Thomas Jefferson’s Virginia estate. He wrote “All men are created equal” in the American Declaration of Independence, and yet he died owning hundreds of enslaved people, including his own children. Just down the hill from Jefferson’s enormous mansion is a dirt road called Mulberry Row where his hundreds of slaves did the work that paid for his mansion and his extravagant lifestyle. There is a great deal of information available about these people, and I intend to do a series of videos about the work they did. I took a lot of pictures of their dwellings and the signs about their stories. You can see all of that in [the album here](https://photos.app.goo.gl/vGAcnV3cBsQTibbA8).

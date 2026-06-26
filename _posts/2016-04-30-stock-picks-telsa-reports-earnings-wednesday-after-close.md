@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=7220'
 permalink: /2016/04/30/stock-picks-telsa-reports-earnings-wednesday-after-close/
 categories:
     - Investment
+conversion_state: wordpress
 ---
 
 Tesla is announcing earnings Wednesday after the market closes. Currently, it is down a bit after its 13% jump following the announcement of their new electric vehicle. The bottom line for me is that they have sold almost a half-million of this new car since then and they have not even started production yet. Each of those people paid $1k to reserve their Tesla, meaning they were handed a half-billion dollars in cash by people who intend to buy a Tesla once they come out. I think the earnings report will be very good. If it starts low for its recent range on Monday, I would say this is a very good time to buy and hold until a day or two after the earnings report. Let's see how it goes! **Update 2016-05-02:**On the first of last month, I bet Tesla would go up 5% after the Model 3 unveil. It ended up going up from $237 to $265, 11.8%! It is now back down to $238. We know several key things about their earnings announcement Wednesday;

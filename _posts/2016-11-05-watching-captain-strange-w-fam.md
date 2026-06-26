@@ -45,6 +45,7 @@ instagram_image_id:
     - '7753'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Watching captain strange w/ fam](https://blog.cjtrowbridge.com/wp-content/uploads/2016/11/1478400536-1-1.jpg)](https://www.instagram.com/p/BMc9exVjkbR/)

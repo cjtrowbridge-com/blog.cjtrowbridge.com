@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12872'
 permalink: /2019/10/29/scp-tale-adapting/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 write an SCP tale about adapting the limitations of what is an anomaly as society's understanding of the laws of physics changes over time

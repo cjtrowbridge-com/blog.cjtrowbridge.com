@@ -45,6 +45,7 @@ instagram_image_id:
     - '10261'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I said “take a selfie” and suddenly…](https://blog.cjtrowbridge.com/wp-content/uploads/2018/05/1526606265-1-1.jpg)](https://www.instagram.com/p/Bi5mnFrAx0n/)

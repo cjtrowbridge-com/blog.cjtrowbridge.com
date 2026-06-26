@@ -45,6 +45,7 @@ instagram_image_id:
     - '8855'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![#roseville #trump #disabled](https://blog.cjtrowbridge.com/wp-content/uploads/2017/08/1501715304-1-1.jpg)](https://www.instagram.com/p/BXTy30kF6-Q/)

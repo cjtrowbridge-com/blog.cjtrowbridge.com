@@ -45,6 +45,7 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":1:{s:5:"count";i:1;}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![A couple hours ago I was telling @ore_o26 about a wagyu cheeseburger I had in Berlin. Now I am seeing wagyu ads on Facebook for the first time. I do not have any Facebook apps installed and I have never searched for waygu or typed it into my phone. This is at least the fifth time something like this has happened. How is this happening?](https://blog.cjtrowbridge.com/wp-content/uploads/2018/07/1530781069-1-1.jpg)](https://www.instagram.com/p/Bk2Bavkh8NX/)

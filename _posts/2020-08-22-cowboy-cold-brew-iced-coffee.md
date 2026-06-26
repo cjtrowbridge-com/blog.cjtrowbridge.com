@@ -10,6 +10,7 @@ image: /wp-content/uploads/2020/08/Bon-Apetit-1.jpg
 categories:
     - '2020 Burn'
     - Projects
+conversion_state: wordpress
 ---
 
 I really like to make cold brew iced coffee. I also like to go camping. I developed this method for making cowboy cold brew which works just as well at home or in the woods. Cowboy coffee refers to mixing the grounds in with the water and then pouring it out through a filter once it has brewed. This is different from the way most people make coffee. With cold brew, there are basically two ways to make it. You can either get a bag to hold the grounds while they brew, or you can do it this way where you just mix the grounds into the water and then pour it all through a filter. The big difference between these two methods is that you don't have to deal with dirty bags. The problem there is that if you use a dirty bag again, you are likely to see mold and then you are done making coffee until you can get to a dishwasher and bleach everything. Doing it cowboy style means your filter stays clean between brewings and doesn't get moldy.

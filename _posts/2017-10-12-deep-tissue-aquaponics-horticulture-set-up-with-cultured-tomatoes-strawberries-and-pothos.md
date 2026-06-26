@@ -45,6 +45,7 @@ instagram_image_id:
     - '9208'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Deep tissue #aquaponics #horticulture set up with cultured #tomatoes, #strawberries, and #pothos](https://blog.cjtrowbridge.com/wp-content/uploads/2017/10/1507871154-1-1.jpg)](https://www.instagram.com/p/BaLQOWnFvSG/)

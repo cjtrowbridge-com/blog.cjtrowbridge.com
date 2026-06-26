@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12526'
 permalink: /2020/06/30/drugs-and-society-harm-reduction/
 categories:
     - 'HED315 Drugs and Society'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

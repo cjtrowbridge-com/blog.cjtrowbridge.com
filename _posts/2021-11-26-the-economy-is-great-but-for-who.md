@@ -9,6 +9,7 @@ permalink: /2021/11/26/the-economy-is-great-but-for-who/
 image: /wp-content/uploads/2021/11/260198720_10159954268410555_3873988888212732465_n-1.jpg
 categories:
     - Analysis
+conversion_state: wordpress
 ---
 
 ###### This post is part of a guest series called [Discursive Construction](https://blog.cjtrowbridge.com/2021/11/24/discursive-construction-ai-generated-essays-and-analysis/), and was written by an advanced artificial intelligence. The bold at the beginning is the prompt, and the rest was written by the AI. If you'd like to support this project, please [buy me a coffee](https://www.buymeacoffee.com/cjtrowbridge).

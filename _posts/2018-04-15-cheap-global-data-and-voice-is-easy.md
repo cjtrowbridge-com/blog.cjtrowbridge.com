@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=10090'
 permalink: /2018/04/15/cheap-global-data-and-voice-is-easy/
 categories:
     - Featured
+conversion_state: wordpress
 ---
 
 ## The Phone

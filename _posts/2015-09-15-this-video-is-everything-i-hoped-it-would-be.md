@@ -8,6 +8,7 @@ guid: 'http://cjtrowbridge.com/?p=3531'
 permalink: /2015/09/15/this-video-is-everything-i-hoped-it-would-be/
 categories:
     - 'Social Media'
+conversion_state: wordpress
 ---
 
 <center><iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/8PLifPUIuic" width="560"></iframe></center>

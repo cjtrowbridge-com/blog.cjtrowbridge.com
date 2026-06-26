@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14562'
 permalink: /2022/01/21/moisture-farming-dont-get-ripped-off/
 categories:
     - Featured
+conversion_state: wordpress
 ---
 
 Now that the era of biosphere collapse is rapidly approaching the water wars stage, moisture farming is finally taking off. Just like the Skywalkers of Tatooine, many people today are beginning to explore extracting humidity from the air to provide for their basic water needs. But don't be ripped off by bad deals. This guide will explain how to tell the difference and [which one you should buy instead](https://amzn.to/3Ip7Ywf).

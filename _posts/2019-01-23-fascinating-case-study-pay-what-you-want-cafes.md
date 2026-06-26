@@ -10,6 +10,7 @@ categories:
     - Blog
     - Featured
     - School
+conversion_state: wordpress
 ---
 
 <iframe frameborder="0" height="290" scrolling="no" src="https://www.npr.org/player/embed/686660129/686775814" title="NPR embedded audio player" width="100%"></iframe>Pay-what-you-want cafes are a super fascinating case study at the intersection of many issues related to modern urbanism. Implementing this mission started with food security and grew to touch many other issues from racial sensitivity to consumer behaviors and our deep ethical dissonance around living differently than we believe we should. This story includes themes ranging from utopian socialism to the discordant relationship between capitalism and philanthropy. **I highly, highly recommend listening!**

@@ -45,6 +45,7 @@ instagram_image_id:
     - '9044'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Look wat I made!

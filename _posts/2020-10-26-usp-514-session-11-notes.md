@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13335'
 permalink: /2020/10/26/usp-514-session-11-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 **<span class="">October 26th and 28th </span><span class=""> Session Eleven: Sustainable Urban Transportation Management</span><span class="">This session will examine a range of issues critical to sustainable urban transportation. We will examine case studies of Curitiba, Brazil and Bogata, Columbia transportation systems. We will be guided by the following questions.</span>1. <span class="">What are basic characteristics of urban transportation systems?</span>

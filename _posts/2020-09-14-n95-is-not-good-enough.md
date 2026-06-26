@@ -10,6 +10,7 @@ image: /wp-content/uploads/2020/09/P100-respirator-1.jpg
 categories:
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 I have severe asthma. I have tried hiking in an N95 mask and I have asthma attacks the whole time. My home environment is kept extremely clean by my [custom high-power low-cost air filtration system](https://blog.cjtrowbridge.com/2020/05/23/preparing-for-the-worst-fire-season-ever/); my indoor PM values usually stay at zero. The only other variable is N95. So what is N95? The certification standards document explains that it filters 95% of airborne particulate matter. I've measured PM levels in excess of 800 micrograms per liter of air on a regular basis throughout the current fire season. If you filter out 95% of that, you're still breathing in a moderate dose of particulate matter. N95 just isn't enough, especially during exercise.

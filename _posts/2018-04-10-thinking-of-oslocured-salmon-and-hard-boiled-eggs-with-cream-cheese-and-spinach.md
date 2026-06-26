@@ -45,6 +45,7 @@ instagram_image_id:
     - '10076'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Thinking of #Oslo

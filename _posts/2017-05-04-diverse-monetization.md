@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=8540'
 permalink: /2017/05/04/diverse-monetization/
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 Monetization is what frees content creators to have the time to develop and publish. At the same time, it kind of feels like a dirty word. It can become the driving force behind the content which seems universally bad, and it is potentially a large single-point of failure in your business model. ![](https://upload.wikimedia.org/wikipedia/commons/7/72/Contando_Dinheiro_%288228640%29.jpg)<small style="text-align: center; display: block;">By [Jeff Belmonte](https://www.flickr.com/people/72236935@N00) from Cuiabá, Brazil - [Contando Dinheiro](https://www.flickr.com/photos/jeffbelmonte/8228640/), [CC BY 2.0](http://creativecommons.org/licenses/by/2.0 "Creative Commons Attribution 2.0"), [Link](https://commons.wikimedia.org/w/index.php?curid=37232972)</small>An aspiring social media entrepreneur who worked his way to 20k Instagram followers recently told me that he wants to find some way of monetizing. I replied that this should have come first. Who knows who these followers are, much less whether they would be in the demographic for some particular product or service?

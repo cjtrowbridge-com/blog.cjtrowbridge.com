@@ -9,6 +9,7 @@ permalink: /2018/01/27/years-problems-solved/
 categories:
     - Blog
     - Projects
+conversion_state: wordpress
 ---
 
 > \#!/bin/bash #deletes old backups find /var/www/backups/ -mindepth 1 -mmin +$((60\*24)) -delete #creates new backups tar -czf “/var/www/backups/webs-$( date +’%Y-%m-%d\_%H-%M-%S’ ).gz” /var/www/webs /usr/bin/mysqldump -uroot -p\[mysql root password\] –all-databases | gzip &gt; “/var/www/backups/mysql-$( date +’%Y-%m-%d\_%H-%M-%S’ ).sql.gz”

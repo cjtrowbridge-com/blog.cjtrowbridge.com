@@ -43,6 +43,7 @@ instagram_image_id:
     - '7861'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Ugly sweater gingerbread man. 😍

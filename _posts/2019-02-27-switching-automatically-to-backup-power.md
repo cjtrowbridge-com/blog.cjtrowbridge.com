@@ -11,6 +11,7 @@ categories:
     - 'Burning Man'
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 This is a proposed solution to a complex problem. At my camp, we have several large industrial fridges as part of our kitchen. Our main power source is a large 45kva generator. This is a rental which is maintained daily by the vendor, and yet sometimes it fails. We consider the fridges to be a mission-critical part of the camp since our camp has central food production. If the fridges fail and the food spoils, then everyone would go hungry. This can not happen. The fridges we use are actually large chest freezers with added thermostats which shut them off when they reach fridge temperatures; so they become super efficient fridges instead of freezers. Here are two diagrams showing normal conditions and emergency conditions under my proposed solution; ![Normal Operations Diagram](https://blog.cjtrowbridge.com/wp-content/uploads/2019/02/Normal-Operations-Diagram-1-1.jpg)![Emergency Operations Diagram](https://blog.cjtrowbridge.com/wp-content/uploads/2019/02/Emergency-Operations-Diagram-1-1.jpg)

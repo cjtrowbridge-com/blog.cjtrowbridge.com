@@ -9,6 +9,7 @@ permalink: /2017/10/06/defining-evil/
 categories:
     - Blog
     - Featured
+conversion_state: wordpress
 ---
 
 This is an important word which serves to define the things we ought not to do. I choose to accept Philip Zimbardo's very studied definition;

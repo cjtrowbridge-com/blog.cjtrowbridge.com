@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14496'
 permalink: /2021/12/22/ask-ai-to-write-a-posthumous-letter-from-alexander-hamilton/
 categories:
     - Synthesis
+conversion_state: wordpress
 ---
 
 ###### This post is part of a guest series called [Discursive Construction](https://blog.cjtrowbridge.com/2021/11/24/discursive-construction-ai-generated-essays-and-analysis/), and was written by an advanced artificial intelligence. The bold at the beginning is the prompt, and the rest was written by the AI. If you’d like to support this project, please [buy me a coffee](https://www.buymeacoffee.com/cjtrowbridge). For this post, AI also created the featured photos based on the topic.

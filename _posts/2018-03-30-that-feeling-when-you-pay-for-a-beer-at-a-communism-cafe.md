@@ -45,6 +45,7 @@ instagram_image_id:
     - '9968'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![That feeling when you pay for a beer at a communism cafe.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522423818-1-1.jpg)](https://www.instagram.com/p/Bg89OjNl3hn/)

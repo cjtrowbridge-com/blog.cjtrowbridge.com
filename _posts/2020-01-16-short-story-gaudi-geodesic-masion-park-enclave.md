@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12694'
 permalink: /2020/01/16/short-story-gaudi-geodesic-masion-park-enclave/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 short story idea: geodesic gaudi mansion park enclave arcology as a condensing symbol for ignoring negative externalities

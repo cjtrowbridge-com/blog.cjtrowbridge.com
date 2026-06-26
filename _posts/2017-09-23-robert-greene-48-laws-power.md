@@ -11,6 +11,7 @@ categories:
     - Blog
     - 'Reading List'
     - Revisit
+conversion_state: wordpress
 ---
 
 This book was recommended by a friend. He said it reminded him of a shared favorite of ours, [How To Win Friends and Influence People by Dale Carnegie](https://blog.cjtrowbridge.com/2016/12/01/dale-carnegie-how-to-win-friends-and-influence-people/). It reminds me of [The Game by Neil Strauss](https://blog.cjtrowbridge.com/2017/04/15/neil-strauss-the-game/). This book could be used for great evil, or for good. And like The Game, it will certainly be used against you whether or not the wielder even knows what they are doing. For that reason alone, everyone should be familiar with this subject. In the preface, the author also references Niccolo Machiavelli's The Prince. Another book in the same vein which I intend to read soon. The 48 Laws of Power is a great read which I will certainly revisit many times and recommend to anyone I meet who aspires to power.

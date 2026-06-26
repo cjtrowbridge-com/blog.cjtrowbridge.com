@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12970'
 permalink: /2020/08/31/self-sufficient-off-grid-squaredrop-trailer/
 categories:
     - 'Vehicle Design'
+conversion_state: wordpress
 ---
 
 ## Pros and Cons of RVs

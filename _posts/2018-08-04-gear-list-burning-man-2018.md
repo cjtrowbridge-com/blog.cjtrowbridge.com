@@ -12,6 +12,7 @@ categories:
 tags:
     - '2018 Burning Man'
     - 'Burning Man'
+conversion_state: wordpress
 ---
 
 This year, I have changed almost all my gear. For the first time, I have my own complete microgrid and a double-tent. I also replaced almost all non-rechargeable devices. This year, my burn will be far more sustainable and very low stress. My gear list makes all that possible.

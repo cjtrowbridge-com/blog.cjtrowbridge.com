@@ -10,8 +10,8 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: markdown
 ---
-
 I really didn’t like the Lobster Rolls at Ande’s Variety. So I decided to try someplace a little fancier. Well this was A LOT fancier, but it was also a lot more delicious. I highly recommend trying out this place for a great Lobster Roll.
 
-> <iframe data-mce-fragment="1" name="__tt_embed__v55577426892061840" src="https://www.tiktok.com/embed/v2/6950702585930124549?lang=en-US"></iframe>
+<iframe class="post-embed" src="https://www.tiktok.com/embed/v2/6950702585930124549?lang=en-US" loading="lazy"></iframe>

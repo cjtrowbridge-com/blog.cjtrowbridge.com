@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=10230'
 permalink: /2018/05/12/saunt-augustine-on-duty-and-praise/
 categories:
     - 'For Future Reference'
+conversion_state: wordpress
 ---
 
 "In doing what we ought we deserve no praise, because it is our duty." -Saint Augustine

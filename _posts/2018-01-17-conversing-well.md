@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=9559'
 permalink: /2018/01/17/conversing-well/
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 In the year 2000, at age 12, I bought a copy of How To Win Friends and Influence People at a local bookstore in my hometown. Since then, I have made a passionate study of the art and philosophy of effective communication and its relationship with the social power dynamic, especially in the contexts of spirited debates and of applied game theory. I can distill the state of my method thus;

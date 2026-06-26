@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12684'
 permalink: /2020/04/09/microcafe-microhotel/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 Come up with mvp for combined capsule hotel and cafe. As small as possible while profitable. Excellent WiFi Several price options Name brainstorming

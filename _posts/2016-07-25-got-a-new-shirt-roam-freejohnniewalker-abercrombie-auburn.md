@@ -45,6 +45,7 @@ instagram_image_id:
     - '7513'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Got a new shirt "Roam Free"

@@ -45,6 +45,7 @@ instagram_image_id:
     - '9917'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![In Oslo Norway, Starbucks has salmon and egg paninis for just ten billion dollars.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522220129-1-1.jpg)](https://www.instagram.com/p/Bg24uKallxL/)

@@ -9,6 +9,7 @@ permalink: /2017/03/26/23andme-my-genes/
 categories:
     - Featured
     - Revisit
+conversion_state: wordpress
 ---
 
 [![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/03/23andme_logo-1-1.jpg)](http://refer.23andme.com/v2/share/6403008858372551306)I recently signed up to do [23andMe](http://refer.23andme.com/v2/share/6403008858372551306). This is a service that sequences your DNA and provides in-depth analyses of various traits and risk factors as well as a detailed analysis of your family history and origins. They offer two options: a cheaper $100 Ancestry Service which just shows you where you're from, or the more expensive $200 Health + Ancestry Service which also gives you access to your entire genome and the details of all your genes and what they mean. ![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/03/23andme-specimen-1-1.jpg)I chose the latter, and soon thereafter received my specimen container. A test tube came in the mail for me to spit in and send back. It took about 6 or 7 weeks to get my results. #### My Origins

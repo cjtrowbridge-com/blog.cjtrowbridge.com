@@ -43,6 +43,7 @@ instagram_location:
     - ''
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![deadpool inspired me to cut my hair short](https://blog.cjtrowbridge.com/wp-content/uploads/2016/02/1455992408-1-1.jpg)](https://www.instagram.com/p/BCBJXm6LtH4/)

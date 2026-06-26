@@ -45,6 +45,7 @@ instagram_image_id:
     - '9114'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Stickered up my new laptop.

@@ -10,6 +10,7 @@ categories:
     - Blog
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 The end seems pretty nigh, so why not measure it? This sensor array is ready whether it's fires or nuclear war.

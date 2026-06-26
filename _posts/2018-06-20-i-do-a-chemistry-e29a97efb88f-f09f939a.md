@@ -45,6 +45,7 @@ instagram_image_id:
     - '10409'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I do a chemistry ⚗️ 📚](https://blog.cjtrowbridge.com/wp-content/uploads/2018/06/1529532780-1-1.jpg)](https://www.instagram.com/p/BkQ0fySA-60/)

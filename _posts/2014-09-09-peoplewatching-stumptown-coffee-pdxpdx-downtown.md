@@ -39,6 +39,7 @@ dsgnwrks_instagram_hashtags:
     - 'a:5:{i:0;s:8:"downtown";i:1;s:9:"stumptown";i:2;s:6:"coffee";i:3;s:14:"peoplewatching";i:4;s:6:"pdxpdx";}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/09/10611178_300096866845828_1908233501_n2.jpg)](http://instagram.com/p/su6xObLtL5/)

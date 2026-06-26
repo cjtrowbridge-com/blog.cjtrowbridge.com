@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/08/640x640-video-1533536229.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Eat the rich](https://blog.cjtrowbridge.com/wp-content/uploads/2018/08/1533536229-1-1.jpg)](https://www.instagram.com/p/BmIIbxilQNU/)

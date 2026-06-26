@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=7838'
 permalink: /2016/11/24/getting-ready/
 categories:
     - 'Gig Work'
+conversion_state: wordpress
 ---
 
 The first gig apps I want to try out are the obvious ones; Lyft and Uber. I [recently bought a three-year old Honda Civic](https://blog.cjtrowbridge.com/2016/01/20/look-what-i-got-%F0%9F%98%81%F0%9F%98%81%F0%9F%98%81/). I did it partially with this in mind. This was the best equilibrium-point I could find between low long-term operating cost and low depreciation based on age while staying within budget. The Prius was significantly better in both categories, but at about triple the total price. Despite my buying this car because I know it will be reliable, I also added the dealer's comprehensive end-to-end coverage of any mechanical problems which was an extra $3/mo. Next I went shopping for insurance. This was tricky. I had Progressive before, but they do not offer ridesharing coverage. I ended up switching to AAA. They offer competitive ridesharing coverage with the added bonus of having all their perks like roadside assistance, partner discounts, etc. **Accessorizing**This usb charger supports quick charge as well as non-quick charge. This means I can use QC on my Nexus while letting iPhone users charge up the old-fashioned way.

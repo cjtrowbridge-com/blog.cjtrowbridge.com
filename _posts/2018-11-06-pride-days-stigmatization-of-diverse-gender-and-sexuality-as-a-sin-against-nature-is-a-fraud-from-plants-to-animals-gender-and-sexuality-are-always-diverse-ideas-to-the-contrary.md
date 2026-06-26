@@ -45,6 +45,7 @@ instagram_image_id:
     - '11203'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Pride Days: stigmatization of diverse gender and sexuality as a sin against nature is a fraud. From plants to animals, gender and sexuality are always diverse. Ideas to the contrary do not reflect nature.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/11/pride-days-stigmatization-of-diverse-1-1.jpg)](https://www.instagram.com/p/Bp2k07lnTWM/)

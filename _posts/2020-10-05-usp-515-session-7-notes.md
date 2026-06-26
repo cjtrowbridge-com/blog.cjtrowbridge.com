@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13242'
 permalink: /2020/10/05/usp-515-session-7-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 <div id="yui_3_17_2_1_1601920422918_133">**<span class="">October 5th and 7th</span>**<span id="yui_3_17_2_1_1601920422918_131"><span class="" id="yui_3_17_2_1_1601920422918_130">**Session Seven: Health Justice: Case Study of Covid 19** </span></span>In this session we will examine how the Covid 19 pandemic has further exposed social and environmental injustices in the United States. We will focus on what students learned through Assignment #1.

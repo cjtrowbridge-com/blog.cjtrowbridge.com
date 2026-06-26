@@ -8,6 +8,7 @@ guid: 'https://movingcabin.com/?p=22'
 permalink: /2020/09/25/power-systems/
 categories:
     - Preparing
+conversion_state: wordpress
 ---
 
 <main class="site-main" id="main"><article class="post-13791 post type-post status-publish format-standard has-post-thumbnail hentry category-preparing-for-2021" id="post-13791"><div class="entry-content">## Basic Specs

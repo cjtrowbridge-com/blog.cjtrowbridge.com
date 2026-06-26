@@ -45,6 +45,7 @@ instagram_image_id:
     - '9036'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![That new laptop smell](https://blog.cjtrowbridge.com/wp-content/uploads/2017/09/1505153963-1-1.jpg)](https://www.instagram.com/p/BY6Rl53jVCO/)

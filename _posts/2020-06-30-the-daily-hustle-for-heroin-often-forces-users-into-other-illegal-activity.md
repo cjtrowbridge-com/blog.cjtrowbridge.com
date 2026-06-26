@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12524'
 permalink: /2020/06/30/the-daily-hustle-for-heroin-often-forces-users-into-other-illegal-activity/
 categories:
     - 'HED315 Drugs and Society'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

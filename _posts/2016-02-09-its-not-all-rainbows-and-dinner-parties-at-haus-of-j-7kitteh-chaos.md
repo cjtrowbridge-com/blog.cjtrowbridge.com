@@ -45,6 +45,7 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:0;s:4:"data";a:0:{}}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![It's not all rainbows and dinner parties at Haus of J.

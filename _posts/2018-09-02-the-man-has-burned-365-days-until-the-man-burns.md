@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/640x640-video-1535894449.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![The man has burned! 365 days until the man burns.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/1535894449-1-1.jpg)](https://www.instagram.com/p/BnOY1m6gSrK/)

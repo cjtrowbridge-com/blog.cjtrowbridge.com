@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13448'
 permalink: /2020/11/04/playa-pergola-proposal/
 categories:
     - '2020 Burn'
+conversion_state: wordpress
 ---
 
 ## Why

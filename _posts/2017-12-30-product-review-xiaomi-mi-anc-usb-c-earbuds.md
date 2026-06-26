@@ -9,6 +9,7 @@ permalink: /2017/12/30/product-review-xiaomi-mi-anc-usb-c-earbuds/
 categories:
     - Blog
     - Featured
+conversion_state: wordpress
 ---
 
 I'm really into minimizing the things I carry with me, and getting the most out of them. The Xiaomi Mi ANC Earbuds are a perfect match for both those goals. They are an amazing pair which I will keep in my [everyday carry](https://blog.cjtrowbridge.com/2017/12/20/edc-2017-softwareengineer-student-trayvax-wallet-asus-c302ca-chromebook-razer-atheris-mouse-lgusamobile-v20-honda-civic-lx-2013-gerbergear-shard/) for the foreseeable future. These earbuds are replacing a previous pair I used. The old pair were bluetooth noise cancelling earbuds. There were a few major problems with them which apply to all bluetooth earbuds. For one, they still have a chord connecting them to each other, so the dream of removing all chords falls short. Secondly, they have to be recharged, and there is no way to use them while they are recharging, so it's sort of Russian roulette every time you need them. And if they're dead, you're out of luck. Personally, I use earbuds for listening to class lectures, audiobooks, podcasts, and music. I need them to work when I need them, so I decided my next pair would ideally not be rechargeable, or at least it needs to work while I am charging it. But I still really enjoy the noise cancelling feature. I sometimes use noise cancelling without even listening to anything, just to alleviate little distractions around the room.

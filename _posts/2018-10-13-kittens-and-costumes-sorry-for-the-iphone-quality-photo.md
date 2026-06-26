@@ -45,6 +45,7 @@ instagram_image_id:
     - '11097'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Kittens and costumes.

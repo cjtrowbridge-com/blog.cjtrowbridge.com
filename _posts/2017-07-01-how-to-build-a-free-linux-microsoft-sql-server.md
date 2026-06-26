@@ -9,6 +9,7 @@ permalink: /2017/07/01/how-to-build-a-free-linux-microsoft-sql-server/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 This covers how to create a virtual linux server running Microsoft SQL Server. First, create a virtual server with the following requirements in mind.

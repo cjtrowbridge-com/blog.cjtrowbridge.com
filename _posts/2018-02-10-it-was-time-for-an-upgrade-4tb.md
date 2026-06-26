@@ -45,6 +45,7 @@ instagram_image_id:
     - '9654'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![It was time for an upgrade #4tb](https://blog.cjtrowbridge.com/wp-content/uploads/2018/02/1518305697-1-1.jpg)](https://www.instagram.com/p/BfCOiMwFEH9/)

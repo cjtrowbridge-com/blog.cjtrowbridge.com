@@ -16,6 +16,7 @@ blogger_internal:
     - /feeds/4006483499567219562/posts/default/7116765956287822240
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 <div style="background-color: white; border: 0px; color: #444444; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.714285714; margin: 0px; padding: 0px; vertical-align: baseline;"><div style="border: 0px; line-height: 1.714285714; margin-bottom: 1.714285714rem; padding: 0px; vertical-align: baseline;">Current Goal Set;</div>- Startups I’m Working On

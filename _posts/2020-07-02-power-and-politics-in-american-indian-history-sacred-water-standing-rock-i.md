@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12534'
 permalink: /2020/07/02/power-and-politics-in-american-indian-history-sacred-water-standing-rock-i/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

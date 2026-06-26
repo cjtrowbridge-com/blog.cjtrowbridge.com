@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 This was a cool place. It happened to be right on my way. I decided at some point to expand my trip to include historic sites related to the civil and revolutionary wars. So the birthplace of the man who beat the traitors seemed like a perfect spot to stop and see. They even had a replica of his childhood home housed inside a giant monument. Very cool spot to stop and see.

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=10215'
 permalink: /2018/04/07/lifespan-physiological-limitations/
 categories:
     - 'For Future Reference'
+conversion_state: wordpress
 ---
 
 "At birth and in early infancy, the brain's 100 billion neurons have only minimal connections. The infant brain literally is ready and waiting for the experiences that will create these connections. During the first 2 years of life, the dendrites of the neurons branch out, and the neurons become far more interconnected; infancy is a time when the brain is all about making connections. Myelination, the process of encasing axons with fat cells (the myel<span class="text_exposed_show">in sheath), begins prenatally and continues after birth well into adolescence and adulthood (Blakemore &amp; Mills, 2014; Casey, 2015).</span>

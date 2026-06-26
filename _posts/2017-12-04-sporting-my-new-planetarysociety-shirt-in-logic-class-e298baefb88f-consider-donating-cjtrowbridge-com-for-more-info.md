@@ -45,6 +45,7 @@ instagram_image_id:
     - '9376'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Sporting my new @planetarysociety shirt in logic class ☺️ consider donating! cjtrowbridge.com for more info.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/12/1512434395-1-1.jpg)](https://www.instagram.com/p/BcTP6jklA6Y/)

@@ -43,6 +43,7 @@ instagram_image_id:
     - '7360'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![This is exactly what i wanted](https://blog.cjtrowbridge.com/wp-content/uploads/2016/05/1464647271-1-1.jpg)](https://www.instagram.com/p/BGDFNYLLtHL/)

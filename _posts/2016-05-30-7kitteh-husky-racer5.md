@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2016/05/640x640-video-1464650354.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![#7kitteh #husky #racer5](https://blog.cjtrowbridge.com/wp-content/uploads/2016/05/1464650354-1-1.jpg)](https://www.instagram.com/p/BGDLFtMLtCb/)

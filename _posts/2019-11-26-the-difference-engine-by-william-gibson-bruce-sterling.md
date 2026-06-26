@@ -9,6 +9,7 @@ permalink: /2019/11/26/the-difference-engine-by-william-gibson-bruce-sterling/
 categories:
     - Blog
     - 'Reading List'
+conversion_state: wordpress
 ---
 
 1. [![The Difference Engine](https://blog.cjtrowbridge.com/wp-content/uploads/2019/11/The-Difference-Engine-1-1.jpg)](https://amzn.to/2KWlfRH)I have waited a long time to read this book. I've also waited about a month since I finished reading it before writing this post. This book is a lot. It is considered the seminal work of the steampunk genre. In it, Gibson and Sterling present a world where Babbage found wide success with his Analytical Engine and ushered in the computer revolution in the early 1800s.

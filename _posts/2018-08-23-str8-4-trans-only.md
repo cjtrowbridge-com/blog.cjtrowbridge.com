@@ -9,6 +9,7 @@ permalink: /2018/08/23/str8-4-trans-only/
 categories:
     - LGBT
     - School
+conversion_state: wordpress
 ---
 
 ## Sublimation Is The New Reaction-Formation For Homophobia

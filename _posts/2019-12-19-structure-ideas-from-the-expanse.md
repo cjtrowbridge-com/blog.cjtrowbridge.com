@@ -10,6 +10,7 @@ categories:
     - '2020 Burn'
     - 'Burning Man'
     - Projects
+conversion_state: wordpress
 ---
 
 There were a few really cool ideas for shelters and infrastructure in the new season of The Expanse that I wanted to talk about. All are variants of popular, existing styles of shelters in common use at Burning Man and elsewhere. All of these images are from episode 2, 3 or 4 of season four of The Expanse. Also check out my post about interesting structures from [the Foundation TV Show](https://blog.cjtrowbridge.com/2021/11/03/most-interesting-structures-from-the-foundation-tv-show/). Let's start with an aerial shot that shows all of the things I'll be talking about... ![](https://blog.cjtrowbridge.com/wp-content/uploads/2019/12/Aerial-1-1-1.png)

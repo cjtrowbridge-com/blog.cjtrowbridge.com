@@ -9,6 +9,7 @@ permalink: /2018/02/26/mindfulness-difference-pain-suffering/
 categories:
     - Blog
     - Featured
+conversion_state: wordpress
 ---
 
 I participate in a biweekly meditation and discussion group. It is my turn to select a reading to start the conversation, and I have selected an excerpt from an excellent conversation which happened on Sam Harris' [Waking Up Podcast](https://samharris.org/). The episode is a much larger conversation than just this topic, and the entire episode is super interesting. In this episode, three of the world's leading academic experts on meditation and mindfulness discuss the evidence and research that exists for benefits from meditation and mindfulness. You can read more about their expertise and credentials [here](https://samharris.org/podcasts/111-science-meditation/). The section I want to share is a discussion of studies they have conducted on people suffering from depression, anxiety, and chronic pain, and the evidence suggesting mindfulness based cognitive therapy is actually more effective than medication for dealing with these problems.

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14186'
 permalink: /2021/06/28/morality-of-agency-and-objectification/
 categories:
     - Essays
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

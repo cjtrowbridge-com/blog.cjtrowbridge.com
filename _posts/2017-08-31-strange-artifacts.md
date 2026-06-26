@@ -45,6 +45,7 @@ instagram_location:
     - 'O:8:"stdClass":4:{s:8:"latitude";d:38.720605555556;s:9:"longitude";d:-121.13392777778;s:4:"name";s:11:"Folsom Lake";s:2:"id";i:870440747;}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Strange artifacts](https://blog.cjtrowbridge.com/wp-content/uploads/2017/08/1504233801-1-1.jpg)](https://www.instagram.com/p/BYe2heSlDlX/)

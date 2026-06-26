@@ -9,6 +9,7 @@ permalink: /2017/01/27/setting-up-a-debian-server-with-php-7-and-mysql-5-7/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 First, I created a droplet with Digital Ocean ([Referral Link](https://m.do.co/c/ecb56e953504)) and give it 1GB RAM. Now, the default apt list needs to be expanded;

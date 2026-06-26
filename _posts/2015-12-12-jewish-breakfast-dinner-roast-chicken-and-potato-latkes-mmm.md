@@ -45,6 +45,7 @@ instagram_image_id:
     - '5324'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Jewish breakfast-dinner. Roast chicken and potato latkes. Mmm](https://blog.cjtrowbridge.com/wp-content/uploads/2015/12/1449972970-1-1.jpg)](https://www.instagram.com/p/_NwM2UrtGW/)

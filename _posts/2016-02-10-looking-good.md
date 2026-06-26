@@ -45,6 +45,7 @@ instagram_location_long:
     - '-121.409042802'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Looking good](https://blog.cjtrowbridge.com/wp-content/uploads/2016/02/1455133440-1-1.jpg)](https://www.instagram.com/p/BBnjBB6rtL6/)

@@ -45,6 +45,7 @@ instagram_image_id:
     - '10298'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Who’s getting into the pool first?](https://blog.cjtrowbridge.com/wp-content/uploads/2018/05/1527557062-1-1.jpg)](https://www.instagram.com/p/BjV8HOKAjd1/)

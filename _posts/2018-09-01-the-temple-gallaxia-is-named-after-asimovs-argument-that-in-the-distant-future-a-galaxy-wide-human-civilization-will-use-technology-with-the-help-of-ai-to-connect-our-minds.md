@@ -45,6 +45,7 @@ instagram_image_id:
     - '10821'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![The Temple Gallaxia is named after Asimov’s argument that in the distant future, a galaxy-wide human civilization will use technology with the help of AI to connect our minds together, forming an emergent collective human organism which he called Gallaxia.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/1535820336-1-1.jpg)](https://www.instagram.com/p/BnMNDu9gV3n/)

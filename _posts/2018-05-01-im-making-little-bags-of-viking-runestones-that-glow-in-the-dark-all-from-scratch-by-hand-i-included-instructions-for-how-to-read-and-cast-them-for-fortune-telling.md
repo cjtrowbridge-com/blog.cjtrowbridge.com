@@ -45,6 +45,7 @@ instagram_image_id:
     - '10160'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I’m making little bags of Viking runestones that glow in the dark, all from scratch by hand. I included instructions for how to read and cast them for fortune telling or communion (like Ouija boards). Would anyone be interested in a set?

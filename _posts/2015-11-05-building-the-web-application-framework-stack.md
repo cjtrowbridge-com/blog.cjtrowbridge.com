@@ -8,6 +8,7 @@ guid: 'http://blog.cjtrowbridge.com/?p=4298'
 permalink: /2015/11/05/building-the-web-application-framework-stack/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 This post begins at the point of having installed Debian, Apache, MySQL, and PHP and being ready to start developing web applications. Now I need to install the technologies that facilitate some of the higher level features I will be using.

@@ -45,6 +45,7 @@ instagram_image_id:
     - '4196'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Baes #roomies #grindr](http://blog.cjtrowbridge.com/wp-content/uploads/2015/10/1446154629.jpg)](https://instagram.com/p/9b9SxpLtHt/)

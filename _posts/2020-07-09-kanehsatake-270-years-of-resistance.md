@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12572'
 permalink: /2020/07/09/kanehsatake-270-years-of-resistance/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

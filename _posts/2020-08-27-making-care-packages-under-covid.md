@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12959'
 permalink: /2020/08/27/making-care-packages-under-covid/
 categories:
     - 'Burners Without Borders SF'
+conversion_state: wordpress
 ---
 
 Many times now, I have [founded groups](https://blog.cjtrowbridge.com/2018/04/29/the-first-run-140-care-packages/) or [worked with groups](https://blog.cjtrowbridge.com/2018/04/29/we-made-care-packages-for-people-who-are-homeless-and-so-can-you/) which produce care packages for unhoused people. These usually include a few essentials in a plastic bag which can quickly and easily be handed to unhoused people. As part of co-founding the [first bay area chapter](https://bwbsf.org/projects/care-packages/) of Burners Without Borders, one of the initial projects we wanted to do is launch a new care packages group in the bay area and then branch out into multiple subgroups to serve the larger area. Because of covid, all of our projects were put on hold as we refactor and struggle personally to adapt to this year's rapidly changing conditions and rapidly overlapping disasters.

@@ -8,6 +8,7 @@ guid: 'http://cjtrowbridge.com/?p=4281'
 permalink: /2015/11/05/building-a-xenserver-at-home-with-a-local-repository/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 I have gone over the process of setting up a XenServer before, but this time there is one major difference. It will be using a local repository instead of using a NAS as an ISO repository. This was a little tricky but not too bad. Once I had XenServer installed and configured, I opened an SSH session on the server. I used the following commands to create a local repository; `<pre>mkdir -p /var/opt/xen/ISO_Storexe sr-create name-label=LocalISO type=iso device-config:location=/var/opt/xen/ISO_Store device-config:legacy_mode=true content-type=iso</pre>`Now when I open XenCenter, there was a local repository attached to the server. I renamed the repository form within XenCenter to be more clear.

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12644'
 permalink: /2020/08/03/the-police-killings-no-one-is-talking-about/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

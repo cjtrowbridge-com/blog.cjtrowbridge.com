@@ -45,6 +45,7 @@ instagram_image_id:
     - '7723'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [!["omg i love fresno. this is my favorite city." -Dev](https://blog.cjtrowbridge.com/wp-content/uploads/2016/10/1477553565-1-1.jpg)](https://www.instagram.com/p/BMDuAwCDCvg/)

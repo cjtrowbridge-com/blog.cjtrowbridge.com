@@ -15,6 +15,7 @@ categories:
 tags:
     - '2019 Burning Man'
     - 'Burning Man'
+conversion_state: wordpress
 ---
 
 I did another post about building a [simple playa air conditioner](https://blog.cjtrowbridge.com/2019/03/13/simple-solar-powered-air-conditioning/). I made several major innovations over existing designs, but also repeated a major failure of existing designs. In this post, I will describe my process of addressing this failure and improving further on the prevailing designs for DIY playa air conditioners.

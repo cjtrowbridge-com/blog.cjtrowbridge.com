@@ -9,6 +9,7 @@ permalink: /2016/02/21/vps-setup-recommended-initial-installations/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 This is a subpost of the larger post [Updated Comprehensive VPS Setup Documentation](https://blog.cjtrowbridge.com/2016/02/21/updated-comprehensive-vps-setup-documentation/). When initially setting up a VPS, I generally install the programs listed below. Before installing anything, it is important to first update and upgrade all packages already installed on the server with `apt-get update && apt-get upgrade`

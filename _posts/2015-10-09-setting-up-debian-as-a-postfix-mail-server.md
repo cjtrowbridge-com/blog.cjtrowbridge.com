@@ -8,6 +8,7 @@ guid: 'http://cjtrowbridge.com/?p=3842'
 permalink: /2015/10/09/setting-up-debian-as-a-postfix-mail-server/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 This post is part of a larger series about [Building a Cloud at Home For Free](http://blog.cjtrowbridge.com/2015/10/04/building-a-cloud-at-home-for-free/) as part of building scalable web applications from the ground up. This post starts at the point of setting the server up to be able to send emails. If you still need to setup your hypervisor and virtual server or install and configure Debian, check out my post [Installing Virtualbox and Debian on Windows 10](http://blog.cjtrowbridge.com/2015/10/04/installing-virtualbox-and-debian-on-windows-10/).

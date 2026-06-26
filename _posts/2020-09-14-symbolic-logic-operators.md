@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13062'
 permalink: /2020/09/14/symbolic-logic-operators/
 categories:
     - 'Symbolic Logic'
+conversion_state: wordpress
 ---
 
 This is just like computer science!

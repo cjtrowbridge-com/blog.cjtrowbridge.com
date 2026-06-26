@@ -9,6 +9,7 @@ permalink: /2020/07/02/black-online-cyberspace-culture-and-community-final-proje
 categories:
     - Essays
     - School
+conversion_state: wordpress
 ---
 
 The final project for this class was to create a tool people can use for building communities of racial justice online. Here is the outline, and the PDF of [the final project](https://blog.cjtrowbridge.com/wp-content/uploads/2020/08/Creating-Change-1.pdf).

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12914'
 permalink: /2020/08/24/usp514-session-1-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 #### Final Questions

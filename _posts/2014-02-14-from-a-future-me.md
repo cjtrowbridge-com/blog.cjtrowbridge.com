@@ -16,6 +16,7 @@ blogger_internal:
     - /feeds/4006483499567219562/posts/default/8404617952587433833
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 I decided I want to write a journal entry from a future me who is closer to where I want to be. I intentionally used hyperbole to show goal states.  

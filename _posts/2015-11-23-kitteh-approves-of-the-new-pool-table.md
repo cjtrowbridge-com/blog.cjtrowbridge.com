@@ -45,6 +45,7 @@ instagram_image_id:
     - '4421'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Kitteh approves of the new pool table](https://blog.cjtrowbridge.com/wp-content/uploads/2015/11/1448315472-1-1.jpg)](https://instagram.com/p/-cWxkhLtCS/)

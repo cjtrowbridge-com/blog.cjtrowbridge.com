@@ -9,6 +9,7 @@ permalink: /2017/06/10/migrating-production-database-servers/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 Migrating database servers in production, whether they are large or small, is a surprisingly simple process but a delicate one. There are fewer methods available as the size goes up. This is something I have been asked about by several colleagues so I decided to document my processes and best practices.

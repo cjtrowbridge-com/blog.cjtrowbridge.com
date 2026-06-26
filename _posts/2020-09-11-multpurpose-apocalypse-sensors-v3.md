@@ -9,6 +9,7 @@ permalink: /2020/09/11/multpurpose-apocalypse-sensors-v3/
 categories:
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 This is the third version of my apocalypse sensor array. The major change is a move to laser particulate matter sensors instead of infrared. ![Sensor Array](https://blog.cjtrowbridge.com/wp-content/uploads/2020/09/Sensor-Array-1-1.jpg)

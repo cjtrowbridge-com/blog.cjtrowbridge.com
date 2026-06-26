@@ -45,6 +45,7 @@ instagram_image_id:
     - '10155'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![A candid shot from the fundraiser this weekend](https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/1525134191-1-1.jpg)](https://www.instagram.com/p/BiNu2oegNIl/)

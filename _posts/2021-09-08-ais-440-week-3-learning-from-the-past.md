@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14264'
 permalink: /2021/09/08/ais-440-week-3-learning-from-the-past/
 categories:
     - 'AIS 440 Native Sexuality and Queer Discourse'
+conversion_state: wordpress
 ---
 
 ## Read

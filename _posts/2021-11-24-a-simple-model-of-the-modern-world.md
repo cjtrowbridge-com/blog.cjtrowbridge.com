@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14349'
 permalink: /2021/11/24/a-simple-model-of-the-modern-world/
 categories:
     - Synthesis
+conversion_state: wordpress
 ---
 
 ###### This post is part of a guest series called [Discursive Construction](https://blog.cjtrowbridge.com/2021/11/24/discursive-construction-ai-generated-essays-and-analysis/), and was written by an advanced artificial intelligence. The bold at the beginning is the prompt, and the rest was written by the AI. If you'd like to support this project, please [buy me a coffee](https://www.buymeacoffee.com/cjtrowbridge).

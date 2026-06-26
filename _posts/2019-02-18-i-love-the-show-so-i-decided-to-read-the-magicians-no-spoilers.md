@@ -10,6 +10,7 @@ image: /wp-content/uploads/2019/02/The-Magicians-Show-1.jpg
 categories:
     - Blog
     - 'Reading List'
+conversion_state: wordpress
 ---
 
 I say this as a scifi fan and a fantasy fan, but [the show](https://amzn.to/2DXi5IW) is great. The characters are interesting. The plot continues to build and get more exciting. Recently I've found myself trying to think back to previous arcs and glean some idea of what is coming next. Reading [the books](https://amzn.to/2EiGJW8) seemed like an obvious next step. I was surprised by what I liked most about the book. You can use this link to **[get the audiobook for free](http://https://amzn.to/2EiGJW8).**[![The Magicians](/wp-content/uploads/2019/02/The-Magicians.jpg)](http://https://amzn.to/2EiGJW8)Just like the show, the book has interesting characters and great storytelling. The production quality of the audiobook was really high, which definitely helps make it a better experience. The show is a much condensed version of the more in-depth book series. This is pretty common. Some characters were combined together or eliminated entirely. Many plotlines were shrunk down or eliminated. But what really impressed me was the way the author writes. Obviously this can't really come through in the show. For example;

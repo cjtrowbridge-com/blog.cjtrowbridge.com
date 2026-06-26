@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12988'
 permalink: /2020/09/01/usp493-session-2-notes/
 categories:
     - 'USP493 Data Analysis'
+conversion_state: wordpress
 ---
 
 ## Introduction to Simple Univariate Descriptive Statistics

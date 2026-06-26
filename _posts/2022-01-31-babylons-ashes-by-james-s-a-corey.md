@@ -10,11 +10,13 @@ categories:
     - 'Reading List'
 tags:
     - 'The Expanse'
+conversion_state: markdown
 ---
-
 The final book in the Expanse series was everything I hoped it would be. This was a wild ride to an extremely satisfying and well written ending.
 
-<figure class="wp-block-image size-large">[![](https://blog.cjtrowbridge.com/wp-content/uploads/2022/08/Leviathan-Falls-1-700x1087.jpg)](https://blog.cjtrowbridge.com/wp-content/uploads/2022/08/Leviathan-Falls-1-1.jpg)</figure>If you're a fan of sociological story telling or science fiction, then I can not recommend this series highly enough.
+[![](https://blog.cjtrowbridge.com/wp-content/uploads/2022/08/Leviathan-Falls-1-700x1087.jpg)](https://blog.cjtrowbridge.com/wp-content/uploads/2022/08/Leviathan-Falls-1-1.jpg)
+
+If you're a fan of sociological story telling or science fiction, then I can not recommend this series highly enough.
 
 ## Spoilers: Final Thoughts
 

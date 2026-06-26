@@ -10,8 +10,10 @@ categories:
     - 'Reading List'
 tags:
     - 'The Expanse'
+conversion_state: markdown
 ---
+[![Auberon by James S. A. Corey](https://blog.cjtrowbridge.com/wp-content/uploads/2022/08/Auberon-1-1.jpg)](https://blog.cjtrowbridge.com/wp-content/uploads/2022/08/Auberon-1-1.jpg)
 
-<figure class="wp-block-image size-full">[![Auberon by James S. A. Corey](https://blog.cjtrowbridge.com/wp-content/uploads/2022/08/Auberon-1-1.jpg)](https://blog.cjtrowbridge.com/wp-content/uploads/2022/08/Auberon-1-1.jpg)</figure>Auberon felt like a second-installation of the previous The Churn Novella which was also great. I think overall, this was my favorite of the novellas. It focuses on the early Laconian transition in Auberon and brings Eric in from The Churn.
+Auberon felt like a second-installation of the previous The Churn Novella which was also great. I think overall, this was my favorite of the novellas. It focuses on the early Laconian transition in Auberon and brings Eric in from The Churn.
 
 Really great story and it ties off several loose ends. I also really like the way they illustrate the acculturation and commitment to ideology of the Laconians. Very good book.

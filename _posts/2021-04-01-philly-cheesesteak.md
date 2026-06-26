@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 Philly Cheesesteak is the obvious choice in Philly. I found this great place called John’s Roast Pork on a food blog. I drove several hours to get there, and very nearly missed out. I got one of the last sandwiches of the day! It had very little cheese. It was mostly this great moist and flavorful steak with just a little bit of sharp provolone, and then baked to bring out the sesame flavor in the bread. So good! I would absolutely go back for another one.

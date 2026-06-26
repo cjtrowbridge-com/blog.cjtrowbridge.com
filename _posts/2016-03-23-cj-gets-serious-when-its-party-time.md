@@ -46,6 +46,7 @@ dsgnwrks_instagram_likes:
 image: /wp-content/uploads/2016/03/1458783398-1.jpg
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![CJ gets serious when its party time](https://blog.cjtrowbridge.com/wp-content/uploads/2016/03/1458783398-1-1.jpg)](https://www.instagram.com/p/BDUUwlwrtIm/)

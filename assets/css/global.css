@@ -84,6 +84,25 @@ img{
     max-width: 100%;
 }
 
+article img {
+    display: block;
+    height: auto;
+    margin: 1.5rem auto;
+}
+
+article figure {
+    margin: 1.5rem 0;
+}
+
+.post-embed {
+    display: block;
+    width: 100%;
+    max-width: 605px;
+    min-height: 700px;
+    margin: 1.5rem auto;
+    border: 0;
+}
+
 .homepage-category-image {
     display: block;
     width: 100%;

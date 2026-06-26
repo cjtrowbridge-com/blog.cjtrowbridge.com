@@ -9,6 +9,7 @@ permalink: /2020/03/21/gender-panopticism-must-be-dismantled/
 categories:
     - Essays
     - School
+conversion_state: wordpress
 ---
 
 Manifesta

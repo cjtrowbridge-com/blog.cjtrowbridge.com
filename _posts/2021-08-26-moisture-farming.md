@@ -9,6 +9,7 @@ permalink: /2021/08/26/moisture-farming/
 categories:
     - Blog
     - 'Current Projects'
+conversion_state: wordpress
 ---
 
 Arizona, Southern California, and Northern Mexico are about to [lose access](https://arstechnica.com/science/2021/08/colorado-river-drops-to-record-low-levels-slashing-arizonas-water-supply/) to their main water source. Wells are drying up as rainfall decreases. Despite [occasional deluges](https://www.currentargus.com/story/news/local/2021/05/28/recent-rainfall-does-little-new-mexicos-escape-drought-climate-environment-water-carlsbad/5190821001/), many areas are now seeing half the rainfall they did historically. When I visited the Earthship Biotecture Academy at Taos, they said they are getting about half the annual rainfall they were getting a few decades ago. It's a similar story around the world. This is due, in part, to increased air pollution which [causes moisture to stay in the air instead of precipitating as rainfall](https://www.sciencedaily.com/releases/2000/03/000314065455.htm). That means there is a lot of extra water in the air which we can extract with special tools and techniques. This really clicked for me earlier this year when I visited many off-grid farms in Tennessee. They were all complaining that the water table has been falling, meaning the wells have to go deeper and deeper to find water, and yet the air was extremely humid. I noticed many people collecting the condensation that drips from their air conditioners to use for watering plants or flushing toilets.

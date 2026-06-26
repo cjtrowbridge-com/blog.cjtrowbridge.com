@@ -45,6 +45,7 @@ instagram_image_id:
     - '11065'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![I feel like this was a PR stunt.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/10/1538508958-1-1.jpg)](https://www.instagram.com/p/BocVMljBSnq/)

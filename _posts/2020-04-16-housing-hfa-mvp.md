@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12690'
 permalink: /2020/04/16/housing-hfa-mvp/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 look into calhfa and explore building mvp at scale for their customers

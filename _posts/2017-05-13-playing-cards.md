@@ -45,6 +45,7 @@ instagram_image_id:
     - '8587'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Playing cards](https://blog.cjtrowbridge.com/wp-content/uploads/2017/05/1494737101-1-1.jpg)](https://www.instagram.com/p/BUD1AU9g8Ff/)

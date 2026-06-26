@@ -10,6 +10,7 @@ image: /wp-content/uploads/2020/09/PM-2.5-1.png
 categories:
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 I recently did a post about an [experimental filter design](https://blog.cjtrowbridge.com/2020/05/23/preparing-for-the-worst-fire-season-ever/) which should provide excellent protection for just $30, probably exceeding the effectiveness of even the most expensive filters on the market. Well the data is in, and I was right.

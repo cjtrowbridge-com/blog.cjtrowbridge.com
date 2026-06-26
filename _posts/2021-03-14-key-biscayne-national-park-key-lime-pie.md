@@ -12,6 +12,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 ([View the full album here](https://photos.app.goo.gl/vtwBNLiEFkC2MQ72A)) Okay so this might be my favorite day of the Florida leg of the trip. I started by heading to [Fireman Derek’s Bake Shop](https://www.firemandereks.com/) in downtown Miami. I got a slice of what many reviewers call the most authentic key lime pie. Then I drove to Key Biscayne National Park and ate it on a nice bench at the waterfront.

@@ -9,6 +9,7 @@ permalink: /2017/01/29/building-a-debian-server-php-7-mysql-5-7-ms-sql/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 One of the applications I am building integrates with a legacy software platform including MS SQL Server. In past versions of PHP, there was a simple and free tool called FreeTDS which enabled PHP to connect to MS SQL Server, but this has been deprecated as of PHP 7. In order to get all the new features, performance increases, and security improvements that come with PHP 7, we need to find an alternative to FreeTDS. Oddly enough, Microsoft has released an official replacement! :D First, I created a droplet with Digital Ocean ([Referral Link](https://m.do.co/c/ecb56e953504)) and give it 1GB RAM. Now, the default apt list needs to be expanded;

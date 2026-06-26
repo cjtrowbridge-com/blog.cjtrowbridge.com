@@ -45,6 +45,7 @@ instagram_image_id:
     - '7790'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Self portrait in acrylic on canvas

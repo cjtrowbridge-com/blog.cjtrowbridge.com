@@ -45,6 +45,7 @@ instagram_image_id:
     - '9956'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![This was previously the home of Joseph Goebbels, Hitler’s propaganda minister. It has been replaced with this memorial to the murdered Jews of Europe.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522401791-1-1.jpg)](https://www.instagram.com/p/Bg8TNsalDap/)

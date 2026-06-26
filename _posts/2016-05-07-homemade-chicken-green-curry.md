@@ -45,6 +45,7 @@ instagram_user:
     - 'O:8:"stdClass":4:{s:8:"username";s:12:"cjtrowbridge";s:15:"profile_picture";s:96:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12081186_1759494767611229_280555941_a.jpg";s:2:"id";s:8:"41872995";s:9:"full_name";s:13:"CJ Trowbridge";}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Homemade chicken green curry with cucumber and peanut butter and lots of kale and spinach. Interesting combination, soo good.

@@ -45,6 +45,7 @@ instagram_image_id:
     - '10420'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Home sweet hotel](https://blog.cjtrowbridge.com/wp-content/uploads/2018/06/1529785815-1-1.jpg)](https://www.instagram.com/p/BkYXH3cgKpA/)

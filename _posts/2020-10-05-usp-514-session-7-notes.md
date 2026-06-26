@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13240'
 permalink: /2020/10/05/usp-514-session-7-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 **<span class="" id="yui_3_17_2_1_1601922549624_142">October 5th </span>****<span class="">Session Seven: Sustainable Development Goals (SDGs) and Plans</span>**<span class="">This session will focus on how urban administrators have developed approaches to promote sustainable development. The following questions will frame our class discussion.</span>

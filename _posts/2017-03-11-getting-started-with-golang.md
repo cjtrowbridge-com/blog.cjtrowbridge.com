@@ -9,6 +9,7 @@ permalink: /2017/03/11/getting-started-with-golang/
 categories:
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 I went to a [Software Engineering Daily](https://softwareengineeringdaily.com/) meetup a couple days ago and spoke with several CEOs whose companies are focused on data science and machine learning. I asked about what languages they are looking for in new hires. These conversations cemented my desire to learn [Golang ](https://golang.org/)in conjunction with [TensorFlow ](https://www.tensorflow.org/)as my next major engineering paradigm.

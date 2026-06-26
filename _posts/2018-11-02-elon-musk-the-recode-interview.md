@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=11187'
 permalink: /2018/11/02/elon-musk-the-recode-interview/
 categories:
     - 'Reading List'
+conversion_state: wordpress
 ---
 
 This is a really great interview that covers a lot of the recent insanity. She is really tough on him and he does a great job of responding well to many of the recent news stories about him and his companies. <iframe scrolling="no" src="https://art19.com/shows/recode-decode/episodes/1261f8ff-95ea-43b1-a039-3de04be40060/embed?theme=dark-custom" style="width: 100%; height: 200px; border: 0 none;"></iframe>

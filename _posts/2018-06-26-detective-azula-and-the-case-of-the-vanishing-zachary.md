@@ -53,6 +53,7 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":1:{s:5:"count";i:7;}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Detective Azula and the case of the vanishing Zachary.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/06/1530072892-1-1.jpg)](https://www.instagram.com/p/Bkg6jGjAUL5/)

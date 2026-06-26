@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12597'
 permalink: /2020/07/16/power-and-politics-in-american-indian-history-the-long-disaster-of-amerika/
 categories:
     - 'AIS460 Power and Politics in American Indian History'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

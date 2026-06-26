@@ -47,6 +47,7 @@ instagram_video_url_standard_resolution:
     - 'http://cjtrowbridge.com/wp-content/uploads/2015/07/11758535_673792082756636_1737688566_n.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/07/1738256_1470582396588791_865228201_n.jpg)](https://instagram.com/p/5Jf1QRrtFS/)Photo taken at: Faces NightClub [View in Instagram ⇒](https://instagram.com/p/5Jf1QRrtFS/)

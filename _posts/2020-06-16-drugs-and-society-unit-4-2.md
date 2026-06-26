@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12483'
 permalink: /2020/06/16/drugs-and-society-unit-4-2/
 categories:
     - 'HED315 Drugs and Society'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

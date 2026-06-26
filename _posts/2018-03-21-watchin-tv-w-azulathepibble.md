@@ -45,6 +45,7 @@ instagram_image_id:
     - '9885'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Watchin tv w/ @azulathepibble](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1521683158-1-1.jpg)](https://www.instagram.com/p/Bgm4h42lf8f/)

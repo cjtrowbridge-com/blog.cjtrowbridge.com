@@ -13,6 +13,7 @@ categories:
     - 'Burning Man'
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 Shade structures are perhaps the most important and powerful way of improving temperature conditions in a tent on playa or elsewhere. The value of a shade structure to someone who is trying to sleep can not be overstated.

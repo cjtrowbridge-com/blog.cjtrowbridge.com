@@ -45,6 +45,7 @@ instagram_username:
     - cjtrowbridge
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Trying a new style. What do you think?](https://blog.cjtrowbridge.com/wp-content/uploads/2016/01/1453002453-1-1.jpg)](https://www.instagram.com/p/BAoCe0FLtCF/)

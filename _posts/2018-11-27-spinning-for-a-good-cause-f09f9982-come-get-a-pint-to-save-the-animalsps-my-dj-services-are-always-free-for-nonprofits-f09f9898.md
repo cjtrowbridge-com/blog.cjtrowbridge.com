@@ -45,6 +45,7 @@ instagram_image_id:
     - '11286'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Spinning for a good cause 🙂 come get a pint to save the animals!

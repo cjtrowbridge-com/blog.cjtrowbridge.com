@@ -8,6 +8,7 @@ guid: 'https://movingcabin.com/?p=16'
 permalink: /2020/07/16/building-an-itenerary/
 categories:
     - Preparing
+conversion_state: wordpress
 ---
 
 Public health officials across the country are arguing that [camping is the safest thing to be doing during covid](https://blog.cjtrowbridge.com/2020/12/26/public-health-officials-say-that-camping-is-one-of-the-safest-things-to-do-during-covid/). I built a [moving cabin](https://blog.cjtrowbridge.com/2020/09/24/building-a-travel-trailer/) in order to do more camping and spend time away from other people. Since everything is work-from-home, including school, there is really no reason to be anywhere in particular. I decided not to waste this opportunity, and to hit the road and safely see the country while the apocalypse unfolds. What else am I going to do this year? With satellite internet and cell phone service, I can work from home anywhere on the continent just as easily as being here at home bored out of my mind and staring at a screen all day every day.

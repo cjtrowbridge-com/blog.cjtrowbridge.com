@@ -45,6 +45,7 @@ instagram_image_id:
     - '8579'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![When people understand you and the losses you have suffered.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/05/1494454896-1-1.jpg)](https://www.instagram.com/p/BT7avezgBXZ/)

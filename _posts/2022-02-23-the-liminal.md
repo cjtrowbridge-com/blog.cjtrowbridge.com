@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14579'
 permalink: /2022/02/23/the-liminal/
 categories:
     - Featured
+conversion_state: wordpress
 ---
 
 Liminal is a story I'm working on with some inspiration from an [AI project](https://critique.ai).

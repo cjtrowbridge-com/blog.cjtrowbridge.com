@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
+conversion_state: wordpress
 ---
 
 <main class="site-main" id="main"><article class="post-14003 post type-post status-publish format-standard has-post-thumbnail hentry category-2021-spring" id="post-14003"><div class="entry-content">This city is not just full of monuments, it is a monument. There is so much history everywhere. From the capitol building that Canada burned down after we tried invading and annexing them, to the Lincoln Memorial which for some reason was full of Nazis when I visited. It’s a wild and complex place full of all the good and bad parts of American history. > <iframe data-mce-fragment="1" name="__tt_embed__v5040886903759700" src="https://www.tiktok.com/embed/v2/6945078911441079558?lang=en-US"></iframe>

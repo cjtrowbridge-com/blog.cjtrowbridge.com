@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=10252'
 permalink: /2018/05/15/startup-11-php-tts/
 categories:
     - 'The Levels Challenge: Build 12 Startups in 12 Months'
+conversion_state: wordpress
 ---
 
 # Smart Homes Are Pretty Great

@@ -11,6 +11,7 @@ enclosure:
     - "https://blog.cjtrowbridge.com/wp-content/uploads/2019/07/Making_Sense_159_Annaka.mp3\n69309223\naudio/mpeg\n"
 categories:
     - 'Reading List'
+conversion_state: wordpress
 ---
 
 In [this episode](https://samharris.org/podcasts/159-conscious/) of his podcast, Sam Harris interviews his wife Annaka about her new book, Conscious. This book explores the current state of the art of our knowledge about the nature and purpose of consciousness. In this interview, they go over three main "interesting" questions she poses in the book, and the answers she gives to these questions.

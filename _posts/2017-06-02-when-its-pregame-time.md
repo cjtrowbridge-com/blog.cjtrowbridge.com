@@ -45,6 +45,7 @@ instagram_image_id:
     - '8661'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![When it’s pregame time](https://blog.cjtrowbridge.com/wp-content/uploads/2017/06/1496467014-1-1.jpg)](https://www.instagram.com/p/BU3YjZCgmD3/)

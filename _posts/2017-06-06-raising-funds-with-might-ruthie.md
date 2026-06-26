@@ -45,6 +45,7 @@ instagram_image_id:
     - '8672'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Raising funds with Might Ruthie](https://blog.cjtrowbridge.com/wp-content/uploads/2017/06/1496794488-1-1.jpg)](https://www.instagram.com/p/BVBJKKwA0_X/)

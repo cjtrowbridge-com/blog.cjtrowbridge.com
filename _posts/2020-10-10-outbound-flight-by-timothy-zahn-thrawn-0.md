@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13292'
 permalink: /2020/10/10/outbound-flight-by-timothy-zahn-thrawn-0/
 categories:
     - 'Reading List'
+conversion_state: wordpress
 ---
 
 How to describe how this book fits into the story of Thrawn? So this was the first Thrawn book which was published. I became aware of it after I finished the first [Thrawn trilogy](https://blog.cjtrowbridge.com/2020/06/25/the-last-command-by-timothy-zahn-thrawn-3/). So I'm ironically reading it last, but probably it should come first. There is a special sadness knowing this is the end until more books are published, but it's a consonant note to end on. [![Outbound Flight](https://blog.cjtrowbridge.com/wp-content/uploads/2020/10/Outbound-Flight-1-1.jpg)](https://amzn.to/30TBaIe)In terms of the story, this book takes place after [book nine](https://blog.cjtrowbridge.com/2020/09/17/thrawn-ascendancy-thrawn-9/) and before [book six](https://blog.cjtrowbridge.com/2020/08/25/thrawn-by-timothy-zahn-thrawn-6/). It's all out of order and that's part of the magic. I don't think there is any correct order to read these books in. Honestly you could shuffle them all into any order and they would be great. The whole story is super interconnected and tangled and not linear in any normal way. This story ties a lot of loose threads together and fills in a few blanks between many of the storylines and characters from the other books. Particularly C'baoth, Ar'alani, Doriana, and Cardas.

@@ -48,6 +48,7 @@ instagram_carousel_data:
     - 'a:1:{s:9:"attach_id";i:11603;}'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Trying out the new tensor flow artificial intelligence object classification models when suddenly…](https://blog.cjtrowbridge.com/wp-content/uploads/2018/08/trying-out-the-new-tensor-3-3.jpg)](https://www.instagram.com/p/BmkpphpA1Gk/)

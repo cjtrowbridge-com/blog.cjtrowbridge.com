@@ -45,6 +45,7 @@ instagram_image_id:
     - '7532'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Define civic pride and equity](https://blog.cjtrowbridge.com/wp-content/uploads/2016/08/1470174344-1-1.jpg)](https://www.instagram.com/p/BInzQ5ej_pp/)

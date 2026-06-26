@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13222'
 permalink: /2020/10/11/fighting-covid-as-systemic-violence/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

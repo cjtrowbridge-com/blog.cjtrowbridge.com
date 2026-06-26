@@ -16,6 +16,7 @@ blogger_internal:
     - /feeds/4006483499567219562/posts/default/3948364242186510706
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 In life there are moments when the course of an entire interpersonal relationship takes place in just a few seconds and yet it's so poignant that you remember it for years. Appreciating a glance, a laugh, a smile from a perfect stranger is a big part of life. Knowing that you'll walk away and never see that person again makes it all the more vivid a memory. Trust me when I say you can choose to build your life around these moments and nothing more.

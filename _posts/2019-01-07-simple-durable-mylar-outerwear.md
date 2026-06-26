@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12698'
 permalink: /2019/01/07/simple-durable-mylar-outerwear/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 Simple durable mylar outerwear

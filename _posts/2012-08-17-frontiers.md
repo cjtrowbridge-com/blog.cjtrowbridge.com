@@ -16,6 +16,7 @@ blogger_internal:
     - /feeds/4006483499567219562/posts/default/5635607889629220014
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 Years ago, I was working in a busy cafe with a man around 30 years old. We were talking about something involving math; he had been an engineering major who lost interest after he graduated and ended up slanging lattes for minimum wage with yours truly.  

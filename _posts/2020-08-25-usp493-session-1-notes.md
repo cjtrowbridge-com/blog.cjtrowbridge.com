@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12935'
 permalink: /2020/08/25/usp493-session-1-notes/
 categories:
     - 'USP493 Data Analysis'
+conversion_state: wordpress
 ---
 
 ## Review

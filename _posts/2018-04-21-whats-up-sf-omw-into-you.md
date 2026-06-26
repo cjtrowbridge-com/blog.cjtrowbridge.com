@@ -45,6 +45,7 @@ instagram_image_id:
     - '10124'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Whats up SF? Omw into you.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/1524346227-1-1.jpg)](https://www.instagram.com/p/Bh2P7nugobF/)

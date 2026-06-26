@@ -45,6 +45,7 @@ instagram_attribution:
     - ''
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Ill let you guess which car has the climate-change-denial sticker. #feelthebern](https://blog.cjtrowbridge.com/wp-content/uploads/2016/05/1462991266-1-1.jpg)](https://www.instagram.com/p/BFRuoWoLtJ_/)

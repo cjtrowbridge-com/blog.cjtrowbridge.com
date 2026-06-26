@@ -9,6 +9,7 @@ permalink: /2018/01/25/remove-viruses-tune-computers-for-free/
 categories:
     - Blog
     - Featured
+conversion_state: wordpress
 ---
 
 This guide explains hot to remove computer viruses including adware, spyware, and malware. It explains how to prevent reinfection, and how to do regular tuneups and maintenance in order to keep your computer running smoothly.

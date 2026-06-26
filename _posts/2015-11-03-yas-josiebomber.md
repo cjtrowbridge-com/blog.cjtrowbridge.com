@@ -53,6 +53,7 @@ instagram_attribution:
     - ''
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Yas @josiebomber](http://blog.cjtrowbridge.com/wp-content/uploads/2015/11/1446616936.jpg)](https://instagram.com/p/9pvEvPrtDf/)

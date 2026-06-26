@@ -9,6 +9,7 @@ permalink: /2019/05/23/lighting-and-dmx/
 categories:
     - Blog
     - 'Learn To DJ'
+conversion_state: wordpress
 ---
 
 2019-08-10 5:30-8:30 [Presentation Link](https://docs.google.com/presentation/d/1dwPO91ScEMpDXhV4p9Xs17_LFrgWNYx4E-Tkddy5Vx4/edit?usp=sharing)[Facebook Event](https://www.facebook.com/events/2899799020036545/)Are you DJ-Curious? Comfort &amp; Joy is hosting free DJ workshops for anyone interested in learning this magical art. The workshops will be led by seasoned disc jockeys from very different parts of the DJ industry. You will learn how to set up sound and lighting gear, how to mix music, and how to pick tracks. At this third workshop, we will look at setting up lighting gear and using smart versus dumb controls including simple DMX control boards to run lighting rigs.

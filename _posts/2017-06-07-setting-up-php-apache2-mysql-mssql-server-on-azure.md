@@ -9,6 +9,7 @@ permalink: /2017/06/07/setting-up-php-apache2-mysql-mssql-server-on-azure/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 First, update the packages;

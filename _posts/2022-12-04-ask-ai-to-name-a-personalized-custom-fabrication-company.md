@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14802'
 permalink: /2022/12/04/ask-ai-to-name-a-personalized-custom-fabrication-company/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 Create brand names for a distributed fabrication company specializing in making all sorts of personalized custom things to order using the following sorts of techniques;  

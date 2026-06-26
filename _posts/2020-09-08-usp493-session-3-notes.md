@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13025'
 permalink: /2020/09/08/usp493-session-3-notes/
 categories:
     - 'USP493 Data Analysis'
+conversion_state: wordpress
 ---
 
 1. Graphic presentation of data 

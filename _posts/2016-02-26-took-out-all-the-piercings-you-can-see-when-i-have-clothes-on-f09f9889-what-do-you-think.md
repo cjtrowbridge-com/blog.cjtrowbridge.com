@@ -47,6 +47,7 @@ image: /wp-content/uploads/2016/02/1456518322-1.jpg
 categories:
     - Featured
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Took out all the piercings you can see when i have clothes on 😉 what do you think?](https://blog.cjtrowbridge.com/wp-content/uploads/2016/02/1456518322-1-1.jpg)](https://www.instagram.com/p/BCQ0eAfLtCw/)

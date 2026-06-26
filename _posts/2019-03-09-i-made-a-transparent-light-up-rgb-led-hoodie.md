@@ -17,6 +17,7 @@ categories:
 tags:
     - '2019 Burning Man'
     - 'Burning Man'
+conversion_state: wordpress
 ---
 
 # Version 1.0

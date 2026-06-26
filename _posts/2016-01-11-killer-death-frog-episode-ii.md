@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2016/01/640x640-video-1452566362.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![KILLER DEATH FROG EPISODE II](https://blog.cjtrowbridge.com/wp-content/uploads/2016/01/1452566362-1-1.jpg)](https://www.instagram.com/p/BAbCtCnrtK6/)

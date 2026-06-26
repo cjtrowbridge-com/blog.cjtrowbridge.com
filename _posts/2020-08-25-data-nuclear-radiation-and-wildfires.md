@@ -9,6 +9,7 @@ permalink: /2020/08/25/data-nuclear-radiation-and-wildfires/
 categories:
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 I am conducting a long-term experiment of the environmental factors associated with the wildefires. One factor I am looking at is the ambient nuclear radiation levels.

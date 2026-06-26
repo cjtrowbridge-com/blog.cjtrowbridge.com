@@ -9,6 +9,7 @@ permalink: /2020/03/16/stone-butch-blues-by-leslie-feinberg/
 categories:
     - Blog
     - 'Reading List'
+conversion_state: wordpress
 ---
 
 Wikipedia gives the summary, "Stone Butch Blues is a novel written by the revolutionary communist Leslie Feinberg about life as a butch lesbian in 1970s America." Generally with a book like this, I try to get the background and plot before I read it, so that I'm able to absorb it all. I started doing the background research on this book, and quickly felt overwhelmed. I decided to just dive in. I'm glad I did it that way because the style is very unusual and I think the best way to go through this text is just to do it, and then follow up with the research. [![Stone Butch Blues](https://blog.cjtrowbridge.com/wp-content/uploads/2020/05/Stone-Butch-Blues-1-1.jpg)](https://amzn.to/2Lz1L5w)It's written as a straight-narrative. There are no time jumps or anything. It just goes through the coming out story or a person who seems very similar to Leslie Feinberg. Jess works in factories, figures out that she's a lesbian, works some more, figure out that she's a man, transitions, and then continues his life. There are several moments that really stand out in a memorable way for me:

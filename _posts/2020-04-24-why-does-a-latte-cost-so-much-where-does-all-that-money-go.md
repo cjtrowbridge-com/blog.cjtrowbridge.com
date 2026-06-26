@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12297'
 permalink: /2020/04/24/why-does-a-latte-cost-so-much-where-does-all-that-money-go/
 categories:
     - Essays
+conversion_state: wordpress
 ---
 
 CJ Trowbridge

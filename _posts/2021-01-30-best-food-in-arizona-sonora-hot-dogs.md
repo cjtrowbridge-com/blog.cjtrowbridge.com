@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14704'
 permalink: /2021/01/30/best-food-in-arizona-sonora-hot-dogs/
 categories:
     - Adventures
+conversion_state: wordpress
 ---
 
 #### Nogales Hot Dogs!

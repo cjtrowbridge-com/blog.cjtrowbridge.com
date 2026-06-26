@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13198'
 permalink: /2020/09/28/usp-515-session-6-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 **<span class="">September 28th and 30th</span><span class="">Session Six: Unequal Protection from Harm</span>**## **Discussion Questions**

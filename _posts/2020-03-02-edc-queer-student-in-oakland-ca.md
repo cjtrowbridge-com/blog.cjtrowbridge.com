@@ -11,6 +11,7 @@ categories:
     - EDC
     - Featured
     - Projects
+conversion_state: wordpress
 ---
 
 I have moved to Oakland, CA to focus on getting a degree in Urban Studies at SFSU as well as working on lots of exciting queer activism and housing activism. Here is my updated everyday carry. ![edc](https://blog.cjtrowbridge.com/wp-content/uploads/2020/03/MVIMG_20200302_221500-1-1.jpg)

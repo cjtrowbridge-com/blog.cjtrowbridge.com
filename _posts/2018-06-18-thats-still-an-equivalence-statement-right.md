@@ -45,6 +45,7 @@ instagram_image_id:
     - '10397'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![That’s still an equivalence statement right?](https://blog.cjtrowbridge.com/wp-content/uploads/2018/06/1529378411-1-1.jpg)](https://www.instagram.com/p/BkMOD6CAHfm/)

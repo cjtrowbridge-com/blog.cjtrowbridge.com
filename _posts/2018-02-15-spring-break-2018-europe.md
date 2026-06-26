@@ -10,6 +10,7 @@ categories:
     - Adventures
 tags:
     - '2018 Spring Break Europtrip'
+conversion_state: wordpress
 ---
 
 I am so excited to FINALLY go backpacking across western Europe for spring break this year! This will be my first trip to Europe and my first solo trip. In the past, I have traveled around America a lot, and I went on a cruise around the Caribbean but somehow I have had a shamefully limited travel range. That all changes with this trip! ![](https://blog.cjtrowbridge.com/wp-content/uploads/2018/02/europe-spring-break-2018-1-1.png)

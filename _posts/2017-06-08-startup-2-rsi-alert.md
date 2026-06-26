@@ -9,6 +9,7 @@ permalink: /2017/06/08/startup-2-rsi-alert/
 categories:
     - Projects
     - 'The Levels Challenge: Build 12 Startups in 12 Months'
+conversion_state: wordpress
 ---
 
 ***This is part of a series on [Building 12 Startups in 12 Months](https://blog.cjtrowbridge.com/category/the-levels-challenge-build-12-startups-in-12-months/).***

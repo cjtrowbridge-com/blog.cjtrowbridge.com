@@ -45,6 +45,7 @@ instagram_image_id:
     - '11402'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Oh my gods I love Marie Kondo.](https://blog.cjtrowbridge.com/wp-content/uploads/2019/01/oh-my-gods-i-love-1-1.jpg)](https://www.instagram.com/p/BsrwhOeHavU/)

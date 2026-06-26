@@ -45,6 +45,7 @@ instagram_image_id:
     - '8610'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Star Wars VR!](https://blog.cjtrowbridge.com/wp-content/uploads/2017/05/1495348420-1-1.jpg)](https://www.instagram.com/p/BUWDANBgaK1/)

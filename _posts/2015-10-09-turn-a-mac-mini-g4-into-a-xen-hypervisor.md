@@ -8,6 +8,7 @@ guid: 'http://cjtrowbridge.com/?p=3821'
 permalink: /2015/10/09/turn-a-mac-mini-g4-into-a-xen-hypervisor/
 categories:
     - Projects
+conversion_state: wordpress
 ---
 
 This post is part of a larger series about [Building a Cloud at Home For Free](http://blog.cjtrowbridge.com/2015/10/04/building-a-cloud-at-home-for-free/) as part of building scalable web applications from the ground up. Here we are focusing specifically on installing Debian an old G4 Mac Mini. If you are trying to setup Debian in a virtual server inside Windows, check out my post [Installing Virtualbox and Debian on Windows 10](http://blog.cjtrowbridge.com/2015/10/04/installing-virtualbox-and-debian-on-windows-10/). I work at a tech support company and I recently came upon a Mac Mini G4 for free which had been discarded at work as no one wanted it. At this point it was about ten years old and did not support any of the new software. I found some spare parts around the shop that were compatible and maxed out all its resources. Here's what I ended up with;

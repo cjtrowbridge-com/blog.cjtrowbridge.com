@@ -45,6 +45,7 @@ instagram_image_id:
     - '9535'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Decided to try an iced Americano with blonde-roasted espresso instead of dark-roasted because of how many negative comments I have recently read about Starbucks’ dark roasted espresso. I super do not like blonde espresso. I will stick to dark.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/01/1515547373-1-1.jpg)](https://www.instagram.com/p/BdwBct5l9Aq/)

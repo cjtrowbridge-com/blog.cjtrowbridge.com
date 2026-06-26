@@ -45,6 +45,7 @@ instagram_image_id:
     - '9992'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Germany is much freer than America. Anyone can drink or do essentially anything they want, anywhere in public. And they do. I saw people drinking and having sex everywhere from trains to parks and sidewalks. America thinks it has freedom, but really it has a fascistic culture of neurotic religious superstitions which no one is allowed to disagree with. America has a lot to learn from more developed and civilized countries.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/1522572745-1-1.jpg)](https://www.instagram.com/p/BhBZSDcFz6L/)

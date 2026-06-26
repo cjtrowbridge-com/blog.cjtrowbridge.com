@@ -51,6 +51,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2017/11/640x640-video-1510477600.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Zelda’s got tricks #😸](https://blog.cjtrowbridge.com/wp-content/uploads/2017/11/1510477600-1-1.jpg)](https://www.instagram.com/p/BbY7kcLFeNd/)

@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13162'
 permalink: /2020/09/21/usp-515-session-5-notes/
 categories:
     - 'USP515 Environmental Justice'
+conversion_state: wordpress
 ---
 
 **<span class="" id="yui_3_17_2_1_1600722016533_126">Session Five: The Politics of Pollution</span>

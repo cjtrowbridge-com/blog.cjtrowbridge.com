@@ -10,6 +10,7 @@ categories:
     - Featured
     - 'Reading List'
     - Revisit
+conversion_state: wordpress
 ---
 
 2016-12-1 Started I first read this book in elementary school, but I wanted to refresh my memory as many of my coworkers have been recently reading it. 2017-04-23 Completed Well it took five months of picking up and setting down to finish this book. It is a bit dry, but there is a huge amount of intense and prosaic content so it was tough to get through with any alacrity. Finally I was at Powell's Books in Portland last week and I found a copy from the 1960s which inspired me to power through and get it finished as soon as possible. I will need to re-read this for years to come. ![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/01/How-to-Win-Friends-and-Influence-People-1-1.jpg)The book distills down to a few dozen bullet points which divide into a few categories, and then there are lots and lots of examples which hammer the points home. This is a great book which has stood the test of time. Everyone should read it. Here it is in bullet-point form as taken from Wikipedia. I condensed this down a bit and printed it out to hang on the cork board in my office. If you like these, I recommend reading the book!

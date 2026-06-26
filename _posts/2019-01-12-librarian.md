@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=12702'
 permalink: /2019/01/12/librarian/
 categories:
     - Ideas
+conversion_state: wordpress
 ---
 
 A conversational interface for Wikipedia based on the character from Snow Crash

@@ -53,6 +53,7 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/640x640-video-1535905980.mp4'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![Your days are numbered, Temple.

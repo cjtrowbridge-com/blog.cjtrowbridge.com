@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13998'
 permalink: /2021/02/08/moving-cabin/
 categories:
     - 'Content Business'
+conversion_state: wordpress
 ---
 
 I built a moving cabin which is basically just a custom self-sufficient self-powered rv that I'm using to travel safely and conduct my research on improvised infrastructure, community resilience, sustainability and other related topics. Check it out at <https://movingcabin.com>

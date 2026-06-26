@@ -9,6 +9,7 @@ permalink: /2016/01/31/building-a-jabberxmpp-server-with-openfire-and-debian/
 categories:
     - Projects
     - 'Tech 2U'
+conversion_state: wordpress
 ---
 
 I wanted to create a new chat server for my company for two reasons. For one, we want any confidential information to stay as in-house as possible. And two, we wanted web access because lots of our employees move around between different offices and they don't want to have to install chat programs every day. We had previously been using OpenFire hosted on a local baremetal machine which did not have a CA signed cert. This meant we could not use OpenFire's web access tool in order to access the chat tool because it did not support self-signed certs. Trillian could be talked into supporting self-signed certs, but a more elegant solution was called for. I decided to create a new jabber/xmpp VPS with DigitalOcean ([Referral Link](https://www.digitalocean.com/?refcode=ecb56e953504)) and install OpenFire and SparkWeb.

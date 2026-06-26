@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=14923'
 permalink: /2024/02/20/4-analysis-of-financial-statements/
 categories:
     - 'FIN 785 Financial Management'
+conversion_state: wordpress
 ---
 
 - Ratio analysis 

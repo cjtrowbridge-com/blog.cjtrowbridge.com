@@ -9,6 +9,7 @@ permalink: /2018/04/19/how-to-tell-if-facebook-hides-your-posts/
 categories:
     - Blog
     - Featured
+conversion_state: wordpress
 ---
 
 I challenge everyone to look at their profile and see whether Facebook shows your posts to anyone, or if you're just sharing things with the wall behind you. Look back at your Facebook posts on your profile and see how many of them have no likes or comments. If they do, it means Facebook's algorithm has decided not to show this post to anyone after testing it on one or two people who ignored it. Even the most high-impact people make mistakes. The difference between having a high impact versus a low impact is checking in with how effective your methods are and how you can do things better. **The way the Facebook feed algorithm works** is that it tests every post on one or two people to see whether they "engage" with it by liking or commenting on it. If they don't, the algorithm stops showing the post to anyone and it disappears forever, except on your profile. If the test subjects do engage with the post, the algorithm will keep showing it to people until new people stop engaging with it.

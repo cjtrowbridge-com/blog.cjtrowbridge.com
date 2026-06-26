@@ -45,6 +45,7 @@ instagram_image_id:
     - '9849'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![My favorite thing about #ProjectFi is not the $20/month global phone service. It’s being able to text and call from G-mail’s website.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1521007108-1-1.jpg)](https://www.instagram.com/p/BgSvERzH1th/)

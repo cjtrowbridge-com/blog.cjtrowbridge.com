@@ -45,6 +45,7 @@ instagram_image_id:
     - '9098'
 categories:
     - Instagram
+conversion_state: wordpress
 ---
 
 [![We switched starbuckses

@@ -16,6 +16,7 @@ blogger_internal:
     - /feeds/4006483499567219562/posts/default/4146431917901085993
 categories:
     - Blog
+conversion_state: wordpress
 ---
 
 I see a future not so far away. We want to build cities faster and farther; in space, on the moon. We need resources. We turn to machines to fabricate and construct. The world of men is made up of downloaded buildings constructed by generic self-replicating robots. We start to see memes in form and shape. Every possible idea has been invented. We joke about houses and cities made of designs literally copied and pasted from others. The human race spreads across the universe and we are just as dull and bored as we are today. The stars go out, the lights dim, entropy consumes all structure and order; all the energy in the universe is spent; all the potential exhausted.  

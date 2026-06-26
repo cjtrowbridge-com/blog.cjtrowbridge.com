@@ -8,6 +8,7 @@ guid: 'https://blog.cjtrowbridge.com/?p=13274'
 permalink: /2020/10/12/usp-514-session-9-notes/
 categories:
     - 'USP514 Sustainable Development'
+conversion_state: wordpress
 ---
 
 **<span class="" id="yui_3_17_2_1_1602356962383_126">October 12th and 14th</span>****<span class="">Session Nine: Sustainable Urban Water Management</span>**<span class="">This session will focus on the approaches, policies, and practices that can promote sustainable water management and use. </span>
