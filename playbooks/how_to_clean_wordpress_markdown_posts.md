@@ -16,10 +16,11 @@ POST_PATH={{post_path}}
 Rules:
 - Edit only POST_PATH.
 - Preserve all factual content, wording, links, citations, and media.
-- Preserve YAML fields except update conversion_state from wordpress to markdown after cleanup.
+- Preserve YAML fields except update conversion_state from wordpress to markdown only after the validation checklist passes.
 - Do not rewrite the author's voice.
 - Do not summarize, shorten, or add new claims.
 - Make the Markdown readable and safe for Jekyll.
+- Run a self-check after editing and fix any failures before reporting completion.
 - Report what artifact types you fixed.
 ```
 
@@ -38,6 +39,8 @@ conversion_state: markdown
 ```
 
 Do not mark `markdown` until the body has been reviewed and cleaned.
+
+If the cleanup is incomplete or uncertain, leave `conversion_state: wordpress` and explain what remains in the report.
 
 ## Cleanup Rules
 
@@ -74,6 +77,10 @@ Do not mark `markdown` until the body has been reviewed and cleaned.
    - Prefer natural topic shifts, sentence groups, and transitions.
    - Do not split every sentence into its own paragraph.
    - Do not merge lists, headings, or citations into prose paragraphs.
+   - Insert real Markdown paragraph breaks, not just visual line wrapping.
+   - Ensure every prose paragraph is separated from the next by one blank line.
+   - As a validation gate, no normal prose line should remain over roughly 800 characters unless it is a URL, table row, code block, or other intentional long artifact.
+   - Useful paragraph-break cues include examples, quotations, source transitions, "However," "Therefore," "For example," "First/Second/Third," and shifts from setup to analysis.
 
 7. **Headings**
    - Move collapsed headings onto their own line.
@@ -103,7 +110,19 @@ Do not mark `markdown` until the body has been reviewed and cleaned.
 10. **References and Citations**
     - Preserve every citation and URL.
     - Split citation blocks for readability only when safe.
+    - Format references consistently: either one citation per paragraph or one citation per bullet.
+    - If using bullets, ensure a blank line between adjacent citation bullets.
     - Do not invent bibliographic fields.
+
+## Small-Model Safety Loop
+
+When delegating to a small model, require three passes:
+
+1. **Cleanup pass**: remove wrappers, separate media, fix headings, and split paragraphs.
+2. **Validation pass**: check front matter, raw wrapper HTML, paragraph separation, long prose lines, headings, lists, citations, images, and embeds.
+3. **Repair pass**: fix every validation failure before changing `conversion_state` to `markdown`.
+
+If the model cannot confidently complete the repair pass, it must leave `conversion_state: wordpress` and report the blocker.
 
 ## Validation Checklist
 
@@ -112,9 +131,11 @@ Do not mark `markdown` until the body has been reviewed and cleaned.
 - No raw WordPress shell wrappers remain.
 - No copied UI wrapper HTML remains.
 - Images and embeds are separated from prose.
-- Long paragraphs are readable.
+- Long paragraphs are readable, and ordinary prose lines are under roughly 800 characters.
+- Every adjacent prose paragraph has a blank line between it and the next paragraph.
 - Markdown headings render as headings.
 - Lists still render as lists.
+- Citation formatting is consistent.
 - No content was intentionally removed.
 
 ## Completion Report Format
@@ -125,6 +146,10 @@ Conversion state: markdown
 Fixed:
 - [artifact type]
 - [artifact type]
+Validation:
+- Raw wrapper HTML: pass/fail
+- Long prose lines over 800 characters: count
+- Paragraph blank lines: pass/fail
 Notes:
 - [anything risky, skipped, or manually interpreted]
 ```
