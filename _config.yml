@@ -10,5 +10,6 @@ exclude:
   - plans/
   - playbooks/
   - references/
+  - runner/
   - scripts/
   - templates/

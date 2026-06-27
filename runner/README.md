@@ -1,0 +1,158 @@
+# WordPress Cleanup Runner
+
+This directory contains local automation for cleaning imported WordPress Markdown posts with an Ollama instance on the LAN.
+
+Run commands from the repository root.
+
+## Requirements
+
+- Ollama reachable at `http://xavier:11434` unless `--ollama-host` is supplied.
+- The default `qwen3.5:9b` model installed on that Ollama host, or another model supplied through `OLLAMA_MODEL` or `--model`.
+- Python 3 with the standard library.
+- A clean or runner-owned staged worktree before mutating runs that use `--stage`.
+
+The runner never commits or pushes.
+
+Generated state is written under `runner/.state/`, which is ignored by Git and excluded from Jekyll.
+
+## First Test
+
+```powershell
+python runner/clean_wordpress_posts.py --mode inventory
+python runner/clean_wordpress_posts.py --mode next --dry-run
+```
+
+Expected result:
+
+- `inventory` prints counts for `wordpress`, `markdown`, missing, malformed, failed-skipped, and eligible posts.
+- `next --dry-run` selects one eligible `conversion_state: wordpress` post, calls Ollama, saves response/candidate/patch/report artifacts under `runner/.state/`, validates the candidate, and leaves the post file unchanged.
+
+## One-Post Apply Test
+
+```powershell
+python runner/clean_wordpress_posts.py --mode next --stage
+```
+
+Expected result:
+
+- Exactly one eligible post is attempted.
+- If validation passes, that post is updated, marked `conversion_state: markdown`, and staged.
+- If validation fails, the post remains unchanged and `conversion_state: wordpress`.
+- The process exits nonzero when the selected post fails.
+
+## Batch Mode
+
+```powershell
+python runner/clean_wordpress_posts.py --mode batch --limit 25 --stage
+```
+
+Expected result:
+
+- Up to 25 eligible posts are attempted in deterministic order.
+- Per-post cleanup or validation failures are recorded and skipped by default.
+- Successful validated posts are updated and staged.
+- The batch exits `0` if the runner itself remained healthy, even when individual posts failed.
+
+For debugging, stop at the first failed post:
+
+```powershell
+python runner/clean_wordpress_posts.py --mode batch --limit 25 --stop-on-failure --stage
+```
+
+## Progress Output
+
+Mutating modes print and immediately flush progress throughout the run. Every line includes:
+
+- Total elapsed time as `HH:MM:SS`.
+- Completed attempts divided by the effective run limit.
+- Estimated time remaining based on the average duration of completed attempts.
+- The current phase and post path when applicable.
+
+ETA is `unavailable` until the first attempt completes. The effective limit is the number of posts selected for this run, so `--limit 100` reports `0/37` when only 37 posts are eligible. During generation, the runner emits a streaming heartbeat approximately every 15 seconds with the number of response characters received.
+
+Representative output:
+
+```text
+[elapsed=00:00:00 progress=0/? eta=unavailable] phase=health_check host=http://xavier:11434 model=qwen3.5:9b
+[elapsed=00:00:01 progress=0/10 eta=unavailable] phase=post_started position=1/10 post=_posts/2009-02-23-kindred.md
+[elapsed=00:00:16 progress=0/10 eta=unavailable] phase=ollama_streaming response_chars=642 post=_posts/2009-02-23-kindred.md
+[elapsed=00:01:20 progress=1/10 eta=00:11:51] phase=complete result=SUCCESS post=_posts/2009-02-23-kindred.md attempt=00:01:19 successes=1 failures=0
+```
+
+Failures print the exact attempt and report artifact paths. Progress output is enabled by default; `--verbose` remains accepted for command compatibility.
+
+## Ollama Memory Options
+
+The runner sends explicit Ollama generation options so hosted models do not inherit a large default context window. Defaults are:
+
+- Host: `http://xavier:11434`
+- Model: `qwen3.5:9b`
+- `--ollama-num-ctx 4096`
+- `--ollama-num-predict 1536`
+- `--ollama-num-batch 128`
+- `think: false`
+
+`OLLAMA_HOST` and `OLLAMA_MODEL` override the built-in host and model defaults. Explicit `--ollama-host` and `--model` flags override the environment.
+
+`--ollama-num-predict` must be smaller than `--ollama-num-ctx` so the prompt and response fit in one context. If Ollama logs show `context limit hit - shifting`, lower `--ollama-num-predict` or raise `--ollama-num-ctx`.
+
+Use a smaller context for constrained tests:
+
+```powershell
+python runner/clean_wordpress_posts.py --mode next --dry-run --ollama-num-ctx 2048 --ollama-num-predict 768 --ollama-num-batch 64
+```
+
+If the Ollama logs show excessive GPU graph allocation, reduce `--ollama-num-ctx` first. `--ollama-num-gpu N` can be supplied for model-specific GPU layer tuning when needed.
+
+Reasoning mode is disabled by default in the request body so thinking models return visible cleaned Markdown instead of spending the output budget on hidden reasoning. Supply `--ollama-think` only for debugging model behavior.
+
+Responses are wrapped in nonce-delimited markers. The runner rejects responses that omit or alter those markers, writes the raw response under `runner/.state/responses/`, and leaves the post unchanged.
+
+## Reports
+
+```powershell
+python runner/clean_wordpress_posts.py --mode report
+```
+
+Expected result:
+
+- Summarizes attempts, successes, failures, skipped posts, remaining eligible posts, and staged files.
+- Separates runner-owned staged post files from unrelated staged files.
+
+## Resume Behavior
+
+The primary resume signal is post front matter:
+
+- `conversion_state: markdown` means complete.
+- `conversion_state: wordpress` means eligible, unless a previous failed attempt is skipped by retry policy.
+- Missing `conversion_state` is reported and skipped by default.
+
+To retry failed posts:
+
+```powershell
+python runner/clean_wordpress_posts.py --mode batch --retry-failed --limit 10 --stage
+```
+
+To include posts missing `conversion_state`:
+
+```powershell
+python runner/clean_wordpress_posts.py --mode batch --include-missing-state --limit 10 --stage
+```
+
+## Lock Recovery
+
+Mutating modes use `runner/.state/runner.lock`.
+
+If a prior run crashed, inspect `runner/.state/runner.lock`. If it is stale and you want to replace it:
+
+```powershell
+python runner/clean_wordpress_posts.py --mode batch --replace-stale-lock --limit 10 --stage
+```
+
+## Large Posts
+
+The initial runner processes posts that fit within `--single-pass-max-chars` and skips larger posts with a report. This avoids unsafe partial edits until chunked cleanup has been validated.
+
+```powershell
+python runner/clean_wordpress_posts.py --mode batch --single-pass-max-chars 180000 --limit 5 --stage
+```

@@ -6,6 +6,31 @@ Clean one imported WordPress post at a time so it renders as readable Markdown w
 
 Use this playbook with a single post file path.
 
+## Automated Runner
+
+The repo includes a local runner at `./runner/clean_wordpress_posts.py` for using an Ollama instance on the LAN to clean posts one at a time.
+
+Start with read-only inventory and one-post dry-run checks:
+
+```powershell
+python runner/clean_wordpress_posts.py --mode inventory
+python runner/clean_wordpress_posts.py --mode next --dry-run --ollama-host http://xavier:11434 --model MODEL_NAME --ollama-num-ctx 4096 --ollama-num-predict 1536
+```
+
+Use `--mode next --stage` for the first real one-post apply test. Use `--mode batch --limit N --stage` only after reviewing a one-post staged diff.
+
+The runner:
+- Uses `conversion_state` as the primary resume signal.
+- Leaves failed or uncertain posts unchanged as `conversion_state: wordpress`.
+- Records candidates, patches, reports, and lock state under `runner/.state/`.
+- Skips missing `conversion_state` posts by default unless `--include-missing-state` is supplied.
+- Records per-post failures and continues in batch mode by default.
+- Supports `--stop-on-failure` for debugging.
+- Sends explicit Ollama context and output caps by default to avoid oversized hosted-model memory allocation.
+- Never commits or pushes.
+
+See `./runner/README.md` for execution examples and expected results.
+
 ## AGX Prompt Template
 
 ```text

@@ -30,6 +30,8 @@ This blog was exported from WordPress into Markdown. That migration created many
 
 Agent-facing operating instructions live in `AGENTS.md`; this README is for humans. The repository also includes an agentic workflow framework for plans, journals, kanban, and reusable operational guidance.
 
+Local maintenance automation, including the WordPress cleanup runner, lives in `runner/` and is excluded from the generated public site.
+
 ```text
 .
 ├── AGENTS.md               # Agent entrypoint and host-specific framework guidance
@@ -69,3 +71,5 @@ Agentic framework directories are excluded from the generated public site in `_c
 Homepage category images stack above post lists on mobile and shift left of the lists on desktop, with desktop image width capped at `500px`.
 
 Imported posts use `conversion_state` front matter to track cleanup status. `wordpress` means the post still needs WordPress-to-Markdown cleanup; `markdown` means the post has been cleaned for the current static-site presentation.
+
+The optional WordPress cleanup runner lives in `runner/` and is excluded from the generated public site.
