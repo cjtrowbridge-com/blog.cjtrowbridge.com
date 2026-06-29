@@ -1,0 +1,20 @@
+[
+  {
+    "name": "punctuation_copyedit",
+    "original_body": "What if inside the digital was an analog system. What if everything was generated as you encountered it, with a loose structure planned out, and it built the world as you encountered it. Every time you played, it would be different.",
+    "candidate_body": "What if inside the digital was an analog system? What if everything was generated as you encountered it, with a loose structure planned out, and it built the world as you encountered it. Every time you played, it would be different.",
+    "expected_review": true
+  },
+  {
+    "name": "invented_image_alt_text",
+    "original_body": "[![](http://example.com/image.jpg)](http://example.com/post/)",
+    "candidate_body": "[![Invented caption](http://example.com/image.jpg)](http://example.com/post/)",
+    "expected_failure": "candidate changed visible text beyond review threshold"
+  },
+  {
+    "name": "duplicate_iframe",
+    "original_body": "[View post](http://example.com/post/)",
+    "candidate_body": "[View post](http://example.com/post/)\n\n<iframe src=\"http://example.com/post/\"></iframe>",
+    "expected_failure": "candidate added URLs"
+  }
+]

@@ -36,7 +36,8 @@ python runner/clean_wordpress_posts.py --mode next --stage
 Expected result:
 
 - Exactly one eligible post is attempted.
-- If validation passes, that post is updated, marked `conversion_state: markdown`, and staged.
+- Exact visible-text matches are marked `conversion_state: markdown`.
+- Small visible-text differences within the configured thresholds are marked `conversion_state: review` and staged for human review.
 - If validation fails, the post remains unchanged and `conversion_state: wordpress`.
 - The process exits nonzero when the selected post fails.
 
@@ -81,6 +82,16 @@ Representative output:
 
 Failures print the exact attempt and report artifact paths. Progress output is enabled by default; `--verbose` remains accepted for command compatibility.
 
+## Last-Run Log
+
+Every invocation deletes and recreates `runner/last_run.log` before parsing arguments. All stdout and stderr are written to that file and still printed to the console. Output is flushed immediately so the file can be monitored while a batch runs.
+
+```powershell
+Get-Content runner/last_run.log -Wait
+```
+
+The file contains only the latest invocation and is ignored by Git. Starting another runner command replaces the prior contents, including when the new command uses `inventory` or `report`.
+
 ## Ollama Memory Options
 
 The runner sends explicit Ollama generation options so hosted models do not inherit a large default context window. Defaults are:
@@ -108,6 +119,33 @@ Reasoning mode is disabled by default in the request body so thinking models ret
 
 Responses are wrapped in nonce-delimited markers. The runner rejects responses that omit or alter those markers, writes the raw response under `runner/.state/responses/`, and leaves the post unchanged.
 
+## Safety Model
+
+The runner does not send YAML front matter to Ollama. It sends only the post body, preserves the complete original front matter locally, and adds only runner-owned state and Levenshtein audit fields after validation.
+
+The runner canonicalizes visible body text by decoding entities, stripping HTML and Markdown formatting syntax, and removing whitespace. It compares canonical strings directly and calculates bounded Levenshtein distance only when they differ.
+
+Every applied post receives deterministic audit fields:
+
+```yaml
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
+```
+
+Candidates are rejected when they:
+
+- Exceed either conservative review control: `--review-max-distance 25` or `--review-max-ratio 0.01`.
+- Add, remove, or duplicate URLs, image targets, or embed targets.
+- Change front matter outside runner-owned state and Levenshtein audit fields.
+- Add enough visible text, including image alt text, to exceed the review thresholds.
+
+Both review thresholds must pass for a nonzero candidate to enter `conversion_state: review`; otherwise it is rejected. Exact distance-zero candidates enter `conversion_state: markdown`.
+
+Imported Instagram posts are handled deterministically without an Ollama call: the existing Markdown body is preserved, the final newline is normalized, and `conversion_state` is updated after validation.
+
+Malformed Ollama response envelopes are retried once by default. Use `--response-retries N` to change that bounded retry count.
+
 ## Reports
 
 ```powershell
@@ -118,12 +156,15 @@ Expected result:
 
 - Summarizes attempts, successes, failures, skipped posts, remaining eligible posts, and staged files.
 - Separates runner-owned staged post files from unrelated staged files.
+- Prints a separate `Last Run` section with the selected, attempted, successful, and failed counts for the latest invocation.
+- Lists `conversion_state: review` posts from highest to lowest Levenshtein distance.
 
 ## Resume Behavior
 
 The primary resume signal is post front matter:
 
 - `conversion_state: markdown` means complete.
+- `conversion_state: review` means applied and excluded from reruns until a human approves or reverts it. Approval changes the state to `markdown` and `cleanup_review_required` to `false` while retaining distance and ratio.
 - `conversion_state: wordpress` means eligible, unless a previous failed attempt is skipped by retry policy.
 - Missing `conversion_state` is reported and skipped by default.
 
@@ -151,7 +192,7 @@ python runner/clean_wordpress_posts.py --mode batch --replace-stale-lock --limit
 
 ## Large Posts
 
-The initial runner processes posts that fit within `--single-pass-max-chars` and skips larger posts with a report. This avoids unsafe partial edits until chunked cleanup has been validated.
+The initial runner processes post bodies that fit within `--single-pass-max-chars` and skips larger bodies with a report. Front matter does not consume the model context. This avoids unsafe partial edits until chunked cleanup has been validated.
 
 ```powershell
 python runner/clean_wordpress_posts.py --mode batch --single-pass-max-chars 180000 --limit 5 --stage

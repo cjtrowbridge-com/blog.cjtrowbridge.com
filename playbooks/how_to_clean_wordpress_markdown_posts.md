@@ -21,11 +21,18 @@ Use `--mode next --stage` for the first real one-post apply test. Use `--mode ba
 
 The runner:
 - Uses `conversion_state` as the primary resume signal.
+- Sends only the post body to Ollama and preserves complete YAML front matter locally.
+- Canonicalizes visible text, ignores formatting and whitespace, and records Levenshtein distance in YAML.
+- Marks exact matches `markdown`, small differences `review`, and rejects differences beyond conservative thresholds.
+- Rejects added, removed, or duplicated URLs, image targets, and embed targets.
+- Handles imported Instagram post bodies deterministically without an Ollama call.
 - Leaves failed or uncertain posts unchanged as `conversion_state: wordpress`.
 - Records candidates, patches, reports, and lock state under `runner/.state/`.
+- Records a per-run manifest so current-batch results are distinct from cumulative state.
 - Skips missing `conversion_state` posts by default unless `--include-missing-state` is supplied.
 - Records per-post failures and continues in batch mode by default.
 - Supports `--stop-on-failure` for debugging.
+- Retries malformed model response envelopes under a bounded policy.
 - Sends explicit Ollama context and output caps by default to avoid oversized hosted-model memory allocation.
 - Never commits or pushes.
 
@@ -34,16 +41,16 @@ See `./runner/README.md` for execution examples and expected results.
 ## AGX Prompt Template
 
 ```text
-Clean this WordPress-exported Markdown post:
+Clean this WordPress-exported Markdown body:
 
 POST_PATH={{post_path}}
 
 Rules:
-- Edit only POST_PATH.
-- Preserve all factual content, wording, links, citations, and media.
-- Preserve YAML fields except update conversion_state from wordpress to markdown only after the validation checklist passes.
-- Do not rewrite the author's voice.
-- Do not summarize, shorten, or add new claims.
+- Return only the cleaned body; do not return YAML front matter.
+- Preserve every authored word, spelling, capitalization, and punctuation mark exactly.
+- Preserve every link, citation, image target, and embed occurrence.
+- Do not add alt text, links, images, embeds, captions, or claims.
+- Do not rewrite, copyedit, summarize, or shorten.
 - Preserve source order exactly unless repairing a clearly broken wrapper requires moving content out of markup without changing its relative order.
 - Read and clean the whole post in source order, using the moving-window protocol when the post is too large for one context window.
 - Make the Markdown readable and safe for Jekyll.
@@ -64,6 +71,17 @@ After the post is cleaned, change it to:
 ```yaml
 conversion_state: markdown
 ```
+
+If normalized visible text differs slightly but remains within both configured review thresholds, use:
+
+```yaml
+conversion_state: review
+cleanup_levenshtein_distance: 4
+cleanup_levenshtein_ratio: 0.00080000
+cleanup_review_required: true
+```
+
+Human approval must change `review` to `markdown` and `cleanup_review_required` to `false`, while retaining the recorded distance and ratio, or revert the candidate before commit.
 
 Do not mark `markdown` until the body has been reviewed and cleaned.
 
@@ -111,8 +129,9 @@ Some posts are too long to fit comfortably alongside the instructions. In that c
 ## Cleanup Rules
 
 1. **Preserve Metadata**
-   - Keep `id`, `title`, `date`, `author`, `layout`, `guid`, `permalink`, `categories`, and `tags`.
-   - Add only `conversion_state` if it is missing.
+   - Keep every front-matter byte under local runner control.
+   - Do not send front matter to the cleanup model.
+   - Change or add only `conversion_state` and runner-owned Levenshtein audit fields after body validation passes.
 
 2. **Remove WordPress Wrapper HTML**
    - Remove shell markup such as `<main>`, `<article>`, `<div class="entry-content">`, `<footer class="entry-footer">`, and matching close tags.
@@ -200,8 +219,10 @@ If the model cannot confidently complete the repair pass, it must leave `convers
 
 ## Validation Checklist
 
-- `conversion_state` is `markdown`.
-- The post still has the same title, date, permalink, categories, and tags.
+- `conversion_state` is `markdown` for distance zero or `review` for an explicitly flagged small difference.
+- All front matter except `conversion_state` is byte-for-byte unchanged.
+- Normalized visible-text Levenshtein distance and ratio are recorded in YAML.
+- URL, image-target, and embed-target occurrence counts are unchanged.
 - No raw WordPress shell wrappers remain.
 - No copied UI wrapper HTML remains.
 - Images and embeds are separated from prose.

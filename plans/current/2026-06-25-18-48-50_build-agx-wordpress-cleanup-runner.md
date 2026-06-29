@@ -450,14 +450,46 @@ python runner/clean_wordpress_posts.py --mode report
     - [ ] 14.3.2 Stop after a small batch for review.
     - [ ] 14.3.3 Use `--mode report` before reviewing large staged diffs.
     - [ ] 14.3.4 Do not commit generated post changes until the user approves a review strategy.
+  - [x] 14.4 Persist complete output from the latest invocation.
+    - [x] 14.4.1 Recreate `runner/last_run.log` when the script launches.
+    - [x] 14.4.2 Tee stdout to both the console and `runner/last_run.log`.
+    - [x] 14.4.3 Tee stderr to both the console and `runner/last_run.log`.
+    - [x] 14.4.4 Flush console and file output immediately during long-running operations.
+    - [x] 14.4.5 Ignore `runner/last_run.log` in Git.
+    - [x] 14.4.6 Document log replacement and monitoring behavior in `runner/README.md`.
+    - [x] 14.4.7 Test replacement, stdout capture, stderr capture, immediate flushing, and unhandled-exception capture.
 
 - [ ] 15. Complete repository checkpoint hygiene.
   - [x] 15.1 Update this plan as implementation items are completed or intentionally closed.
   - [x] 15.2 Regenerate plan indexes after moving this plan to `current` or updating checklist status.
-  - [ ] 15.3 Append today's journal repo work log entry for implementation checkpoints.
+  - [x] 15.3 Append today's journal repo work log entry for implementation checkpoints.
   - [x] 15.4 Review `git status` and relevant diffs before any commit.
   - [x] 15.5 Suggest a checkpoint-scoped commit message after implementation verification.
   - [ ] 15.6 Commit only after the user approves the completed checkpoint.
+
+- [x] 16. Harden the runner based on the first 100-post batch review.
+  - [x] 16.1 Preserve complete YAML front matter locally and send only the body to Ollama.
+  - [x] 16.2 Add normalized visible-text comparison and bounded Levenshtein diagnostics.
+    - [x] 16.2.1 Exclude YAML from text comparison.
+    - [x] 16.2.2 Decode HTML entities and retain visible HTML text while stripping tags.
+    - [x] 16.2.3 Remove Markdown formatting syntax while retaining visible labels and image alt text.
+    - [x] 16.2.4 Remove whitespace and line breaks before comparison.
+    - [x] 16.2.5 Compare canonical strings directly before calculating distance.
+    - [x] 16.2.6 Use bounded rolling-row Levenshtein only for mismatched canonical strings.
+    - [x] 16.2.7 Record hashes, lengths, distance, ratio, first mismatch, and context in reports.
+  - [x] 16.3 Add deterministic review metadata and state.
+    - [x] 16.3.1 Write `cleanup_levenshtein_distance` and `cleanup_levenshtein_ratio` to applied post YAML.
+    - [x] 16.3.2 Mark distance-zero candidates `conversion_state: markdown`.
+    - [x] 16.3.3 Mark small nonzero candidates `conversion_state: review`.
+    - [x] 16.3.4 Require both `--review-max-distance` and `--review-max-ratio` thresholds.
+    - [x] 16.3.5 Exclude `review` posts from automatic reruns and list them by descending distance.
+  - [x] 16.4 Compare URL, image, and embed occurrence counts so additions and duplicates fail validation.
+  - [x] 16.5 Handle imported Instagram post bodies with deterministic cleanup rules.
+  - [x] 16.6 Add per-run manifests and reports that distinguish the current batch from cumulative state.
+  - [x] 16.7 Retry malformed response envelopes under a bounded policy.
+  - [x] 16.8 Add regression fixtures from rejected and false-positive candidates found in the first batch.
+  - [x] 16.9 Revert all unsafe staged candidates from the first batch before rerunning.
+  - [x] 16.10 Run and review a 10-post `--retry-failed --dry-run` smoke batch; 7 exact distance-zero candidates passed, 3 candidates were safely rejected for unresolved long prose lines, one malformed response succeeded on its bounded retry, and no post files changed.
 
 ## Success Criteria
 
@@ -466,6 +498,7 @@ python runner/clean_wordpress_posts.py --mode report
 - Batch mode records per-post failures and continues by default.
 - Batch mode can stop after the first per-post failure with `--stop-on-failure`.
 - The runner leaves completed posts marked `conversion_state: markdown`.
+- The runner marks small normalized visible-text differences `conversion_state: review` with YAML distance metadata.
 - The runner leaves failed or uncertain posts marked `conversion_state: wordpress`.
 - Missing-state posts are reported and skipped by default.
 - The runner enforces a single active mutating process with a recoverable lock.

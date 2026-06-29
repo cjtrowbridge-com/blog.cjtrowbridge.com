@@ -39,7 +39,10 @@ instagram_image_id:
     - '1485'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2013/11/1169189_597275320337775_317638195_n.jpg)](http://instagram.com/p/gj7HMRrtNa/)

@@ -70,6 +70,6 @@ Agentic framework directories are excluded from the generated public site in `_c
 
 Homepage category images stack above post lists on mobile and shift left of the lists on desktop, with desktop image width capped at `500px`.
 
-Imported posts use `conversion_state` front matter to track cleanup status. `wordpress` means the post still needs WordPress-to-Markdown cleanup; `markdown` means the post has been cleaned for the current static-site presentation.
+Imported posts use `conversion_state` front matter to track cleanup status. `wordpress` means the post still needs WordPress-to-Markdown cleanup, `review` means a small visible-text change requires human review, and `markdown` means the post has been cleaned for the current static-site presentation.
 
-The optional WordPress cleanup runner lives in `runner/` and is excluded from the generated public site.
+The optional WordPress cleanup runner lives in `runner/` and is excluded from the generated public site. It preserves front matter locally, delegates only post bodies to Ollama, records normalized Levenshtein distance in YAML, and rejects large text changes or media-occurrence changes.
