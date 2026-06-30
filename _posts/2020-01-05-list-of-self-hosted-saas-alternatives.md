@@ -8,7 +8,12 @@ guid: 'https://blog.cjtrowbridge.com/?p=12696'
 permalink: /2020/01/05/list-of-self-hosted-saas-alternatives/
 categories:
     - Ideas
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-[Kickball/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
+[Kickball/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+
+A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.
