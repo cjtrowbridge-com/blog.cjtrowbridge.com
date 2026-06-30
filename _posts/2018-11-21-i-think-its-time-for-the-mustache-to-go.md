@@ -45,7 +45,10 @@ instagram_image_id:
     - '11226'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![I think it’s time for the mustache to go.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/11/i-think-its-time-for-1-1.jpg)](https://www.instagram.com/p/BqdaeV9B2lk/)

@@ -53,7 +53,10 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2016/06/480x480-video-1466098516-1.mp4'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![#godmorgen](https://blog.cjtrowbridge.com/wp-content/uploads/2016/06/1466098516-1-1.jpg)](https://www.instagram.com/p/BGuVPWfLtGq/)

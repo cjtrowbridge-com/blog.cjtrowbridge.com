@@ -9,7 +9,12 @@ permalink: /2017/02/28/jdst-overnight-for-trump-speech/
 categories:
     - Featured
     - Investment
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-A perfect $JDST moment. Markets are down ahead of a big trump speech tonight. BUT, they are down because retailers are down. And Trump's plan is seen as positive for the markets. I got half my portfolio in at $16.26. Tomorrow morning, money will flow out of gold and into defense and whatever kind of infrastructure he mentions. #jdsttothemoon **UPDATE:** Opened up almost 9%. One of my all-time best single trades. This did almost 15.2% growth in 24 hours.
+A perfect $JDST moment. Markets are down ahead of a big trump speech tonight. BUT, they are down because retailers are down. And Trump's plan is seen as positive for the markets. I got half my portfolio in at $16.26. Tomorrow morning, money will flow out of gold and into defense and whatever kind of infrastructure he mentions. #jdsttothemoon
+
+**UPDATE:** Opened up almost 9%. One of my all-time best single trades. This did almost 15.2% growth in 24 hours.

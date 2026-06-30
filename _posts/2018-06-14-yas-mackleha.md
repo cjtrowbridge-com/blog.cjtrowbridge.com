@@ -53,7 +53,10 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/06/640x640-video-1529042507.mp4'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Yas mackle$ha!](https://blog.cjtrowbridge.com/wp-content/uploads/2018/06/1529042507-1-1.jpg)](https://www.instagram.com/p/BkCNVlMgQWW/)

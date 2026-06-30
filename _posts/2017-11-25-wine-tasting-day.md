@@ -45,7 +45,10 @@ instagram_image_id:
     - '9341'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Wine tasting day](https://blog.cjtrowbridge.com/wp-content/uploads/2017/11/1511642539-1-1.jpg)](https://www.instagram.com/p/Bb7pkf3FOy0/)

@@ -39,7 +39,10 @@ dsgnwrks_instagram_hashtags:
     - 'a:6:{i:0;s:10:"2buckchuck";i:1;s:14:"mydrunkkitchen";i:2;s:5:"pasta";i:3;s:10:"3buckchuck";i:4;s:11:"charlesshaw";i:5;s:8:"sriracha";}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/10/10693605_333153693525244_1717859788_n2.jpg)](http://instagram.com/p/uCKs6FrtJb/)

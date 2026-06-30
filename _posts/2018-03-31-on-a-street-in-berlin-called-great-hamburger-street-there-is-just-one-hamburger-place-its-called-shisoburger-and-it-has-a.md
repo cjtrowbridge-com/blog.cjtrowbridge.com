@@ -45,7 +45,10 @@ instagram_image_id:
     - '9978'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![On a street in Berlin called “Great Hamburger Street,” there is just one hamburger place. It’s called @shisoburger and it has a wonderful Asian fusion cheeseburger with waygu on a rice bun with kimchi on the side. So great!](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522505689-1-1.jpg)](https://www.instagram.com/p/Bg_ZYnNlaMq/)

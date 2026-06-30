@@ -39,7 +39,10 @@ dsgnwrks_instagram_comments:
     - 'O:8:"stdClass":2:{s:5:"count";i:4;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:12:"created_time";s:10:"1429145162";s:4:"text";s:9:"YOUR HEAD";s:4:"from";O:8:"stdClass":4:{s:8:"username";s:12:"brapho_saves";s:15:"profile_picture";s:107:"https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/10949075_1804974503061732_919100900_a.jpg";s:2:"id";s:10:"1712328848";s:9:"full_name";s:29:"Brandon ໂພນ​ທອງ";}s:2:"id";s:18:"964061952541119406";}i:1;O:8:"stdClass":4:{s:12:"created_time";s:10:"1429145293";s:4:"text";s:33:"@brapho_saves #gopro #fisheyelens";s:4:"from";O:8:"stdClass":4:{s:8:"username";s:12:"cjtrowbridge";s:15:"profile_picture";s:103:"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/925559_452430704897917_67836701_a.jpg";s:2:"id";s:8:"41872995";s:9:"full_name";s:13:"CJ Trowbridge";}s:2:"id";s:18:"964063052186964986";}i:2;O:8:"stdClass":4:{s:12:"created_time";s:10:"1429148322";s:4:"text";s:4:"#imy";s:4:"from";O:8:"stdClass":4:{s:8:"username";s:12:"brapho_saves";s:15:"profile_picture";s:107:"https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/10949075_1804974503061732_919100900_a.jpg";s:2:"id";s:10:"1712328848";s:9:"full_name";s:29:"Brandon ໂພນ​ທອງ";}s:2:"id";s:18:"964088461414814497";}i:3;O:8:"stdClass":4:{s:12:"created_time";s:10:"1429148969";s:4:"text";s:34:"Dude...... This is freaking me out";s:4:"from";O:8:"stdClass":4:{s:8:"username";s:11:"tealaalvord";s:15:"profile_picture";s:107:"https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/11032910_834535219917855_2047865710_a.jpg";s:2:"id";s:7:"5473565";s:9:"full_name";s:12:"Teala Alvord";}s:2:"id";s:18:"964093893810245887";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/04/10513738_452636521570554_332933581_n.jpg)](https://instagram.com/p/1gi8mTrtNI/)

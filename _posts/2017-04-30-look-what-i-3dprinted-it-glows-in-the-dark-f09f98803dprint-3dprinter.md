@@ -45,7 +45,10 @@ dsgnwrks_instagram_hashtags:
     - 'a:3:{i:0;s:9:"3dprinted";i:1;s:7:"3dprint";i:2;s:9:"3dprinter";}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Look what I #3Dprinted it glows in the dark 😀

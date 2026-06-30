@@ -39,7 +39,10 @@ dsgnwrks_instagram_hashtags:
     - 'a:6:{i:0;s:6:"viking";i:1;s:5:"gypsy";i:2;s:6:"sunset";i:3;s:8:"sailboat";i:4;s:6:"nebula";i:5;s:15:"ghettosuperstar";}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/09/10661144_554406077993834_222600178_n2.jpg)](http://instagram.com/p/tJ2-3urtL-/)

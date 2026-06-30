@@ -45,7 +45,10 @@ instagram_image_id:
     - '10708'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Brita pitchers may remove bacteria but they don’t do shit for your chakras.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/08/1534130403-1-1.jpg)](https://www.instagram.com/p/BmZ1xC0gMoj/)

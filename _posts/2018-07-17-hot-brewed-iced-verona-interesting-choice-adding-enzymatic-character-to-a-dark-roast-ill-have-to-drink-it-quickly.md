@@ -45,7 +45,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":1:{s:5:"count";i:4;}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Hot brewed, iced Verona. Interesting choice adding enzymatic character to a dark roast. Ill have to drink it quickly!](https://blog.cjtrowbridge.com/wp-content/uploads/2018/07/1531850663-1-1.jpg)](https://www.instagram.com/p/BlV5gcpAJ9Q/)

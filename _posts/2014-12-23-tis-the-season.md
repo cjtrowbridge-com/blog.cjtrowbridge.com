@@ -39,7 +39,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:9;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:15:"iamnoellieparty";s:15:"profile_picture";s:108:"https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10952599_1600323313533834_1904175134_a.jpg";s:2:"id";s:8:"36811965";s:9:"full_name";s:16:"@iamnoellieparty";}i:1;O:8:"stdClass":4:{s:8:"username";s:12:"ninja_red_11";s:15:"profile_picture";s:85:"https://instagramimages-a.akamaihd.net/profiles/profile_185432723_75sq_1340421499.jpg";s:2:"id";s:9:"185432723";s:9:"full_name";s:15:"Davide Dusseaux";}i:2;O:8:"stdClass":4:{s:8:"username";s:9:"nazghoul_";s:15:"profile_picture";s:105:"https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-frc/t51.2885-19/10543542_838637796174611_151210582_a.jpg";s:2:"id";s:8:"19523293";s:9:"full_name";s:12:"Jake Cabrera";}i:3;O:8:"stdClass":4:{s:8:"username";s:8:"cesarosp";s:15:"profile_picture";s:107:"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10560942_304167339756917_2000406505_a.jpg";s:2:"id";s:8:"39140135";s:9:"full_name";s:17:"César Solórzano";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/12/10881980_1533125343610296_204565987_n3.jpg)](http://instagram.com/p/w-mq3LLtLx/)

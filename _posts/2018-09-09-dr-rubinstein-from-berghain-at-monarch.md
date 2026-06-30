@@ -53,7 +53,10 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/640x640-video-1536478512.mp4'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Dr Rubinstein from Berghain at Monarch!](https://blog.cjtrowbridge.com/wp-content/uploads/2018/09/1536478512-1-1.jpg)](https://www.instagram.com/p/Bnf0Yzyg-BL/)

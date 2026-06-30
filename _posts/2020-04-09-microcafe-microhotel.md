@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=12684'
 permalink: /2020/04/09/microcafe-microhotel/
 categories:
     - Ideas
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 Come up with mvp for combined capsule hotel and cafe. As small as possible while profitable. Excellent WiFi Several price options Name brainstorming
@@ -17,5 +20,5 @@ Come up with mvp for combined capsule hotel and cafe. As small as possible while
 - Tapcaf
 - Nanotel
 - Picotel
-- Quantum Cafe &amp; Hotel
+- Quantum Cafe & Hotel
 - Something about roads in Latin

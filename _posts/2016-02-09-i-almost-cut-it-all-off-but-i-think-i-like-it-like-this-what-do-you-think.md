@@ -45,7 +45,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:6;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:8:"cdubs541";s:15:"profile_picture";s:97:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12568257_1678966082320638_1049677274_a.jpg";s:2:"id";s:8:"16580528";s:9:"full_name";s:17:"Charles meglasson";}i:1;O:8:"stdClass":4:{s:8:"username";s:10:"shea.logan";s:15:"profile_picture";s:93:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/10986036_965886383503619_4627211_a.jpg";s:2:"id";s:9:"271014122";s:9:"full_name";s:0:"";}i:2;O:8:"stdClass":4:{s:8:"username";s:9:"cariveaux";s:15:"profile_picture";s:95:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/11349382_1080443418633169_57987103_a.jpg";s:2:"id";s:8:"31057378";s:9:"full_name";s:16:"Daniel Cariveaux";}i:3;O:8:"stdClass":4:{s:8:"username";s:9:"nazghoul_";s:15:"profile_picture";s:96:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12145273_506563332851490_1126825913_a.jpg";s:2:"id";s:8:"19523293";s:9:"full_name";s:4:"Jake";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![I almost cut it all off but i think i like it like this. What do you think?](https://blog.cjtrowbridge.com/wp-content/uploads/2016/02/1455074805-1-1.jpg)](https://www.instagram.com/p/BBlzLf6rtIz/)

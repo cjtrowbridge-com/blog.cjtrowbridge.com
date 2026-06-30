@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=12864'
 permalink: /2019/10/25/vouchsafe/
 categories:
     - Blog
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 A tool for verifying a new community member is a real person and tracing in-person contacts to verify who vouches for them. This would make it much harder to have fake profiles or infiltration by hostile groups.

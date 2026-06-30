@@ -45,7 +45,10 @@ dsgnwrks_instagram_id:
     - '1835903884762472270_41872995'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Current mood](https://blog.cjtrowbridge.com/wp-content/uploads/2018/07/1533076819-1-1.jpg)](https://www.instagram.com/p/Bl6cNstBt9O/)

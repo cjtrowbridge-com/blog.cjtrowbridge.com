@@ -39,7 +39,10 @@ instagram_location:
     - 'O:8:"stdClass":2:{s:8:"latitude";d:45.4465279;s:9:"longitude";d:-122.6259427;}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/11/10747895_739438386104376_1866542930_n2.jpg)](http://instagram.com/p/vCAi0QLtPt/)

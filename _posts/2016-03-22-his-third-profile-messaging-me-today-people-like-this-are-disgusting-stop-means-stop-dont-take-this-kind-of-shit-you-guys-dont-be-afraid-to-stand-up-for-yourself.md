@@ -45,7 +45,10 @@ instagram_attribution:
     - ''
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![His third profile messaging me today. People like this are disgusting. Stop means stop. Don't take this kind of shit, you guys. Don't be afraid to stand up for yourself.](https://blog.cjtrowbridge.com/wp-content/uploads/2016/03/1458692086-1-1.jpg)](https://www.instagram.com/p/BDRmmFGLtNT/)

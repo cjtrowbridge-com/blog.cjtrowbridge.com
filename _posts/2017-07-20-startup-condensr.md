@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=8830'
 permalink: /2017/07/20/startup-condensr/
 categories:
     - 'The Levels Challenge: Build 12 Startups in 12 Months'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 This is a free tool based on several other tools I have seen online. It accepts long-form text and condenses it to the length you specify. The code is very simple, and very powerful. I was shocked at how easy this was to build. Check it out on [Github](https://github.com/cjtrowbridge/Condensr), or head over to the site and [start condensing](https://condensr.io/)!

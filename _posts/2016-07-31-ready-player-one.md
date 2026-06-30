@@ -8,7 +8,12 @@ guid: 'https://blog.cjtrowbridge.com/?p=7527'
 permalink: /2016/07/31/ready-player-one/
 categories:
     - 'Reading List'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-It took me a few tries to really dive into this book, but once I did, it was an instant favorite. As far as sci-fi goes, it's fairly light. There is not a lot of technical detail; it's more about the abstract side of an adventure undertaken by a group of very independent people in a future dystopia. These people find themselves forced to work together and eventually form strong friendships on their way to conquering a shared enemy. It's a great story which I will certainly read many times over in the future. I look forward to the movie coming out next year and I hope they don't pretty it up, because this story is full of dirty, ugly realness. And that's its biggest strength in my opinion. I rate is a must-read for any sci-fi or cyberpunk fan or for anyone who is a fan of the 1980s :\] ![](https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg)
+It took me a few tries to really dive into this book, but once I did, it was an instant favorite. As far as sci-fi goes, it's fairly light. There is not a lot of technical detail; it's more about the abstract side of an adventure undertaken by a group of very independent people in a future dystopia. These people find themselves forced to work together and eventually form strong friendships on their way to conquering a shared enemy. It's a great story which I will certainly read many times over in the future. I look forward to the movie coming out next year and I hope they don't pretty it up, because this story is full of dirty, ugly realness. And that's its biggest strength in my opinion. I rate is a must-read for any sci-fi or cyberpunk fan or for anyone who is a fan of the 1980s :\]
+
+![](https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg)

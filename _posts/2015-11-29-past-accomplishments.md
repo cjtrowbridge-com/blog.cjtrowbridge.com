@@ -8,17 +8,20 @@ guid: 'http://blog.cjtrowbridge.com/?p=4602'
 permalink: /2015/11/29/past-accomplishments/
 categories:
     - Goals
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 - [Moving Everything to a Cloud VPS](https://blog.cjtrowbridge.com/2015/12/02/migrating-everything-to-a-cloud-vps/)
 - [Building a Cloud at Home For Free](http://blog.cjtrowbridge.com/2015/10/04/building-a-cloud-for-free/)
 - Food Carts
 - [Bradley Cafe](http://blog.cjtrowbridge.com/work-history-and-resume/#sequoia_equities)
-- Scuba 
+- Scuba
     - Dove at Sugar Pine
     - Dove at St Maarten
-- Conversational 
+- Conversational
     - Spanish
     - ASL
 - [DJ CJ](http://dj-cj.com/)

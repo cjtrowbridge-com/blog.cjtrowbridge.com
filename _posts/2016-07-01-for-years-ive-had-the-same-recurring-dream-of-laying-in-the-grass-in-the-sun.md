@@ -45,7 +45,10 @@ instagram_image_id:
     - '7470'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![For years I've had the same recurring dream of laying in the grass in the sun and a warm breeze on a nice afternoon. This photo reminds me of that day that never happened and yet happened a thousand times.](https://blog.cjtrowbridge.com/wp-content/uploads/2016/07/1467440641-1-1.jpg)](https://www.instagram.com/p/BHWVI79DIXM/)

@@ -53,7 +53,10 @@ instagram_video_url_standard_resolution:
     - 'https://admin.blog.cjtrowbridge.com/wp-content/uploads/2019/01/640x360-video-1547557936.mp4'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![My mother told me

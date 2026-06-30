@@ -37,7 +37,10 @@ instagram_image_id:
     - '3289'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/07/11357516_119561465048968_543352567_n.jpg)](https://instagram.com/p/424NNCLtOO/)Photo taken at: Foresthill Bridge [View in Instagram ⇒](https://instagram.com/p/424NNCLtOO/)

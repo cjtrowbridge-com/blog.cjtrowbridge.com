@@ -53,7 +53,10 @@ dsgnwrks_instagram_id:
     - '1195929507663368256_41872995'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![#7kitteh said he misses @nazghoul_](https://blog.cjtrowbridge.com/wp-content/uploads/2016/02/1456785928-1-1.jpg)](https://www.instagram.com/p/BCYy40IrtBA/)

@@ -45,7 +45,10 @@ instagram_user:
     - 'O:8:"stdClass":4:{s:8:"username";s:12:"cjtrowbridge";s:15:"profile_picture";s:109:"https://scontent.cdninstagram.com/hphotos-xta1/t51.2885-19/s150x150/12081186_1759494767611229_280555941_a.jpg";s:2:"id";s:8:"41872995";s:9:"full_name";s:13:"CJ Trowbridge";}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Help me think of a name for her](https://blog.cjtrowbridge.com/wp-content/uploads/2016/01/1453681868-1-1.jpg)](https://www.instagram.com/p/BA8SXRvrtK3/)

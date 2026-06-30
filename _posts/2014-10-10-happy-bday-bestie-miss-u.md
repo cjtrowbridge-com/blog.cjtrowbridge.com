@@ -39,7 +39,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:11;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:8:"codyyyyd";s:15:"profile_picture";s:107:"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/10723731_292115827656341_1844787432_a.jpg";s:2:"id";s:8:"15863378";s:9:"full_name";s:16:"CODY MICHAEL ♛";}i:1;O:8:"stdClass":4:{s:8:"username";s:16:"troublepatterson";s:15:"profile_picture";s:107:"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/10809571_615257405245461_1618898433_a.jpg";s:2:"id";s:8:"34361278";s:9:"full_name";s:16:"Trevor Patterson";}i:2;O:8:"stdClass":4:{s:8:"username";s:9:"jayray313";s:15:"profile_picture";s:85:"https://instagramimages-a.akamaihd.net/profiles/profile_173941734_75sq_1376854098.jpg";s:2:"id";s:9:"173941734";s:9:"full_name";s:15:"Jason Reinhardt";}i:3;O:8:"stdClass":4:{s:8:"username";s:8:"cesarosp";s:15:"profile_picture";s:107:"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10560942_304167339756917_2000406505_a.jpg";s:2:"id";s:8:"39140135";s:9:"full_name";s:17:"César Solórzano";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/10/10727356_302871146565396_869424461_n2.jpg)](http://instagram.com/p/t_KxA-LtOq/)

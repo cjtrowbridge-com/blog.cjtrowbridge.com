@@ -39,7 +39,10 @@ instagram_username:
     - cjtrowbridge
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/08/10570039_1445763352369355_1884264538_n.jpg)](http://instagram.com/p/rVmv7_LtEo/)

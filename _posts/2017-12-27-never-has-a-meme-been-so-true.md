@@ -45,7 +45,10 @@ instagram_image_id:
     - '9479'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Never has a meme been so true](https://blog.cjtrowbridge.com/wp-content/uploads/2017/12/1514442354-1-1.jpg)](https://www.instagram.com/p/BdPFyv5l_Yc/)

@@ -39,7 +39,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:9;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:10:"sweetlou89";s:15:"profile_picture";s:107:"https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10932039_1597538033795198_627764409_a.jpg";s:2:"id";s:8:"38105725";s:9:"full_name";s:5:"Louie";}i:1;O:8:"stdClass":4:{s:8:"username";s:8:"cesarosp";s:15:"profile_picture";s:107:"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10560942_304167339756917_2000406505_a.jpg";s:2:"id";s:8:"39140135";s:9:"full_name";s:17:"César Solórzano";}i:2;O:8:"stdClass":4:{s:8:"username";s:8:"ford7213";s:15:"profile_picture";s:104:"https://scontent-b.cdninstagram.com/hphotos-xaf1/l/t51.2885-19/10601700_1455079964756116_697951094_a.jpg";s:2:"id";s:8:"24773925";s:9:"full_name";s:6:"Ford S";}i:3;O:8:"stdClass":4:{s:8:"username";s:8:"domsauce";s:15:"profile_picture";s:106:"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/10748200_590475017746197_203154992_a.jpg";s:2:"id";s:9:"179889911";s:9:"full_name";s:13:"Dommy Johnson";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/08/10597470_1521929801375134_1747267010_n2.jpg)](http://instagram.com/p/sD6V8DrtGs/)

@@ -45,7 +45,10 @@ instagram_image_id:
     - '11661'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Eat your heart out, Gadsden.](https://blog.cjtrowbridge.com/wp-content/uploads/2019/03/eat-your-heart-out-gadsden-1-1.jpg)](https://www.instagram.com/p/BupcvyNHHJK/)

@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=7305'
 permalink: /2016/05/12/update-hypothetical-up-6-3-ytd/
 categories:
     - Investment
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 I have been Blogging about hypothetical trades and their timing in order to establish a baseline and a reasonable performance expectation before spending any actual money. Year to date, I am up 6.3%.

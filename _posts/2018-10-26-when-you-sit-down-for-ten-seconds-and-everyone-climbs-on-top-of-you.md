@@ -45,7 +45,10 @@ instagram_image_id:
     - '11160'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![When you sit down for ten seconds and everyone climbs on top of you](https://blog.cjtrowbridge.com/wp-content/uploads/2018/10/when-you-sit-down-for-1-1.jpg)](https://www.instagram.com/p/Bpapyo_n8OI/)

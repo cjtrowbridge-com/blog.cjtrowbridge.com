@@ -45,7 +45,10 @@ instagram_image_id:
     - '7562'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![This is probably a good preview of the week to come.](https://blog.cjtrowbridge.com/wp-content/uploads/2016/08/1471721716-1-1.jpg)](https://www.instagram.com/p/BJV6pHSjECV/)

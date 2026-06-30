@@ -39,7 +39,10 @@ instagram_image_id:
     - '3342'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/07/10665466_403119603217657_1565664519_n.jpg)](https://instagram.com/p/5pu7PvLtLf/)Photo taken at: Chipotle [View in Instagram ⇒](https://instagram.com/p/5pu7PvLtLf/)

@@ -45,7 +45,10 @@ dsgnwrks_instagram_hashtags:
     - 'a:0:{}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![What should the name of the new Roseville thrift store be? The money will stop human trafficking and sexual violence and support survivors.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/04/1493347441-1-1.jpg)](https://www.instagram.com/p/BTaacDkle1S/)

@@ -43,7 +43,10 @@ instagram_image_id:
     - '9923'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![In Norway, all art contains penises. I think each of us can learn something from that. Though I’m not sure exactly what. #🍆](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522227578-1-1.jpg)](https://www.instagram.com/p/Bg3G7ZzFPK2/)

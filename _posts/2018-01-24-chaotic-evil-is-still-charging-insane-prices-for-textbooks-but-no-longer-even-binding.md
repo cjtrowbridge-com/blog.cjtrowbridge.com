@@ -45,7 +45,10 @@ instagram_image_id:
     - '9585'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Chaotic evil is still charging insane prices for textbooks but no longer even binding them; requiring students to purchase binders to put loose pages in, in lieu of a bound book. Not least of all because it makes them harder to retain as reference material. #fuckthesystem](https://blog.cjtrowbridge.com/wp-content/uploads/2018/01/1516825714-1-1.jpg)](https://www.instagram.com/p/BeWHsLiFcKL/)

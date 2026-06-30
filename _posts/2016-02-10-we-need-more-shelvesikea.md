@@ -45,7 +45,10 @@ instagram_users_in_photo:
     - 'a:2:{i:0;O:8:"stdClass":2:{s:8:"position";O:8:"stdClass":2:{s:1:"y";d:0.25486112;s:1:"x";d:0.13611111;}s:4:"user";O:8:"stdClass":4:{s:8:"username";s:12:"cjtrowbridge";s:15:"profile_picture";s:96:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12081186_1759494767611229_280555941_a.jpg";s:2:"id";s:8:"41872995";s:9:"full_name";s:13:"CJ Trowbridge";}}i:1;O:8:"stdClass":2:{s:8:"position";O:8:"stdClass":2:{s:1:"y";d:0.23541668;s:1:"x";d:0.8041667;}s:4:"user";O:8:"stdClass":4:{s:8:"username";s:10:"romothegod";s:15:"profile_picture";s:96:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12531024_1520007654970049_815575520_a.jpg";s:2:"id";s:9:"206196510";s:9:"full_name";s:10:"Jacob Romo";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![We need more shelves

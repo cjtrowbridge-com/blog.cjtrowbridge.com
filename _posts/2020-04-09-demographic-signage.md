@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=12680'
 permalink: /2020/04/09/demographic-signage/
 categories:
     - Ideas
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 Read more about advertising companies using screens with integrated demographics vision-analysis and putting them in bathrooms or bus stops. This is kind of scary but maybe potentially a way to bring people together?

@@ -45,7 +45,10 @@ instagram_image_id:
     - '9878'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Sometimes Starbucks makes me feel a bit like Odin. I seem to have as many names as there are winds, as many titles as there are ways to die. Now I just need a couple ravens and wolves and people will start calling me alldaddy.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1521492291-1-1.jpg)](https://www.instagram.com/p/BghMeyDHtOH/)

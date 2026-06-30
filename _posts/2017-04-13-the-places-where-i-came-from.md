@@ -45,7 +45,10 @@ instagram_created_time:
     - '1492128669'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/04/1492128669-1-1.jpg)](https://www.instagram.com/p/BS2F0LIDjyx/)

@@ -39,7 +39,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:6;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:9:"aquamatey";s:15:"profile_picture";s:107:"https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/1168924_1545277322374505_1429730127_a.jpg";s:2:"id";s:9:"178804699";s:9:"full_name";s:11:"Andrew Mote";}i:1;O:8:"stdClass":4:{s:8:"username";s:12:"urban_fervor";s:15:"profile_picture";s:107:"https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/10852919_336614963191258_1621875715_a.jpg";s:2:"id";s:9:"211606659";s:9:"full_name";s:12:"urban_fervor";}i:2;O:8:"stdClass":4:{s:8:"username";s:8:"dizzleme";s:15:"profile_picture";s:84:"https://instagramimages-a.akamaihd.net/profiles/profile_12340414_75sq_1358478611.jpg";s:2:"id";s:8:"12340414";s:9:"full_name";s:4:"Tony";}i:3;O:8:"stdClass":4:{s:8:"username";s:13:"nowolfyouknow";s:15:"profile_picture";s:83:"https://instagramimages-a.akamaihd.net/profiles/profile_7870447_75sq_1387522357.jpg";s:2:"id";s:7:"7870447";s:9:"full_name";s:13:"Tommy Brogard";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/09/1963068_653053081476482_40637570_n2.jpg)](http://instagram.com/p/ti9MINrtD4/)

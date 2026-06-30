@@ -39,7 +39,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:5;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:12:"cjtrowbridge";s:15:"profile_picture";s:103:"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/925559_452430704897917_67836701_a.jpg";s:2:"id";s:8:"41872995";s:9:"full_name";s:13:"CJ Trowbridge";}i:1;O:8:"stdClass":4:{s:8:"username";s:12:"steg_osaurus";s:15:"profile_picture";s:107:"https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10948698_1546257395623908_861101716_a.jpg";s:2:"id";s:8:"35090129";s:9:"full_name";s:17:"Salvador Guerrero";}i:2;O:8:"stdClass":4:{s:8:"username";s:9:"scuetoypr";s:15:"profile_picture";s:85:"https://instagramimages-a.akamaihd.net/profiles/profile_182980251_75sq_1356842509.jpg";s:2:"id";s:9:"182980251";s:9:"full_name";s:12:"STEVEN CUETO";}i:3;O:8:"stdClass":4:{s:8:"username";s:11:"pilotsidiot";s:15:"profile_picture";s:106:"https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10903513_345578715645385_204293058_a.jpg";s:2:"id";s:6:"579157";s:9:"full_name";s:11:"pilotsidiot";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/11/10431762_1594030400825180_206719242_n2.jpg)](http://instagram.com/p/vpB145rtLK/)

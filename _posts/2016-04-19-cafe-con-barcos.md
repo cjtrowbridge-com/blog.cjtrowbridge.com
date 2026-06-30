@@ -45,7 +45,10 @@ dsgnwrks_instagram_id:
     - '1232147057573023972_41872995'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Cafe con barcos](https://blog.cjtrowbridge.com/wp-content/uploads/2016/04/1461103397-1-1.jpg)](https://www.instagram.com/p/BEZdzh9rtDk/)

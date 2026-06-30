@@ -45,7 +45,10 @@ instagram_location:
     - 'O:8:"stdClass":4:{s:8:"latitude";d:38.424898493;s:4:"name";s:28:"The Serpentarium (Elk Grove)";s:9:"longitude";d:-121.392626711;s:2:"id";i:6269484;}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![So pretty... So deadly...](https://blog.cjtrowbridge.com/wp-content/uploads/2016/04/1461106338-1-1.jpg)](https://www.instagram.com/p/BEZjantrtMD/)

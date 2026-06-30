@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=12700'
 permalink: /2019/01/07/mushrooms-from-restaurant-waste/
 categories:
     - Ideas
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 Develop a mycoculture experiment involving restaurant waste

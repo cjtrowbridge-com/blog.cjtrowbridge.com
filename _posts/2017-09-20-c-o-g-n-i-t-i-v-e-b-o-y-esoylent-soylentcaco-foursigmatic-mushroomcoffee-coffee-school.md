@@ -45,7 +45,10 @@ instagram_image_id:
     - '9104'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![C O G N I T I V E  B O Y E

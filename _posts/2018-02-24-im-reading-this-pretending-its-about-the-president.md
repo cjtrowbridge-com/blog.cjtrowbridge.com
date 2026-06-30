@@ -45,7 +45,10 @@ instagram_image_id:
     - '9740'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![I’m reading this pretending it’s about the president.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/02/1519501368-1-1.jpg)](https://www.instagram.com/p/Bfl3GL2FdCq/)

@@ -45,7 +45,10 @@ instagram_image_id:
     - '9039'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Weird is what I aim for.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/09/1505195463-1-1.jpg)](https://www.instagram.com/p/BY7gvzDDPAQ/)

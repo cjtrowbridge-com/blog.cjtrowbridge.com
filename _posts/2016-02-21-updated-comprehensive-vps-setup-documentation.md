@@ -9,7 +9,10 @@ permalink: /2016/02/21/updated-comprehensive-vps-setup-documentation/
 categories:
     - Projects
     - 'Tech 2U'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 Building a VPS requires lots of complex steps, and these steps change over time. The time has come to create comprehensive, consolidated documentation for how I setup these machines. Many of these steps are optional.

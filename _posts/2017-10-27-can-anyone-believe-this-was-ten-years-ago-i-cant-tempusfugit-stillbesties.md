@@ -45,7 +45,10 @@ instagram_image_id:
     - '9248'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Can anyone believe this was TEN years ago? I can’t.

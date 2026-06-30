@@ -53,7 +53,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:1;s:4:"data";a:1:{i:0;O:8:"stdClass":4:{s:8:"username";s:7:"alan.vf";s:15:"profile_picture";s:96:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12558361_821168764659753_1213882705_a.jpg";s:2:"id";s:10:"1454698875";s:9:"full_name";s:7:"A L A N";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![#cuties #wrastlin @romothegod](https://blog.cjtrowbridge.com/wp-content/uploads/2016/01/1454312413-1-1.jpg)](https://www.instagram.com/p/BBPFCFRLtJ6/)

@@ -45,7 +45,10 @@ instagram_filter_used:
     - Lark
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Maximum derp](https://blog.cjtrowbridge.com/wp-content/uploads/2016/01/1452139436-1-1.jpg)](https://www.instagram.com/p/BAOUaHKLtHE/)

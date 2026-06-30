@@ -45,7 +45,10 @@ instagram_attribution:
     - ''
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [!["I don't know about you, but I for one don't want to live in a world where somebody else makes the world a better place, better than we do."](https://blog.cjtrowbridge.com/wp-content/uploads/2016/04/1461003060-1-1.jpg)](https://www.instagram.com/p/BEWebYeLtEv/)

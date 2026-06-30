@@ -53,7 +53,10 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/08/640x640-video-1535644453.mp4'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![The skewer: In order to get to the bar in the RV, one must climb the stack of old cars. One can also  climb the crow’s nest on top, but falling would probably result in death or dismemberment. Remember, safety third!](https://blog.cjtrowbridge.com/wp-content/uploads/2018/08/1535644453-1-1.jpg)](https://www.instagram.com/p/BnG7xaPB5-c/)

@@ -39,7 +39,10 @@ instagram_image_id:
     - '3373'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/08/11909324_1616719085245529_1223156960_n.jpg)](https://instagram.com/p/6knZ2wLtD3/)Photo taken at: Tech 2U [View in Instagram ⇒](https://instagram.com/p/6knZ2wLtD3/)

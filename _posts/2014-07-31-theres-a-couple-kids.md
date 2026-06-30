@@ -39,7 +39,10 @@ dsgnwrks_instagram_comments:
     - 'O:8:"stdClass":2:{s:5:"count";i:0;s:4:"data";a:0:{}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/07/10593334_1439323806351146_1221452731_n.jpg)](http://instagram.com/p/rI9eptLtE0/)

@@ -45,7 +45,10 @@ instagram_image_id:
     - '7559'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Umm you might not have considered the meaning to this generation when you picked that...](https://blog.cjtrowbridge.com/wp-content/uploads/2016/08/1471529351-1-1.jpg)](https://www.instagram.com/p/BJQLvAqDA0u/)

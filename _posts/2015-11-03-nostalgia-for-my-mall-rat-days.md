@@ -43,7 +43,10 @@ instagram_image_id:
     - '4274'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Nostalgia for my mall rat days](http://blog.cjtrowbridge.com/wp-content/uploads/2015/11/1446605059.jpg)](https://instagram.com/p/9pYa46LtGg/)

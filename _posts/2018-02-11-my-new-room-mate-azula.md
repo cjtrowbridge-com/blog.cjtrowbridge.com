@@ -53,7 +53,10 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/02/640x640-video-1518338822.mp4'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![My new room mate Azula](https://blog.cjtrowbridge.com/wp-content/uploads/2018/02/1518338822-1-1.jpg)](https://www.instagram.com/p/BfDNqsVFqB_/)

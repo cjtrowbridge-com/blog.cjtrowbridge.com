@@ -39,7 +39,10 @@ instagram_filter_used:
     - Normal
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/09/11899495_753014681509096_1672006962_n.jpg)](https://instagram.com/p/8M2Zw7LtJj/)

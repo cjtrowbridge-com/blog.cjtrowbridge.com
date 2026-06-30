@@ -45,7 +45,10 @@ instagram_image_id:
     - '10035'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![OMFG CURRY CHEESEBURGER MCEXTREME. SO GOOD.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/04/1522690347-1-1.jpg)](https://www.instagram.com/p/BhE5l0MlzPP/)

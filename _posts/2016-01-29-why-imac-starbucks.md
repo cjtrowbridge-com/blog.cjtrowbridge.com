@@ -45,7 +45,10 @@ dsgnwrks_instagram_comments:
     - 'O:8:"stdClass":2:{s:5:"count";i:1;s:4:"data";a:1:{i:0;O:8:"stdClass":4:{s:12:"created_time";s:10:"1454108193";s:4:"text";s:45:"I bought an iMac but I can''t afford Internet.";s:4:"from";O:8:"stdClass":4:{s:8:"username";s:15:"lordannethinnie";s:15:"profile_picture";s:95:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12424807_604726553014153_874036517_a.jpg";s:2:"id";s:8:"39564610";s:9:"full_name";s:7:"Anthony";}s:2:"id";s:19:"1173467037531296738";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Why #imac #starbucks](https://blog.cjtrowbridge.com/wp-content/uploads/2016/01/1454108091-1-1.jpg)](https://www.instagram.com/p/BBI_Uc8LtKZ/)

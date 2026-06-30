@@ -45,7 +45,10 @@ instagram_image_id:
     - '5341'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Call CJ for halp. Imma send you one of these](https://blog.cjtrowbridge.com/wp-content/uploads/2015/12/1450032550-1-1.jpg)](https://www.instagram.com/p/_Ph12LrtJb/)

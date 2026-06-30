@@ -45,7 +45,10 @@ instagram_image_id:
     - '7522'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![When u have to put in the product key #windows10](https://blog.cjtrowbridge.com/wp-content/uploads/2016/07/1469823793-1-1.jpg)](https://www.instagram.com/p/BIdWpGQj8In/)

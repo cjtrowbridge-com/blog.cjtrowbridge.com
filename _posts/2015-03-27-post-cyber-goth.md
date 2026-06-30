@@ -39,7 +39,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:5;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:9:"jimmieeee";s:15:"profile_picture";s:84:"https://instagramimages-a.akamaihd.net/profiles/profile_28064856_75sq_1376196501.jpg";s:2:"id";s:8:"28064856";s:9:"full_name";s:12:"Jimmie Erwin";}i:1;O:8:"stdClass":4:{s:8:"username";s:12:"robertstrang";s:15:"profile_picture";s:107:"https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-19/1171914_1612055082339886_1411521777_a.jpg";s:2:"id";s:9:"197967866";s:9:"full_name";s:0:"";}i:2;O:8:"stdClass":4:{s:8:"username";s:12:"pdxwonderboy";s:15:"profile_picture";s:84:"https://instagramimages-a.akamaihd.net/profiles/profile_32060586_75sq_1376987150.jpg";s:2:"id";s:8:"32060586";s:9:"full_name";s:12:"Ilan Gerould";}i:3;O:8:"stdClass":4:{s:8:"username";s:9:"delta1188";s:15:"profile_picture";s:107:"https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/10311208_608625432539164_1882531507_a.jpg";s:2:"id";s:8:"31167575";s:9:"full_name";s:8:"J Rueter";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/03/11094473_1552931114969213_1141079266_n.jpg)](https://instagram.com/p/0whcicrtEe/)

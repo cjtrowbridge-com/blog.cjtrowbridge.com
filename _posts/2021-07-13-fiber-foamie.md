@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=14213'
 permalink: /2021/07/13/fiber-foamie/
 categories:
     - Blog
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 \[rpfc\_recent\_posts\_from\_category category="812" posts="10"\]

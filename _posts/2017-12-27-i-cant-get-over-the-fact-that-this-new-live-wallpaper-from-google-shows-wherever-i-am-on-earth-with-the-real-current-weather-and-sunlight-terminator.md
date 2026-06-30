@@ -45,7 +45,10 @@ instagram_image_id:
     - '9473'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![I can’t get over the fact that this new live wallpaper from Google shows wherever I am on earth with the real current weather and sunlight terminator.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/12/1514411306-1-1.jpg)](https://www.instagram.com/p/BdOKktPF8b1/)

@@ -37,7 +37,10 @@ instagram_embed_code:
     - "<iframe src=\"//instagram.com/p/pu957_rtNe/embed/\" width=\"612\" height=\"710\" frameborder=\"0\" scrolling=\"no\" allowtransparency=\"true\"></iframe>\n"
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://scontent-a.cdninstagram.com/hphotos-xap1/t51.2885-15/e15/10471971_598221326942820_858919051_n.jpg)](http://instagram.com/p/pu957_rtNe/)

@@ -53,7 +53,10 @@ instagram_video_url_standard_resolution:
     - 'https://blog.cjtrowbridge.com/wp-content/uploads/2018/11/640x800-video-1542960055.mp4'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![So busy for genocidesgiving.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/11/so-busy-for-genocidesgiving-1-1.jpg)](https://www.instagram.com/p/Bqg-6fihPos/)

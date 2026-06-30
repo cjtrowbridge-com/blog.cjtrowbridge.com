@@ -11,10 +11,15 @@ categories:
     - EDC
     - Featured
     - Projects
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-I have moved to Oakland, CA to focus on getting a degree in Urban Studies at SFSU as well as working on lots of exciting queer activism and housing activism. Here is my updated everyday carry. ![edc](https://blog.cjtrowbridge.com/wp-content/uploads/2020/03/MVIMG_20200302_221500-1-1.jpg)
+I have moved to Oakland, CA to focus on getting a degree in Urban Studies at SFSU as well as working on lots of exciting queer activism and housing activism. Here is my updated everyday carry.
+
+![edc](https://blog.cjtrowbridge.com/wp-content/uploads/2020/03/MVIMG_20200302_221500-1-1.jpg)
 
 - [Combination Charger and Battery](https://amzn.to/2vp0w4A) This is life changing. Why are all chargers not also batteries!?
 - [Short Right-Angle USB-C Cords](https://amzn.to/3csfuHC) Having a

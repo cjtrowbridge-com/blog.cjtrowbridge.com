@@ -45,7 +45,10 @@ instagram_image_id:
     - '9965'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![This is the historic beer garden where just the other day, Angela Merkel got drunk on TV and said the world can not rely on America anymore so now she is in charge of the world.](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1522417635-1-1.jpg)](https://www.instagram.com/p/Bg8xb0hFN81/)

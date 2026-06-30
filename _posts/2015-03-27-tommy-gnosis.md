@@ -8,7 +8,12 @@ guid: 'http://cjtrowbridge.com/?p=2748'
 permalink: /2015/03/27/tommy-gnosis/
 categories:
     - Blog
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-"With all the changes you've been through, it seems the stranger's always you; alone again in some new wicked little town." <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/L68dP1vxt5k?start=94" width="560"></iframe>
+"With all the changes you've been through, it seems the stranger's always you; alone again in some new wicked little town."
+
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/L68dP1vxt5k?start=94" width="560"></iframe>

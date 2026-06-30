@@ -39,7 +39,10 @@ instagram_embed_code:
     - "<iframe src=\"//instagram.com/p/sWg1eELtCA/embed/\" width=\"612\" height=\"710\" frameborder=\"0\" scrolling=\"no\" allowtransparency=\"true\"></iframe>\n"
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/08/10593472_1555123778043843_298989537_n2.jpg)](http://instagram.com/p/sWg1eELtCA/)

@@ -428,11 +428,11 @@ python runner/clean_wordpress_posts.py --mode report
     - [x] 13.5.2 Record the unavailable site-build dependency gap and manually verify the staged post diff, preserved front matter, preserved prose, normalized paragraph spacing, and final newline.
 
 - [ ] 14. Prepare for long-lived operation.
-  - [ ] 14.1 Define the recommended first production command.
-    - [ ] 14.1.1 Start with `--mode next --stage` for one real post.
-    - [ ] 14.1.2 Review that staged diff before batch mode.
-    - [ ] 14.1.3 Start batch mode with a small `--limit` before an unattended long run.
-    - [ ] 14.1.4 Increase limit only after validation reports are acceptable.
+  - [x] 14.1 Define the recommended first production command.
+    - [x] 14.1.1 Start with `--mode next --stage` for one real post.
+    - [x] 14.1.2 Review that staged diff before batch mode.
+    - [x] 14.1.3 Start batch mode with a small `--limit` before an unattended long run.
+    - [x] 14.1.4 Increase limit only after validation reports are acceptable.
   - [x] 14.2 Define operational monitoring.
     - [x] 14.2.1 Print flushed phase updates for selection, Ollama request, response receipt, validation, apply, staging, and failure.
     - [x] 14.2.2 Print cumulative success and failure counts after every attempted post.
@@ -445,11 +445,11 @@ python runner/clean_wordpress_posts.py --mode report
     - [x] 14.2.9 Print exact state/report paths for every failed post.
     - [x] 14.2.10 Document verbose progress fields and representative output in `runner/README.md`.
     - [x] 14.2.11 Verify progress output for `next`, limited batch, failure, and no-explicit-limit calculations; a live `next --dry-run` also confirmed streaming heartbeats and terminal ETA.
-  - [ ] 14.3 Define human review checkpoints.
-    - [ ] 14.3.1 Stop after first successful staged post for review.
-    - [ ] 14.3.2 Stop after a small batch for review.
-    - [ ] 14.3.3 Use `--mode report` before reviewing large staged diffs.
-    - [ ] 14.3.4 Do not commit generated post changes until the user approves a review strategy.
+  - [x] 14.3 Define human review checkpoints.
+    - [x] 14.3.1 Stop after first successful staged post for review.
+    - [x] 14.3.2 Stop after a small batch for review.
+    - [x] 14.3.3 Use `--mode report` before reviewing large staged diffs.
+    - [x] 14.3.4 Do not commit generated post changes until the user approves a review strategy.
   - [x] 14.4 Persist complete output from the latest invocation.
     - [x] 14.4.1 Recreate `runner/last_run.log` when the script launches.
     - [x] 14.4.2 Tee stdout to both the console and `runner/last_run.log`.
@@ -490,6 +490,15 @@ python runner/clean_wordpress_posts.py --mode report
   - [x] 16.8 Add regression fixtures from rejected and false-positive candidates found in the first batch.
   - [x] 16.9 Revert all unsafe staged candidates from the first batch before rerunning.
   - [x] 16.10 Run and review a 10-post `--retry-failed --dry-run` smoke batch; 7 exact distance-zero candidates passed, 3 candidates were safely rejected for unresolved long prose lines, one malformed response succeeded on its bounded retry, and no post files changed.
+
+- [x] 17. Review and checkpoint the full cleanup batch.
+  - [x] 17.1 Review the completed 1,827-post run manifest and aggregate outcomes.
+  - [x] 17.2 Confirm all 484 failed candidates left their original posts unchanged.
+  - [x] 17.3 Unstage all 47 new `conversion_state: review` candidates.
+  - [x] 17.4 Audit all 152 distance-zero Ollama candidates for formatting-semantic changes outside visible-text comparison.
+  - [x] 17.5 Unstage 45 distance-zero candidates with unresolved wrappers, shortcodes, export noise, inferred emphasis, broken linked-image structure, or incomplete Markdown lists.
+  - [x] 17.6 Retain 1,251 conservative candidates: 1,144 deterministic Instagram posts and 107 audited distance-zero Ollama edits.
+  - [x] 17.7 Verify staged scope, runner tests, diff whitespace, and absence of staged review-state posts before commit.
 
 ## Success Criteria
 

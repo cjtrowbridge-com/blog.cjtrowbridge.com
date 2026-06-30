@@ -39,7 +39,10 @@ dsgnwrks_instagram_comments:
     - 'O:8:"stdClass":2:{s:5:"count";i:1;s:4:"data";a:1:{i:0;O:8:"stdClass":4:{s:12:"created_time";s:10:"1409173654";s:4:"text";s:42:"@cjtrowbridge decorating the new place eh?";s:4:"from";O:8:"stdClass":4:{s:8:"username";s:7:"tochwat";s:15:"profile_picture";s:108:"https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/10853162_1569086796660131_1159595740_a.jpg";s:2:"id";s:8:"18897559";s:9:"full_name";s:10:"Tad Ochwat";}s:2:"id";s:18:"796528800911250146";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/08/10540472_284846048386993_850051733_n2.jpg)](http://instagram.com/p/sNrP3mLtM3/)

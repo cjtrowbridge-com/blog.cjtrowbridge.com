@@ -39,7 +39,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:13;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:11:"horcruxxx88";s:15:"profile_picture";s:85:"https://instagramimages-a.akamaihd.net/profiles/profile_203168842_75sq_1344064907.jpg";s:2:"id";s:9:"203168842";s:9:"full_name";s:13:"Roland Vargas";}i:1;O:8:"stdClass":4:{s:8:"username";s:12:"ninja_red_11";s:15:"profile_picture";s:85:"https://instagramimages-a.akamaihd.net/profiles/profile_185432723_75sq_1340421499.jpg";s:2:"id";s:9:"185432723";s:9:"full_name";s:15:"Davide Dusseaux";}i:2;O:8:"stdClass":4:{s:8:"username";s:13:"brandonstrunk";s:15:"profile_picture";s:106:"https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/10953668_412871462215588_252527082_a.jpg";s:2:"id";s:9:"200795404";s:9:"full_name";s:14:"Brandon Strunk";}i:3;O:8:"stdClass":4:{s:8:"username";s:10:"buland1174";s:15:"profile_picture";s:107:"https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10665544_591929977579380_1967453103_a.jpg";s:2:"id";s:9:"263708446";s:9:"full_name";s:13:"Justin Buland";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/10/10723816_335007023345579_200392518_n2.jpg)](http://instagram.com/p/ub4MS_LtE9/)

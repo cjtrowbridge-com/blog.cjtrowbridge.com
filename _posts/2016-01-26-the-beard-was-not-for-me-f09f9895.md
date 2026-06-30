@@ -45,7 +45,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:6;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:9:"jimmieeee";s:15:"profile_picture";s:99:"https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-19/928850_1671367393084702_1336495124_a.jpg";s:2:"id";s:8:"28064856";s:9:"full_name";s:12:"Jimmie Erwin";}i:1;O:8:"stdClass":4:{s:8:"username";s:11:"horcruxxx88";s:15:"profile_picture";s:101:"https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-19/11849966_1623194024636543_1007879954_a.jpg";s:2:"id";s:9:"203168842";s:9:"full_name";s:13:"Roland Vargas";}i:2;O:8:"stdClass":4:{s:8:"username";s:4:"eg57";s:15:"profile_picture";s:100:"https://scontent.cdninstagram.com/hphotos-xpt1/t51.2885-19/10326514_698030843590691_2040824823_a.jpg";s:2:"id";s:8:"47444099";s:9:"full_name";s:4:"ERIK";}i:3;O:8:"stdClass":4:{s:8:"username";s:10:"raeb_adnap";s:15:"profile_picture";s:107:"https://scontent.cdninstagram.com/hphotos-xat1/t51.2885-19/s150x150/917334_167550046936087_1968909993_a.jpg";s:2:"id";s:9:"144414982";s:9:"full_name";s:14:"Isaiah Sauceda";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![The beard was not for me. 😕](https://blog.cjtrowbridge.com/wp-content/uploads/2016/01/1453866861-1-1.jpg)](https://www.instagram.com/p/BBBzNZCrtMG/)

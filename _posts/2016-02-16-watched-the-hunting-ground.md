@@ -45,7 +45,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:0;s:4:"data";a:0:{}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Watched "The Hunting Ground" with follow-up Q&A panel with my mom to raise awareness for sexual assault on campuses. Everyone should watch this. Over 100k students are sexually assaulted per year in the US. Such an enormous issue.](https://blog.cjtrowbridge.com/wp-content/uploads/2016/02/1455686686-1-1.jpg)](https://www.instagram.com/p/BB4CP_ZLtNz/)

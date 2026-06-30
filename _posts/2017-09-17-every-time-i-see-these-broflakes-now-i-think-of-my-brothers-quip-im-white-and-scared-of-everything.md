@@ -45,7 +45,10 @@ instagram_image_id:
     - '9087'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Every time I see these broflakes now, I think of my brother’s quip, “I’m white and scared of everything.”](https://blog.cjtrowbridge.com/wp-content/uploads/2017/09/1505675023-1-1.jpg)](https://www.instagram.com/p/BZJzb8AF454/)

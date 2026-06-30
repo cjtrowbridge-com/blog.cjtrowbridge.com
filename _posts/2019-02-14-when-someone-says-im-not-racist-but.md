@@ -45,7 +45,10 @@ instagram_image_id:
     - '11589'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![When someone says “I’m not racist but…”](https://blog.cjtrowbridge.com/wp-content/uploads/2019/02/when-someone-says-im-not-1-1.jpg)](https://www.instagram.com/p/Bt41UXqnLkA/)

@@ -46,7 +46,10 @@ instagram_image_id:
 categories:
     - EDC
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![#EDC 2017: #SoftwareEngineer & #Student -@trayvax Wallet -@asus C302CA #Chromebook -@razer #Atheris Mouse -@lgusamobile #V20 -@honda #Civic LX 2013 -@gerbergear #Shard](https://blog.cjtrowbridge.com/wp-content/uploads/2017/12/1513825648-1-1.jpg)](https://www.instagram.com/p/Bc8thLlllk6/)[View in Instagram ⇒](https://www.instagram.com/p/Bc8thLlllk6/)

@@ -45,7 +45,10 @@ instagram_image_id:
     - '7793'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [!["I want like 30 things that are $1 but for the manufacturers online price of $0.50 and theyre all from different manufacturers."

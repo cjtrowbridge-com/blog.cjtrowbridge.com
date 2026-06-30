@@ -45,7 +45,10 @@ instagram_image_id:
     - '9140'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![If you’ve ever considered those street hot dogs in SF, I vote very yes.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/09/1506484512-1-1.jpg)](https://www.instagram.com/p/BZh7aeIlZqf/)

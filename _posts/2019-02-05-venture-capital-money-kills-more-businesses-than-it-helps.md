@@ -11,7 +11,16 @@ categories:
     - Featured
     - 'Reading List'
     - Revisit
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-This is a really great and wide-ranging interview which makes a strong argument against taking venture funds. They also go really deep into detail about why, as well as discussing many current VC models and suggesting that some may be less predatory and harmful. ![Jason Fried](/wp-content/uploads/2019/02/Jason-Fried.jpg)Check it out! <iframe frameborder="no" height="200" scrolling="no" src="https://player.megaphone.fm/VMP5119159260?light=true" width="100%"></iframe>
+This is a really great and wide-ranging interview which makes a strong argument against taking venture funds. They also go really deep into detail about why, as well as discussing many current VC models and suggesting that some may be less predatory and harmful.
+
+![Jason Fried](/wp-content/uploads/2019/02/Jason-Fried.jpg)
+
+Check it out!
+
+<iframe frameborder="no" height="200" scrolling="no" src="https://player.megaphone.fm/VMP5119159260?light=true" width="100%"></iframe>

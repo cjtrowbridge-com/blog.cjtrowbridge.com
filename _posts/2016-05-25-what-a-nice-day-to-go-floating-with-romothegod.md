@@ -43,7 +43,10 @@ dsgnwrks_instagram_comments:
     - 'O:8:"stdClass":2:{s:5:"count";i:0;s:4:"data";a:0:{}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![What a nice day to go floating with @romothegod](https://blog.cjtrowbridge.com/wp-content/uploads/2016/05/1464207081-1-1.jpg)](https://www.instagram.com/p/BF19nTirtK-/)

@@ -45,7 +45,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:6;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:10:"icareagain";s:15:"profile_picture";s:96:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12446062_921810324584175_2104432278_a.jpg";s:2:"id";s:8:"27123214";s:9:"full_name";s:0:"";}i:1;O:8:"stdClass":4:{s:8:"username";s:12:"midtwnbounce";s:15:"profile_picture";s:86:"https://scontent.cdninstagram.com/t51.2885-19/11190098_401472920025004_502169040_a.jpg";s:2:"id";s:9:"524155704";s:9:"full_name";s:6:"Jeremy";}i:2;O:8:"stdClass":4:{s:8:"username";s:9:"_draydray";s:15:"profile_picture";s:96:"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12783351_1707646889504920_842662840_a.jpg";s:2:"id";s:7:"6478960";s:9:"full_name";s:13:"Dray Jauregui";}i:3;O:8:"stdClass":4:{s:8:"username";s:15:"swedishchocolat";s:15:"profile_picture";s:87:"https://scontent.cdninstagram.com/t51.2885-19/11906256_461308547382909_1690351716_a.jpg";s:2:"id";s:9:"456760632";s:9:"full_name";s:15:"Dante Barksdale";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![I can't make up my mind on the facial hair 😖](https://blog.cjtrowbridge.com/wp-content/uploads/2016/04/1460330722-1-1.jpg)](https://www.instagram.com/p/BECcC6mLtIu/)

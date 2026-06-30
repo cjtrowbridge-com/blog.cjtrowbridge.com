@@ -45,7 +45,10 @@ instagram_image_id:
     - '11624'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![#johnniewalker #sierranevada #ipa #brutipa #razer](https://blog.cjtrowbridge.com/wp-content/uploads/2019/02/johnniewalker-sierranevada-ipa-brutipa-razer-1-1.jpg)](https://www.instagram.com/p/BuItWcanQlg/)

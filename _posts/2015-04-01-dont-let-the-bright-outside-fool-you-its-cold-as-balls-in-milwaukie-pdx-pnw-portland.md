@@ -39,7 +39,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:15;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:15:"charlesmeglasso";s:15:"profile_picture";s:107:"https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/11093050_478267745660968_1278661812_a.jpg";s:2:"id";s:8:"16580528";s:9:"full_name";s:17:"Charles meglasson";}i:1;O:8:"stdClass":4:{s:8:"username";s:14:"inthecloudspdx";s:15:"profile_picture";s:106:"https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/926871_1569835966584545_1458858792_a.jpg";s:2:"id";s:10:"1562839755";s:9:"full_name";s:0:"";}i:2;O:8:"stdClass":4:{s:8:"username";s:9:"nazghoul_";s:15:"profile_picture";s:105:"https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-frc/t51.2885-19/10543542_838637796174611_151210582_a.jpg";s:2:"id";s:8:"19523293";s:9:"full_name";s:12:"Lake Cabrera";}i:3;O:8:"stdClass":4:{s:8:"username";s:8:"kkruchin";s:15:"profile_picture";s:107:"https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10553976_1440086292933442_128438435_a.jpg";s:2:"id";s:8:"36788243";s:9:"full_name";s:17:"Kirill Kruchinkin";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/04/11056009_1421651628148684_958518512_n.jpg)](https://instagram.com/p/081bb_rtId/)

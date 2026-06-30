@@ -45,7 +45,10 @@ instagram_image_id:
     - '9801'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![My first pair of prescription sunglasses! I could get used to this 😎](https://blog.cjtrowbridge.com/wp-content/uploads/2018/03/1520286491-1-1.jpg)](https://www.instagram.com/p/Bf9QmXjF_zA/)

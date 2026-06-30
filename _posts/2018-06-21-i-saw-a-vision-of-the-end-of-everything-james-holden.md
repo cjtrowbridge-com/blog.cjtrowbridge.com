@@ -45,7 +45,10 @@ instagram_image_id:
     - '10417'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![“I saw a vision of the end of everything.” -James Holden](https://blog.cjtrowbridge.com/wp-content/uploads/2018/06/1529640399-1-1.jpg)](https://www.instagram.com/p/BkUBw14gmMV/)

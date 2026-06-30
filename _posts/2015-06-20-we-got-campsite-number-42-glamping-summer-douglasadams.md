@@ -39,7 +39,10 @@ instagram_image_id:
     - '3225'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/06/11358936_934296259961188_1027312730_n.jpg)](https://instagram.com/p/4LRxinrtHr/)Photo taken at: Folsom Lake - Beals Point [View in Instagram ⇒](https://instagram.com/p/4LRxinrtHr/)

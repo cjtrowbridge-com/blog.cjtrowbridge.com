@@ -43,7 +43,10 @@ instagram_created_time:
     - '1462419150'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![Tag me in spam about getting more followers and i will report you and the spam. Find something better to do with your time than waste mine.](https://blog.cjtrowbridge.com/wp-content/uploads/2016/05/1462419150-1-1.jpg)](https://www.instagram.com/p/BFArZ_qLtN_/)

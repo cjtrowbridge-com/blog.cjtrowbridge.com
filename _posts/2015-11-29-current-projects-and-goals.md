@@ -8,23 +8,26 @@ guid: 'http://blog.cjtrowbridge.com/?p=4598'
 permalink: /2015/11/29/current-projects-and-goals/
 categories:
     - Goals
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 - Build a New Business Selling Food
 - Buy a New Car
 - More Amateur Radio
 - More Scuba
-- Learn More Languages 
+- Learn More Languages
     - Russian
     - Latin
-- Practice Languages 
+- Practice Languages
     - German
     - Japanese
     - French
     - Spanish
     - ASL
-- Learn More Programming Languages 
+- Learn More Programming Languages
     - C++
     - Lisp(?)
     - Scheme(?)

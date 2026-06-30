@@ -47,7 +47,10 @@ instagram_video_url_standard_resolution:
     - 'http://cjtrowbridge.com/wp-content/uploads/2015/07/11725818_1853556614869580_2053989201_n.mp4'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/07/11355117_1650392111873138_1358124170_n.jpg)](https://instagram.com/p/45jFGQrtEM/)Photo taken at: American River College Science Department [View in Instagram ⇒](https://instagram.com/p/45jFGQrtEM/)

@@ -45,7 +45,10 @@ instagram_image_id:
     - '9265'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![I glimpsed from behind as all the little chargers sang a song to the silent Nalgene. A song of light. Duality of particles and waves paralleling a duality of the senses; a synesthesia of tonality in vision; echoing a secret symphony in the silent darkness.](https://blog.cjtrowbridge.com/wp-content/uploads/2017/10/1509439066-1-1.jpg)](https://www.instagram.com/p/Ba5-x0eFIOt/)

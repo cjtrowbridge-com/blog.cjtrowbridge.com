@@ -45,7 +45,10 @@ instagram_image_id:
     - '9430'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![I’m in an open relationship with Starbucks. They will probably always be my primary partner but Dutch Bros will always be my secondary partner. Choose non-monogamy! #hoelyfe](https://blog.cjtrowbridge.com/wp-content/uploads/2017/12/1513902916-1-1.jpg)](https://www.instagram.com/p/Bc_A5YfF09W/)

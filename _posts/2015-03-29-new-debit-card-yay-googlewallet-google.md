@@ -39,7 +39,10 @@ dsgnwrks_instagram_likes:
     - 'O:8:"stdClass":2:{s:5:"count";i:5;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:12:"paulytotally";s:15:"profile_picture";s:84:"https://instagramimages-a.akamaihd.net/profiles/profile_54537098_75sq_1340270519.jpg";s:2:"id";s:8:"54537098";s:9:"full_name";s:14:"Paul L. Rivera";}i:1;O:8:"stdClass":4:{s:8:"username";s:6:"llucio";s:15:"profile_picture";s:106:"https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/11024099_425899970914968_680741927_a.jpg";s:2:"id";s:6:"510135";s:9:"full_name";s:12:"Lucio Aviles";}i:2;O:8:"stdClass":4:{s:8:"username";s:9:"nazghoul_";s:15:"profile_picture";s:105:"https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-frc/t51.2885-19/10543542_838637796174611_151210582_a.jpg";s:2:"id";s:8:"19523293";s:9:"full_name";s:12:"Lake Cabrera";}i:3;O:8:"stdClass":4:{s:8:"username";s:13:"djbuckydungun";s:15:"profile_picture";s:106:"https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10919137_971718756174231_205640470_a.jpg";s:2:"id";s:9:"199456559";s:9:"full_name";s:16:"DJ Bucky Dun-Gun";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/03/10561041_1103278519699315_1318880288_n.jpg)](https://instagram.com/p/00eiX_rtCp/)

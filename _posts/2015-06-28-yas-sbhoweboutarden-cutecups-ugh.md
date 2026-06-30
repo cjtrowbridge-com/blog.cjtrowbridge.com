@@ -37,7 +37,10 @@ instagram_image_id:
     - '3242'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/06/11358193_828639313870913_546665705_n.jpg)](https://instagram.com/p/4egkfvrtBN/)Photo taken at: Starbucks Howe Bout Arden [View in Instagram ⇒](https://instagram.com/p/4egkfvrtBN/)

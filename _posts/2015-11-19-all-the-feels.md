@@ -45,7 +45,10 @@ instagram_image_id:
     - '4390'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![ALL THE FEELS](https://blog.cjtrowbridge.com/wp-content/uploads/2015/11/1448002142-1-1.jpg)](https://instagram.com/p/-TBJPPLtHJ/)

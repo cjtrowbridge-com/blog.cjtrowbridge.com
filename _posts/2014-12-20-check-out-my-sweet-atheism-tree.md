@@ -39,7 +39,10 @@ dsgnwrks_instagram_likes:
     - 's:1026:"O:8:"stdClass":2:{s:5:"count";i:5;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:8:"username";s:12:"steg_osaurus";s:15:"profile_picture";s:107:"https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10948698_1546257395623908_861101716_a.jpg";s:2:"id";s:8:"35090129";s:9:"full_name";s:17:"Salvador Guerrero";}i:1;O:8:"stdClass":4:{s:8:"username";s:12:"battlebucket";s:15:"profile_picture";s:107:"https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/10522190_785013298199857_1980587966_a.jpg";s:2:"id";s:10:"1412283900";s:9:"full_name";s:13:"Berto Ramirez";}i:2;O:8:"stdClass":4:{s:8:"username";s:8:"dizzleme";s:15:"profile_picture";s:84:"https://instagramimages-a.akamaihd.net/profiles/profile_12340414_75sq_1358478611.jpg";s:2:"id";s:8:"12340414";s:9:"full_name";s:4:"Tony";}i:3;O:8:"stdClass":4:{s:8:"username";s:6:"d_ram5";s:15:"profile_picture";s:107:"https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/10932071_1400221966943928_623451215_a.jpg";s:2:"id";s:7:"9930399";s:9:"full_name";s:24:"";'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/12/10838494_820331231358797_1834437241_n2.jpg)](http://instagram.com/p/w16612rtIS/)

@@ -45,7 +45,10 @@ instagram_link:
     - 'https://www.instagram.com/p/BBks7h_rtE5/'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![This piece of contemporary pop art comes to us from the loquacious barista in training at arc. She calls it "CJ."](https://blog.cjtrowbridge.com/wp-content/uploads/2016/02/1455037974-1-1.jpg)](https://www.instagram.com/p/BBks7h_rtE5/)

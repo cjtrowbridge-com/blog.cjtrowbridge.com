@@ -39,7 +39,10 @@ dsgnwrks_instagram_comments:
     - 'O:8:"stdClass":2:{s:5:"count";i:4;s:4:"data";a:4:{i:0;O:8:"stdClass":4:{s:12:"created_time";s:10:"1417046661";s:4:"text";s:22:"Paperback > kindle ???";s:4:"from";O:8:"stdClass":4:{s:8:"username";s:15:"version.persian";s:15:"profile_picture";s:85:"https://instagramimages-a.akamaihd.net/profiles/profile_190351284_75sq_1363022581.jpg";s:2:"id";s:9:"190351284";s:9:"full_name";s:2:"BN";}s:2:"id";s:18:"862572370457449241";}i:1;O:8:"stdClass":4:{s:12:"created_time";s:10:"1417048970";s:4:"text";s:26:"@version.persian sometimes";s:4:"from";O:8:"stdClass":4:{s:8:"username";s:12:"cjtrowbridge";s:15:"profile_picture";s:103:"https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/925559_452430704897917_67836701_a.jpg";s:2:"id";s:8:"41872995";s:9:"full_name";s:13:"CJ Trowbridge";}s:2:"id";s:18:"862591742655779244";}i:2;O:8:"stdClass":4:{s:12:"created_time";s:10:"1417069871";s:4:"text";s:18:"Powel''s is awesome";s:4:"from";O:8:"stdClass":4:{s:8:"username";s:8:"maxender";s:15:"profile_picture";s:104:"https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/925932_813858018624242_320636140_a.jpg";s:2:"id";s:8:"44362806";s:9:"full_name";s:6:"Andres";}s:2:"id";s:18:"862767075619165044";}i:3;O:8:"stdClass":4:{s:12:"created_time";s:10:"1417071840";s:4:"text";s:71:"Paperback much greater than kindle. So amazing, very readable, much wow";s:4:"from";O:8:"stdClass":4:{s:8:"username";s:17:"if_ckinglovemusic";s:15:"profile_picture";s:107:"https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10919127_446007362220099_1370616592_a.jpg";s:2:"id";s:10:"1476718804";s:9:"full_name";s:3:"Ian";}s:2:"id";s:18:"862783593409074138";}}}'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2014/11/10817636_315954298608269_1963690254_n2.jpg)](http://instagram.com/p/v4aq5CLtGV/)

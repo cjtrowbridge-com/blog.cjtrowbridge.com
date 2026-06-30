@@ -39,7 +39,10 @@ instagram_filter_used:
     - Ludwig
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/04/11116734_1576842949234781_1326643049_n.jpg)](https://instagram.com/p/1UFBb0rtDK/)

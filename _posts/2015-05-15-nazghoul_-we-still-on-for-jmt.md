@@ -39,7 +39,10 @@ instagram_image_id:
     - '2889'
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://blog.cjtrowbridge.com/wp-content/uploads/2015/05/11246742_417225018457641_337603773_n.jpg)](https://instagram.com/p/2tgfg4rtOZ/)Photo taken at: Sportsman Warehouse [View in Instagram ⇒](https://instagram.com/p/2tgfg4rtOZ/)
