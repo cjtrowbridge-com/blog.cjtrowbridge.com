@@ -59,8 +59,12 @@ I think we’ve seen this in the way these model cards and their standardized te
 
 The system of standardized testing I’ve just described emerged organically based on conversations in the community of developers actually doing the work and based on frank conversations about the kinds of concerns we’ve talked about. Now think back to the congressional hearings on social media in recent years where senile drooling octogenarians grilled tech executives through the haze of their dementia drugs to learn the secrets of how wifi works while threatening to arbitrarily scribble some mindless dribble into law if they couldn’t answer these questions to which any child in elementary school would already know the answer.
 
-The idea that these people are the right ones to decide how to address these concerns is more terrifying to me than any concern of what might realistically go wrong with artificial intelligence despite the sincere best efforts of countless people actually working to address these concerns in the industry today. **Works Cited**
+The idea that these people are the right ones to decide how to address these concerns is more terrifying to me than any concern of what might realistically go wrong with artificial intelligence despite the sincere best efforts of countless people actually working to address these concerns in the industry today.
 
-Petkovic, "It is Not “Accuracy vs. Explainability”—We Need Both for Trustworthy AI Systems," in IEEE Transactions on Technology and Society, vol. 4, no. 1, pp. 46-53, March 2023, doi: 10.1109/TTS.2023.3239921. Mitchell, M., Institute, Malaga, U. of, Technology, P. U. of, &amp;amp; Metrics, O. M. A. (2021, June 1). Why ai is harder than we think: Proceedings of the genetic and evolutionary computation conference. ACM Conferences. https://dl.acm.org/doi/10.1145/3449639.3465421 The United States Government. (2023, October 30). Executive order on the safe, secure, and trustworthy development and use of artificial intelligence.
+## Works Cited
 
-The White House. https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/
+- Petkovic, "It is Not “Accuracy vs. Explainability”—We Need Both for Trustworthy AI Systems," in IEEE Transactions on Technology and Society, vol. 4, no. 1, pp. 46-53, March 2023, doi: 10.1109/TTS.2023.3239921.
+
+- Mitchell, M., Institute, Malaga, U. of, Technology, P. U. of, &amp; Metrics, O. M. A. (2021, June 1). Why ai is harder than we think: Proceedings of the genetic and evolutionary computation conference. ACM Conferences. https://dl.acm.org/doi/10.1145/3449639.3465421
+
+- The United States Government. (2023, October 30). Executive order on the safe, secure, and trustworthy development and use of artificial intelligence. The White House. https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/
