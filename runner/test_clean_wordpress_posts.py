@@ -12,15 +12,20 @@ from runner.clean_wordpress_posts import (
     FrontMatter,
     PostInfo,
     ProgressReporter,
+    RepairDecision,
     RunOutputLog,
     RunnerLock,
     RunnerState,
     bounded_levenshtein,
     canonical_visible_text,
+    deterministic_media_cleanup,
+    deterministic_typography_restore,
+    extract_urls,
     format_duration,
     is_instagram_post,
     parse_args,
     parse_front_matter,
+    parse_repair_decision,
     process_post,
     rebuild_post_with_body,
     request_cleaned_body,
@@ -107,8 +112,10 @@ class ProgressOutputTests(unittest.TestCase):
         with mock.patch.dict("runner.clean_wordpress_posts.os.environ", {}, clear=True):
             defaults = parse_args(["--mode", "inventory"])
             self.assertEqual(defaults.model, "qwen3.5:9b")
-            self.assertEqual(defaults.review_max_distance, 25)
+            self.assertEqual(defaults.review_max_distance, 10)
             self.assertEqual(defaults.review_max_ratio, 0.01)
+            self.assertEqual(defaults.repair_rounds, 2)
+            self.assertEqual(defaults.repair_max_chars, 12_000)
         with mock.patch.dict(
             "runner.clean_wordpress_posts.os.environ",
             {"OLLAMA_MODEL": "environment-model"},
@@ -194,6 +201,150 @@ class ProgressOutputTests(unittest.TestCase):
             ),
             0,
         )
+
+    def test_visible_text_ignores_wordpress_shortcode_tags(self) -> None:
+        original = (
+            r"Before \[embed\]https://example.com/media.mp3\[/embed\] "
+            r'\[caption id="attachment_1"\]Caption text\[/caption\] after.'
+        )
+        candidate = (
+            "Before https://example.com/media.mp3 "
+            "Caption text after."
+        )
+        self.assertEqual(canonical_visible_text(original), canonical_visible_text(candidate))
+
+    def test_shortcode_changes_do_not_create_validation_failures(self) -> None:
+        original = full_post(
+            r"Before \[embed\]https://example.com/media.mp3\[/embed\] after."
+        )
+        candidate = rebuild_post_with_body(
+            original,
+            "Before https://example.com/media.mp3 after.",
+        )
+        result = validate_candidate(original, candidate, False)
+        self.assertTrue(result.ok, result.failures)
+        self.assertEqual(result.checks["levenshtein_distance"], 0)
+        self.assertEqual(result.checks["missing_urls"], [])
+        self.assertEqual(result.checks["added_urls"], [])
+
+    def test_url_comparison_ignores_markdown_delimiters_and_escapes(self) -> None:
+        original = (
+            r"![](https://example.com/image.png)Text "
+            r"\[embed\]https://example.com/media\_file.mp3\[/embed\]"
+        )
+        candidate = (
+            "![](https://example.com/image.png)\n\nText "
+            "[embed]https://example.com/media_file.mp3[/embed]"
+        )
+        self.assertEqual(extract_urls(original), extract_urls(candidate))
+
+    def test_visible_text_ignores_repaired_inline_structure_markers(self) -> None:
+        original = "Intro. ## Heading\n\n![](image.jpg)## Media\n\nItems: - One\n- Two"
+        candidate = (
+            "Intro.\n\n## Heading\n\n![](image.jpg)\n\n## Media\n\n"
+            "Items:\n\n- One\n- Two"
+        )
+        self.assertEqual(canonical_visible_text(original), canonical_visible_text(candidate))
+
+    def test_visible_text_preserves_non_shortcode_bracketed_text(self) -> None:
+        self.assertNotEqual(
+            canonical_visible_text("Keep [important] text."),
+            canonical_visible_text("Keep text."),
+        )
+
+    def test_deterministic_media_cleanup_simplifies_iframe_wrappers(self) -> None:
+        original_body = (
+            '<center><div style="width: 480px">'
+            '<iframe allowfullscreen="allowfullscreen" '
+            'src="https://example.com/embed?id=1&amp;x=2"></iframe>'
+            "</div></center>"
+        )
+        cleaned, fixes = deterministic_media_cleanup(original_body)
+        self.assertEqual(
+            cleaned,
+            '<iframe class="post-embed" '
+            'src="https://example.com/embed?id=1&amp;x=2" loading="lazy"></iframe>\n',
+        )
+        self.assertIn("simplified iframe attributes", fixes)
+        self.assertIn("removed center wrapper", fixes)
+        self.assertIn("removed iframe-only div wrapper", fixes)
+        result = validate_candidate(
+            full_post(original_body),
+            rebuild_post_with_body(full_post(original_body), cleaned),
+            False,
+        )
+        self.assertTrue(result.ok, result.failures)
+        self.assertEqual(result.checks["levenshtein_distance"], 0)
+
+    def test_deterministic_media_cleanup_removes_empty_video_artifact(self) -> None:
+        cleaned, fixes = deterministic_media_cleanup(
+            'Before <video data-mce-fragment="1" controls="controls"></video> After'
+        )
+        self.assertEqual(cleaned, "Before  After\n")
+        self.assertIn("removed empty video export artifact", fixes)
+
+    def test_deterministic_typography_restore_uses_original_evidence(self) -> None:
+        original = "I’ve seen it… She said “hello.” Existing I've remains."
+        candidate = "I've seen itâ€¦ She said \"hello.\" Existing I've remains."
+        restored, fixes = deterministic_typography_restore(original, candidate)
+        self.assertEqual(restored, original)
+        self.assertTrue(fixes)
+
+    def test_validation_rejects_unresolved_export_artifacts(self) -> None:
+        original = full_post('<center><iframe src="https://example.com"></iframe></center>')
+        candidate = rebuild_post_with_body(
+            original,
+            '<center><iframe src="https://example.com"></iframe></center>',
+        )
+        result = validate_candidate(original, candidate, False)
+        self.assertFalse(result.ok)
+        self.assertIn(
+            "candidate still contains deterministic export artifacts",
+            result.failures,
+        )
+
+    def test_validation_preserves_linked_image_relationships(self) -> None:
+        original = full_post(
+            "[![Router](https://example.com/router.jpg)\n"
+            "Router details](https://example.com/product)"
+        )
+        candidate = rebuild_post_with_body(
+            original,
+            "![Router](https://example.com/router.jpg)\n\n"
+            "[Router details](https://example.com/product)",
+        )
+        result = validate_candidate(original, candidate, False)
+        self.assertFalse(result.ok)
+        self.assertTrue(
+            any("linked-image relationships" in failure for failure in result.failures)
+        )
+
+    def test_validation_rejects_inferred_emphasis(self) -> None:
+        original = full_post("From Book Title by Author.")
+        candidate = rebuild_post_with_body(
+            original,
+            "From *Book Title* by Author.",
+        )
+        result = validate_candidate(original, candidate, False)
+        self.assertFalse(result.ok)
+        self.assertTrue(any("added emphasis spans" in failure for failure in result.failures))
+
+    def test_repair_decision_envelope_is_strict(self) -> None:
+        response = (
+            "BEGIN_REPAIR_DECISION abc12345\n"
+            "decision: substantive_change\n"
+            "reason: Candidate changed one authored word.\n"
+            "END_REPAIR_DECISION abc12345\n"
+        )
+        self.assertEqual(
+            parse_repair_decision(response, "abc12345"),
+            RepairDecision("substantive_change", "Candidate changed one authored word."),
+        )
+        with self.assertRaisesRegex(Exception, "unsupported"):
+            parse_repair_decision(
+                response.replace("substantive_change", "accept_everything"),
+                "abc12345",
+            )
 
     def test_bounded_levenshtein_stops_after_limit(self) -> None:
         self.assertEqual(bounded_levenshtein("abcdef", "abcxef", 2), 1)
@@ -332,8 +483,11 @@ class ProgressOutputTests(unittest.TestCase):
                 ollama_num_gpu=None,
                 ollama_think=False,
                 response_retries=1,
+                repair_rounds=0,
+                repair_max_chars=12_000,
+                repair_diff_max_chars=8_000,
                 include_missing_state=False,
-                review_max_distance=25,
+                review_max_distance=10,
                 review_max_ratio=0.01,
                 dry_run=True,
                 stage=False,
@@ -371,6 +525,220 @@ class ProgressOutputTests(unittest.TestCase):
             self.assertIn("conversion_state: review", candidate)
             self.assertIn("cleanup_levenshtein_distance: 1", candidate)
             self.assertIn("cleanup_review_required: true", candidate)
+
+    def test_process_post_repairs_substantive_change_before_accepting(self) -> None:
+        original = full_post("Original text.")
+        with tempfile.TemporaryDirectory() as temp_dir:
+            repo_root = Path(temp_dir)
+            post_path = repo_root / "_posts" / "test.md"
+            post_path.parent.mkdir()
+            post_path.write_text(original, encoding="utf-8")
+            post_info = PostInfo(
+                post_path,
+                "_posts/test.md",
+                parse_front_matter(original),
+            )
+            state = RunnerState(repo_root / "runner" / ".state", write=True)
+            args = SimpleNamespace(
+                single_pass_max_chars=120_000,
+                model="test-model",
+                ollama_host="http://example.invalid",
+                ollama_num_ctx=4096,
+                ollama_num_predict=1536,
+                ollama_num_batch=128,
+                ollama_num_gpu=None,
+                ollama_think=False,
+                response_retries=1,
+                repair_rounds=2,
+                repair_max_chars=12_000,
+                repair_diff_max_chars=8_000,
+                include_missing_state=False,
+                review_max_distance=10,
+                review_max_ratio=0.01,
+                dry_run=True,
+                stage=False,
+            )
+            with (
+                mock.patch(
+                    "runner.clean_wordpress_posts.git_unstaged_for_path",
+                    return_value=False,
+                ),
+                mock.patch(
+                    "runner.clean_wordpress_posts.request_cleaned_body",
+                    return_value=(
+                        "Original text!\n",
+                        "complete: true\n",
+                        True,
+                        1.0,
+                        1,
+                    ),
+                ),
+                mock.patch(
+                    "runner.clean_wordpress_posts.request_repair_decision",
+                    return_value=(
+                        RepairDecision(
+                            "formatting_fix",
+                            "Candidate formatting looks correct.",
+                        ),
+                        1.0,
+                        1,
+                    ),
+                ),
+                mock.patch(
+                    "runner.clean_wordpress_posts.request_repaired_body",
+                    return_value=(
+                        "Original text.\n",
+                        "complete: true\n",
+                        True,
+                        1.0,
+                        1,
+                    ),
+                ) as repair,
+            ):
+                result = process_post(
+                    repo_root,
+                    post_info,
+                    state,
+                    args,
+                    None,
+                    mock.Mock(),
+                )
+            self.assertEqual(result, "success")
+            self.assertEqual(repair.call_args.args[0], "substantive_change")
+            candidate_path = (
+                state.candidates_dir / f"{state.attempt_id(post_info.rel_path)}.md"
+            )
+            candidate = candidate_path.read_text(encoding="utf-8")
+            self.assertIn("conversion_state: markdown", candidate)
+            self.assertIn("cleanup_levenshtein_distance: 0", candidate)
+            self.assertIn("Original text.", candidate)
+            self.assertNotIn("Original text!", candidate)
+
+    def test_process_post_uses_deterministic_media_before_ollama(self) -> None:
+        original = full_post(
+            '<center><iframe allowfullscreen="allowfullscreen" '
+            'src="https://example.com/embed"></iframe></center>'
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            repo_root = Path(temp_dir)
+            post_path = repo_root / "_posts" / "test.md"
+            post_path.parent.mkdir()
+            post_path.write_text(original, encoding="utf-8")
+            post_info = PostInfo(post_path, "_posts/test.md", parse_front_matter(original))
+            state = RunnerState(repo_root / "runner" / ".state", write=True)
+            args = SimpleNamespace(
+                single_pass_max_chars=120_000,
+                model="test-model",
+                ollama_host="http://example.invalid",
+                ollama_num_ctx=4096,
+                ollama_num_predict=1536,
+                ollama_num_batch=128,
+                ollama_num_gpu=None,
+                ollama_think=False,
+                response_retries=1,
+                repair_rounds=2,
+                repair_max_chars=12_000,
+                repair_diff_max_chars=8_000,
+                include_missing_state=False,
+                review_max_distance=10,
+                review_max_ratio=0.01,
+                dry_run=True,
+                stage=False,
+            )
+            with (
+                mock.patch(
+                    "runner.clean_wordpress_posts.git_unstaged_for_path",
+                    return_value=False,
+                ),
+                mock.patch(
+                    "runner.clean_wordpress_posts.request_cleaned_body"
+                ) as request_cleanup,
+            ):
+                result = process_post(
+                    repo_root,
+                    post_info,
+                    state,
+                    args,
+                    None,
+                    mock.Mock(),
+                )
+            self.assertEqual(result, "success")
+            request_cleanup.assert_not_called()
+            candidate_path = (
+                state.candidates_dir / f"{state.attempt_id(post_info.rel_path)}.md"
+            )
+            candidate = candidate_path.read_text(encoding="utf-8")
+            self.assertIn('<iframe class="post-embed"', candidate)
+            self.assertNotIn("<center>", candidate)
+
+    def test_process_post_retries_main_when_model_reports_incomplete(self) -> None:
+        original = full_post("Original text.")
+        with tempfile.TemporaryDirectory() as temp_dir:
+            repo_root = Path(temp_dir)
+            post_path = repo_root / "_posts" / "test.md"
+            post_path.parent.mkdir()
+            post_path.write_text(original, encoding="utf-8")
+            post_info = PostInfo(post_path, "_posts/test.md", parse_front_matter(original))
+            state = RunnerState(repo_root / "runner" / ".state", write=True)
+            args = SimpleNamespace(
+                single_pass_max_chars=120_000,
+                model="test-model",
+                ollama_host="http://example.invalid",
+                ollama_num_ctx=4096,
+                ollama_num_predict=1536,
+                ollama_num_batch=128,
+                ollama_num_gpu=None,
+                ollama_think=False,
+                response_retries=1,
+                repair_rounds=2,
+                repair_max_chars=12_000,
+                repair_diff_max_chars=8_000,
+                include_missing_state=False,
+                review_max_distance=10,
+                review_max_ratio=0.01,
+                dry_run=True,
+                stage=False,
+            )
+            with (
+                mock.patch(
+                    "runner.clean_wordpress_posts.git_unstaged_for_path",
+                    return_value=False,
+                ),
+                mock.patch(
+                    "runner.clean_wordpress_posts.request_cleaned_body",
+                    return_value=(
+                        "Original text.\n",
+                        "complete: false\n",
+                        False,
+                        1.0,
+                        1,
+                    ),
+                ),
+                mock.patch(
+                    "runner.clean_wordpress_posts.request_repair_decision"
+                ) as classify,
+                mock.patch(
+                    "runner.clean_wordpress_posts.request_repaired_body",
+                    return_value=(
+                        "Original text.\n",
+                        "complete: true\n",
+                        True,
+                        1.0,
+                        1,
+                    ),
+                ) as repair,
+            ):
+                result = process_post(
+                    repo_root,
+                    post_info,
+                    state,
+                    args,
+                    None,
+                    mock.Mock(),
+                )
+            self.assertEqual(result, "success")
+            classify.assert_not_called()
+            self.assertEqual(repair.call_args.args[0], "retry_main")
 
 
 if __name__ == "__main__":

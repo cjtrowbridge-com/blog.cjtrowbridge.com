@@ -22,9 +22,12 @@ Use `--mode next --stage` for the first real one-post apply test. Use `--mode ba
 The runner:
 - Uses `conversion_state` as the primary resume signal.
 - Sends only the post body to Ollama and preserves complete YAML front matter locally.
+- Applies locally provable iframe-wrapper, empty-media, and typography/encoding cleanup.
 - Canonicalizes visible text, ignores formatting and whitespace, and records Levenshtein distance in YAML.
 - Marks exact matches `markdown`, small differences `review`, and rejects differences beyond conservative thresholds.
+- Classifies non-exact or invalid candidates and uses bounded formatting, restoration, or main-prompt retry stages.
 - Rejects added, removed, or duplicated URLs, image targets, and embed targets.
+- Rejects changed linked-image nesting, inferred emphasis, and unresolved deterministic export artifacts.
 - Handles imported Instagram post bodies deterministically without an Ollama call.
 - Leaves failed or uncertain posts unchanged as `conversion_state: wordpress`.
 - Records candidates, patches, reports, and lock state under `runner/.state/`.

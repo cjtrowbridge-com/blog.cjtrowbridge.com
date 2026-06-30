@@ -11,7 +11,14 @@ enclosure:
 categories:
     - Featured
     - Revisit
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-![](https://blog.cjtrowbridge.com/wp-content/uploads/2016/08/cubicles-1-1.png)This [special episode](https://softwareengineeringdaily.com/2016/08/07/you-are-not-a-commodity/) of Software Engineering Daily is when I fell in love with this podcast. It made me rethink my entire life and future, and demand aggressive goals and progress at work. Everyone should think this way, but especially software engineers. \[embed\]http://traffic.libsyn.com/sedaily/You\_Are\_Not\_A\_Commodity.mp3\[/embed\]
+![](https://blog.cjtrowbridge.com/wp-content/uploads/2016/08/cubicles-1-1.png)
+
+This [special episode](https://softwareengineeringdaily.com/2016/08/07/you-are-not-a-commodity/) of Software Engineering Daily is when I fell in love with this podcast. It made me rethink my entire life and future, and demand aggressive goals and progress at work. Everyone should think this way, but especially software engineers.
+
+\[embed\]http://traffic.libsyn.com/sedaily/You\_Are\_Not\_A\_Commodity.mp3\[/embed\]

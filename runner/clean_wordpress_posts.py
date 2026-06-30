@@ -31,9 +31,16 @@ from pathlib import Path
 from typing import Any, Callable, Iterable, TextIO
 
 
-PROMPT_VERSION = "wordpress-cleanup-runner-v3"
+PROMPT_VERSION = "wordpress-cleanup-runner-v4"
 DEFAULT_OLLAMA_MODEL = "qwen3.5:9b"
 LOCK_STALE_SECONDS = 24 * 60 * 60
+REPAIR_DECISIONS = {
+    "formatting_fix",
+    "minor_text_fix",
+    "substantive_change",
+    "retry_main",
+    "blocked",
+}
 SECTION_LABELS = (
     "Works Cited",
     "References",
@@ -54,6 +61,16 @@ WRAPPER_PATTERNS = (
 COPIED_UI_PATTERNS = (
     re.compile(r"<\s*div\b[^>]*class=[\"'][^\"']*\bflex\b", re.I),
     re.compile(r"<\s*div\b[^>]*class=[\"'][^\"']*\bmarkdown\b", re.I),
+)
+EXPORT_ARTIFACT_PATTERNS = (
+    re.compile(r"<\s*/?\s*center\b", re.I),
+    re.compile(r"\bdata-mce-fragment\s*=", re.I),
+    re.compile(r"<div\b[^>]*\bstyle=[\"'][^\"']*[\"'][^>]*>\s*<iframe\b", re.I),
+    re.compile(r"<video\b(?![^>]*\bsrc\s*=)[^>]*>\s*</video\s*>", re.I),
+)
+WORDPRESS_SHORTCODE_TAG_PATTERN = re.compile(
+    r"\\?\[\s*/?\s*(?:audio|caption|embed|gallery|playlist|video|wpvideo)\b[^\]]*\\?\]",
+    re.I,
 )
 
 
@@ -90,6 +107,12 @@ class ValidationResult:
     failures: list[str]
     review_required: bool = False
     review_reasons: list[str] = dataclasses.field(default_factory=list)
+
+
+@dataclasses.dataclass
+class RepairDecision:
+    decision: str
+    reason: str
 
 
 class TeeStream:
@@ -316,14 +339,132 @@ def is_instagram_post(front_matter: FrontMatter) -> bool:
     )
 
 
+def deterministic_media_cleanup(body: str) -> tuple[str, list[str]]:
+    fixes: list[str] = []
+    text = body
+
+    def simplify_iframe(match: re.Match[str]) -> str:
+        tag = match.group(0)
+        src_match = re.search(r"\bsrc\s*=\s*([\"'])(.*?)\1", tag, re.I | re.S)
+        if not src_match:
+            return tag
+        fixes.append("simplified iframe attributes")
+        escaped_src = html.escape(html.unescape(src_match.group(2)), quote=True)
+        return (
+            f'<iframe class="post-embed" src="{escaped_src}" '
+            'loading="lazy"></iframe>'
+        )
+
+    text = re.sub(
+        r"<iframe\b[^>]*(?:/\s*>|>\s*</iframe\s*>)",
+        simplify_iframe,
+        text,
+        flags=re.I | re.S,
+    )
+
+    updated = re.sub(r"</?center\s*>", "", text, flags=re.I)
+    if updated != text:
+        fixes.append("removed center wrapper")
+        text = updated
+
+    simple_iframe = r'<iframe class="post-embed" src="[^"]+" loading="lazy"></iframe>'
+    updated = re.sub(
+        rf"<div\b[^>]*>\s*({simple_iframe})\s*</div\s*>",
+        r"\1",
+        text,
+        flags=re.I | re.S,
+    )
+    if updated != text:
+        fixes.append("removed iframe-only div wrapper")
+        text = updated
+
+    updated = re.sub(
+        r"(?m)^[ \t]*>[ \t]*(<iframe class=\"post-embed\"[^\n]+</iframe>)[ \t]*$",
+        r"\1",
+        text,
+    )
+    if updated != text:
+        fixes.append("removed iframe blockquote wrapper")
+        text = updated
+
+    updated = re.sub(
+        r"<video\b(?![^>]*\bsrc\s*=)[^>]*>\s*</video\s*>",
+        "",
+        text,
+        flags=re.I | re.S,
+    )
+    if updated != text:
+        fixes.append("removed empty video export artifact")
+        text = updated
+
+    if fixes:
+        text = re.sub(r"[ \t]+\n", "\n", text)
+        text = re.sub(r"\n{3,}", "\n\n", text)
+        text = text.strip("\r\n") + "\n"
+    return text, list(dict.fromkeys(fixes))
+
+
+def deterministic_typography_restore(
+    original_body: str,
+    candidate_body: str,
+) -> tuple[str, list[str]]:
+    fixes: list[str] = []
+    text = candidate_body
+
+    def restore_exact(original_value: str, candidate_value: str, label: str) -> None:
+        nonlocal text
+        missing = original_body.count(original_value) - text.count(original_value)
+        introduced = text.count(candidate_value) - original_body.count(candidate_value)
+        replacements = min(missing, introduced)
+        if replacements <= 0:
+            return
+        text = text.replace(candidate_value, original_value, replacements)
+        fixes.append(f"{label}: {replacements}")
+
+    for mojibake, intended in (
+        ("â€¦", "…"),
+        ("â€™", "’"),
+        ("â€˜", "‘"),
+        ("â€œ", "“"),
+        ("â€\x9d", "”"),
+        ("â€”", "—"),
+        ("â€“", "–"),
+    ):
+        restore_exact(intended, mojibake, "restored mojibake")
+
+    curly_apostrophe_words = set(
+        re.findall(r"\b[\w]+[’‘][\w]+\b", original_body, flags=re.UNICODE)
+    )
+    for original_word in sorted(curly_apostrophe_words, key=len, reverse=True):
+        ascii_word = original_word.replace("’", "'").replace("‘", "'")
+        restore_exact(original_word, ascii_word, "restored curly apostrophe")
+
+    for pattern, label in (
+        (r"“[^”\n]{1,200}”", "restored curly double quotes"),
+        (r"‘[^’\n]{1,200}’", "restored curly single quotes"),
+    ):
+        for original_phrase in set(re.findall(pattern, original_body)):
+            ascii_phrase = (
+                original_phrase.replace("“", '"')
+                .replace("”", '"')
+                .replace("‘", "'")
+                .replace("’", "'")
+            )
+            restore_exact(original_phrase, ascii_phrase, label)
+
+    return text, fixes
+
+
 def normalize_url(value: str) -> str:
     value = html.unescape(value.strip())
+    value = re.sub(r"\\([\\`*{}\[\]()#+.!_>~-])", r"\1", value)
     value = value.strip(".,;:!?)\"]}'")
     return value
 
 
 def extract_urls(text: str) -> Counter[str]:
-    pattern = re.compile(r"https?://[^\s<>\"]+", re.I)
+    text = WORDPRESS_SHORTCODE_TAG_PATTERN.sub(" ", text)
+    pattern = re.compile(r"https?://[^\s<>\"]*?(?=\\?[\])}]|[\s<>\"]|$)", re.I)
     return Counter(
         normalized
         for match in pattern.finditer(text)
@@ -333,11 +474,62 @@ def extract_urls(text: str) -> Counter[str]:
 
 def extract_image_targets(text: str) -> Counter[str]:
     targets: list[str] = []
-    for match in re.finditer(r"!\[[^\]]*]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)", text):
+    for match in re.finditer(
+        r"(?<![A-Za-z0-9])!\[[^\]]*]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)",
+        text,
+    ):
         targets.append(normalize_url(match.group(1)))
     for match in re.finditer(r"<img\b[^>]*\bsrc=[\"']([^\"']+)[\"']", text, re.I):
         targets.append(normalize_url(match.group(1)))
     return Counter(target for target in targets if target and not is_allowlisted_removal(target))
+
+
+def extract_linked_image_pairs(text: str) -> Counter[str]:
+    pairs: list[str] = []
+    image_pattern = re.compile(
+        r"(?<![A-Za-z0-9])!\[[^\]]*]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)"
+    )
+    for image_match in image_pattern.finditer(text):
+        search_start = max(0, image_match.start() - 500)
+        prefix = text[search_start : image_match.start()]
+        if re.search(r"\n[ \t]*\n", prefix):
+            prefix = re.split(r"\n[ \t]*\n", prefix)[-1]
+            search_start = image_match.start() - len(prefix)
+        outer_start = text.rfind("[", search_start, image_match.start())
+        if outer_start < 0 or text[outer_start + 1 : image_match.start()] != "":
+            continue
+        suffix = text[image_match.end() : image_match.end() + 500]
+        close_match = re.match(
+            r"(?:(?!\n[ \t]*\n)[\s\S])*?]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)",
+            suffix,
+        )
+        if not close_match:
+            continue
+        image_target = normalize_url(image_match.group(1))
+        link_target = normalize_url(close_match.group(1))
+        if (
+            image_target
+            and link_target
+            and not is_allowlisted_removal(image_target)
+            and not is_allowlisted_removal(link_target)
+        ):
+            pairs.append(f"{image_target} -> {link_target}")
+    return Counter(pairs)
+
+
+def extract_emphasis_spans(text: str) -> Counter[str]:
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(
+        r"(!?\[[^\]]*])\((?:[^()]|\([^()]*\))+\)",
+        r"\1",
+        text,
+    )
+    text = re.sub(r"https?://[^\s<>\"]+", "", text, flags=re.I)
+    spans: list[str] = []
+    pattern = re.compile(r"(?<!\\)(\*{1,3}|_{1,3})(?=\S)(.+?)(?<=\S)\1")
+    for match in pattern.finditer(text):
+        spans.append(f"{match.group(1)}{match.group(2)}{match.group(1)}")
+    return Counter(spans)
 
 
 def extract_embed_targets(text: str) -> Counter[str]:
@@ -385,8 +577,11 @@ class VisibleTextParser(HTMLParser):
 
 def canonical_visible_text(body: str) -> str:
     text = html.unescape(body)
+    text = WORDPRESS_SHORTCODE_TAG_PATTERN.sub("", text)
+    text = re.sub(r"(?<!\S)#{1,6}\s+", "", text)
+    text = re.sub(r"(?<=\))#{1,6}\s+", "", text)
     text = re.sub(
-        r"!\[([^\]]*)]\((?:[^()]|\([^()]*\))+\)",
+        r"(?<![A-Za-z0-9])!\[([^\]]*)]\((?:[^()]|\([^()]*\))+\)",
         lambda match: match.group(1),
         text,
     )
@@ -397,8 +592,16 @@ def canonical_visible_text(body: str) -> str:
     )
     text = re.sub(r"https?://[^\s<>\"]+", "", text, flags=re.I)
     text = re.sub(r"\\([\\`*{}\[\]()#+.!_>~-])", r"\1", text)
+    source_lines = text.splitlines()
     normalized_lines = []
-    for line in text.splitlines():
+    for index, line in enumerate(source_lines):
+        line = re.sub(r"(?<!\S)#{1,6}\s+", "", line)
+        line = re.sub(r"(?<=\))#{1,6}\s+", "", line)
+        if (
+            index + 1 < len(source_lines)
+            and re.match(r"^\s*[-+*]\s+\S", source_lines[index + 1])
+        ):
+            line = re.sub(r"\s+[-+*]\s+(?=\S)", " ", line)
         line = re.sub(r"^\s{0,3}(?:#{1,6}\s+|>\s?|[-+*]\s+|\d+[.)]\s+)", "", line)
         normalized_lines.append(line)
     text = "\n".join(normalized_lines)
@@ -453,6 +656,28 @@ def first_mismatch(left: str, right: str, context: int = 30) -> dict[str, Any]:
         "original_context": left[start:stop],
         "candidate_context": right[start:stop],
     }
+
+
+def visible_text_edits(left: str, right: str, limit: int = 20) -> list[dict[str, str]]:
+    edits: list[dict[str, str]] = []
+    for tag, left_start, left_stop, right_start, right_stop in difflib.SequenceMatcher(
+        None,
+        left,
+        right,
+        autojunk=False,
+    ).get_opcodes():
+        if tag == "equal":
+            continue
+        edits.append(
+            {
+                "operation": tag,
+                "original": left[left_start:left_stop],
+                "candidate": right[right_start:right_stop],
+            }
+        )
+        if len(edits) >= limit:
+            break
+    return edits
 
 
 def section_label_glue_failures(lines: list[str]) -> list[int]:
@@ -510,7 +735,7 @@ def validate_candidate(
     original: str,
     candidate: str,
     include_missing_state: bool,
-    review_max_distance: int = 25,
+    review_max_distance: int = 10,
     review_max_ratio: float = 0.01,
     diagnostic_distance_limit: int = 256,
 ) -> ValidationResult:
@@ -561,6 +786,25 @@ def validate_candidate(
     if added_images:
         failures.append(f"candidate added image targets: {', '.join(added_images[:5])}")
 
+    original_linked_images = extract_linked_image_pairs(original_fm.body)
+    candidate_linked_images = extract_linked_image_pairs(candidate_fm.body)
+    missing_linked_images, added_linked_images = counter_changes(
+        original_linked_images,
+        candidate_linked_images,
+    )
+    checks["missing_linked_image_pairs"] = missing_linked_images
+    checks["added_linked_image_pairs"] = added_linked_images
+    if missing_linked_images:
+        failures.append(
+            "candidate changed linked-image relationships: "
+            f"{', '.join(missing_linked_images[:5])}"
+        )
+    if added_linked_images:
+        failures.append(
+            "candidate added linked-image relationships: "
+            f"{', '.join(added_linked_images[:5])}"
+        )
+
     original_embeds = extract_embed_targets(original)
     candidate_embeds = extract_embed_targets(candidate)
     missing_embeds, added_embeds = counter_changes(original_embeds, candidate_embeds)
@@ -570,6 +814,20 @@ def validate_candidate(
         failures.append(f"candidate removed embed targets: {', '.join(missing_embeds[:5])}")
     if added_embeds:
         failures.append(f"candidate added embed targets: {', '.join(added_embeds[:5])}")
+
+    original_emphasis = extract_emphasis_spans(original_fm.body)
+    candidate_emphasis = extract_emphasis_spans(candidate_fm.body)
+    missing_emphasis, added_emphasis = counter_changes(original_emphasis, candidate_emphasis)
+    checks["missing_emphasis_spans"] = missing_emphasis
+    checks["added_emphasis_spans"] = added_emphasis
+    if missing_emphasis:
+        failures.append(
+            f"candidate removed emphasis spans: {', '.join(missing_emphasis[:5])}"
+        )
+    if added_emphasis:
+        failures.append(
+            f"candidate added emphasis spans: {', '.join(added_emphasis[:5])}"
+        )
 
     original_visible = canonical_visible_text(original_fm.body)
     candidate_visible = canonical_visible_text(candidate_fm.body)
@@ -594,6 +852,10 @@ def validate_candidate(
             else None
         )
         checks["first_visible_mismatch"] = first_mismatch(original_visible, candidate_visible)
+        checks["visible_text_edits"] = visible_text_edits(
+            original_visible,
+            candidate_visible,
+        )
     checks["levenshtein_distance"] = distance
     checks["levenshtein_distance_exceeds"] = (
         max(diagnostic_distance_limit, review_max_distance) if distance is None else None
@@ -631,6 +893,13 @@ def validate_candidate(
     checks["remaining_copied_ui_wrappers"] = ui_hits
     if ui_hits:
         failures.append("candidate still contains copied UI wrapper HTML")
+
+    export_hits = [
+        pattern.pattern for pattern in EXPORT_ARTIFACT_PATTERNS if pattern.search(candidate_fm.body)
+    ]
+    checks["remaining_export_artifacts"] = export_hits
+    if export_hits:
+        failures.append("candidate still contains deterministic export artifacts")
 
     candidate_lines = candidate_fm.body.splitlines()
     long_lines = count_long_prose_lines(candidate_fm.body)
@@ -1231,6 +1500,160 @@ END_ORIGINAL_BODY {nonce}
 """
 
 
+def validation_diagnostics(validation: ValidationResult) -> str:
+    payload = {
+        "failures": validation.failures,
+        "review_reasons": validation.review_reasons,
+        "checks": {
+            key: validation.checks.get(key)
+            for key in (
+                "levenshtein_distance",
+                "levenshtein_ratio",
+                "first_visible_mismatch",
+                "visible_text_edits",
+                "missing_urls",
+                "added_urls",
+                "missing_images",
+                "added_images",
+                "missing_linked_image_pairs",
+                "added_linked_image_pairs",
+                "missing_embeds",
+                "added_embeds",
+                "missing_emphasis_spans",
+                "added_emphasis_spans",
+                "remaining_wordpress_wrappers",
+                "remaining_copied_ui_wrappers",
+                "remaining_export_artifacts",
+                "long_prose_lines_over_800",
+                "section_label_glue_lines",
+                "media_spacing_failure_lines",
+                "inline_heading_failure_lines",
+            )
+            if key in validation.checks
+        },
+    }
+    return json.dumps(payload, indent=2, sort_keys=True)
+
+
+def build_classification_prompt(
+    rel_path: str,
+    original_body: str,
+    candidate_body: str,
+    validation: ValidationResult,
+    nonce: str,
+    diff_limit: int = 8_000,
+) -> str:
+    body_diff = make_diff(rel_path, original_body, candidate_body)
+    if len(body_diff) > diff_limit:
+        body_diff = body_diff[:diff_limit] + "\n[diff truncated]\n"
+    return f"""Classify why this WordPress cleanup candidate did not pass exactly.
+
+POST_PATH={rel_path}
+PROMPT_VERSION={PROMPT_VERSION}
+
+Choose exactly one decision:
+- formatting_fix: only formatting structure, wrappers, spacing, or media placement needs repair.
+- minor_text_fix: the candidate made a small, apparently intentional typo or punctuation correction that should remain human review.
+- substantive_change: authored letters, words, punctuation, order, links, or media relationships changed and must be restored from the original.
+- retry_main: the candidate missed broad cleanup work or is malformed enough that cleanup should restart from the original.
+- blocked: the correct repair is ambiguous and should not be automated.
+
+Rules:
+- The original body is authoritative.
+- Shortcodes are opaque and are not defects.
+- A low Levenshtein distance does not by itself make a text change safe.
+- Added emphasis, headings, list semantics, alt text, or changed linked-image nesting count as substantive unless explicit source syntax supports them.
+- Choose blocked when evidence is insufficient.
+
+Response envelope:
+BEGIN_REPAIR_DECISION {nonce}
+decision: formatting_fix|minor_text_fix|substantive_change|retry_main|blocked
+reason: [one concise line]
+END_REPAIR_DECISION {nonce}
+
+Local validation:
+{validation_diagnostics(validation)}
+
+Original-to-candidate diff:
+BEGIN_CANDIDATE_DIFF {nonce}
+{body_diff}
+END_CANDIDATE_DIFF {nonce}
+"""
+
+
+def build_repair_prompt(
+    decision: str,
+    rel_path: str,
+    original_body: str,
+    candidate_body: str,
+    validation: ValidationResult,
+    nonce: str,
+) -> str:
+    if decision == "formatting_fix":
+        task = """Repair only formatting and structure.
+- Start from the original body and use the candidate only as a formatting hint.
+- You may change whitespace, line breaks, and known wrapper syntax.
+- You may relocate existing Markdown structure markers only when the original clearly contains them.
+- Do not add emphasis, headings, list semantics, captions, or alt text by inference.
+- Preserve linked-image nesting and every URL's role exactly."""
+    elif decision == "substantive_change":
+        task = """Restore every authored character and content relationship changed by the candidate.
+- Use the prior candidate as the formatting template; do not collapse its repaired paragraphs or media blocks.
+- Reverse every entry in local validation's visible_text_edits by replacing the candidate text with the exact original text.
+- Keep only candidate formatting that can be reproduced without changing the original authored text.
+- Restore original spelling, capitalization, punctuation, source order, links, image/link nesting, captions, and media targets.
+- Remove any inferred emphasis, headings, list semantics, alt text, or claims."""
+    elif decision == "retry_main":
+        task = """Restart cleanup from the original body.
+- Disregard the candidate except for the local validation failures.
+- Perform the main formatting cleanup conservatively.
+- If any repair is ambiguous, return complete: false."""
+    else:
+        raise ValueError(f"unsupported repair decision: {decision}")
+
+    return f"""Repair this WordPress-exported Markdown body after a failed cleanup pass.
+
+POST_PATH={rel_path}
+PROMPT_VERSION={PROMPT_VERSION}
+REPAIR_DECISION={decision}
+
+{task}
+
+Universal rules:
+- Return exactly one cleaned Markdown body without YAML front matter.
+- The original body is authoritative.
+- Preserve every authored word, spelling, capitalization, and punctuation mark exactly.
+- Preserve all URL, image, embed, citation, and shortcode occurrences in source order.
+- Treat every shortcode and its attributes as opaque text; do not repair or remove it.
+- Do not copyedit, summarize, shorten, or add content.
+- Put repaired media blocks and headings on separate lines only when supported by source syntax.
+- Set complete: false if the requested repair cannot be completed safely.
+
+Response envelope:
+BEGIN_CLEANED_BODY {nonce}
+[cleaned Markdown body here]
+END_CLEANED_BODY {nonce}
+BEGIN_CLEANUP_REPORT {nonce}
+complete: true|false
+fixed:
+- [artifact type]
+validation_notes:
+- [note]
+END_CLEANUP_REPORT {nonce}
+
+Local validation:
+{validation_diagnostics(validation)}
+
+BEGIN_ORIGINAL_BODY {nonce}
+{original_body}
+END_ORIGINAL_BODY {nonce}
+
+BEGIN_PRIOR_CANDIDATE {nonce}
+{candidate_body}
+END_PRIOR_CANDIDATE {nonce}
+"""
+
+
 def extract_between(text: str, begin: str, end: str) -> str | None:
     begin_count = text.count(begin)
     end_count = text.count(end)
@@ -1255,6 +1678,23 @@ def parse_model_response(text: str, nonce: str) -> tuple[str, str, bool]:
         raise RunnerError("cleanup report did not include complete: true|false", 1)
     complete = complete_match.group(1).lower() == "true"
     return cleaned, report, complete
+
+
+def parse_repair_decision(text: str, nonce: str) -> RepairDecision:
+    block = extract_between(
+        text,
+        f"BEGIN_REPAIR_DECISION {nonce}",
+        f"END_REPAIR_DECISION {nonce}",
+    )
+    if block is None:
+        raise RunnerError("model response did not contain exactly one repair decision block", 1)
+    decision_match = re.search(r"(?im)^\s*decision\s*:\s*([a-z_]+)\s*$", block)
+    reason_match = re.search(r"(?im)^\s*reason\s*:\s*(.+?)\s*$", block)
+    if not decision_match or decision_match.group(1) not in REPAIR_DECISIONS:
+        raise RunnerError("repair decision was missing or unsupported", 1)
+    if not reason_match:
+        raise RunnerError("repair decision did not include a reason", 1)
+    return RepairDecision(decision_match.group(1), reason_match.group(1))
 
 
 def request_cleaned_body(
@@ -1331,6 +1771,148 @@ def request_cleaned_body(
     )
 
 
+def request_custom_envelope(
+    rel_path: str,
+    state: RunnerState,
+    args: argparse.Namespace,
+    progress: ProgressReporter,
+    phase: str,
+    artifact_suffix: str,
+    prompt_factory: Callable[[str], str],
+    parser: Callable[[str, str], Any],
+) -> tuple[Any, float, int]:
+    total_elapsed = 0.0
+    last_error: RunnerError | None = None
+    for response_attempt in range(1, args.response_retries + 2):
+        nonce = hashlib.sha1(
+            f"{rel_path}:{phase}:{response_attempt}:{time.time_ns()}".encode("utf-8")
+        ).hexdigest()[:8]
+        prompt = prompt_factory(nonce)
+        state.save_attempt(
+            rel_path,
+            {
+                "response_nonce": nonce,
+                "response_attempt": response_attempt,
+                "pipeline_phase": phase,
+            },
+        )
+        state.append_event(
+            {
+                "event": f"{phase}_started",
+                "rel_path": rel_path,
+                "response_attempt": response_attempt,
+            }
+        )
+        progress.log(
+            f"phase={phase}_request post={rel_path} model={args.model} "
+            f"response_attempt={response_attempt}/{args.response_retries + 1} "
+            f"prompt_chars={len(prompt)}"
+        )
+        request_started = time.monotonic()
+        response = call_ollama_with_retries(
+            prompt,
+            args,
+            lambda message: progress.log(f"{message} pipeline_phase={phase} post={rel_path}"),
+        )
+        request_elapsed = round(time.monotonic() - request_started, 3)
+        total_elapsed += request_elapsed
+        progress.log(
+            f"phase={phase}_response post={rel_path} response_chars={len(response)} "
+            f"request_elapsed={format_duration(request_elapsed)} "
+            f"response_attempt={response_attempt}"
+        )
+        suffix = f"{artifact_suffix}.attempt-{response_attempt}.txt"
+        state.save_text_artifact("response", rel_path, suffix, response)
+        try:
+            parsed = parser(response, nonce)
+        except RunnerError as exc:
+            last_error = exc
+            state.append_event(
+                {
+                    "event": f"{phase}_envelope_failed",
+                    "rel_path": rel_path,
+                    "response_attempt": response_attempt,
+                    "error": str(exc),
+                }
+            )
+            if response_attempt > args.response_retries:
+                break
+            progress.log(
+                f"phase={phase}_envelope_retry post={rel_path} "
+                f"response_attempt={response_attempt} error={exc}"
+            )
+            continue
+        state.save_text_artifact("response", rel_path, f"{artifact_suffix}.txt", response)
+        return parsed, total_elapsed, response_attempt
+    raise RunnerError(
+        f"{phase} response envelope failed after "
+        f"{args.response_retries + 1} attempts: {last_error}",
+        1,
+    )
+
+
+def request_repair_decision(
+    rel_path: str,
+    original_body: str,
+    candidate_body: str,
+    validation: ValidationResult,
+    round_number: int,
+    state: RunnerState,
+    args: argparse.Namespace,
+    progress: ProgressReporter,
+) -> tuple[RepairDecision, float, int]:
+    parsed, elapsed, response_attempt = request_custom_envelope(
+        rel_path,
+        state,
+        args,
+        progress,
+        f"repair_classification_round_{round_number}",
+        f".classification-round-{round_number}",
+        lambda nonce: build_classification_prompt(
+            rel_path,
+            original_body,
+            candidate_body,
+            validation,
+            nonce,
+            args.repair_diff_max_chars,
+        ),
+        parse_repair_decision,
+    )
+    return parsed, elapsed, response_attempt
+
+
+def request_repaired_body(
+    decision: str,
+    rel_path: str,
+    original_body: str,
+    candidate_body: str,
+    validation: ValidationResult,
+    round_number: int,
+    state: RunnerState,
+    args: argparse.Namespace,
+    progress: ProgressReporter,
+) -> tuple[str, str, bool, float, int]:
+    parsed, elapsed, response_attempt = request_custom_envelope(
+        rel_path,
+        state,
+        args,
+        progress,
+        f"repair_generation_round_{round_number}",
+        f".repair-round-{round_number}",
+        lambda nonce: build_repair_prompt(
+            decision,
+            rel_path,
+            original_body,
+            candidate_body,
+            validation,
+            nonce,
+        ),
+        parse_model_response,
+    )
+    cleaned_body, model_report, complete = parsed
+    return cleaned_body, model_report, complete, elapsed, response_attempt
+
+
 def make_diff(rel_path: str, original: str, candidate: str) -> str:
     return "".join(
         difflib.unified_diff(
@@ -1392,6 +1974,10 @@ def process_post(
         progress.log(f"phase=failure post={rel_path} reason={reason}")
         return "failure"
 
+    pipeline_history: list[dict[str, Any]] = []
+    request_elapsed = 0.0
+    response_attempt = 0
+
     if is_instagram_post(original_fm):
         cleaned_body = original_fm.body
         model_report = (
@@ -1414,45 +2000,110 @@ def process_post(
         state.append_event({"event": "deterministic_instagram_cleanup", "rel_path": rel_path})
         progress.log(f"phase=deterministic_instagram_cleanup post={rel_path}")
     else:
-        try:
-            cleaned_body, model_report, complete, request_elapsed, response_attempt = request_cleaned_body(
-                rel_path,
-                original_fm.body,
-                state,
-                args,
-                progress,
+        deterministic_body, deterministic_fixes = deterministic_media_cleanup(original_fm.body)
+        deterministic_validation: ValidationResult | None = None
+        if deterministic_fixes:
+            deterministic_candidate = rebuild_post_with_body(original, deterministic_body)
+            deterministic_validation = validate_candidate(
+                original,
+                deterministic_candidate,
+                args.include_missing_state,
+                args.review_max_distance,
+                args.review_max_ratio,
             )
-        except RunnerError as exc:
-            status = "ollama_failed" if exc.exit_code == 3 else "cleanup_failed"
+            pipeline_history.append(
+                {
+                    "stage": "deterministic_media_cleanup",
+                    "fixes": deterministic_fixes,
+                    "validation": dataclasses.asdict(deterministic_validation),
+                }
+            )
+            progress.log(
+                f"phase=deterministic_media_cleanup post={rel_path} "
+                f"fixes={json.dumps(deterministic_fixes)} "
+                f"valid={str(deterministic_validation.ok).lower()}"
+            )
+        if (
+            deterministic_validation is not None
+            and deterministic_validation.ok
+            and not deterministic_validation.review_required
+        ):
+            cleaned_body = deterministic_body
+            model_report = (
+                "complete: true\n"
+                "fixed:\n"
+                + "".join(f"- {fix}\n" for fix in deterministic_fixes)
+                + "validation_notes:\n- Ollama was not called\n"
+            )
+            complete = True
             state.save_attempt(
                 rel_path,
-                {"attempt_id": attempt_id, "status": status, "error": str(exc)},
+                {
+                    "attempt_id": attempt_id,
+                    "cleanup_mode": "deterministic_media",
+                    "ollama_elapsed_seconds": 0,
+                    "response_attempt": 0,
+                },
             )
-            state.save_report(rel_path, {"status": status, "rel_path": rel_path, "error": str(exc)})
-            state.append_event({"event": status, "rel_path": rel_path, "error": str(exc)})
-            progress.log(f"phase=failure post={rel_path} reason={exc}")
-            return "failure"
-        state.save_attempt(
-            rel_path,
-            {
-                "attempt_id": attempt_id,
-                "cleanup_mode": "ollama_body_only",
-                "ollama_elapsed_seconds": round(request_elapsed, 3),
-                "response_attempt": response_attempt,
-            },
-        )
-
-    if not complete:
-        candidate = rebuild_post_with_body(original, cleaned_body)
-        state.save_text_artifact("candidate", rel_path, ".md", candidate)
-        state.save_attempt(rel_path, {"attempt_id": attempt_id, "status": "cleanup_failed", "error": "model reported complete: false"})
-        state.save_report(
-            rel_path,
-            {"status": "cleanup_failed", "rel_path": rel_path, "model_report": model_report, "error": "complete: false"},
-        )
-        state.append_event({"event": "cleanup_failed", "rel_path": rel_path, "error": "complete: false"})
-        progress.log(f"phase=failure post={rel_path} reason=model_reported_incomplete")
-        return "failure"
+        else:
+            try:
+                main_input_body = (
+                    deterministic_body if deterministic_fixes else original_fm.body
+                )
+                cleaned_body, model_report, complete, request_elapsed, response_attempt = request_cleaned_body(
+                    rel_path,
+                    main_input_body,
+                    state,
+                    args,
+                    progress,
+                )
+            except RunnerError as exc:
+                status = "ollama_failed" if exc.exit_code == 3 else "cleanup_failed"
+                state.save_attempt(
+                    rel_path,
+                    {"attempt_id": attempt_id, "status": status, "error": str(exc)},
+                )
+                state.save_report(rel_path, {"status": status, "rel_path": rel_path, "error": str(exc)})
+                state.append_event({"event": status, "rel_path": rel_path, "error": str(exc)})
+                progress.log(f"phase=failure post={rel_path} reason={exc}")
+                return "failure"
+            cleaned_body, typography_fixes = deterministic_typography_restore(
+                original_fm.body,
+                cleaned_body,
+            )
+            if typography_fixes:
+                pipeline_history.append(
+                    {
+                        "stage": "deterministic_typography_restore",
+                        "after": "main_cleanup",
+                        "fixes": typography_fixes,
+                    }
+                )
+                progress.log(
+                    f"phase=deterministic_typography_restore post={rel_path} "
+                    f"fixes={json.dumps(typography_fixes)}"
+                )
+            pipeline_history.append(
+                {
+                    "stage": "main_cleanup",
+                    "input": (
+                        "deterministic_candidate"
+                        if deterministic_fixes
+                        else "original_body"
+                    ),
+                    "response_attempt": response_attempt,
+                    "complete": complete,
+                }
+            )
+            state.save_attempt(
+                rel_path,
+                {
+                    "attempt_id": attempt_id,
+                    "cleanup_mode": "ollama_repair_pipeline",
+                    "ollama_elapsed_seconds": round(request_elapsed, 3),
+                    "response_attempt": response_attempt,
+                },
+            )
 
     provisional_candidate = rebuild_post_with_body(original, cleaned_body)
     progress.log(
@@ -1465,8 +2116,195 @@ def process_post(
         args.review_max_distance,
         args.review_max_ratio,
     )
+
+    repair_rounds = getattr(args, "repair_rounds", 0)
+    repair_max_chars = getattr(args, "repair_max_chars", 12_000)
+    for round_number in range(1, repair_rounds + 1):
+        if complete and validation.ok and not validation.review_required:
+            break
+        combined_chars = len(original_fm.body) + len(cleaned_body)
+        if combined_chars > repair_max_chars:
+            pipeline_history.append(
+                {
+                    "stage": "repair_blocked",
+                    "round": round_number,
+                    "reason": (
+                        f"combined original and candidate length {combined_chars} "
+                        f"exceeds repair limit {repair_max_chars}"
+                    ),
+                }
+            )
+            progress.log(
+                f"phase=repair_blocked post={rel_path} round={round_number} "
+                f"combined_chars={combined_chars} limit={repair_max_chars}"
+            )
+            break
+        if not complete:
+            decision = RepairDecision(
+                "retry_main",
+                "prior cleanup stage reported complete: false",
+            )
+            classify_elapsed = 0.0
+            classify_attempt = 0
+        else:
+            try:
+                decision, classify_elapsed, classify_attempt = request_repair_decision(
+                    rel_path,
+                    original_fm.body,
+                    cleaned_body,
+                    validation,
+                    round_number,
+                    state,
+                    args,
+                    progress,
+                )
+            except RunnerError as exc:
+                pipeline_history.append(
+                    {
+                        "stage": "repair_classification_failed",
+                        "round": round_number,
+                        "error": str(exc),
+                    }
+                )
+                progress.log(
+                    f"phase=repair_classification_failed post={rel_path} "
+                    f"round={round_number} error={exc}"
+                )
+                break
+        if (
+            decision.decision == "formatting_fix"
+            and not validation.checks.get("visible_text_preserved", False)
+        ):
+            decision = RepairDecision(
+                "substantive_change",
+                "local override: formatting candidate also changed authored text",
+            )
+        elif decision.decision == "minor_text_fix" and not validation.ok:
+            decision = RepairDecision(
+                "substantive_change",
+                "local override: minor text change accompanied validation failures",
+            )
+        request_elapsed += classify_elapsed
+        pipeline_history.append(
+            {
+                "stage": "repair_classification",
+                "round": round_number,
+                "decision": decision.decision,
+                "reason": decision.reason,
+                "response_attempt": classify_attempt,
+            }
+        )
+        state.append_event(
+            {
+                "event": "repair_classified",
+                "rel_path": rel_path,
+                "round": round_number,
+                "decision": decision.decision,
+                "reason": decision.reason,
+            }
+        )
+        progress.log(
+            f"phase=repair_classified post={rel_path} round={round_number} "
+            f"decision={decision.decision} reason={decision.reason}"
+        )
+        if decision.decision in {"minor_text_fix", "blocked"}:
+            break
+        try:
+            (
+                repaired_body,
+                repair_report,
+                repair_complete,
+                repair_elapsed,
+                repair_attempt,
+            ) = request_repaired_body(
+                decision.decision,
+                rel_path,
+                original_fm.body,
+                cleaned_body,
+                validation,
+                round_number,
+                state,
+                args,
+                progress,
+            )
+        except RunnerError as exc:
+            pipeline_history.append(
+                {
+                    "stage": "repair_generation_failed",
+                    "round": round_number,
+                    "decision": decision.decision,
+                    "error": str(exc),
+                }
+            )
+            progress.log(
+                f"phase=repair_generation_failed post={rel_path} "
+                f"round={round_number} error={exc}"
+            )
+            break
+        request_elapsed += repair_elapsed
+        pipeline_history.append(
+            {
+                "stage": "repair_generation",
+                "round": round_number,
+                "decision": decision.decision,
+                "complete": repair_complete,
+                "response_attempt": repair_attempt,
+                "model_report": repair_report,
+            }
+        )
+        cleaned_body = repaired_body
+        cleaned_body, typography_fixes = deterministic_typography_restore(
+            original_fm.body,
+            cleaned_body,
+        )
+        if typography_fixes:
+            pipeline_history.append(
+                {
+                    "stage": "deterministic_typography_restore",
+                    "after": f"repair_round_{round_number}",
+                    "fixes": typography_fixes,
+                }
+            )
+            progress.log(
+                f"phase=deterministic_typography_restore post={rel_path} "
+                f"round={round_number} fixes={json.dumps(typography_fixes)}"
+            )
+        model_report = repair_report
+        complete = repair_complete
+        provisional_candidate = rebuild_post_with_body(original, cleaned_body)
+        validation = validate_candidate(
+            original,
+            provisional_candidate,
+            args.include_missing_state,
+            args.review_max_distance,
+            args.review_max_ratio,
+        )
+        if not repair_complete:
+            progress.log(
+                f"phase=repair_incomplete post={rel_path} round={round_number}"
+            )
+        progress.log(
+            f"phase=repair_validated post={rel_path} round={round_number} "
+            f"valid={str(validation.ok).lower()} "
+            f"review={str(validation.review_required).lower()} "
+            f"failures={json.dumps(validation.failures)}"
+        )
+
+    if not complete:
+        validation.failures.append("cleanup remained incomplete after repair rounds")
+        validation.ok = False
+        validation.review_required = False
+
     distance = validation.checks.get("levenshtein_distance")
     ratio = validation.checks.get("levenshtein_ratio")
+    state.save_attempt(
+        rel_path,
+        {
+            "attempt_id": attempt_id,
+            "ollama_elapsed_seconds": round(request_elapsed, 3),
+            "pipeline_history": pipeline_history,
+        },
+    )
     if validation.ok:
         if not isinstance(distance, int) or not isinstance(ratio, (int, float)):
             raise RunnerError("validation passed without exact Levenshtein diagnostics", 2)
@@ -1502,6 +2340,7 @@ def process_post(
         "status": validation_status,
         "rel_path": rel_path,
         "model_report": model_report,
+        "pipeline_history": pipeline_history,
         "validation": dataclasses.asdict(validation),
         "patch_lines": len(diff.splitlines()),
     }
@@ -1787,7 +2626,10 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--request-timeout-seconds", type=int, default=120)
     parser.add_argument("--max-retries", type=int, default=2)
     parser.add_argument("--response-retries", type=int, default=1)
-    parser.add_argument("--review-max-distance", type=int, default=25)
+    parser.add_argument("--repair-rounds", type=int, default=2)
+    parser.add_argument("--repair-max-chars", type=int, default=12_000)
+    parser.add_argument("--repair-diff-max-chars", type=int, default=8_000)
+    parser.add_argument("--review-max-distance", type=int, default=10)
     parser.add_argument("--review-max-ratio", type=float, default=0.01)
     parser.add_argument("--retry-failed", action="store_true")
     parser.add_argument("--stage", action="store_true")
@@ -1818,6 +2660,12 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         parser.error("--limit must be greater than 0")
     if args.response_retries < 0:
         parser.error("--response-retries must be 0 or greater")
+    if args.repair_rounds < 0:
+        parser.error("--repair-rounds must be 0 or greater")
+    if args.repair_max_chars < 1:
+        parser.error("--repair-max-chars must be greater than 0")
+    if args.repair_diff_max_chars < 1:
+        parser.error("--repair-diff-max-chars must be greater than 0")
     if args.review_max_distance < 0:
         parser.error("--review-max-distance must be 0 or greater")
     if not 0 <= args.review_max_ratio <= 1:

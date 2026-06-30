@@ -11,16 +11,25 @@ enclosure:
     - "https://blog.cjtrowbridge.com/wp-content/uploads/2019/07/Making_Sense_159_Annaka.mp3\n69309223\naudio/mpeg\n"
 categories:
     - 'Reading List'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 In [this episode](https://samharris.org/podcasts/159-conscious/) of his podcast, Sam Harris interviews his wife Annaka about her new book, Conscious. This book explores the current state of the art of our knowledge about the nature and purpose of consciousness. In this interview, they go over three main "interesting" questions she poses in the book, and the answers she gives to these questions.
 
 - How could any amount of non-conscious stuff become conscious in certain arrangements?
-- Is there anything we can observe from the outside which proves conclusively that something/someone is conscious? 
+- Is there anything we can observe from the outside which proves conclusively that something/someone is conscious?
     - Locked-in
     - Robots
     - People we see in dreams who don't even exist
 - What is consciousness for/ what does it do?
 
-\[embed\]https://traffic.libsyn.com/wakingup/Making\_Sense\_159\_Annaka.mp3\[/embed\] [Mirror](https://blog.cjtrowbridge.com/wp-content/uploads/2019/07/Making_Sense_159_Annaka.mp3)You can also check out the book itself by clicking on it below. I am planning to set up a book club around this in the coming weeks. Stay tuned! [![Conscious by Annaka Harris](https://blog.cjtrowbridge.com/wp-content/uploads/2019/07/Conscious-by-Annaka-Harris-1-1.jpg)](https://amzn.to/2XNyQCp)
+\[embed\]https://traffic.libsyn.com/wakingup/Making\_Sense\_159\_Annaka.mp3\[/embed\]
+
+[Mirror](https://blog.cjtrowbridge.com/wp-content/uploads/2019/07/Making_Sense_159_Annaka.mp3)
+
+You can also check out the book itself by clicking on it below. I am planning to set up a book club around this in the coming weeks. Stay tuned!
+
+[![Conscious by Annaka Harris](https://blog.cjtrowbridge.com/wp-content/uploads/2019/07/Conscious-by-Annaka-Harris-1-1.jpg)](https://amzn.to/2XNyQCp)

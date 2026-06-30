@@ -50,6 +50,7 @@ python runner/clean_wordpress_posts.py --mode batch --limit 25 --stage
 Expected result:
 
 - Up to 25 eligible posts are attempted in deterministic order.
+- Safe iframe-wrapper and empty-media cleanup is attempted deterministically before Ollama.
 - Per-post cleanup or validation failures are recorded and skipped by default.
 - Successful validated posts are updated and staged.
 - The batch exits `0` if the runner itself remained healthy, even when individual posts failed.
@@ -119,11 +120,30 @@ Reasoning mode is disabled by default in the request body so thinking models ret
 
 Responses are wrapped in nonce-delimited markers. The runner rejects responses that omit or alter those markers, writes the raw response under `runner/.state/responses/`, and leaves the post unchanged.
 
+## Repair Pipeline
+
+Each post runs through a bounded pipeline:
+
+1. Deterministic cleanup simplifies iframe attributes while preserving `src`, removes iframe-only layout wrappers and empty source-less video tags, and restores provable typography/encoding drift from the original.
+2. If deterministic cleanup does not finish the post, the normal AGX cleanup prompt runs from the original body.
+3. A non-exact or invalid candidate is sent to a classification prompt.
+4. The classifier selects `formatting_fix`, `minor_text_fix`, `substantive_change`, `retry_main`, or `blocked`.
+5. Formatting, substantive-change, and retry decisions use separate repair prompts and are revalidated locally.
+6. The cycle stops after `--repair-rounds` or as soon as the candidate validates exactly.
+
+Defaults:
+
+- `--repair-rounds 2`
+- `--repair-max-chars 12000`
+- `--repair-diff-max-chars 8000`
+
+Use `--repair-rounds 0` to reproduce the original single-pass behavior. A `minor_text_fix` remains `conversion_state: review`; AGX classification never promotes nonzero text changes directly to `markdown`. Pipeline decisions and reports are saved with the normal attempt artifacts.
+
 ## Safety Model
 
 The runner does not send YAML front matter to Ollama. It sends only the post body, preserves the complete original front matter locally, and adds only runner-owned state and Levenshtein audit fields after validation.
 
-The runner canonicalizes visible body text by decoding entities, stripping HTML and Markdown formatting syntax, and removing whitespace. It compares canonical strings directly and calculates bounded Levenshtein distance only when they differ.
+The runner canonicalizes visible body text by decoding entities, stripping HTML and Markdown formatting syntax, ignoring recognized WordPress shortcode tags, and removing whitespace. Text enclosed by shortcodes remains part of the comparison. Shortcode tags are also omitted before URL comparison so escaped closing tags do not create false URL changes; URLs and media targets outside shortcode tags remain protected. It compares canonical strings directly and calculates bounded Levenshtein distance only when they differ.
 
 Every applied post receives deterministic audit fields:
 
@@ -135,8 +155,10 @@ cleanup_review_required: false
 
 Candidates are rejected when they:
 
-- Exceed either conservative review control: `--review-max-distance 25` or `--review-max-ratio 0.01`.
+- Exceed either conservative review control: `--review-max-distance 10` or `--review-max-ratio 0.01`.
 - Add, remove, or duplicate URLs, image targets, or embed targets.
+- Change linked-image relationships or add/remove emphasis spans.
+- Leave deterministic export artifacts such as center wrappers, editor fragments, or empty source-less video tags.
 - Change front matter outside runner-owned state and Levenshtein audit fields.
 - Add enough visible text, including image alt text, to exceed the review thresholds.
 

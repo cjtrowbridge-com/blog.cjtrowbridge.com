@@ -11,7 +11,16 @@ enclosure:
 categories:
     - Featured
     - Revisit
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-This is a great and wide-ranging interview. These are two complex and fascinating people. I have been on the fence for a long time about my feelings on her style, but this is the first time I have really felt like I understand her. I think I will follow her more closely from now on and try to appreciate her perspective. Check it out![![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/01/kara-swisher-1-1.jpg)](http://tim.blog/2017/01/26/kara-swisher/)<http://tim.blog/2017/01/26/kara-swisher/>\[embed\]http://traffic.libsyn.com/timferriss/The\_Tim\_Ferriss\_Show\_-\_Kara\_Swisher.mp3\[/embed\]
+This is a great and wide-ranging interview. These are two complex and fascinating people. I have been on the fence for a long time about my feelings on her style, but this is the first time I have really felt like I understand her. I think I will follow her more closely from now on and try to appreciate her perspective. Check it out!
+
+[![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/01/kara-swisher-1-1.jpg)](http://tim.blog/2017/01/26/kara-swisher/)
+
+<http://tim.blog/2017/01/26/kara-swisher/>
+
+\[embed\]http://traffic.libsyn.com/timferriss/The\_Tim\_Ferriss\_Show\_-\_Kara\_Swisher.mp3\[/embed\]
