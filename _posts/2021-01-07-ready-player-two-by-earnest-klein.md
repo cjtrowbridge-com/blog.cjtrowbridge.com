@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=13855'
 permalink: /2021/01/07/ready-player-two-by-earnest-klein/
 categories:
     - 'Reading List'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 This book was really bad. It manages to somehow be worse than the first one. Honestly I wish I had never read either of them.

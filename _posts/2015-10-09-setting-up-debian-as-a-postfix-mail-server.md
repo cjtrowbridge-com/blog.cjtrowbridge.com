@@ -8,7 +8,10 @@ guid: 'http://cjtrowbridge.com/?p=3842'
 permalink: /2015/10/09/setting-up-debian-as-a-postfix-mail-server/
 categories:
     - Projects
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 This post is part of a larger series about [Building a Cloud at Home For Free](http://blog.cjtrowbridge.com/2015/10/04/building-a-cloud-at-home-for-free/) as part of building scalable web applications from the ground up. This post starts at the point of setting the server up to be able to send emails. If you still need to setup your hypervisor and virtual server or install and configure Debian, check out my post [Installing Virtualbox and Debian on Windows 10](http://blog.cjtrowbridge.com/2015/10/04/installing-virtualbox-and-debian-on-windows-10/).
@@ -23,7 +26,7 @@ apt-get -y install postfix
 apt-get -y install mailutils
 ```
 
-</fieldset>Once installation is complete, you will receive the following prompt; <center>[![postfix1](http://blog.cjtrowbridge.com/wp-content/uploads/2015/10/postfix1-465x311.png)](http://blog.cjtrowbridge.com/wp-content/uploads/2015/10/postfix1.png)</center><center>[![postfix2](http://blog.cjtrowbridge.com/wp-content/uploads/2015/10/postfix2-465x310.png)](http://blog.cjtrowbridge.com/wp-content/uploads/2015/10/postfix2.png)</center>In this case, I choose "Internet Site." You will then be prompted to enter the [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name) for the site. There are lots of options for configuring Postfix. [Check out this tutorial if you want more information about postfix...](https://wiki.debian.org/Postfix)First lets edit the config file with the command; <fieldset>```
+</fieldset>Once installation is complete, you will receive the following prompt; [![postfix1](http://blog.cjtrowbridge.com/wp-content/uploads/2015/10/postfix1-465x311.png)](http://blog.cjtrowbridge.com/wp-content/uploads/2015/10/postfix1.png)[![postfix2](http://blog.cjtrowbridge.com/wp-content/uploads/2015/10/postfix2-465x310.png)](http://blog.cjtrowbridge.com/wp-content/uploads/2015/10/postfix2.png)In this case, I choose "Internet Site." You will then be prompted to enter the [FQDN](https://en.wikipedia.org/wiki/Fully_qualified_domain_name) for the site. There are lots of options for configuring Postfix. [Check out this tutorial if you want more information about postfix...](https://wiki.debian.org/Postfix)First lets edit the config file with the command; <fieldset>```
 nano /etc/postfix/main.cf
 ```
 

@@ -10,7 +10,10 @@ categories:
     - Blog
     - 'Reading List'
     - Revisit
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 This has been one of my favorite books since I was a child. When I heard the announcement that this year's theme for Burning Man is going to be "I, Robot," I decided to reread it. It's still one of the best books I've ever read. I can not say this enough, THIS BOOK HAS ALMOST NOTHING TO DO WITH THE TERRIBLE WILL SMITH MOVIE BY THE SAME NAME. ![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/10/i_robot-1-1.jpg)This book was written nearly a century ago, and yet it deals with many of the issues we are starting to face today;

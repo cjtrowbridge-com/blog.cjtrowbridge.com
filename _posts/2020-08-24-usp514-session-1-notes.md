@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=12914'
 permalink: /2020/08/24/usp514-session-1-notes/
 categories:
     - 'USP514 Sustainable Development'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 #### Final Questions
@@ -19,26 +22,26 @@ conversion_state: wordpress
 
 #### Homework Questions for each reading
 
-1. <span class="">Who wrote this article and what was their training?</span>
+1. Who wrote this article and what was their training?
     -
-2. <span class="">How does the article focus on sustainable development?</span>
+2. How does the article focus on sustainable development?
     -
-3. <span class="">What geographic and/or social context/space does the article focus on?</span>
+3. What geographic and/or social context/space does the article focus on?
     -
-4. <span class="">What are the five (5) main points of the article?</span>
+4. What are the five (5) main points of the article?
     1. 
     2. 
     3. 
     4. 
     5.
-5. <span class="">What methods did the authors use to collect information discussed in the article?</span>
+5. What methods did the authors use to collect information discussed in the article?
     -
-6. <span class="">What did you learn from reading the article?</span>
+6. What did you learn from reading the article?
     -
 
 #### Session 1-A Homework Questions
 
-1. <span class="">What approaches do we want to use in this class to encourage and support as many students as possible to participate in class discussions?</span>
+1. What approaches do we want to use in this class to encourage and support as many students as possible to participate in class discussions?
     - Use emojis or type comments in the chat box
     - Raise hands on camera
     - Or just speak
@@ -54,7 +57,7 @@ conversion_state: wordpress
     - Keeping track in you interrupt someone
     - Stack
     - Survey by calling folks by number – polling feature in zoom
-2. <span class="">What guidelines do we want to follow to create a safe and brave classroom space?</span>
+2. What guidelines do we want to follow to create a safe and brave classroom space?
     - speak from i
     - one speaker at a time
     - be respectful 
@@ -64,14 +67,14 @@ conversion_state: wordpress
     - step up step back
     - come in with an open mind
     - personal truth
-3. <span class="">What approaches do we want to use to ensure that students are keeping </span><span class="">up with assigned reading?</span>
+3. What approaches do we want to use to ensure that students are keeping up with assigned reading?
     - Discussing the readings both as a class and as small groups 
         - breakroom room discussions
     - Checking in with students and these questions
-4. <span class="">What approaches do we want to use to maximize our individual and collective well being during the semester we are spending together as a group in this class?</span>
+4. What approaches do we want to use to maximize our individual and collective well being during the semester we are spending together as a group in this class?
     - I usually create a private WhatsApp group chat for students in the class. This establishes a cohort effect where students are able to interact outside of class and rely on one another for support and feedback.
     - I usually triage less valuable assignments to devote limited executive function where its most valuable.
-5. <span class="">What strategies are we using to support our mental and physical health during these challenging times?</span>
+5. What strategies are we using to support our mental and physical health during these challenging times?
     - Use scheduling and task management tools to block out time for all assignments at least a week ahead.
     - Use automated tools to insert any assignments into task and schedule management tools when the assignments are published.
     - Stretch your boddy
@@ -89,9 +92,9 @@ conversion_state: wordpress
 
 #### Session 1-B Homework Questions
 
-<span class="">Without looking at any notes, sources, or references of any kind - write down your</span><span class="" id="yui_3_17_2_1_1598303326512_128"> answers to the 7 questions below and be prepared to discuss them in class:</span>
+Without looking at any notes, sources, or references of any kind - write down your answers to the 7 questions below and be prepared to discuss them in class:
 
-1. <span class="">What challenges top the to-do list of cities around the world?</span>
+1. What challenges top the to-do list of cities around the world?
     - traffic/ freeways
     - housing
     - capital investments
@@ -108,7 +111,7 @@ conversion_state: wordpress
     - making space for nature
     - new technology
     - local/regional planning conflicts
-2. <span class="">What factors affect the way in which cities experience these challenges differently?</span>
+2. What factors affect the way in which cities experience these challenges differently?
     - Race
     - Class
     - Gender
@@ -124,7 +127,7 @@ conversion_state: wordpress
     - Topography
     - Education
     - Sharing ideas - having a network, hub to share what worked and what didn't. -- curitiba/ ippuc
-3. <span class="">What are some of the underlying causes of these challenges?</span>
+3. What are some of the underlying causes of these challenges?
     - Failure of leaderships
     - Generational wealth
     - Generational poverty
@@ -144,22 +147,22 @@ conversion_state: wordpress
                     - Sprawl
     - Unchecked Growth
     - Social inequality
-4. <span class="">What do you think of or how do you define the concept “development”?</span>
+4. What do you think of or how do you define the concept “development”?
     - I define development as the investment of resources in improving other resources.
     - Having a more efficient distribution of resources
     - It needs to have a racial perspective
-5. <span class="">What are the main goals of “development”?</span>
+5. What are the main goals of “development”?
     - To increase the value or utility of limited resources
     - Specifically it should help marginalized communities
     - Inclusive
     - Adjusts with time to changing conditions
     - Recognizing limits
     - Increase efficiency
-6. <span class="">What people or institutions do you think are responsible for promoting </span><span class="">“development”?</span>
+6. What people or institutions do you think are responsible for promoting “development”?
     - Cities, States, Nations
     - Financial institutions
     - Private developers
     - Giving equity and voice to people who have been left out
-7. <span class="">How would you define the concept of "sustainable development"? If you do not have an idea about the concept of sustainable development you can say that the concept is new to you and you will learn about it in class this semester. </span>
+7. How would you define the concept of "sustainable development"? If you do not have an idea about the concept of sustainable development you can say that the concept is new to you and you will learn about it in class this semester. 
     - Sustainable development considers the externalities of the development process and tries to internalize them or minimize them.
     - Ideally, development would be regenerative rather than just sustainable; actually improving the surrounding conditions rather than dumping less externalities on them.

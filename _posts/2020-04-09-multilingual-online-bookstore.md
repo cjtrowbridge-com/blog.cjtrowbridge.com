@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=12682'
 permalink: /2020/04/09/multilingual-online-bookstore/
 categories:
     - Ideas
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 Make a website that let's you easily buy your favorite books in other languages for practice and learning

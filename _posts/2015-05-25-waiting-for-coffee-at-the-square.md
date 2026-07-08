@@ -8,7 +8,10 @@ guid: 'http://cjtrowbridge.com/?p=3042'
 permalink: /2015/05/25/waiting-for-coffee-at-the-square/
 categories:
     - Blog
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-<center>[![Waiting For Coffee at The Square](http://blog.cjtrowbridge.com/wp-content/uploads/2015/05/output_MS7LZc.gif)](http://blog.cjtrowbridge.com/wp-content/uploads/2015/05/output_MS7LZc.gif)</center>
+[![Waiting For Coffee at The Square](http://blog.cjtrowbridge.com/wp-content/uploads/2015/05/output_MS7LZc.gif)](http://blog.cjtrowbridge.com/wp-content/uploads/2015/05/output_MS7LZc.gif)

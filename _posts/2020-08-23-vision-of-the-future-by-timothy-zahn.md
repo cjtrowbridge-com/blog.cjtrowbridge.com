@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=12665'
 permalink: /2020/08/23/vision-of-the-future-by-timothy-zahn/
 categories:
     - 'Reading List'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 This book is REALLY great. Having just finished the first Thrawn trilogy and now the Hand Duology, this book is the best, the pinnacle of the story so far. [![Vision of the Future by Timothy Zahn](https://blog.cjtrowbridge.com/wp-content/uploads/2020/08/Vision-of-the-Future-by-Timothy-Zahn-1-1.jpg)](https://amzn.to/3gGbiWr)I really liked the focus on many interesting characters and the way the stories all tied together. \[Spoilers\] It seems safe to say at this point that Thrawn is actually dead. Next I'll read the second Thrawn trilogy and learn his origin story!

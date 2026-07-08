@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=14303'
 permalink: /2021/09/20/ais-440-week-5-queer-indigenous-studies/
 categories:
     - 'AIS 440 Native Sexuality and Queer Discourse'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 ## **<span class="">Read</span>**

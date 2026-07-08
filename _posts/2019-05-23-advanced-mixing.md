@@ -9,13 +9,18 @@ permalink: /2019/05/23/advanced-mixing/
 categories:
     - Blog
     - 'Learn To DJ'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-2019-06-28 5:30-8:30 [Facebook Event](https://www.facebook.com/events/2371163136489776/)[Slideshow Link](https://docs.google.com/presentation/d/1fqIm9vKT0CpdPFpQQ5WabtiQHipgZWfciWoTJzH2IKU/edit?usp=sharing)Are you DJ-Curious? Comfort &amp; Joy is hosting free DJ workshops for anyone interested in learning this magical art. The workshops will be led by seasoned disc jockeys from very different parts of the DJ industry. You will learn how to set up sound and lighting gear, how to mix music, and how to pick tracks. At this second workshop, we will learn how to set up gear and mix tracks with vinyl and CDJs.
+2019-06-28 5:30-8:30 [Facebook Event](https://www.facebook.com/events/2371163136489776/)[Slideshow Link](https://docs.google.com/presentation/d/1fqIm9vKT0CpdPFpQQ5WabtiQHipgZWfciWoTJzH2IKU/edit?usp=sharing)
+
+Are you DJ-Curious? Comfort &amp; Joy is hosting free DJ workshops for anyone interested in learning this magical art. The workshops will be led by seasoned disc jockeys from very different parts of the DJ industry. You will learn how to set up sound and lighting gear, how to mix music, and how to pick tracks. At this second workshop, we will learn how to set up gear and mix tracks with vinyl and CDJs.
 
 - Meet and Greet
-- Recap controller mixing 
+- Recap controller mixing
     - Beat-match; measure-match; cross-fade
     - Working without visualizations is a lot like vinyl
     - Introduce Level Mixing

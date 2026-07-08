@@ -9,10 +9,15 @@ permalink: /2020/06/04/covid19-progress/
 categories:
     - 'Content Business'
     - Projects
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-I saw an opportunity around the lack of clarity and accessibility for coronavirus statistics. I also saw a lot of misleading claims made by people with an agenda. I wanted to bring clarity to the data and make it easy to understand and compare. And so, [Covid19 Progress](https://cjtrowbridge.com/covid19-progress/) was born! [![covid19-progress](https://blog.cjtrowbridge.com/wp-content/uploads/2020/06/covid19-progress-1-1.jpg)](https://cjtrowbridge.com/covid19-progress/)This simple site allows anyone to log on and compare numbers between any country, and even between states. Rather than giving a total number infected or dead, it reports these things in terms of a percentage of the population. Also interesting is the graphs of change in growth over time. This is part of what inspired the next project, [Corona Country](https://blog.cjtrowbridge.com/2020/06/04/corona-country/). Some of the results are very surprising. For example, while the united states has far more cases than any other country, it is closer to the middle of the pack in terms of percentage of the population infected. Likewise, some states are doing a much better job than others, and this is much easier to see with the tools on this site.
+I saw an opportunity around the lack of clarity and accessibility for coronavirus statistics. I also saw a lot of misleading claims made by people with an agenda. I wanted to bring clarity to the data and make it easy to understand and compare. And so, [Covid19 Progress](https://cjtrowbridge.com/covid19-progress/) was born! [![covid19-progress](https://blog.cjtrowbridge.com/wp-content/uploads/2020/06/covid19-progress-1-1.jpg)](https://cjtrowbridge.com/covid19-progress/)
+
+This simple site allows anyone to log on and compare numbers between any country, and even between states. Rather than giving a total number infected or dead, it reports these things in terms of a percentage of the population. Also interesting is the graphs of change in growth over time. This is part of what inspired the next project, [Corona Country](https://blog.cjtrowbridge.com/2020/06/04/corona-country/). Some of the results are very surprising. For example, while the united states has far more cases than any other country, it is closer to the middle of the pack in terms of percentage of the population infected. Likewise, some states are doing a much better job than others, and this is much easier to see with the tools on this site.
 
 ## Tech Stack
 

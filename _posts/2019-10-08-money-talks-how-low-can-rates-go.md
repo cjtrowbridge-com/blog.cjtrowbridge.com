@@ -9,7 +9,10 @@ permalink: /2019/10/08/money-talks-how-low-can-rates-go/
 categories:
     - Ideas
     - Revisit
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 Money talks: How low can rates go? https://pca.st/i0bc0phd

@@ -8,7 +8,10 @@ guid: 'http://cjtrowbridge.com/?p=3049'
 permalink: /2015/06/01/i-believe-that-for-his-escape-he-took-advantage-of-the-migration-of-a-flock-of-wild-birds-%e2%80%95-antoine-de-saint-exupery/
 categories:
     - Blog
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-<center>[![“I believe that for his escape he took advantage of the migration of a flock of wild birds.” ― Antoine de Saint-Exupéry](http://blog.cjtrowbridge.com/wp-content/uploads/2015/05/littleprincebirds571x850-1-465x566.jpg)](http://blog.cjtrowbridge.com/wp-content/uploads/2015/05/littleprincebirds571x850-1.jpg)</center>
+[![“I believe that for his escape he took advantage of the migration of a flock of wild birds.” ― Antoine de Saint-Exupéry](http://blog.cjtrowbridge.com/wp-content/uploads/2015/05/littleprincebirds571x850-1-465x566.jpg)](http://blog.cjtrowbridge.com/wp-content/uploads/2015/05/littleprincebirds571x850-1.jpg)

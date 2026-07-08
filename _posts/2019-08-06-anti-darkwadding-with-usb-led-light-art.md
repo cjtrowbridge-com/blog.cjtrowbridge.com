@@ -15,10 +15,13 @@ categories:
 tags:
     - '2019 Burning Man'
     - 'Burning Man'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-I've been talking about doing this for a while and I finally pulled the trigger. I will probably safety pin these to bags and costumes throughout the burn. I think these would also be cool inside a [clear backpack](https://amzn.to/2KjEXqr). Check out the video! <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/LzTGbkLYBuI" width="560"></iframe>
+I've been talking about doing this for a while and I finally pulled the trigger. I will probably safety pin these to bags and costumes throughout the burn. I think these would also be cool inside a [clear backpack](https://amzn.to/2KjEXqr). Check out the video! <iframe class="post-embed" src="https://www.youtube.com/embed/LzTGbkLYBuI" loading="lazy"></iframe>
 
 ## Parts List
 

@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=12984'
 permalink: /2020/08/31/usp515-session-2-notes/
 categories:
     - 'USP515 Environmental Justice'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 **<span class="">August 31st and September 2nd</span><span class="">Session Two: Central Concepts</span>**1. <span class="">Bring in written definitions of the following concepts and be prepared to discuss them: class, race, ethnicity, poverty, nature, environment, urban, right, prejudice, discrimination, racism, institutionalized racism, toxics, public health, protection from harm.</span>

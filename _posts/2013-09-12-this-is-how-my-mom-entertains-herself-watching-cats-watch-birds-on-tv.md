@@ -37,7 +37,10 @@ instagram_username:
     - cjtrowbridge
 categories:
     - Instagram
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 [![](http://scontent-a.cdninstagram.com/hphotos-xaf1/outbound-distilleryimage2/t0.0-17/OBPTH/cfad14e41c2411e38cc022000a9f308d_7.jpg)](http://instagram.com/p/eL4DaaLtIa/)
