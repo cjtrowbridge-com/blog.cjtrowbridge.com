@@ -118,13 +118,13 @@ If the Ollama logs show excessive GPU graph allocation, reduce `--ollama-num-ctx
 
 Reasoning mode is disabled by default in the request body so thinking models return visible cleaned Markdown instead of spending the output budget on hidden reasoning. Supply `--ollama-think` only for debugging model behavior.
 
-Responses are wrapped in nonce-delimited markers. The runner rejects responses that omit or alter those markers, writes the raw response under `runner/.state/responses/`, and leaves the post unchanged.
+Responses are wrapped in nonce-delimited markers. The runner rejects responses that omit or alter the cleaned-body markers, writes the raw response under `runner/.state/responses/`, and leaves the post unchanged. If a response contains exactly one valid cleaned-body block but omits the cleanup report block, the runner synthesizes a report and still sends the candidate through local validation.
 
 ## Repair Pipeline
 
 Each post runs through a bounded pipeline:
 
-1. Deterministic cleanup simplifies iframe attributes while preserving `src`, removes iframe-only layout wrappers and empty source-less video tags, and restores provable typography/encoding drift from the original.
+1. Deterministic cleanup simplifies iframe attributes while preserving `src`, removes iframe-only layout wrappers and empty source-less video tags, restores provable typography/encoding drift from the original, separates existing media blocks from prose, and wraps oversized prose lines without changing visible text.
 2. If deterministic cleanup does not finish the post, the normal AGX cleanup prompt runs from the original body.
 3. A non-exact or invalid candidate is sent to a classification prompt.
 4. The classifier selects `formatting_fix`, `minor_text_fix`, `substantive_change`, `retry_main`, or `blocked`.
@@ -166,7 +166,7 @@ Both review thresholds must pass for a nonzero candidate to enter `conversion_st
 
 Imported Instagram posts are handled deterministically without an Ollama call: the existing Markdown body is preserved, the final newline is normalized, and `conversion_state` is updated after validation.
 
-Malformed Ollama response envelopes are retried once by default. Use `--response-retries N` to change that bounded retry count.
+Malformed Ollama response envelopes are retried once by default. Use `--response-retries N` to change that bounded retry count. A missing cleanup report block is not treated as malformed when the cleaned-body block is present exactly once; validation remains the authority for whether the candidate can be applied.
 
 ## Reports
 

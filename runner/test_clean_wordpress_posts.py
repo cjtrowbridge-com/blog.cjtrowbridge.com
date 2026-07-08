@@ -19,12 +19,14 @@ from runner.clean_wordpress_posts import (
     bounded_levenshtein,
     canonical_visible_text,
     deterministic_media_cleanup,
+    deterministic_structural_cleanup,
     deterministic_typography_restore,
     extract_urls,
     format_duration,
     is_instagram_post,
     parse_args,
     parse_front_matter,
+    parse_model_response,
     parse_repair_decision,
     process_post,
     rebuild_post_with_body,
@@ -283,6 +285,36 @@ class ProgressOutputTests(unittest.TestCase):
         self.assertEqual(cleaned, "Before  After\n")
         self.assertIn("removed empty video export artifact", fixes)
 
+    def test_deterministic_structural_cleanup_separates_media_from_prose(self) -> None:
+        body = "Before [![](https://example.com/a.jpg)](https://example.com/a.jpg)After"
+        cleaned, fixes = deterministic_structural_cleanup(body)
+        self.assertIn("separated media blocks from prose", fixes)
+        self.assertEqual(
+            cleaned,
+            "Before\n\n[![](https://example.com/a.jpg)](https://example.com/a.jpg)\n\nAfter\n",
+        )
+        result = validate_candidate(
+            full_post(body),
+            rebuild_post_with_body(full_post(body), cleaned),
+            False,
+        )
+        self.assertTrue(result.ok, result.failures)
+        self.assertEqual(result.checks["levenshtein_distance"], 0)
+
+    def test_deterministic_structural_cleanup_wraps_long_prose_without_text_edits(self) -> None:
+        sentence = "This is a sentence with unchanged authored words."
+        body = " ".join([sentence] * 30)
+        cleaned, fixes = deterministic_structural_cleanup(body)
+        self.assertIn("wrapped long prose lines: 1", fixes)
+        self.assertEqual(canonical_visible_text(body), canonical_visible_text(cleaned))
+        result = validate_candidate(
+            full_post(body),
+            rebuild_post_with_body(full_post(body), cleaned),
+            False,
+        )
+        self.assertTrue(result.ok, result.failures)
+        self.assertEqual(result.checks["long_prose_lines_over_800"], 0)
+
     def test_deterministic_typography_restore_uses_original_evidence(self) -> None:
         original = "I’ve seen it… She said “hello.” Existing I've remains."
         candidate = "I've seen itâ€¦ She said \"hello.\" Existing I've remains."
@@ -433,6 +465,15 @@ class ProgressOutputTests(unittest.TestCase):
         self.assertEqual(cleaned, "Text.\n")
         self.assertTrue(complete)
         self.assertEqual(response_attempt, 2)
+
+    def test_cleaned_body_envelope_can_synthesize_missing_report(self) -> None:
+        cleaned, report, complete = parse_model_response(
+            "BEGIN_CLEANED_BODY abc12345\nText.\nEND_CLEANED_BODY abc12345\n",
+            "abc12345",
+        )
+        self.assertEqual(cleaned, "Text.\n")
+        self.assertTrue(complete)
+        self.assertIn("synthesized by runner", report)
 
     def test_per_run_manifest_tracks_only_current_run(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

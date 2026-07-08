@@ -2,4 +2,4 @@
 
 Format: `last_modified | path | title | summary`
 
-2026-06-30-11-11-07 | plans/current/2026-06-25-18-48-50_build-agx-wordpress-cleanup-runner.md | Build AGX WordPress Cleanup Runner | Create a failure-tolerant, resumable Python runner that uses Ollama on xavier to clean imported WordPress posts one at a time, validate and apply cleaned output, and support safe single-post testing.
+2026-07-08-09-05-19 | plans/current/2026-06-25-18-48-50_build-agx-wordpress-cleanup-runner.md | Build AGX WordPress Cleanup Runner | Create a failure-tolerant, resumable Python runner that uses Ollama on xavier to clean imported WordPress posts one at a time, validate and apply cleaned output, and support safe single-post testing.

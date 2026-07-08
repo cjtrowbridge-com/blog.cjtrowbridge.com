@@ -404,6 +404,111 @@ def deterministic_media_cleanup(body: str) -> tuple[str, list[str]]:
     return text, list(dict.fromkeys(fixes))
 
 
+def split_markdown_media_blocks(body: str) -> tuple[str, list[str]]:
+    fixes: list[str] = []
+    text = body
+    media_patterns = (
+        r"(?:\[[ \t]*)?!\[[^\]]*]\((?:[^()]|\([^()]*\))+\)(?:[ \t]*]\((?:[^()]|\([^()]*\))+\))?",
+        r"<iframe\b[^>]*(?:/\s*>|>.*?</iframe\s*>)",
+        r"<img\b[^>]*>",
+    )
+    media_regex = re.compile("|".join(f"({pattern})" for pattern in media_patterns), re.I | re.S)
+
+    def separate(match: re.Match[str]) -> str:
+        nonlocal fixes
+        media = match.group(0).strip()
+        start = match.start()
+        stop = match.end()
+        before = "\n\n" if start > 0 and not text[:start].endswith("\n\n") else ""
+        after = "\n\n" if stop < len(text) and not text[stop:].startswith("\n\n") else ""
+        if before or after:
+            fixes.append("separated media blocks from prose")
+        return before + media + after
+
+    updated = media_regex.sub(separate, text)
+    if updated != text:
+        updated = re.sub(r"[ \t]+\n", "\n", updated)
+        updated = re.sub(r"\n{3,}", "\n\n", updated)
+    return updated, list(dict.fromkeys(fixes))
+
+
+def wrap_long_prose_lines(body: str, limit: int = 800, target: int = 560) -> tuple[str, list[str]]:
+    fixes: list[str] = []
+    wrapped_lines: list[str] = []
+    in_code = False
+    wrap_count = 0
+    media_line = re.compile(r"^\s*(?:!\[[^\]]*]\(|\[!\[[^\]]*]\(|<iframe\b|<img\b)", re.I)
+    list_line = re.compile(r"^(\s{0,8}(?:[-+*]|\d+[.)])\s+)(.+)$")
+
+    for line in body.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_code = not in_code
+            wrapped_lines.append(line)
+            continue
+        if (
+            in_code
+            or len(line) <= limit
+            or not stripped
+            or stripped.startswith("|")
+            or stripped.startswith("http")
+            or media_line.match(line)
+        ):
+            wrapped_lines.append(line)
+            continue
+
+        prefix = ""
+        content = line
+        list_match = list_line.match(line)
+        if list_match:
+            prefix = " " * len(list_match.group(1))
+            content = list_match.group(2)
+
+        parts: list[str] = []
+        remaining = content.strip()
+        while len(remaining) > limit:
+            split_at = -1
+            for pattern in (r"(?<=[.!?;:])\s+", r"\s+"):
+                candidates = [
+                    match.end()
+                    for match in re.finditer(pattern, remaining[: target + 120])
+                    if match.end() >= max(80, target - 160)
+                ]
+                if candidates:
+                    split_at = candidates[-1]
+                    break
+            if split_at < 1:
+                break
+            parts.append(remaining[:split_at].rstrip())
+            remaining = remaining[split_at:].lstrip()
+        if parts and remaining:
+            parts.append(remaining)
+            wrapped_lines.extend(
+                (prefix + part if index else line[: len(line) - len(line.lstrip())] + part)
+                for index, part in enumerate(parts)
+            )
+            wrap_count += 1
+        else:
+            wrapped_lines.append(line)
+
+    if wrap_count:
+        fixes.append(f"wrapped long prose lines: {wrap_count}")
+    return "\n".join(wrapped_lines) + ("\n" if body.endswith(("\n", "\r\n")) else ""), fixes
+
+
+def deterministic_structural_cleanup(body: str) -> tuple[str, list[str]]:
+    fixes: list[str] = []
+    text, media_fixes = split_markdown_media_blocks(body)
+    fixes.extend(media_fixes)
+    text, wrap_fixes = wrap_long_prose_lines(text)
+    fixes.extend(wrap_fixes)
+    if fixes:
+        text = re.sub(r"[ \t]+\n", "\n", text)
+        text = re.sub(r"\n{3,}", "\n\n", text)
+        text = text.strip("\r\n") + "\n"
+    return text, list(dict.fromkeys(fixes))
+
+
 def deterministic_typography_restore(
     original_body: str,
     candidate_body: str,
@@ -453,6 +558,20 @@ def deterministic_typography_restore(
             restore_exact(original_phrase, ascii_phrase, label)
 
     return text, fixes
+
+
+def apply_post_model_deterministic_fixes(
+    original_body: str,
+    candidate_body: str,
+) -> tuple[str, list[dict[str, Any]]]:
+    history: list[dict[str, Any]] = []
+    text, typography_fixes = deterministic_typography_restore(original_body, candidate_body)
+    if typography_fixes:
+        history.append({"stage": "deterministic_typography_restore", "fixes": typography_fixes})
+    text, structural_fixes = deterministic_structural_cleanup(text)
+    if structural_fixes:
+        history.append({"stage": "deterministic_structural_cleanup", "fixes": structural_fixes})
+    return text, history
 
 
 def normalize_url(value: str) -> str:
@@ -580,6 +699,11 @@ def canonical_visible_text(body: str) -> str:
     text = WORDPRESS_SHORTCODE_TAG_PATTERN.sub("", text)
     text = re.sub(r"(?<!\S)#{1,6}\s+", "", text)
     text = re.sub(r"(?<=\))#{1,6}\s+", "", text)
+    text = re.sub(
+        r"\[!\[([^\]]*)]\((?:[^()]|\([^()]*\))+\)]\((?:[^()]|\([^()]*\))+\)",
+        lambda match: match.group(1),
+        text,
+    )
     text = re.sub(
         r"(?<![A-Za-z0-9])!\[([^\]]*)]\((?:[^()]|\([^()]*\))+\)",
         lambda match: match.group(1),
@@ -1672,7 +1796,13 @@ def parse_model_response(text: str, nonce: str) -> tuple[str, str, bool]:
     if cleaned is None:
         raise RunnerError("model response did not contain exactly one cleaned body block", 1)
     if report is None:
-        raise RunnerError("model response did not contain exactly one cleanup report block", 1)
+        report = (
+            "complete: true\n"
+            "fixed:\n"
+            "- model omitted cleanup report; runner accepted cleaned body for validation\n"
+            "validation_notes:\n"
+            "- synthesized by runner after exact cleaned-body envelope was present\n"
+        )
     complete_match = re.search(r"(?im)^\s*complete\s*:\s*(true|false)\s*$", report)
     if not complete_match:
         raise RunnerError("cleanup report did not include complete: true|false", 1)
@@ -2067,21 +2197,16 @@ def process_post(
                 state.append_event({"event": status, "rel_path": rel_path, "error": str(exc)})
                 progress.log(f"phase=failure post={rel_path} reason={exc}")
                 return "failure"
-            cleaned_body, typography_fixes = deterministic_typography_restore(
+            cleaned_body, deterministic_fix_history = apply_post_model_deterministic_fixes(
                 original_fm.body,
                 cleaned_body,
             )
-            if typography_fixes:
-                pipeline_history.append(
-                    {
-                        "stage": "deterministic_typography_restore",
-                        "after": "main_cleanup",
-                        "fixes": typography_fixes,
-                    }
-                )
+            for fix_entry in deterministic_fix_history:
+                fix_entry["after"] = "main_cleanup"
+                pipeline_history.append(fix_entry)
                 progress.log(
-                    f"phase=deterministic_typography_restore post={rel_path} "
-                    f"fixes={json.dumps(typography_fixes)}"
+                    f"phase={fix_entry['stage']} post={rel_path} "
+                    f"fixes={json.dumps(fix_entry['fixes'])}"
                 )
             pipeline_history.append(
                 {
@@ -2252,22 +2377,16 @@ def process_post(
                 "model_report": repair_report,
             }
         )
-        cleaned_body = repaired_body
-        cleaned_body, typography_fixes = deterministic_typography_restore(
+        cleaned_body, deterministic_fix_history = apply_post_model_deterministic_fixes(
             original_fm.body,
-            cleaned_body,
+            repaired_body,
         )
-        if typography_fixes:
-            pipeline_history.append(
-                {
-                    "stage": "deterministic_typography_restore",
-                    "after": f"repair_round_{round_number}",
-                    "fixes": typography_fixes,
-                }
-            )
+        for fix_entry in deterministic_fix_history:
+            fix_entry["after"] = f"repair_round_{round_number}"
+            pipeline_history.append(fix_entry)
             progress.log(
-                f"phase=deterministic_typography_restore post={rel_path} "
-                f"round={round_number} fixes={json.dumps(typography_fixes)}"
+                f"phase={fix_entry['stage']} post={rel_path} "
+                f"round={round_number} fixes={json.dumps(fix_entry['fixes'])}"
             )
         model_report = repair_report
         complete = repair_complete

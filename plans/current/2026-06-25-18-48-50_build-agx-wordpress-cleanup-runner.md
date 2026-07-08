@@ -498,7 +498,27 @@ python runner/clean_wordpress_posts.py --mode report
   - [x] 17.4 Audit all 152 distance-zero Ollama candidates for formatting-semantic changes outside visible-text comparison.
   - [x] 17.5 Unstage 45 distance-zero candidates with unresolved wrappers, shortcodes, export noise, inferred emphasis, broken linked-image structure, or incomplete Markdown lists.
   - [x] 17.6 Retain 1,251 conservative candidates: 1,144 deterministic Instagram posts and 107 audited distance-zero Ollama edits.
-  - [x] 17.7 Verify staged scope, runner tests, diff whitespace, and absence of staged review-state posts before commit.
+  - [x] 17.7 Ignore recognized WordPress shortcode tags during visible-text comparison while retaining enclosed text and non-shortcode media-target validation.
+  - [x] 17.8 Verify staged scope, runner tests, diff whitespace, and absence of staged review-state posts before commit.
+  - [x] 17.9 Manually audit, conservatively clean, validate at distance zero, and stage all 12 shortcode-containing posts while preserving their shortcode syntax.
+
+18. [x] Add a bounded multi-stage repair pipeline for second-wave cleanup.
+  - [x] 18.1 Add deterministic iframe simplification, iframe-only wrapper removal, empty source-less video cleanup, and evidence-based typography restoration.
+  - [x] 18.2 Reject unresolved export artifacts, changed linked-image relationships, and inferred emphasis.
+  - [x] 18.3 Add AGX classification for formatting fixes, minor text fixes, substantive changes, main-prompt retries, and blocked cases.
+  - [x] 18.4 Add specialized formatting, restoration, and restart prompts that retain the original body as authority.
+  - [x] 18.5 Bound repair rounds and prompt sizes with CLI controls and persist pipeline history in attempt reports.
+  - [x] 18.6 Lower the default review ceiling to distance 10 while retaining the 1 percent ratio cap.
+  - [x] 18.7 Add deterministic, structural-validation, classifier-envelope, and repair-branch regression tests.
+
+19. [x] Harden the runner after the completed incomplete-post retry batch.
+  - [x] 19.1 Commit and push 145 staged `conversion_state: markdown` posts after unstaging all `cleanup_review_required: true` posts.
+  - [x] 19.2 Review saved runner reports and confirm the largest unresolved classes are long prose lines, response-envelope/report omissions, incomplete repair rounds, visible-text changes, and media/emphasis validation failures.
+  - [x] 19.3 Add deterministic structural cleanup that separates existing Markdown/HTML media blocks from prose and wraps oversized prose lines without changing canonical visible text.
+  - [x] 19.4 Fix canonical visible-text normalization for linked-image Markdown before plain-image normalization.
+  - [x] 19.5 Accept exactly one cleaned-body response block with a missing cleanup report by synthesizing a local report and letting validation decide.
+  - [x] 19.6 Document the deterministic structural pass and cleanup-report fallback in `runner/README.md`.
+  - [x] 19.7 Add regression tests for media separation, long-line wrapping, and missing-report response parsing.
 
 ## Success Criteria
 
