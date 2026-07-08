@@ -18,6 +18,7 @@ from runner.clean_wordpress_posts import (
     RunnerState,
     bounded_levenshtein,
     canonical_visible_text,
+    classify_failure,
     deterministic_media_cleanup,
     deterministic_structural_cleanup,
     deterministic_typography_restore,
@@ -28,6 +29,7 @@ from runner.clean_wordpress_posts import (
     parse_front_matter,
     parse_model_response,
     parse_repair_decision,
+    recommended_next_action,
     process_post,
     rebuild_post_with_body,
     request_cleaned_body,
@@ -128,6 +130,25 @@ class ProgressOutputTests(unittest.TestCase):
                 parse_args(["--mode", "inventory", "--model", "cli-model"]).model,
                 "cli-model",
             )
+
+    def test_failure_class_requires_retry_failed(self) -> None:
+        with self.assertRaises(SystemExit):
+            parse_args(["--mode", "batch", "--failure-class", "long_lines"])
+        args = parse_args(["--mode", "batch", "--retry-failed", "--failure-class", "long_lines"])
+        self.assertEqual(args.failure_class, "long_lines")
+
+    def test_failure_classification_and_recommendations_are_stable(self) -> None:
+        self.assertEqual(
+            classify_failure(
+                "cleanup_failed",
+                "model response envelope failed after 2 attempts: model response did not contain exactly one cleaned body block",
+            ),
+            "missing_cleaned_body_envelope",
+        )
+        self.assertIn(
+            "deterministic",
+            recommended_next_action("long_lines"),
+        )
 
     def test_last_run_log_replaces_and_tees_both_streams_immediately(self) -> None:
         console_out = io.StringIO()
@@ -645,7 +666,7 @@ class ProgressOutputTests(unittest.TestCase):
                     mock.Mock(),
                 )
             self.assertEqual(result, "success")
-            self.assertEqual(repair.call_args.args[0], "substantive_change")
+            self.assertEqual(repair.call_args.args[0], "restore_visible_text")
             candidate_path = (
                 state.candidates_dir / f"{state.attempt_id(post_info.rel_path)}.md"
             )

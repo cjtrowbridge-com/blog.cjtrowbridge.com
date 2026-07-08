@@ -39,7 +39,30 @@ REPAIR_DECISIONS = {
     "minor_text_fix",
     "substantive_change",
     "retry_main",
+    "restore_media_relationships",
+    "remove_inferred_emphasis",
+    "restore_visible_text",
+    "complete_remaining_structure",
     "blocked",
+}
+FAILURE_CLASSES = {
+    "missing_cleaned_body_envelope",
+    "missing_cleanup_report_envelope",
+    "long_lines",
+    "media_spacing",
+    "inline_headings",
+    "section_label_glue",
+    "media_relationships",
+    "emphasis_drift",
+    "visible_text_drift",
+    "export_artifacts",
+    "wordpress_wrappers",
+    "incomplete_cleanup",
+    "oversized",
+    "apply_or_stage",
+    "ollama_transport",
+    "mixed_validation",
+    "unknown",
 }
 SECTION_LABELS = (
     "Works Cited",
@@ -1098,7 +1121,12 @@ class RunnerState:
         existing = self.load_attempt(rel_path) or {}
         merged = {**existing, **data, "rel_path": rel_path, "updated_at": now_iso()}
         if "status" in data:
-            for stale_key in ("error", "validation_failures"):
+            for stale_key in (
+                "error",
+                "validation_failures",
+                "failure_class",
+                "recommended_next_action",
+            ):
                 if stale_key not in data:
                     merged.pop(stale_key, None)
         atomic_write_json(self.attempts_dir / f"{self.attempt_id(rel_path)}.json", merged)
@@ -1147,6 +1175,7 @@ class RunnerState:
             "dry_run": args.dry_run,
             "stage": args.stage,
             "retry_failed": args.retry_failed,
+            "failure_class": getattr(args, "failure_class", None),
             "requested_limit": args.limit,
             "selected_count": len(candidates),
             "selected_paths": [post.rel_path for post in candidates],
@@ -1175,6 +1204,7 @@ class RunnerState:
                 "elapsed_seconds": round(elapsed_seconds, 3),
                 "levenshtein_distance": attempt.get("levenshtein_distance"),
                 "levenshtein_ratio": attempt.get("levenshtein_ratio"),
+                "failure_class": attempt.get("failure_class"),
             }
         )
         run["attempted"] += 1
@@ -1211,18 +1241,25 @@ class RunnerState:
             "failures": 0,
             "skipped": 0,
             "by_status": {},
+            "by_failure_class": {},
         }
         if not self.attempts_dir.exists():
             return summary
         for path in self.attempts_dir.glob("*.json"):
+            failure_class = None
             try:
                 data = json.loads(path.read_text(encoding="utf-8"))
             except json.JSONDecodeError:
                 status = "state_malformed"
             else:
                 status = data.get("status", "unknown")
+                failure_class = data.get("failure_class")
             summary["attempts"] += 1
             summary["by_status"][status] = summary["by_status"].get(status, 0) + 1
+            if isinstance(failure_class, str):
+                summary["by_failure_class"][failure_class] = (
+                    summary["by_failure_class"].get(failure_class, 0) + 1
+                )
             if status in {"applied", "dry_run_validated", "staged"}:
                 summary["successes"] += 1
             elif status in {"review_applied", "dry_run_review", "review_staged"}:
@@ -1410,6 +1447,14 @@ def is_post_failed(state: RunnerState, rel_path: str) -> bool:
     }
 
 
+def post_failure_class(state: RunnerState, rel_path: str) -> str | None:
+    attempt = state.load_attempt(rel_path)
+    if not attempt:
+        return None
+    value = attempt.get("failure_class")
+    return value if isinstance(value, str) else None
+
+
 def eligible_posts(posts: list[PostInfo], state: RunnerState, args: argparse.Namespace) -> list[PostInfo]:
     selected: list[PostInfo] = []
     for post in posts:
@@ -1422,8 +1467,11 @@ def eligible_posts(posts: list[PostInfo], state: RunnerState, args: argparse.Nam
             continue
         if fm.conversion_state not in {"wordpress", None}:
             continue
-        if is_post_failed(state, post.rel_path) and not args.retry_failed:
-            continue
+        if is_post_failed(state, post.rel_path):
+            if not args.retry_failed:
+                continue
+            if args.failure_class and post_failure_class(state, post.rel_path) != args.failure_class:
+                continue
         selected.append(post)
     return selected
 
@@ -1577,11 +1625,20 @@ def call_ollama_with_retries(
     raise RunnerError(f"ollama request failed after retries: {last_error}", 3)
 
 
-def build_prompt(rel_path: str, post_body: str, nonce: str) -> str:
+def build_prompt(rel_path: str, post_body: str, nonce: str, strict_envelope: bool = False) -> str:
+    strict_rules = ""
+    if strict_envelope:
+        strict_rules = """
+Strict retry instructions:
+- Your previous response did not satisfy the parser.
+- Return only the two required envelope blocks.
+- Do not include any explanation, preface, code fence, or text before, between, or after the envelope blocks.
+- The BEGIN/END marker lines must match the nonce exactly."""
     return f"""Clean this WordPress-exported Markdown body.
 
 POST_PATH={rel_path}
 PROMPT_VERSION={PROMPT_VERSION}
+{strict_rules}
 
 Rules:
 - Return exactly one cleaned Markdown body without YAML front matter.
@@ -1659,6 +1716,182 @@ def validation_diagnostics(validation: ValidationResult) -> str:
     return json.dumps(payload, indent=2, sort_keys=True)
 
 
+def classify_failure(
+    status: str,
+    error: str = "",
+    validation: ValidationResult | None = None,
+    failures: list[str] | None = None,
+) -> str:
+    failure_texts = failures if failures is not None else (validation.failures if validation else [])
+    joined = " ".join([error, *failure_texts])
+    if status == "oversized_skipped" or "exceeds --single-pass-max-chars" in joined:
+        return "oversized"
+    if "did not contain exactly one cleaned body block" in joined:
+        return "missing_cleaned_body_envelope"
+    if "did not contain exactly one cleanup report block" in joined:
+        return "missing_cleanup_report_envelope"
+    if status == "ollama_failed":
+        return "ollama_transport"
+    if status in {"apply_failed", "stage_failed"}:
+        return "apply_or_stage"
+    checks = validation.checks if validation else {}
+    if validation:
+        structural = {
+            "long_lines": bool(checks.get("long_prose_lines_over_800")),
+            "media_spacing": bool(checks.get("media_spacing_failure_lines")),
+            "inline_headings": bool(checks.get("inline_heading_failure_lines")),
+            "section_label_glue": bool(checks.get("section_label_glue_lines")),
+        }
+        active_structural = [name for name, active in structural.items() if active]
+        non_structural = any(
+            checks.get(key)
+            for key in (
+                "missing_urls",
+                "added_urls",
+                "missing_images",
+                "added_images",
+                "missing_linked_image_pairs",
+                "added_linked_image_pairs",
+                "missing_embeds",
+                "added_embeds",
+                "missing_emphasis_spans",
+                "added_emphasis_spans",
+                "remaining_wordpress_wrappers",
+                "remaining_copied_ui_wrappers",
+                "remaining_export_artifacts",
+            )
+        ) or not checks.get("visible_text_preserved", True)
+        if active_structural and not non_structural:
+            return active_structural[0] if len(active_structural) == 1 else "mixed_validation"
+        if any(checks.get(key) for key in ("missing_urls", "added_urls", "missing_images", "added_images", "missing_linked_image_pairs", "added_linked_image_pairs", "missing_embeds", "added_embeds")):
+            return "media_relationships"
+        if any(checks.get(key) for key in ("missing_emphasis_spans", "added_emphasis_spans")):
+            return "emphasis_drift"
+        if checks.get("remaining_export_artifacts"):
+            return "export_artifacts"
+        if any(checks.get(key) for key in ("remaining_wordpress_wrappers", "remaining_copied_ui_wrappers")):
+            return "wordpress_wrappers"
+        if not checks.get("visible_text_preserved", True):
+            return "visible_text_drift"
+    if "cleanup remained incomplete" in joined:
+        return "incomplete_cleanup"
+    if "long prose lines" in joined:
+        return "long_lines"
+    if "media blocks are not separated" in joined:
+        return "media_spacing"
+    if "headings appear inline" in joined:
+        return "inline_headings"
+    if "section labels appear glued" in joined:
+        return "section_label_glue"
+    if "removed URLs" in joined or "image targets" in joined or "linked-image" in joined or "embed targets" in joined:
+        return "media_relationships"
+    if "emphasis spans" in joined:
+        return "emphasis_drift"
+    if "visible text" in joined:
+        return "visible_text_drift"
+    if "export artifacts" in joined:
+        return "export_artifacts"
+    if "wrapper" in joined:
+        return "wordpress_wrappers"
+    return "unknown"
+
+
+def recommended_next_action(failure_class: str) -> str:
+    return {
+        "missing_cleaned_body_envelope": "retry with the strict envelope prompt or chunked cleanup",
+        "missing_cleanup_report_envelope": "reuse the cleaned-body block and validate locally",
+        "long_lines": "run deterministic structural wrapping before AGX repair",
+        "media_spacing": "run deterministic media block separation before AGX repair",
+        "inline_headings": "run complete_remaining_structure repair",
+        "section_label_glue": "run complete_remaining_structure repair",
+        "media_relationships": "run restore_media_relationships repair",
+        "emphasis_drift": "run remove_inferred_emphasis repair",
+        "visible_text_drift": "run restore_visible_text repair",
+        "export_artifacts": "run complete_remaining_structure repair",
+        "wordpress_wrappers": "run complete_remaining_structure repair",
+        "incomplete_cleanup": "retry main cleanup or chunk if envelope/context pressure recurs",
+        "oversized": "use chunked cleanup once implemented",
+        "apply_or_stage": "inspect worktree and retry after resolving local file state",
+        "ollama_transport": "retry after confirming xavier/Ollama health",
+        "mixed_validation": "use targeted local override rules in priority order",
+        "unknown": "inspect saved candidate, response, and validation report manually",
+    }[failure_class]
+
+
+def local_repair_decision(validation: ValidationResult, complete: bool) -> RepairDecision | None:
+    if not complete:
+        return RepairDecision("retry_main", "prior cleanup stage reported complete: false")
+    checks = validation.checks
+    structural_only = (
+        not checks.get("visible_text_preserved", True)
+    ) is False and not any(
+        checks.get(key)
+        for key in (
+            "missing_urls",
+            "added_urls",
+            "missing_images",
+            "added_images",
+            "missing_linked_image_pairs",
+            "added_linked_image_pairs",
+            "missing_embeds",
+            "added_embeds",
+            "missing_emphasis_spans",
+            "added_emphasis_spans",
+        )
+    )
+    if any(checks.get(key) for key in ("missing_urls", "added_urls", "missing_images", "added_images", "missing_linked_image_pairs", "added_linked_image_pairs", "missing_embeds", "added_embeds")):
+        return RepairDecision("restore_media_relationships", "local override: URL, image, embed, or linked-image relationship changed")
+    if any(checks.get(key) for key in ("missing_emphasis_spans", "added_emphasis_spans")):
+        return RepairDecision("remove_inferred_emphasis", "local override: emphasis spans changed")
+    if not checks.get("visible_text_preserved", True):
+        return RepairDecision("restore_visible_text", "local override: visible text changed beyond exact preservation")
+    if structural_only and any(
+        checks.get(key)
+        for key in (
+            "long_prose_lines_over_800",
+            "media_spacing_failure_lines",
+            "inline_heading_failure_lines",
+            "section_label_glue_lines",
+            "remaining_export_artifacts",
+            "remaining_wordpress_wrappers",
+            "remaining_copied_ui_wrappers",
+        )
+    ):
+        return RepairDecision("complete_remaining_structure", "local override: only structural cleanup failures remain")
+    return None
+
+
+def try_deterministic_salvage(
+    original: str,
+    original_body: str,
+    cleaned_body: str,
+    include_missing_state: bool,
+    review_max_distance: int,
+    review_max_ratio: float,
+) -> tuple[str, ValidationResult, list[str]] | None:
+    salvaged_body, fixes = deterministic_structural_cleanup(cleaned_body)
+    if not fixes or salvaged_body == cleaned_body:
+        return None
+    salvaged_candidate = rebuild_post_with_body(original, salvaged_body)
+    salvaged_validation = validate_candidate(
+        original,
+        salvaged_candidate,
+        include_missing_state,
+        review_max_distance,
+        review_max_ratio,
+    )
+    if salvaged_validation.ok:
+        return salvaged_body, salvaged_validation, fixes
+    if classify_failure("validation_failed", validation=salvaged_validation) in {
+        "long_lines",
+        "media_spacing",
+        "inline_headings",
+        "section_label_glue",
+    }:
+        return salvaged_body, salvaged_validation, fixes
+    return None
+
+
 def build_classification_prompt(
     rel_path: str,
     original_body: str,
@@ -1680,6 +1913,10 @@ Choose exactly one decision:
 - minor_text_fix: the candidate made a small, apparently intentional typo or punctuation correction that should remain human review.
 - substantive_change: authored letters, words, punctuation, order, links, or media relationships changed and must be restored from the original.
 - retry_main: the candidate missed broad cleanup work or is malformed enough that cleanup should restart from the original.
+- restore_media_relationships: URL, image, embed, or linked-image relationships changed and must be restored exactly.
+- remove_inferred_emphasis: emphasis spans were added or removed and must match the original exactly.
+- restore_visible_text: visible text changed and exact original characters must be restored.
+- complete_remaining_structure: only structural Markdown cleanup remains after content validation.
 - blocked: the correct repair is ambiguous and should not be automated.
 
 Rules:
@@ -1691,7 +1928,7 @@ Rules:
 
 Response envelope:
 BEGIN_REPAIR_DECISION {nonce}
-decision: formatting_fix|minor_text_fix|substantive_change|retry_main|blocked
+decision: formatting_fix|minor_text_fix|substantive_change|retry_main|restore_media_relationships|remove_inferred_emphasis|restore_visible_text|complete_remaining_structure|blocked
 reason: [one concise line]
 END_REPAIR_DECISION {nonce}
 
@@ -1732,6 +1969,31 @@ def build_repair_prompt(
 - Disregard the candidate except for the local validation failures.
 - Perform the main formatting cleanup conservatively.
 - If any repair is ambiguous, return complete: false."""
+    elif decision == "restore_media_relationships":
+        task = """Restore media and URL relationships exactly.
+- Start from the candidate only where its formatting is safe.
+- Restore every original URL occurrence, image target, embed target, and linked-image nesting exactly.
+- Do not substitute resized image URLs or alternate filenames.
+- Preserve each URL's original role: plain link, image target, outer linked-image target, or iframe src."""
+    elif decision == "remove_inferred_emphasis":
+        task = """Restore emphasis spans exactly.
+- Start from the candidate only where its formatting is safe.
+- Remove any emphasis marker added by the candidate unless the exact span existed in the original.
+- Re-add any original emphasis span the candidate removed.
+- Do not infer headings, bold labels, italics, or semantic emphasis."""
+    elif decision == "restore_visible_text":
+        task = """Restore visible authored text exactly.
+- Start from the candidate only where its formatting is safe.
+- Use local validation's visible_text_edits to replace candidate characters with the exact original characters.
+- Preserve safe line breaks and wrapper cleanup only when visible text remains byte-for-byte equivalent after normalization.
+- Do not correct spelling, punctuation, quotes, capitalization, formulas, or symbols."""
+    elif decision == "complete_remaining_structure":
+        task = """Complete structural Markdown cleanup only.
+- Preserve visible authored text exactly.
+- Split long prose lines at sentence or space boundaries only.
+- Put media blocks and headings on their own lines.
+- Make section labels standalone.
+- Remove unresolved WordPress/export wrappers while preserving their content."""
     else:
         raise ValueError(f"unsupported repair decision: {decision}")
 
@@ -1844,7 +2106,12 @@ def request_cleaned_body(
             rel_path,
             {"response_nonce": nonce, "response_attempt": response_attempt},
         )
-        prompt = build_prompt(rel_path, post_body, nonce)
+        prompt = build_prompt(
+            rel_path,
+            post_body,
+            nonce,
+            strict_envelope=response_attempt > 1,
+        )
         state.append_event(
             {
                 "event": "ollama_request_started",
@@ -2097,8 +2364,24 @@ def process_post(
             f"post body length {len(original_fm.body)} exceeds "
             f"--single-pass-max-chars {args.single_pass_max_chars}"
         )
-        report = {"status": "oversized_skipped", "rel_path": rel_path, "reason": reason}
-        state.save_attempt(rel_path, {"attempt_id": attempt_id, "status": "oversized_skipped", "reason": reason})
+        failure_class = classify_failure("oversized_skipped", reason)
+        report = {
+            "status": "oversized_skipped",
+            "rel_path": rel_path,
+            "reason": reason,
+            "failure_class": failure_class,
+            "recommended_next_action": recommended_next_action(failure_class),
+        }
+        state.save_attempt(
+            rel_path,
+            {
+                "attempt_id": attempt_id,
+                "status": "oversized_skipped",
+                "reason": reason,
+                "failure_class": failure_class,
+                "recommended_next_action": recommended_next_action(failure_class),
+            },
+        )
         state.save_report(rel_path, report)
         state.append_event({"event": "skipped_oversized", "rel_path": rel_path, "reason": reason})
         progress.log(f"phase=failure post={rel_path} reason={reason}")
@@ -2189,11 +2472,27 @@ def process_post(
                 )
             except RunnerError as exc:
                 status = "ollama_failed" if exc.exit_code == 3 else "cleanup_failed"
+                failure_class = classify_failure(status, str(exc))
                 state.save_attempt(
                     rel_path,
-                    {"attempt_id": attempt_id, "status": status, "error": str(exc)},
+                    {
+                        "attempt_id": attempt_id,
+                        "status": status,
+                        "error": str(exc),
+                        "failure_class": failure_class,
+                        "recommended_next_action": recommended_next_action(failure_class),
+                    },
                 )
-                state.save_report(rel_path, {"status": status, "rel_path": rel_path, "error": str(exc)})
+                state.save_report(
+                    rel_path,
+                    {
+                        "status": status,
+                        "rel_path": rel_path,
+                        "error": str(exc),
+                        "failure_class": failure_class,
+                        "recommended_next_action": recommended_next_action(failure_class),
+                    },
+                )
                 state.append_event({"event": status, "rel_path": rel_path, "error": str(exc)})
                 progress.log(f"phase=failure post={rel_path} reason={exc}")
                 return "failure"
@@ -2241,6 +2540,28 @@ def process_post(
         args.review_max_distance,
         args.review_max_ratio,
     )
+    salvage = try_deterministic_salvage(
+        original,
+        original_fm.body,
+        cleaned_body,
+        args.include_missing_state,
+        args.review_max_distance,
+        args.review_max_ratio,
+    )
+    if salvage is not None:
+        cleaned_body, validation, salvage_fixes = salvage
+        pipeline_history.append(
+            {
+                "stage": "deterministic_candidate_salvage",
+                "after": "initial_validation",
+                "fixes": salvage_fixes,
+                "valid": validation.ok,
+            }
+        )
+        progress.log(
+            f"phase=deterministic_candidate_salvage post={rel_path} "
+            f"fixes={json.dumps(salvage_fixes)} valid={str(validation.ok).lower()}"
+        )
 
     repair_rounds = getattr(args, "repair_rounds", 0)
     repair_max_chars = getattr(args, "repair_max_chars", 12_000)
@@ -2264,11 +2585,9 @@ def process_post(
                 f"combined_chars={combined_chars} limit={repair_max_chars}"
             )
             break
-        if not complete:
-            decision = RepairDecision(
-                "retry_main",
-                "prior cleanup stage reported complete: false",
-            )
+        local_decision = local_repair_decision(validation, complete)
+        if local_decision is not None:
+            decision = local_decision
             classify_elapsed = 0.0
             classify_attempt = 0
         else:
@@ -2398,6 +2717,29 @@ def process_post(
             args.review_max_distance,
             args.review_max_ratio,
         )
+        salvage = try_deterministic_salvage(
+            original,
+            original_fm.body,
+            cleaned_body,
+            args.include_missing_state,
+            args.review_max_distance,
+            args.review_max_ratio,
+        )
+        if salvage is not None:
+            cleaned_body, validation, salvage_fixes = salvage
+            pipeline_history.append(
+                {
+                    "stage": "deterministic_candidate_salvage",
+                    "after": f"repair_round_{round_number}_validation",
+                    "fixes": salvage_fixes,
+                    "valid": validation.ok,
+                }
+            )
+            progress.log(
+                f"phase=deterministic_candidate_salvage post={rel_path} "
+                f"round={round_number} fixes={json.dumps(salvage_fixes)} "
+                f"valid={str(validation.ok).lower()}"
+            )
         if not repair_complete:
             progress.log(
                 f"phase=repair_incomplete post={rel_path} round={round_number}"
@@ -2463,6 +2805,10 @@ def process_post(
         "validation": dataclasses.asdict(validation),
         "patch_lines": len(diff.splitlines()),
     }
+    if not validation.ok:
+        failure_class = classify_failure("validation_failed", validation=validation)
+        report["failure_class"] = failure_class
+        report["recommended_next_action"] = recommended_next_action(failure_class)
 
     if not validation.ok:
         state.save_attempt(
@@ -2473,6 +2819,8 @@ def process_post(
                 "validation_failures": validation.failures,
                 "levenshtein_distance": distance,
                 "levenshtein_ratio": ratio,
+                "failure_class": failure_class,
+                "recommended_next_action": recommended_next_action(failure_class),
             },
         )
         state.save_report(rel_path, report)
@@ -2508,8 +2856,27 @@ def process_post(
 
     current_hash = sha256_text(read_text(post.path))
     if current_hash != original_hash:
-        state.save_attempt(rel_path, {"attempt_id": attempt_id, "status": "apply_failed", "error": "target changed during processing"})
-        state.save_report(rel_path, {"status": "apply_failed", "rel_path": rel_path, "error": "target changed during processing"})
+        failure_class = classify_failure("apply_failed", "target changed during processing")
+        state.save_attempt(
+            rel_path,
+            {
+                "attempt_id": attempt_id,
+                "status": "apply_failed",
+                "error": "target changed during processing",
+                "failure_class": failure_class,
+                "recommended_next_action": recommended_next_action(failure_class),
+            },
+        )
+        state.save_report(
+            rel_path,
+            {
+                "status": "apply_failed",
+                "rel_path": rel_path,
+                "error": "target changed during processing",
+                "failure_class": failure_class,
+                "recommended_next_action": recommended_next_action(failure_class),
+            },
+        )
         state.append_event({"event": "apply_failed", "rel_path": rel_path, "error": "target changed during processing"})
         progress.log(f"phase=failure post={rel_path} reason=target_changed_during_processing")
         return "failure"
@@ -2540,7 +2907,17 @@ def process_post(
         try:
             stage_file(repo_root, rel_path)
         except RunnerError as exc:
-            state.save_attempt(rel_path, {"attempt_id": attempt_id, "status": "stage_failed", "error": str(exc)})
+            failure_class = classify_failure("stage_failed", str(exc))
+            state.save_attempt(
+                rel_path,
+                {
+                    "attempt_id": attempt_id,
+                    "status": "stage_failed",
+                    "error": str(exc),
+                    "failure_class": failure_class,
+                    "recommended_next_action": recommended_next_action(failure_class),
+                },
+            )
             state.append_event({"event": "stage_failed", "rel_path": rel_path, "error": str(exc)})
             progress.log(f"phase=failure post={rel_path} reason={exc}")
             raise
@@ -2591,6 +2968,7 @@ def print_report(repo_root: Path, posts: list[PostInfo], state: RunnerState, arg
     print(f"  failures: {summary['failures']}")
     print(f"  skipped: {summary['skipped']}")
     print(f"  by_status: {json.dumps(summary['by_status'], sort_keys=True)}")
+    print(f"  by_failure_class: {json.dumps(summary['by_failure_class'], sort_keys=True)}")
     print(f"  eligible_remaining: {inv['eligible']}")
     print(f"  next: {inv['next'] or '-'}")
     print(f"  runner_owned_staged: {len(owned)}")
@@ -2751,6 +3129,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--review-max-distance", type=int, default=10)
     parser.add_argument("--review-max-ratio", type=float, default=0.01)
     parser.add_argument("--retry-failed", action="store_true")
+    parser.add_argument("--failure-class", choices=sorted(FAILURE_CLASSES), default=None)
     parser.add_argument("--stage", action="store_true")
     parser.add_argument("--no-stage", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
@@ -2789,6 +3168,8 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         parser.error("--review-max-distance must be 0 or greater")
     if not 0 <= args.review_max_ratio <= 1:
         parser.error("--review-max-ratio must be between 0 and 1")
+    if args.failure_class and not args.retry_failed:
+        parser.error("--failure-class requires --retry-failed")
     if args.no_stage:
         args.stage = False
     return args

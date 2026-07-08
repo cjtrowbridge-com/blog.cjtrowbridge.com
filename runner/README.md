@@ -196,6 +196,14 @@ To retry failed posts:
 python runner/clean_wordpress_posts.py --mode batch --retry-failed --limit 10 --stage
 ```
 
+To retry only one failure class:
+
+```powershell
+python runner/clean_wordpress_posts.py --mode batch --retry-failed --failure-class long_lines --limit 10 --stage
+```
+
+Failure reports include `failure_class` and `recommended_next_action`. `--mode report` prints aggregate failure-class counts so the next retry can focus on one class without disturbing review-state posts.
+
 To include posts missing `conversion_state`:
 
 ```powershell

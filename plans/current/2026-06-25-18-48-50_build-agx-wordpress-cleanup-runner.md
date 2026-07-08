@@ -520,6 +520,18 @@ python runner/clean_wordpress_posts.py --mode report
   - [x] 19.6 Document the deterministic structural pass and cleanup-report fallback in `runner/README.md`.
   - [x] 19.7 Add regression tests for media separation, long-line wrapping, and missing-report response parsing.
 
+20. [ ] Resolve remaining runner failure classes.
+  - [x] 20.1 Preserve current review-post working tree before reruns.
+  - [x] 20.2 Add a deterministic candidate-salvage pass before AGX repair.
+  - [x] 20.3 Add a no-model retry path for long prose line failures.
+  - [x] 20.4 Add a no-model retry path for media-spacing-only failures.
+  - [x] 20.5 Add a stricter envelope recovery prompt for missing cleaned-body failures.
+  - [ ] 20.6 Add a chunked cleanup mode for prompt-size/envelope failures.
+  - [x] 20.7 Add targeted repair prompts for media relationships, inferred emphasis, visible-text restoration, and incomplete structural cleanup.
+  - [x] 20.8 Add local override rules before asking AGX for deterministic or targeted cases.
+  - [x] 20.9 Improve reporting with `failure_class`, `recommended_next_action`, summary counts, and retry-by-class.
+  - [ ] 20.10 Verify with tests, controlled reruns, and a remaining-failure analysis.
+
 ## Success Criteria
 
 - The runner can clean exactly one eligible post with `--mode next`.
