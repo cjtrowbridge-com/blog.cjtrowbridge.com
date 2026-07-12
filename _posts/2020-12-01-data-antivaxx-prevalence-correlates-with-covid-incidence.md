@@ -11,7 +11,10 @@ categories:
     - 'USP493 Data Analysis'
 tags:
     - 'Spicy Data'
-conversion_state: wordpress
+conversion_state: review
+cleanup_levenshtein_distance: 3
+cleanup_levenshtein_ratio: 0.00108617
+cleanup_review_required: true
 ---
 
 CJ Trowbridge
@@ -22,14 +25,13 @@ USP 493 Data Analysis
 
 SPSS Final Project Outline
 
-1. Introduction – what hypothesis you will test and why you expect your independent variable or variables will affect your dependent variable 
+1. Introduction – what hypothesis you will test and why you expect your independent variable or variables will affect your dependent variable
     - In the recent past, it was legal for California parents to refuse to vaccinate their children in on the basis of various superstitions. I hypothesize that there is a significant correlation between covid infection rates and the rates at which parents chose not to vaccinate their children before such decisions were banned. I am using counties as the unit of analysis to test this hypothesis.
 2. Brief description of the data you will use 
     - There are several datasets that I will need to compile in order to test my hypothesis.
     - First, I need the covid case data by county. I am using the most recently published dataset from Johns Hopkins.
     - Second, I need the population for each county in order to calculate the percentage of the population that has become infected with covid. I am using the 2019 census population numbers.
     - Third, I need the kindergarten vaccination data from the year before the ban on exemptions happened. I got this from the California Department of Public Health Archives.
-    -
 3. Univariate statistics for each variable you will use in your hypothesis. Discussion of what these tables tell you. 
     - The kindergarten vaccination data for each county is my independent variable.
     - To get my dependent variable, I divide the covid infections by the population for each county in order to get the case incidence numbers for each county.
@@ -45,7 +47,7 @@ SPSS Final Project Outline
     - Lastly, I ran a two-tailed Pearson Correlation at a .01 significance in SPSS to determine whether there is a significant correlation between the dependent and independent variables. The result was significant.
     - [![](https://blog.cjtrowbridge.com/wp-content/uploads/2020/12/Correlations-1-1.png)](https://blog.cjtrowbridge.com/wp-content/uploads/2020/12/Correlations-1-1.png)
 5. Conclusion: Was your hypothesis supported? Implications of what you have found. 
-    - The hypothesis is accepted. **There is a significant correlation between Kindergarten vaccination rates and covid infection rates by county**. As far as the possible implications, I will rely on this quote from Isaac Asimov, “There is a cult of ignorance in the United States, and there has always been. The strain of anti-intellectualism has been a constant thread winding its way through our political and cultural life, nurtured by the false notion that democracy means that 'my ignorance is just as good as your knowledge.”
+    - The hypothesis is accepted. **There is a significant correlation between Kindergarten vaccination rates and covid infection rates by county**. As far as the possible implications, I will rely on this quote from Isaac Asimov, "There is a cult of ignorance in the United States, and there has always been. The strain of anti-intellectualism has been a constant thread winding its way through our political and cultural life, nurtured by the false notion that democracy means that 'my ignorance is just as good as your knowledge."
 
 ## My Data Files
 

@@ -9,7 +9,12 @@ permalink: /2016/09/13/podcast-episode-fbi-international-lead-hostage-negotiator
 categories:
     - Featured
     - Revisit
-conversion_state: wordpress
+conversion_state: review
+cleanup_levenshtein_distance: 1
+cleanup_levenshtein_ratio: 0.00312500
+cleanup_review_required: true
 ---
 
-This was a great episode! I decided to share it and save it for posterity. I have a feeling I will look back on this many times. "\[Chris Voss, former lead FBI international kidnapping negotiator, shares tactics and strategies he developed to better negotiate with kidnappers which also work in the civilian world. And many of his tips run counter to what you’ve probably been taught.\]" <iframe frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/282804534&color=ff5500" width="100%"></iframe>
+This was a great episode! I decided to share it and save it for posterity. I have a feeling I will look back on this many times. "\[Chris Voss, former lead FBI international kidnapping negotiator, shares tactics and strategies he developed to better negotiate with kidnappers which also work in the civilian world. And many of his tips run counter to what you've probably been taught.\]"
+
+<iframe frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/282804534&color=ff5500" width="100%"></iframe>

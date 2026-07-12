@@ -8,16 +8,21 @@ guid: 'https://blog.cjtrowbridge.com/?p=14802'
 permalink: /2022/12/04/ask-ai-to-name-a-personalized-custom-fabrication-company/
 categories:
     - Ideas
-conversion_state: wordpress
+conversion_state: review
+cleanup_levenshtein_distance: 4
+cleanup_levenshtein_ratio: 0.00743494
+cleanup_review_required: true
 ---
 
-Create brand names for a distributed fabrication company specializing in making all sorts of personalized custom things to order using the following sorts of techniques;  
--Laser cut metal for things like business cards  
--3D printed personalized chotchkies and office desk ornaments  
--Custom tee shirts and other clothing  
+Create brand names for a distributed fabrication company specializing in making all sorts of personalized custom things to order using the following sorts of techniques:
+
+- Laser cut metal for things like business cards
+- 3D printed personalized chotchkies and office desk ornaments
+- Custom tee shirts and other clothing
+
 The firm will focus on designs for LGBTQ people which highlight queer artists and fund community initiatives.
 
-Brands
+**Brands**
 
 1. Queer Cutz
 2. 3D Rainbow Prints
@@ -28,6 +33,6 @@ Brands
 7. Allyship Artistry
 8. Defy Normality
 9. Fabulation Factory
-10. Queer Prints &amp; Crafts
+10. Queer Prints & Crafts
 11. FabForThePeople
 12. WearYourPassion

@@ -8,12 +8,17 @@ guid: 'https://blog.cjtrowbridge.com/?p=14264'
 permalink: /2021/09/08/ais-440-week-3-learning-from-the-past/
 categories:
     - 'AIS 440 Native Sexuality and Queer Discourse'
-conversion_state: wordpress
+conversion_state: review
+cleanup_levenshtein_distance: 1
+cleanup_levenshtein_ratio: 0.00398406
+cleanup_review_required: true
 ---
 
 ## Read
 
-(All of these are behind academic paywalls but I can share PDFs. Please [reach out](mailto:cj@cjtrowbridge.com) if you need them.) - [Sabine Lang: Native American men-women, lesbians, two-spirits: Contemporary and historical perspectives](https://pubmed.ncbi.nlm.nih.gov/27254758/)
+(All of these are behind academic paywalls but I can share PDFs. Please [reach out](mailto:cj@cjtrowbridge.com) if you need them.)
+
+- [Sabine Lang: Native American men-women, lesbians, two-spirits: Contemporary and historical perspectives](https://pubmed.ncbi.nlm.nih.gov/27254758/)
 - [Will Roscoe: Was We'Wha a Homosexual](https://read.dukeupress.edu/glq/article-abstract/2/3/193/69234/Was-We-wha-a-Homosexual-Native-American-Survivance)
 - [Roscoe - Bibliography](https://www.tandfonline.com/doi/abs/10.1300/J082v14n03_06)
 

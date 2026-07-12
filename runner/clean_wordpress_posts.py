@@ -144,13 +144,19 @@ class TeeStream:
         self.log = log
 
     def write(self, text: str) -> int:
-        written = self.console.write(text)
+        try:
+            written = self.console.write(text)
+        except OSError:
+            written = len(text)
         self.log.write(text)
         self.flush()
         return written
 
     def flush(self) -> None:
-        self.console.flush()
+        try:
+            self.console.flush()
+        except OSError:
+            pass
         self.log.flush()
 
     def __getattr__(self, name: str) -> Any:

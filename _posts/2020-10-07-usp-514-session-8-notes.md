@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=13256'
 permalink: /2020/10/07/usp-514-session-8-notes/
 categories:
     - 'USP514 Sustainable Development'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 **<span class="">October 7th</span>**<span class="">**Session Eight – Urban Infrastructure** **NOTE: REQUIRED READING FROM TEXTBOOK EVERY WEEK BEGINNING THIS SESSION** </span><span class="">This session will focus on the concept and functions of urban infrastructure, and on how infrastructures are designed and managed to deliver water, waste, energy, transportation, building, food, and social services to urban populations. The following questions will guide our discussion.</span>1. <span class="">What is meant by the term “urban infrastructure”?</span>

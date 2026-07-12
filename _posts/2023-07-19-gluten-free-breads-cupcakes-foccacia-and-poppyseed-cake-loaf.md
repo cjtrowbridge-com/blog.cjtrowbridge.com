@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=14822'
 permalink: /2023/07/19/gluten-free-breads-cupcakes-foccacia-and-poppyseed-cake-loaf/
 categories:
     - Recipes
-conversion_state: wordpress
+conversion_state: review
+cleanup_levenshtein_distance: 3
+cleanup_levenshtein_ratio: 0.00254022
+cleanup_review_required: true
 ---
 
 - 3¼ cups gluten free flour ([I like Cup4Cup](https://amzn.to/44vtcEg))\*
@@ -18,7 +21,15 @@ conversion_state: wordpress
 - 2½ cups soy milk (Soy milk is best for baking)
 - 4 tbsp butter, melted
 
-<div></div><div>Mix all the ingredients in a mixer for 5 minutes on medium.</div><div></div><div>Put it in a large bowl. Cover and let sit for at least two hours to rise. Fine to refrigerate after that.</div><div></div><div>I have used this basic bread recipe and adapted it to make all kinds of things from cupcakes to Foccacia.</div><div></div><div></div><div>Note: **THIS WILL STICK**. Spray the pan with cooking spray before baking.</div><div></div>## For Cupcakes
+Mix all the ingredients in a mixer for 5 minutes on medium.
+
+Put it in a large bowl. Cover and let sit for at least two hours to rise. Fine to refrigerate after that.
+
+I have used this basic bread recipe and adapted it to make all kinds of things from cupcakes to Foccacia.
+
+Note: **THIS WILL STICK**. Spray the pan with cooking spray before baking.
+
+## For Cupcakes
 
 - Add one cup of sugar and one tablespoon of Mexican vanilla before mixing
 - Pour it into cupcake cups.
@@ -30,15 +41,17 @@ conversion_state: wordpress
 
 - Layer it thin in the pan
 - Drizzle with olive oil
-- Add toppings 
+- Add toppings
     - Try fig and prosciutto with parmigiano reggiano
     - Or rosemary and kalamata olive with parmigiano reggiano
 
 ## For Poppyseed Cake Loaf
 
-*Perfect for picnics.*- Add one cup of sugar, one tablespoon of Mexican vanilla, and a tablespoon of poppyseeds before mixing
+*Perfect for picnics.*
+
+- Add one cup of sugar, one tablespoon of Mexican vanilla, and a tablespoon of poppyseeds before mixing
 - Pour it into a **non-stick-sprayed** loaf pan.
 - Bake at 400 for 20-25 minutes.
 - You will know it's done when you can stick a toothpick in it and it comes out dry.
 
- \*I am using affiliate links which means if you buy the brand I like, I get a small percentage without any additional cost to you.
+\*I am using affiliate links which means if you buy the brand I like, I get a small percentage without any additional cost to you.

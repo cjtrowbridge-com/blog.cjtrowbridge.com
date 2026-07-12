@@ -16,10 +16,15 @@ blogger_internal:
     - /feeds/4006483499567219562/posts/default/7116765956287822240
 categories:
     - Blog
-conversion_state: wordpress
+conversion_state: review
+cleanup_levenshtein_distance: 3
+cleanup_levenshtein_ratio: 0.00315789
+cleanup_review_required: true
 ---
 
-<div style="background-color: white; border: 0px; color: #444444; font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.714285714; margin: 0px; padding: 0px; vertical-align: baseline;"><div style="border: 0px; line-height: 1.714285714; margin-bottom: 1.714285714rem; padding: 0px; vertical-align: baseline;">Current Goal Set;</div>- Startups I’m Working On
+Current Goal Set;
+
+- Startups I'm Working On
     - **The Foundry:** To invest in nascent entrepreneurs and develop their experience and skills through execution of scalable micro-business models which improve the market for customers by offering superior products, convenience, and value.
     - **Scalar Foods:** Scalar small-scall food production.
     - **Trowbridge Manufacturing:** Make minimal, affordable things people actually need and sell them.
@@ -28,7 +33,7 @@ conversion_state: wordpress
     - [Ham](http://www.survivalistboards.com/showthread.php?t=312005) Radio License
     - Learn Java
     - Learn Constellations
-    - Pilot’s License
+    - Pilot's License
     - [Learn to Sail](http://www.sacstateaquaticcenter.com/programs/sailing%20and%20windsurfing/sailing-classes.pdf), Buy a Sail [boat](http://sacramento.craigslist.org/boa/).
     - Learn to weld.
     - More scuba.
@@ -51,5 +56,3 @@ conversion_state: wordpress
     - Use [Reddit](http://www.reddit.com/) more.
     - Watch a documentary every day. [/r/documentaries](http://www.reddit.com/r/Documentaries/) [dh](http://documentaryheaven.com/)
     - Eat a bag of spinach and a bag of argula every week.
-
-</div>

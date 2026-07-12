@@ -8,7 +8,12 @@ guid: 'https://blog.cjtrowbridge.com/?p=10210'
 permalink: /2018/04/28/gender-altruism/
 categories:
     - 'For Future Reference'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-"Women are more likely than men to help when the context involves existing interpersonal relationships or nurturing, such as volunteering time to help a child with a personal problem (Eagly, 2009). Men, on the other hand, are more likely to help in situations in which a perceived danger is present (for instance, picking up a hitchhiker) and in which they feel competent to help (as in assisting someone with a flat tire) (Eagly &amp; Crowley, 1986)." From Experience Psychology, Third Edition by Laura A. King. Textbook for my Psychology 100 Class
+"Women are more likely than men to help when the context involves existing interpersonal relationships or nurturing, such as volunteering time to help a child with a personal problem (Eagly, 2009). Men, on the other hand, are more likely to help in situations in which a perceived danger is present (for instance, picking up a hitchhiker) and in which they feel competent to help (as in assisting someone with a flat tire) (Eagly &amp; Crowley, 1986)."
+
+From *Experience Psychology, Third Edition* by Laura A. King. Textbook for my Psychology 100 Class

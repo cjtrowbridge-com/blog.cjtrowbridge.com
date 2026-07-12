@@ -10,7 +10,14 @@ categories:
     - Adventures
 tags:
     - '2021 Road Trip'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-(View the full album here) This was a really amazing sandwich, though kind of terrifying experience to actually get the sandwich… <video autoplay="autoplay" controls="controls" data-mce-fragment="1" height="150" preload="" width="300"></video> I have had Cuban Sandwiches before but this was much better. I read somewhere that there is something about the way they prepare the ham in traditional cuban sandwiches that is different and better. I definitely sensed that, plus there seemed to be something special about the pickles. Very delicious sandwich.
+(View the full album here) This was a really amazing sandwich, though kind of terrifying experience to actually get the sandwich…
+
+<video autoplay="autoplay" controls="controls" data-mce-fragment="1" height="150" preload="" width="300"></video>
+
+I have had Cuban Sandwiches before but this was much better. I read somewhere that there is something about the way they prepare the ham in traditional cuban sandwiches that is different and better. I definitely sensed that, plus there seemed to be something special about the pickles. Very delicious sandwich.

@@ -8,10 +8,17 @@ guid: 'https://blog.cjtrowbridge.com/?p=8161'
 permalink: /2017/02/25/musicalcurrents-inception/
 categories:
     - Blog
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
-This week, I bought a new domain [MusicalCurrents.com](https://musicalcurrents.com/) themed off my work with [Angela Lombardi](https://www.facebook.com/leturd) at [The Maltese](https://www.facebook.com/themaltese), and I discussed licensing and legal requirements with [Neal Osincup](https://www.linkedin.com/in/nealwestmedia/), a prolific radio producer and old friend of mine. Angela and I were trying to build an audience for current music which wasn't present on the radio in Chico at the time. ![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/02/musicalcurrents-1-1.gif)I intend for this podcast to start out as a very simple weekly recap of the top 40; just verse/chorus plus a sentence or two about each track. This is something I've often wanted to find in order to stay up to date with my knowledge. I think it could easily branch out into other genres if it becomes popular, but the primary goals at this point are
+This week, I bought a new domain [MusicalCurrents.com](https://musicalcurrents.com/) themed off my work with [Angela Lombardi](https://www.facebook.com/leturd) at [The Maltese](https://www.facebook.com/themaltese), and I discussed licensing and legal requirements with [Neal Osincup](https://www.linkedin.com/in/nealwestmedia/), a prolific radio producer and old friend of mine. Angela and I were trying to build an audience for current music which wasn't present on the radio in Chico at the time.
+
+![](https://blog.cjtrowbridge.com/wp-content/uploads/2017/02/musicalcurrents-1-1.gif)
+
+I intend for this podcast to start out as a very simple weekly recap of the top 40; just verse/chorus plus a sentence or two about each track. This is something I've often wanted to find in order to stay up to date with my knowledge. I think it could easily branch out into other genres if it becomes popular, but the primary goals at this point are
 
 - Building an audience for myself as a DJ after a long hiatus.
 - Building sample content as a resume

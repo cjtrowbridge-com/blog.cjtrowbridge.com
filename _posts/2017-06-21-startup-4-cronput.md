@@ -8,7 +8,10 @@ guid: 'https://blog.cjtrowbridge.com/?p=8729'
 permalink: /2017/06/21/startup-4-cronput/
 categories:
     - 'The Levels Challenge: Build 12 Startups in 12 Months'
-conversion_state: wordpress
+conversion_state: markdown
+cleanup_levenshtein_distance: 0
+cleanup_levenshtein_ratio: 0.00000000
+cleanup_review_required: false
 ---
 
 ***This is part of a series on [Building 12 Startups in 12 Months](https://blog.cjtrowbridge.com/category/the-levels-challenge-build-12-startups-in-12-months/).***
